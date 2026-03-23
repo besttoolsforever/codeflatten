@@ -23,7 +23,7 @@ window.translations.pl = {
         studio: {
             label: "NIEZALEŻNE STUDIO OPROGRAMOWANIA",
             title: "Tworzenie <br/> <span class=\"text-secondary\">Cyfrowej Trwałości.</span>",
-            subtitle: "Niezależne studio oprogramowania prowadzone przez Luiza E. L. Juniora. Tworzymy narzędzia, które priorytetowo traktują użyteczność, precyzję i redakcyjny charakter oprogramowania wysokiej klasy.",
+            subtitle: "Niezależne studio oprogramowania prowadzone przez Luiz E. L. Junior. Tworzymy narzędzia, które priorytetowo traktują użyteczność, precyzję i redakcyjny charakter oprogramowania wysokiej klasy.",
             lead_dev: "Główny programista",
             flagship: "Produkt flagowy",
             flagship_desc: "Ostateczne narzędzie Windows dla programistów. Wydajnie organizuj, splataj i eksportuj złożone projekty na potrzeby akwizycji kontekstu AI.",

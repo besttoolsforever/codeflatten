@@ -23,7 +23,7 @@ window.translations.cs = {
         studio: {
             label: "NEZÁVISLÉ SOFTWAROVÉ STUDIO",
             title: "Vytváření <br/> <span class=\"text-secondary\">digitální trvanlivosti.</span>",
-            subtitle: "Nezávislé softwarové studio vedené Luizem E. L. Juniorem. Budujeme nástroje, které upřednostňují užitečnost, přesnost a redakční pocit špičkového softwaru.",
+            subtitle: "Nezávislé softwarové studio vedené Luiz E. L. Junior. Budujeme nástroje, které upřednostňují užitečnost, přesnost a redakční pocit špičkového softwaru.",
             lead_dev: "Hlavní vývojář",
             flagship: "Vlajkový produkt",
             flagship_desc: "Dokonalý nástroj pro Windows pro vývojáře. Efektivně organizujte, propojujte a exportujte složité projekty pro získání kontextu pro AI.",
