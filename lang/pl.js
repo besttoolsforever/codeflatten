@@ -34,11 +34,11 @@ window.translations.pl = {
             label: "Oprogramowanie precyzyjne",
             title: "Przyspiesz swój przepływ pracy Vibe Coding.",
             subtitle: "Ostateczne lokalne narzędzie dla nowoczesnych twórców. Zamień złożone bazy kodu w ustrukturyzowany, gotowy na AI kontekst w kilka sekund.",
-            cta: "Pobierz BundleWeave PRO"
+            cta: "Pobierz CodeFlatten PRO"
         },
         vibe: {
             title: "Zbudowany dla Vibe Coding",
-            desc: "Nie marnuj czasu na kopiowanie i wklejanie. BundleWeave PRO przygotowuje całe środowisko dla LLM, zapewniając idealny kontekst strukturalny i wydajność tokenów.",
+            desc: "Nie marnuj czasu na kopiowanie i wklejanie. CodeFlatten PRO przygotowuje całe środowisko dla LLM, zapewniając idealny kontekst strukturalny i wydajność tokenów.",
             feature1: "Bundling świadomy kontekstu",
             feature2: "Optymalizacja tokenów",
             feature3: "Natychmiastowe promptowanie AI",
@@ -52,8 +52,8 @@ window.translations.pl = {
         },
         features: {
             title: "Wyróżnione rozwiązania",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Ostateczne narzędzie do dokumentacji projektów, przygotowywania kontekstu AI i transformacji tekstu na dużą skalę. Zoptymalizowane dla Windows."
             },
             learn_more: "Dowiedz się więcej"
@@ -68,7 +68,7 @@ window.translations.pl = {
         },
         integration: {
             title: "Bezproblemowa integracja z systemem",
-            desc: "BundleWeave PRO integruje się bezpośrednio z powłoką Windows. Kliknij prawym przyciskiem myszy na dowolny folder lub wybór plików, aby natychmiast wygenerować pakiet.",
+            desc: "CodeFlatten PRO integruje się bezpośrednio z powłoką Windows. Kliknij prawym przyciskiem myszy na dowolny folder lub wybór plików, aby natychmiast wygenerować pakiet.",
             feature1: "Gotowy na menu kontekstowe",
             feature2: "Proces w tle"
         },
@@ -76,7 +76,7 @@ window.translations.pl = {
             title: "Darmowy vs. Premium",
             free: "2 Profile, 1 reguła redakcji, 1 nadpisanie katalogu",
             premium: "Nieograniczone profile, zaawansowana redakcja, nadpisania priorytetowe, licencje zsynchronizowane ze Sklepem",
-            cta: "Pobierz BundleWeave PRO"
+            cta: "Pobierz CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.pl = {
         ack: { title: "Podziękowania i powiadomienia stron trzecich" }
     },
     support: {
-        title: "Wsparcie - BundleWeave PRO | BestToolsForever",
+        title: "Wsparcie - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Wsparcie techniczne",
-            title: "Centrum pomocy BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Centrum pomocy CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Dedykowana pomoc dla naszego zestawu narzędzi o wysokiej wydajności. Wróć do budowania z precyzją.",
             back_to_home: "Powrót do strony głównej"
         },
@@ -122,7 +122,7 @@ window.translations.pl = {
         }
     },
     step5: {
-        title: "Krok 5 — Wykluczenia i bezpieczeństwo | BundleWeave PRO",
+        title: "Krok 5 — Wykluczenia i bezpieczeństwo | CodeFlatten PRO",
         hero: {
             badge: "Oficjalny przewodnik kreatora",
             title: "Krok 5 — Wykluczenia i bezpieczeństwo",
@@ -139,7 +139,7 @@ window.translations.pl = {
         },
         engine: {
             card1: { title: "1. Co pasuje do reguły", body: "Silnik używa wzorców w stylu fnmatch. Reguła może pasować do samej nazwy pliku lub folderu albo do pełnej ścieżki." },
-            card2: { title: "2. Co dzieje się potem", body: "Jeśli reguła trafi w folder, BundleWeave PRO przerywa odczyt tego węzła. Wszystko wewnątrz jest domyślnie ignorowane." },
+            card2: { title: "2. Co dzieje się potem", body: "Jeśli reguła trafi w folder, CodeFlatten PRO przerywa odczyt tego węzła. Wszystko wewnątrz jest domyślnie ignorowane." },
             card3: { title: "3. Co trafia do pakietu", body: "Kwalifikujące się pliki tekstowe trafiają do pakietu. Pliki binarne i nieobsługiwane formaty mogą pojawić się tylko jako odniesienie, jeśli ta opcja jest włączona." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.pl = {
             badge: "Opcjonalna rekomendacja",
             title: "Opcjonalne wsparcie AI do modularyzacji projektu",
             body: "W dużych lub heterogenicznych projektach możesz użyć migawki drzewa repozytorium z wybranym LLM, aby wygenerować pierwszą propozycję reguł dla kroku 5.",
-            note: "Ten przepływ jest wspomagany i podlega przeglądowi. Celem nie jest zastąpienie Twojego osądu technicznego, ale przyspieszenie tworzenia początkowej listy pomijania, którą można następnie dopracować bezpośrednio w BundleWeave PRO.",
+            note: "Ten przepływ jest wspomagany i podlega przeglądowi. Celem nie jest zastąpienie Twojego osądu technicznego, ale przyspieszenie tworzenia początkowej listy pomijania, którą można następnie dopracować bezpośrednio w CodeFlatten PRO.",
             when: {
                 1: "Monorepo, hybrydowe stosy lub bazy z wieloma katalogami pomocniczymi.",
                 2: "Aby zmodularyzować zrzuty według celu: architektura, runtime, UI, integracje lub dokumentacja.",
@@ -204,7 +204,7 @@ window.translations.pl = {
         },
         ack: {
             title: "Podziękowania i strony trzecie",
-            body: "BundleWeave PRO oferuje dane statystyczne w stylu GitHub Linguist, inspirowane projektem open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> firmy GitHub. Podstawowy silnik wykorzystuje również możliwości Pythona, Tcl/Tk i Pillow."
+            body: "CodeFlatten PRO oferuje dane statystyczne w stylu GitHub Linguist, inspirowane projektem open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> firmy GitHub. Podstawowy silnik wykorzystuje również możliwości Pythona, Tcl/Tk i Pillow."
         },
         check: {
             title: "Szybka lista kontrolna przed generowaniem",
@@ -220,8 +220,8 @@ window.translations.pl = {
             title: "Wsparcie techniczne",
             body: "Jeśli coś jest niejasne, wyślij krótki raport ze zrzutami ekranu i zaobserwowanym zachowaniem. To znacznie przyspiesza diagnozę."
         },
-            labels: {
-                prompt_label: "Przykładowe zapytanie"
-            }
+        labels: {
+            prompt_label: "Przykładowe zapytanie"
         }
+    }
 };

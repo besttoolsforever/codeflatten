@@ -34,11 +34,11 @@ window.translations.ar = {
             label: "برمجيات دقيقة",
             title: "سرّع سير عمل Vibe Coding الخاص بك.",
             subtitle: "الأداة المحلية النهائية للمبدعين المعاصرين. حوّل قواعد الأكواد المعقدة إلى سياق مهيكل وجاهز للذكاء الاصطناعي في ثوانٍ.",
-            cta: "احصل على BundleWeave PRO"
+            cta: "احصل على CodeFlatten PRO"
         },
         vibe: {
             title: "بني لـ Vibe Coding",
-            desc: "لا تضيع الوقت في النسخ واللصق. يقوم BundleWeave PRO بإعداد بيئتك بالكامل للنماذج اللغوية الكبيرة (LLMs)، مما يضمن سياقاً هيكلياً مثالياً وكفاءة في الرموز (Tokens).",
+            desc: "لا تضيع الوقت في النسخ واللصق. يقوم CodeFlatten PRO بإعداد بيئتك بالكامل للنماذج اللغوية الكبيرة (LLMs)، مما يضمن سياقاً هيكلياً مثالياً وكفاءة في الرموز (Tokens).",
             feature1: "تجميع مدرك للسياق",
             feature2: "تحسين الرموز",
             feature3: "تلقين فوري للذكاء الاصطناعي",
@@ -52,8 +52,8 @@ window.translations.ar = {
         },
         features: {
             title: "حلول مختارة",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "الأداة النهائية لتوثيق المشاريع، وإعداد سياق الذكاء الاصطناعي، وتحويل النصوص على نطاق واسع. محسّن لنظام Windows."
             },
             learn_more: "تعرف على المزيد"
@@ -68,7 +68,7 @@ window.translations.ar = {
         },
         integration: {
             title: "تكامل سلس مع نظام التشغيل",
-            desc: "يتكامل BundleWeave PRO مباشرة مع غلاف Windows (Shell). انقر بزر الماوس الأيمن على أي مجلد أو مجموعة ملفات لإنشاء الحزمة الخاصة بك على الفور.",
+            desc: "يتكامل CodeFlatten PRO مباشرة مع غلاف Windows (Shell). انقر بزر الماوس الأيمن على أي مجلد أو مجموعة ملفات لإنشاء الحزمة الخاصة بك على الفور.",
             feature1: "جاهز لقائمة السياق",
             feature2: "عملية في الخلفية"
         },
@@ -76,7 +76,7 @@ window.translations.ar = {
             title: "المجاني ضد المميز",
             free: "ملفّان شخصيان، قاعدة تحرير واحدة، تجاوز دليل واحد",
             premium: "ملفات تعريف غير محدودة، تحرير متقدم، تجاوزات ذات أولوية، تراخيص متزامنة مع المتجر",
-            cta: "احصل على BundleWeave PRO"
+            cta: "احصل على CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.ar = {
         ack: { title: "شكر وتقدير وإشعارات الطرف الثالث" }
     },
     support: {
-        title: "الدعم - BundleWeave PRO | BestToolsForever",
+        title: "الدعم - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "الدعم الفني",
-            title: "مركز مساعدة BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "مركز مساعدة CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "مساعدة مخصصة لمجموعة أدواتنا عالية الأداء. عد إلى البناء بدقة.",
             back_to_home: "العودة إلى الرئيسية"
         },
@@ -122,7 +122,7 @@ window.translations.ar = {
         }
     },
     step5: {
-        title: "الخطوة 5 — الاستثناءات والأمان | BundleWeave PRO",
+        title: "الخطوة 5 — الاستثناءات والأمان | CodeFlatten PRO",
         hero: {
             badge: "دليل المعالج الرسمي",
             title: "الخطوة 5 — الاستثناءات والأمان",
@@ -139,7 +139,7 @@ window.translations.ar = {
         },
         engine: {
             card1: { title: "1. ما يطابق القاعدة", body: "يستخدم المحرك أنماطاً بنمط fnmatch. يمكن أن تطابق القاعدة اسم الملف أو المجلد المعزول، أو المسار الكامل." },
-            card2: { title: "2. ماذا يحدث بعد ذلك", body: "إذا أصابت القاعدة مجلداً، فإن BundleWeave PRO يقاطع قراءة تلك العقدة. يتم تجاهل كل ما بداخلها ضمنياً." },
+            card2: { title: "2. ماذا يحدث بعد ذلك", body: "إذا أصابت القاعدة مجلداً، فإن CodeFlatten PRO يقاطع قراءة تلك العقدة. يتم تجاهل كل ما بداخلها ضمنياً." },
             card3: { title: "3. ما يدخل في الحزمة", body: "تدخل ملفات النصوص المؤهلة في الحزمة. قد تظهر الملفات الثنائية والتنسيقات غير المدعومة كمرجع فقط إذا تم تمكين هذا الخيار." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.ar = {
             badge: "توصية اختيارية",
             title: "دعم اختيارى من الذكاء الاصطناعي لتقسيم المشروع",
             body: "في المشاريع الكبيرة أو غير المتجانسة، يمكنك استخدام لقطة لشجرة المستودع مع نموذج لغوي كبير (LLM) من اختيارك لإنشاء اقتراح أولي لقواعد الخطوة 5.",
-            note: "هذا التدفق مدعوم وقابل للمراجعة. الهدف ليس استبدال حكمك الفني، بل تسريع إنشاء قائمة تخطي أولية يمكن تنقيحها بعد ذلك مباشرة في BundleWeave PRO. يجب التعامل مع الاعتمادات والأسرار والمحتوى الحساس داخل الملفات المدرجة بشكل منفصل في Content Redactor.",
+            note: "هذا التدفق مدعوم وقابل للمراجعة. الهدف ليس استبدال حكمك الفني، بل تسريع إنشاء قائمة تخطي أولية يمكن تنقيحها بعد ذلك مباشرة في CodeFlatten PRO. يجب التعامل مع الاعتمادات والأسرار والمحتوى الحساس داخل الملفات المدرجة بشكل منفصل في Content Redactor.",
             when: {
                 1: "المستودعات الموحدة (Monorepos)، أو التقنيات الهجينة، أو القواعد التي تحتوي على العديد من الأدلة المساعدة.",
                 2: "لتقسيم عمليات التصدير حسب الهدف: الهندسة المعمارية، وقت التشغيل، واجهة المستخدم، التكاملات، أو التوثيق.",
@@ -204,7 +204,7 @@ window.translations.ar = {
         },
         ack: {
             title: "شكر وتقدير وأطراف ثالثة",
-            body: "يقدم BundleWeave PRO مخرجات إحصائية بنمط GitHub Linguist مستوحاة من المشروع مفتوح المصدر <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> من GitHub. يستفيد المحرك الأساسي أيضاً من قدرات Python و Tcl/Tk و Pillow."
+            body: "يقدم CodeFlatten PRO مخرجات إحصائية بنمط GitHub Linguist مستوحاة من المشروع مفتوح المصدر <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> من GitHub. يستفيد المحرك الأساسي أيضاً من قدرات Python و Tcl/Tk و Pillow."
         },
         check: {
             title: "قائمة مراجعة سريعة قبل الإنشاء",
@@ -220,8 +220,8 @@ window.translations.ar = {
             title: "الدعم الفني",
             body: "إذا كان هناك شيء غير واضح، أرسل تقريراً قصيراً مع لقطات شاشة والسلوك الملاحظ. هذا يسرع التشخيص بشكل كبير."
         },
-            labels: {
-                prompt_label: "مثال للطلب"
-            }
+        labels: {
+            prompt_label: "مثال للطلب"
         }
+    }
 };

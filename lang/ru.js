@@ -34,11 +34,11 @@ window.translations.ru = {
             label: "Прецизионное ПО",
             title: "Ускорьте свой рабочий процесс Vibe Coding.",
             subtitle: "Ультимативная локальная утилита для современных создателей. Превратите сложные кодовые базы в структурированный контекст для ИИ за считанные секунды.",
-            cta: "Получить BundleWeave PRO"
+            cta: "Получить CodeFlatten PRO"
         },
         vibe: {
             title: "Создано для Vibe Coding",
-            desc: "Не тратьте время на копирование и вставку. BundleWeave PRO готовит всю вашу среду для LLM, обеспечивая идеальный контекст и эффективность токенов.",
+            desc: "Не тратьте время на копирование и вставку. CodeFlatten PRO готовит всю вашу среду для LLM, обеспечивая идеальный контекст и эффективность токенов.",
             feature1: "Контекстный бандлинг",
             feature2: "Оптимизация токенов",
             feature3: "Мгновенные промпты для ИИ",
@@ -52,8 +52,8 @@ window.translations.ru = {
         },
         features: {
             title: "Избранные решения",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Ультимативный инструмент для проектной документации, подготовки контекста ИИ и масштабной трансформации текста. Оптимизировано для Windows."
             },
             learn_more: "Узнать больше"
@@ -68,7 +68,7 @@ window.translations.ru = {
         },
         integration: {
             title: "Бесшовная интеграция с ОС",
-            desc: "BundleWeave PRO интегрируется прямо в оболочку Windows. Нажмите правой кнопкой мыши на любую папку, чтобы мгновенно создать бандл.",
+            desc: "CodeFlatten PRO интегрируется прямо в оболочку Windows. Нажмите правой кнопкой мыши на любую папку, чтобы мгновенно создать бандл.",
             feature1: "Готово для контекстного меню",
             feature2: "Фоновый процесс"
         },
@@ -76,7 +76,7 @@ window.translations.ru = {
             title: "Бесплатно vs. Premium",
             free: "2 Профиля, 1 правило редактуры, 1 переопределение директории",
             premium: "Безлимитные профили, продвинутая редактура, приоритетные переопределения, синхронизация лицензий со Store",
-            cta: "Получить BundleWeave PRO"
+            cta: "Получить CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.ru = {
         ack: { title: "Благодарности и уведомления третьих лиц" }
     },
     support: {
-        title: "Поддержка - BundleWeave PRO | BestToolsForever",
+        title: "Поддержка - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Техподдержка",
-            title: "Центр помощи BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Центр помощи CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Специализированная помощь по нашему пакету утилит. Вернитесь к точной разработке.",
             back_to_home: "Вернуться на главную"
         },
@@ -122,7 +122,7 @@ window.translations.ru = {
         }
     },
     step5: {
-        title: "Шаг 5 — Исключения и безопасность | BundleWeave PRO",
+        title: "Шаг 5 — Исключения и безопасность | CodeFlatten PRO",
         hero: {
             badge: "Официальное руководство",
             title: "Шаг 5 — Исключения и безопасность",
@@ -139,7 +139,7 @@ window.translations.ru = {
         },
         engine: {
             card1: { title: "1. Что совпадает с правилом", body: "Движок использует шаблоны в стиле fnmatch. Правило может совпадать с именем файла/папки или полным путем." },
-            card2: { title: "2. Что происходит дальше", body: "Если правило попадает в папку, BundleWeave PRO прерывает чтение этого узла. Все внутри игнорируется." },
+            card2: { title: "2. Что происходит дальше", body: "Если правило попадает в папку, CodeFlatten PRO прерывает чтение этого узла. Все внутри игнорируется." },
             card3: { title: "3. Что попадает в бандл", body: "Подходящие текстовые файлы попадают в бандл. Бинарные файлы могут появиться только как ссылки, если опция включена." }
         },
         rules: {
@@ -204,7 +204,7 @@ window.translations.ru = {
         },
         ack: {
             title: "Благодарности",
-            body: "BundleWeave PRO предлагает статистику в стиле GitHub Linguist, вдохновленную проектом <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>. Движок использует Python, Tcl/Tk и Pillow."
+            body: "CodeFlatten PRO предлагает статистику в стиле GitHub Linguist, вдохновленную проектом <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>. Движок использует Python, Tcl/Tk и Pillow."
         },
         check: {
             title: "Чек-лист перед генерацией",
@@ -220,8 +220,8 @@ window.translations.ru = {
             title: "Техподдержка",
             body: "Если что-то неясно, пришлите краткий отчет со скриншотами. Это ускоряет диагностику."
         },
-            labels: {
-                prompt_label: "Пример запроса"
-            }
+        labels: {
+            prompt_label: "Пример запроса"
         }
+    }
 };

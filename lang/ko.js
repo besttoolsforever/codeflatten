@@ -34,11 +34,11 @@ window.translations.ko = {
             label: "정밀 소프트웨어",
             title: "Vibe Coding 워크플로우를 가속화하세요.",
             subtitle: "현대의 빌더를 위한 최고의 로컬 유틸리티. 복잡한 코드베이스를 몇 초 만에 구조화된 AI 지원 컨텍스트로 변환합니다.",
-            cta: "BundleWeave PRO 받기"
+            cta: "CodeFlatten PRO 받기"
         },
         vibe: {
             title: "Vibe Coding을 위해 구축됨",
-            desc: "복사해서 붙여넣는 데 시간을 낭비하지 마세요. BundleWeave PRO는 LLM을 위해 전체 환경을 준비하여 완벽한 구조적 컨텍스트와 토큰 효율성을 보장합니다.",
+            desc: "복사해서 붙여넣는 데 시간을 낭비하지 마세요. CodeFlatten PRO는 LLM을 위해 전체 환경을 준비하여 완벽한 구조적 컨텍스트와 토큰 효율성을 보장합니다.",
             feature1: "컨텍스트 기반 번들링",
             feature2: "토큰 최적화",
             feature3: "즉각적인 AI 프롬프팅",
@@ -52,8 +52,8 @@ window.translations.ko = {
         },
         features: {
             title: "주요 솔루션",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "프로젝트 문서화, AI 컨텍스트 준비 및 대규모 텍스트 변환을 위한 최고의 도구. Windows에 최적화됨."
             },
             learn_more: "더 알아보기"
@@ -68,7 +68,7 @@ window.translations.ko = {
         },
         integration: {
             title: "원활한 OS 통합",
-            desc: "BundleWeave PRO는 Windows Shell에 직접 통합됩니다. 폴더나 파일 선택 항목을 마우스 오른쪽 버튼으로 클릭하여 즉시 번들을 생성하세요.",
+            desc: "CodeFlatten PRO는 Windows Shell에 직접 통합됩니다. 폴더나 파일 선택 항목을 마우스 오른쪽 버튼으로 클릭하여 즉시 번들을 생성하세요.",
             feature1: "컨텍스트 메뉴 지원",
             feature2: "백그라운드 프로세스"
         },
@@ -76,7 +76,7 @@ window.translations.ko = {
             title: "무료 vs. Premium",
             free: "2개의 프로필, 1개의 편집 규칙, 1개의 디렉토리 재정의",
             premium: "무제한 프로필, 고급 편집, 우선순위 재정의, Store 동기화 라이선스",
-            cta: "BundleWeave PRO 받기"
+            cta: "CodeFlatten PRO 받기"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.ko = {
         ack: { title: "감사 인사 및 제3자 공지" }
     },
     support: {
-        title: "지원 - BundleWeave PRO | BestToolsForever",
+        title: "지원 - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "기술 지원",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> 도움말 센터.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> 도움말 센터.",
             subtitle: "고성능 유틸리티 제품군을 위한 전담 지원. 정밀하게 빌드 작업으로 돌아가세요.",
             back_to_home: "홈으로 돌아가기"
         },
@@ -122,7 +122,7 @@ window.translations.ko = {
         }
     },
     step5: {
-        title: "5단계 — 제외 및 보안 | BundleWeave PRO",
+        title: "5단계 — 제외 및 보안 | CodeFlatten PRO",
         hero: {
             badge: "공식 위저드 가이드",
             title: "5단계 — 제외 및 보안",
@@ -139,7 +139,7 @@ window.translations.ko = {
         },
         engine: {
             card1: { title: "1. 규칙과 일치하는 항목", body: "엔진은 fnmatch 스타일의 패턴을 사용합니다. 규칙은 독립된 파일이나 폴더 이름 또는 전체 경로와 일치할 수 있습니다." },
-            card2: { title: "2. 그 후에 일어나는 일", body: "규칙이 폴더에 적중하면 BundleWeave PRO는 해당 노드의 읽기를 중단합니다. 그 안의 모든 것은 암시적으로 무시됩니다." },
+            card2: { title: "2. 그 후에 일어나는 일", body: "규칙이 폴더에 적중하면 CodeFlatten PRO는 해당 노드의 읽기를 중단합니다. 그 안의 모든 것은 암시적으로 무시됩니다." },
             card3: { title: "3. 번들에 들어가는 항목", body: "적격한 텍스트 파일이 번들에 들어갑니다. 바이너리 및 지원되지 않는 형식은 옵션이 활성화된 경우에만 참조로 나타날 수 있습니다." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.ko = {
             badge: "선택적 권장 사항",
             title: "프로젝트 모듈화를 위한 선택적 AI 지원",
             body: "대규모 또는 이질적인 프로젝트에서는 원하는 LLM과 함께 저장소 트리 스냅샷을 사용하여 5단계 규칙에 대한 첫 번째 제안을 생성할 수 있습니다.",
-            note: "이 흐름은 지원되며 검토 가능합니다. 목표는 귀하의 기술적 판단을 대체하는 것이 아니라 BundleWeave PRO에서 직접 미세 조정할 수 있는 초기 스킵 목록의 생성을 가속화하는 것입니다. 포함된 파일 내의 자격 증명, 비밀 정보 및 민감한 콘텐츠는 Content Redactor에서 별도로 처리해야 합니다.",
+            note: "이 흐름은 지원되며 검토 가능합니다. 목표는 귀하의 기술적 판단을 대체하는 것이 아니라 CodeFlatten PRO에서 직접 미세 조정할 수 있는 초기 스킵 목록의 생성을 가속화하는 것입니다. 포함된 파일 내의 자격 증명, 비밀 정보 및 민감한 콘텐츠는 Content Redactor에서 별도로 처리해야 합니다.",
             when: {
                 1: "모노리포, 하이브리드 스택 또는 보조 디렉토리가 많은 베이스.",
                 2: "목적(아키텍처, 런타임, UI, 통합 또는 문서화)별로 덤프를 모듈화하고 싶을 때.",
@@ -204,7 +204,7 @@ window.translations.ko = {
         },
         ack: {
             title: "감사 인사 및 제3자",
-            body: "BundleWeave PRO는 GitHub의 오픈 소스 프로젝트인 <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>에서 영감을 받은 GitHub Linguist 스타일의 통계 출력을 제공합니다. 기본 엔진은 Python, Tcl/Tk 및 Pillow의 기능도 활용합니다."
+            body: "CodeFlatten PRO는 GitHub의 오픈 소스 프로젝트인 <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>에서 영감을 받은 GitHub Linguist 스타일의 통계 출력을 제공합니다. 기본 엔진은 Python, Tcl/Tk 및 Pillow의 기능도 활용합니다."
         },
         check: {
             title: "생성 전 빠른 체크리스트",
@@ -220,8 +220,8 @@ window.translations.ko = {
             title: "기술 지원",
             body: "명확하지 않은 사항이 있으면 스크린샷과 관찰된 동작이 포함된 간단한 보고서를 보내주세요. 이는 진단 과정을 훨씬 빠르게 만듭니다."
         },
-            labels: {
-                prompt_label: "요청 예시"
-            }
+        labels: {
+            prompt_label: "요청 예시"
         }
+    }
 };

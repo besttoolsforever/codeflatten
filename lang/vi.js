@@ -34,11 +34,11 @@ window.translations.vi = {
             label: "Phần mềm chính xác",
             title: "Tăng tốc quy trình làm việc Vibe Coding của bạn.",
             subtitle: "Tiện ích cục bộ tối thượng cho những người xây dựng hiện đại. Biến các cơ sở mã phức tạp thành ngữ cảnh có cấu trúc, sẵn sàng cho AI trong vài giây.",
-            cta: "Tải BundleWeave PRO"
+            cta: "Tải CodeFlatten PRO"
         },
         vibe: {
             title: "Được xây dựng cho Vibe Coding",
-            desc: "Đừng lãng phí thời gian sao chép và dán. BundleWeave PRO chuẩn bị toàn bộ môi trường của bạn cho các LLM, đảm bảo ngữ cảnh cấu trúc hoàn hảo và hiệu quả token.",
+            desc: "Đừng lãng phí thời gian sao chép và dán. CodeFlatten PRO chuẩn bị toàn bộ môi trường của bạn cho các LLM, đảm bảo ngữ cảnh cấu trúc hoàn hảo và hiệu quả token.",
             feature1: "Đóng gói nhận biết ngữ cảnh",
             feature2: "Tối ưu hóa token",
             feature3: "Gợi ý AI ngay lập tức",
@@ -52,8 +52,8 @@ window.translations.vi = {
         },
         features: {
             title: "Giải pháp nổi bật",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Công cụ tối thượng cho tài liệu dự án, chuẩn bị ngữ cảnh AI và chuyển đổi văn bản quy mô lớn. Được tối ưu hóa cho Windows."
             },
             learn_more: "Tìm hiểu thêm"
@@ -68,7 +68,7 @@ window.translations.vi = {
         },
         integration: {
             title: "Tích hợp hệ điều hành liền mạch",
-            desc: "BundleWeave PRO tích hợp trực tiếp vào Windows Shell. Nhấp chuột phải vào bất kỳ thư mục hoặc lựa chọn tệp nào để tạo gói của bạn ngay lập tức.",
+            desc: "CodeFlatten PRO tích hợp trực tiếp vào Windows Shell. Nhấp chuột phải vào bất kỳ thư mục hoặc lựa chọn tệp nào để tạo gói của bạn ngay lập tức.",
             feature1: "Sẵn sàng cho Menu ngữ cảnh",
             feature2: "Quy trình chạy ngầm"
         },
@@ -76,7 +76,7 @@ window.translations.vi = {
             title: "Miễn phí vs. Cao cấp",
             free: "2 Hồ sơ, 1 Quy tắc biên tập, 1 Ghi đè thư mục",
             premium: "Hồ sơ không giới hạn, biên tập nâng cao, ghi đè ưu tiên, giấy phép đồng bộ Store",
-            cta: "Tải BundleWeave PRO"
+            cta: "Tải CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.vi = {
         ack: { title: "Lời cảm ơn & Thông báo của bên thứ ba" }
     },
     support: {
-        title: "Hỗ trợ - BundleWeave PRO | BestToolsForever",
+        title: "Hỗ trợ - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Hỗ trợ kỹ thuật",
-            title: "Trung tâm trợ giúp BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Trung tâm trợ giúp CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Hỗ trợ chuyên dụng cho bộ tiện ích hiệu suất cao của chúng tôi. Quay lại xây dựng with sự chính xác.",
             back_to_home: "Quay lại trang chủ"
         },
@@ -122,7 +122,7 @@ window.translations.vi = {
         }
     },
     step5: {
-        title: "Bước 5 — Ngoại lệ và Bảo mật | BundleWeave PRO",
+        title: "Bước 5 — Ngoại lệ và Bảo mật | CodeFlatten PRO",
         hero: {
             badge: "Hướng dẫn trợ giúp chính thức",
             title: "Bước 5 — Ngoại lệ và Bảo mật",
@@ -139,7 +139,7 @@ window.translations.vi = {
         },
         engine: {
             card1: { title: "1. Điều gì khớp với quy tắc", body: "Công cụ sử dụng các mẫu kiểu fnmatch. Một quy tắc có thể khớp với tên tệp hoặc thư mục riêng lẻ, hoặc với đường dẫn đầy đủ." },
-            card2: { title: "2. Điều gì xảy ra sau đó", body: "Nếu một quy tắc trúng vào một thư mục, BundleWeave PRO sẽ ngắt việc đọc nút đó. Mọi thứ bên trong đều bị bỏ qua ngầm." },
+            card2: { title: "2. Điều gì xảy ra sau đó", body: "Nếu một quy tắc trúng vào một thư mục, CodeFlatten PRO sẽ ngắt việc đọc nút đó. Mọi thứ bên trong đều bị bỏ qua ngầm." },
             card3: { title: "3. Điều gì đi vào gói", body: "Các tệp văn bản đủ điều kiện đi vào gói. Các tệp nhị phân và định dạng không được hỗ trợ chỉ có thể xuất hiện dưới dạng tham chiếu nếu tùy chọn đó được bật." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.vi = {
             badge: "Đề xuất tùy chọn",
             title: "Hỗ trợ AI tùy chọn để mô-đun hóa dự án",
             body: "Trong các dự án lớn hoặc không đồng nhất, bạn có thể sử dụng ảnh chụp nhanh của cây kho chứa mã với một LLM mà bạn chọn để tạo đề xuất đầu tiên cho các quy tắc ở Bước 5.",
-            note: "Luồng này được hỗ trợ và có thể xem lại. Mục tiêu không phải là thay thế phán đoán kỹ thuật của bạn mà là tăng tốc độ tạo danh sách bỏ qua ban đầu, sau đó có thể được tinh chỉnh trực tiếp trong BundleWeave PRO. Các thông tin xác thực, bí mật và nội dung nhạy cảm trong các tệp được đưa vào phải được xử lý riêng trong Content Redactor.",
+            note: "Luồng này được hỗ trợ và có thể xem lại. Mục tiêu không phải là thay thế phán đoán kỹ thuật của bạn mà là tăng tốc độ tạo danh sách bỏ qua ban đầu, sau đó có thể được tinh chỉnh trực tiếp trong CodeFlatten PRO. Các thông tin xác thực, bí mật và nội dung nhạy cảm trong các tệp được đưa vào phải được xử lý riêng trong Content Redactor.",
             guard: {
                 title: "Quan trọng: lọc không phải là biên tập",
                 body: "Bước 5 giúp quyết định cái gì đi vào hoặc không đi vào gói. Việc làm sạch văn bản cuối cùng thuộc về Bước 6 với Content Redactor. Sử dụng cả hai cùng nhau khi bạn cần thực hiện mô-đun hóa, giảm nhiễu và xem xét nội dung nhạy cảm. LUÔN LUÔN xem xét lại mật khẩu, bí mật và các thông tin nhạy cảm khác trước khi sử dụng tệp được tạo."
@@ -199,7 +199,7 @@ window.translations.vi = {
         },
         ack: {
             title: "Lời cảm ơn & Bên thứ ba",
-            body: "BundleWeave PRO cung cấp đầu ra thống kê theo kiểu GitHub Linguist, được lấy cảm hứng từ dự án nguồn mở <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> của GitHub. Công cụ cơ sở cũng tận dụng các khả năng của Python, Tcl/Tk và Pillow."
+            body: "CodeFlatten PRO cung cấp đầu ra thống kê theo kiểu GitHub Linguist, được lấy cảm hứng từ dự án nguồn mở <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> của GitHub. Công cụ cơ sở cũng tận dụng các khả năng của Python, Tcl/Tk và Pillow."
         },
         check: {
             title: "Danh sách kiểm tra nhanh trước khi tạo",
@@ -215,8 +215,8 @@ window.translations.vi = {
             title: "Hỗ trợ kỹ thuật",
             body: "Nếu có điều gì không rõ ràng, hãy gửi một báo cáo ngắn kèm theo ảnh chụp màn hình và hành vi quan sát được. Điều này giúp quy trình chẩn đoán nhanh hơn nhiều."
         },
-            labels: {
-                prompt_label: "Yêu cầu ví dụ"
-            }
+        labels: {
+            prompt_label: "Yêu cầu ví dụ"
         }
+    }
 };

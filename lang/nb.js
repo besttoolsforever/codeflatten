@@ -34,11 +34,11 @@ window.translations.nb = {
             label: "Presisjonsprogramvare",
             title: "Akselerer din Vibe Coding-arbeidsflyt.",
             subtitle: "Det ultimate lokale verktøyet for moderne byggere. Forvandle komplekse kodebaser til strukturert, AI-klar kontekst på sekunder.",
-            cta: "Hent BundleWeave PRO"
+            cta: "Hent CodeFlatten PRO"
         },
         vibe: {
             title: "Bygget for Vibe Coding",
-            desc: "Ikke kast bort tid på kopiering og liming. BundleWeave PRO forbereder hele miljøet ditt for LLMs, og sikrer perfekt strukturell kontekst og token-effektivitet.",
+            desc: "Ikke kast bort tid på kopiering og liming. CodeFlatten PRO forbereder hele miljøet ditt for LLMs, og sikrer perfekt strukturell kontekst og token-effektivitet.",
             feature1: "Kontekstbevisst bundling",
             feature2: "Token-optimalisering",
             feature3: "Øyeblikkelig AI Prompting",
@@ -52,8 +52,8 @@ window.translations.nb = {
         },
         features: {
             title: "Utvalgte løsninger",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Det ultimate verktøyet for prosjektdokumentasjon, AI-kontekstforberedelse og storskala teksttransformasjon. Optimalisert for Windows."
             },
             learn_more: "Lær mer"
@@ -68,7 +68,7 @@ window.translations.nb = {
         },
         integration: {
             title: "Sømløs OS-integrasjon",
-            desc: "BundleWeave PRO integreres direkte i Windows Shell. Høyreklikk på en mappe eller filvalg for å generere din bundle umiddelbart.",
+            desc: "CodeFlatten PRO integreres direkte i Windows Shell. Høyreklikk på en mappe eller filvalg for å generere din bundle umiddelbart.",
             feature1: "Kontekstmeny-klar",
             feature2: "Bakgrunnsprosess"
         },
@@ -76,7 +76,7 @@ window.translations.nb = {
             title: "Gratis vs. Premium",
             free: "2 profiler, 1 redigeringsregel, 1 directory override",
             premium: "Ubegrensede profiler, avansert redigering, prioriterte overrides, Store-synkroniserte lisenser",
-            cta: "Hent BundleWeave PRO"
+            cta: "Hent CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.nb = {
         ack: { title: "Anerkjennelser og tredjepartsvarsler" }
     },
     support: {
-        title: "Brukerstøtte - BundleWeave PRO | BestToolsForever",
+        title: "Brukerstøtte - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Teknisk støtte",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> hjelpesenter.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> hjelpesenter.",
             subtitle: "Dedikert hjelp for vår suite av høyytelsesverktøy. Gå tilbake til å bygge med presisjon.",
             back_to_home: "Tilbake til hjem"
         },
@@ -122,7 +122,7 @@ window.translations.nb = {
         }
     },
     step5: {
-        title: "Steg 5 — Unntak og sikkerhet | BundleWeave PRO",
+        title: "Steg 5 — Unntak og sikkerhet | CodeFlatten PRO",
         hero: {
             badge: "Offisiell hjelperveiledning",
             title: "Steg 5 — Unntak og sikkerhet",
@@ -139,7 +139,7 @@ window.translations.nb = {
         },
         engine: {
             card1: { title: "1. Hva som samsvarer med regelen", body: "Motoren bruker fnmatch-mønstre. En regel kan samsvare med fil- eller mappenavnet alene, eller den fullstendige banen." },
-            card2: { title: "2. Hva som skjer etterpå", body: "Hvis en regel treffer en mappe, avbryter BundleWeave PRO lesingen av den noden. Alt inni blir implisitt ignorert." },
+            card2: { title: "2. Hva som skjer etterpå", body: "Hvis en regel treffer en mappe, avbryter CodeFlatten PRO lesingen av den noden. Alt inni blir implisitt ignorert." },
             card3: { title: "3. Hva som går inn i bundlen", body: "Kvalifiserte tekstfiler går inn i bundlen. Binære og ikke-støttede formater kan bare vises som referanse hvis det alternativet er aktivert." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.nb = {
             badge: "Valgfri anbefaling",
             title: "Valgfri AI-hjelp til prosjektmodularisering",
             body: "I store eller heterogene prosjekter kan du bruke et øyeblikksbilde av repotreet med en LLM etter eget valg for å generere det første forslaget til Steg 5-regler.",
-            note: "Denne flyten er assistert og kan gjennomgås. Målet er ikke å erstatte ditt tekniske skjønn, men å akselerere opprettelsen av den innledende hopp-over-listen som deretter kan foredles direkte i BundleWeave PRO. Påloggingsinformasjon, hemmeligheter og sensitivt innhold i de inkluderte filene må håndteres separat i Content Redactor.",
+            note: "Denne flyten er assistert og kan gjennomgås. Målet er ikke å erstatte ditt tekniske skjønn, men å akselerere opprettelsen av den innledende hopp-over-listen som deretter kan foredles direkte i CodeFlatten PRO. Påloggingsinformasjon, hemmeligheter og sensitivt innhold i de inkluderte filene må håndteres separat i Content Redactor.",
             guard: {
                 title: "Viktig: filtrering er ikke redigering",
                 body: "Steg 5 hjelper deg med å bestemme hva som skal inn i eller ikke inn i bundlen. Den endelige tekstrensingen tilhører Steg 6 med Content Redactor. Bruk begge sammen. Gå ALLTID gjennom passord og hemmeligheter en gang til."
@@ -199,7 +199,7 @@ window.translations.nb = {
         },
         ack: {
             title: "Anerkjennelser og tredjeparter",
-            body: "BundleWeave PRO tilbyr statistisk utdata i GitHub Linguist-stil, inspirert av GitHubs åpen kildekode-prosjekt <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>. Den underliggende motoren utnytter også egenskapene til Python, Tcl/Tk og Pillow."
+            body: "CodeFlatten PRO tilbyr statistisk utdata i GitHub Linguist-stil, inspirert av GitHubs åpen kildekode-prosjekt <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>. Den underliggende motoren utnytter også egenskapene til Python, Tcl/Tk og Pillow."
         },
         check: {
             title: "Hurtigsjekkliste før generering",
@@ -215,8 +215,8 @@ window.translations.nb = {
             title: "Teknisk støtte",
             body: "Hvis noe er uklart, send en kort rapport med skjermbilder og observert oppførsel. Dette fremskynder diagnoseprosessen betraktelig."
         },
-            labels: {
-                prompt_label: "Eksempelforespørsel"
-            }
+        labels: {
+            prompt_label: "Eksempelforespørsel"
         }
+    }
 };

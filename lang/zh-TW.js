@@ -34,11 +34,11 @@ window.translations['zh-TW'] = {
             label: "精密軟體",
             title: "加速您的 Vibe Coding 工作流程。",
             subtitle: "現代構建者的終極本地實用程序。數秒內將複雜程式碼庫轉換為結構化、支援 AI 的上下文。",
-            cta: "獲取 BundleWeave PRO"
+            cta: "獲取 CodeFlatten PRO"
         },
         vibe: {
             title: "專為 Vibe Coding 打造",
-            desc: "不要浪費時間複製貼上。BundleWeave PRO 為 LLM 準備好整個環境，確保完美的結構化上下文和令牌效率。",
+            desc: "不要浪費時間複製貼上。CodeFlatten PRO 為 LLM 準備好整個環境，確保完美的結構化上下文和令牌效率。",
             feature1: "上下文感知捆綁",
             feature2: "令牌優化",
             feature3: "即時 AI 提示",
@@ -52,8 +52,8 @@ window.translations['zh-TW'] = {
         },
         features: {
             title: "精選解決方案",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "項目文檔、AI 上下文準備和大規模文本轉換的終極工具。針對 Windows 進行了優化。"
             },
             learn_more: "了解更多"
@@ -68,7 +68,7 @@ window.translations['zh-TW'] = {
         },
         integration: {
             title: "無縫操作系統集成",
-            desc: "BundleWeave PRO 直接集成到 Windows Shell。右鍵點擊任何文件夾或選擇的文件，即可立即生成捆綁文件。",
+            desc: "CodeFlatten PRO 直接集成到 Windows Shell。右鍵點擊任何文件夾或選擇的文件，即可立即生成捆綁文件。",
             feature1: "右鍵菜單支援",
             feature2: "後台進程運行"
         },
@@ -76,7 +76,7 @@ window.translations['zh-TW'] = {
             title: "免費 vs. Premium",
             free: "2 個配置文件，1 個編輯規則，1 個目錄覆蓋",
             premium: "無限配置文件，高級編輯，優先級覆蓋，商店同步許可證",
-            cta: "獲取 BundleWeave PRO"
+            cta: "獲取 CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations['zh-TW'] = {
         ack: { title: "致謝與第三方聲明" }
     },
     support: {
-        title: "支援 - BundleWeave PRO | BestToolsForever",
+        title: "支援 - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "技術支援",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> 幫助中心",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> 幫助中心",
             subtitle: "為我們的高性能實用程序套件提供專門協助。回歸精密構建。",
             back_to_home: "返回首頁"
         },
@@ -122,7 +122,7 @@ window.translations['zh-TW'] = {
         }
     },
     step5: {
-        title: "步驟 5 — 排除與安全 | BundleWeave PRO",
+        title: "步驟 5 — 排除與安全 | CodeFlatten PRO",
         hero: {
             badge: "官方向導指南",
             title: "步驟 5 — 排除與安全",
@@ -139,7 +139,7 @@ window.translations['zh-TW'] = {
         },
         engine: {
             card1: { title: "1. 符合規則的内容", body: "引擎使用 fnmatch 風格的模式。規則可以匹配獨立的文件/文件夾名稱或完整路徑。" },
-            card2: { title: "2. 之後的操作", body: "如果規則命中文件夾，BundleWeave PRO 將中斷該節點的閱讀。其内部的所有内容都將被隱式忽略。" },
+            card2: { title: "2. 之後的操作", body: "如果規則命中文件夾，CodeFlatten PRO 將中斷該節點的閱讀。其内部的所有内容都將被隱式忽略。" },
             card3: { title: "3. 進入捆綁包的内容", body: "符合條件的文本文件進入捆綁包。如果啟用了該選項，二進制文件和不支援的格式可能僅作為參考出現。" }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations['zh-TW'] = {
             badge: "可選建議",
             title: "可選 AI 輔助進行項目模組化",
             body: "在大型或異類項目中，您可以使用倉庫樹的快照配合您選擇的 LLM 來生成步驟 5 規則的初步方案。",
-            note: "此流程為輔助性質且可供審查。目標不是取代您的技術判斷，而是加速創建初始跳過列表，隨後可在 BundleWeave PRO 中進一步微調。包含文件中的憑據、機密和敏感内容應在 Content Redactor 中單獨處理。",
+            note: "此流程為輔助性質且可供審查。目標不是取代您的技術判斷，而是加速創建初始跳過列表，隨後可在 CodeFlatten PRO 中進一步微調。包含文件中的憑據、機密和敏感内容應在 Content Redactor 中單獨處理。",
             when: {
                 1: "Monorepo、混合技術棧或具有許多輔助目錄的程式碼庫。",
                 2: "當您想根據目標（架構、運行時、UI、集成或文檔）對轉儲進行模組化時。",
@@ -204,7 +204,7 @@ window.translations['zh-TW'] = {
         },
         ack: {
             title: "致謝與第三方",
-            body: "BundleWeave PRO 提供 GitHub Linguist 風格的統計輸出，靈感源自 GitHub 的開源項目 <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>。底層引擎還利用了 Python、Tcl/Tk 和 Pillow 的功能。"
+            body: "CodeFlatten PRO 提供 GitHub Linguist 風格的統計輸出，靈感源自 GitHub 的開源項目 <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>。底層引擎還利用了 Python、Tcl/Tk 和 Pillow 的功能。"
         },
         check: {
             title: "匯出前的快速檢查清單",
@@ -220,8 +220,8 @@ window.translations['zh-TW'] = {
             title: "技術支援",
             body: "如果有任何不清楚的地方，請發送一份包含屏幕截圖和觀察到行為的簡短報告。這能極大加快診斷速度。"
         },
-            labels: {
-                prompt_label: "範例請求"
-            }
+        labels: {
+            prompt_label: "範例請求"
         }
+    }
 };

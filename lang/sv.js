@@ -34,11 +34,11 @@ window.translations.sv = {
             label: "Precisionsprogramvara",
             title: "Accelerera ditt Vibe Coding-arbetsflöde.",
             subtitle: "Det ultimata lokala verktyget för moderna byggare. Förvandla komplexa kodbaser till strukturerad, AI-redo kontext på några sekunder.",
-            cta: "Hämta BundleWeave PRO"
+            cta: "Hämta CodeFlatten PRO"
         },
         vibe: {
             title: "Byggd för Vibe Coding",
-            desc: "Slösa inte tid på att kopiera och klistra in. BundleWeave PRO förbereder hela din miljö för LLM:er, vilket säkerställer en perfekt strukturell kontext och tokeneffektivitet.",
+            desc: "Slösa inte tid på att kopiera och klistra in. CodeFlatten PRO förbereder hela din miljö för LLM:er, vilket säkerställer en perfekt strukturell kontext och tokeneffektivitet.",
             feature1: "Kontextmedveten buntning",
             feature2: "Tokenoptimering",
             feature3: "Omedelbar AI-prompting",
@@ -52,8 +52,8 @@ window.translations.sv = {
         },
         features: {
             title: "Utvalda lösningar",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Det ultimata verktyget för projektdokumentation, förberedelse av AI-kontext och texttransformering i stor skala. Optimerat för Windows."
             },
             learn_more: "Läs mer"
@@ -68,7 +68,7 @@ window.translations.sv = {
         },
         integration: {
             title: "Sömlös OS-integrering",
-            desc: "BundleWeave PRO integreras direkt i Windows Shell. Högerklicka på valfri mapp eller markering av filer för att omedelbart generera din bunt.",
+            desc: "CodeFlatten PRO integreras direkt i Windows Shell. Högerklicka på valfri mapp eller markering av filer för att omedelbart generera din bunt.",
             feature1: "Klar för kontextmenyn",
             feature2: "Bakgrundsprocess"
         },
@@ -76,7 +76,7 @@ window.translations.sv = {
             title: "Gratis vs. Premium",
             free: "2 profiler, 1 redigeringsregel, 1 katalogåsidosättning",
             premium: "Obegränsade profiler, avancerad redigering, prioriterade åsidosättningar, butikssynkroniserade licenser",
-            cta: "Hämta BundleWeave PRO"
+            cta: "Hämta CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.sv = {
         ack: { title: "Erkännanden och meddelanden från tredje part" }
     },
     support: {
-        title: "Support - BundleWeave PRO | BestToolsForever",
+        title: "Support - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Teknisk support",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> hjälpcenter.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> hjälpcenter.",
             subtitle: "Dedikerad assistans för vår högpresterande verktygssvit. Återgå till att bygga med precision.",
             back_to_home: "Tillbaka till Start"
         },
@@ -122,7 +122,7 @@ window.translations.sv = {
         }
     },
     step5: {
-        title: "Steg 5 — Exkluderingar och säkerhet | BundleWeave PRO",
+        title: "Steg 5 — Exkluderingar och säkerhet | CodeFlatten PRO",
         hero: {
             badge: "Officiell guide",
             title: "Steg 5 — Exkluderingar och säkerhet",
@@ -139,7 +139,7 @@ window.translations.sv = {
         },
         engine: {
             card1: { title: "1. Vad som matchar regeln", body: "Motorn använder mönster i fnmatch-stil. En regel kan matcha det isolerade fil- eller mappnamnet, eller hela sökvägen." },
-            card2: { title: "2. Vad som händer efteråt", body: "Om en regel träffar en mapp avbryter BundleWeave PRO läsningen av den noden. Allt inuti ignoreras implicit." },
+            card2: { title: "2. Vad som händer efteråt", body: "Om en regel träffar en mapp avbryter CodeFlatten PRO läsningen av den noden. Allt inuti ignoreras implicit." },
             card3: { title: "3. Vad som kommer med i bunten", body: "Kvalificerade textfiler kommer med i bunten. Binärfiler och format som inte stöds kan visas endast som referens om alternativet är aktiverat." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.sv = {
             badge: "Valfri rekommendation",
             title: "Valfritt AI-stöd för att modularisera projektet",
             body: "I stora eller heterogena projekt kan du använda en snapshot av trädstrukturen med en valfri LLM för att generera ett första förslag på regler för steg 5.",
-            note: "Detta flöde är assisterat och kan granskas. Målet är inte att ersätta ditt tekniska omdöme, utan att påskynda skapandet av en initial hopp-lista som sedan kan finjusteras direkt i BundleWeave PRO.",
+            note: "Detta flöde är assisterat och kan granskas. Målet är inte att ersätta ditt tekniska omdöme, utan att påskynda skapandet av en initial hopp-lista som sedan kan finjusteras direkt i CodeFlatten PRO.",
             when: {
                 1: "Monorepon, hybridstackar eller baser med många hjälpbibliotek.",
                 2: "För att modularisera dumpar per mål: arkitektur, körtid, gränssnitt, integrationer eller dokumentation.",
@@ -204,7 +204,7 @@ window.translations.sv = {
         },
         ack: {
             title: "Erkännanden och tredje part",
-            body: "BundleWeave PRO erbjuder statistisk utdata i GitHub Linguist-stil, inspirerad av open-source-projektet <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> från GitHub. Den underliggande motorn använder även funktioner från Python, Tcl/Tk och Pillow."
+            body: "CodeFlatten PRO erbjuder statistisk utdata i GitHub Linguist-stil, inspirerad av open-source-projektet <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> från GitHub. Den underliggande motorn använder även funktioner från Python, Tcl/Tk och Pillow."
         },
         check: {
             title: "Snabb checklist före generering",
@@ -220,8 +220,8 @@ window.translations.sv = {
             title: "Teknisk support",
             body: "Om något är oklart, skicka en kort rapport med skärmdumpar och det observerade beteendet. Detta påskyndar diagnosen avsevärt."
         },
-            labels: {
-                prompt_label: "Exempelförfrågan"
-            }
+        labels: {
+            prompt_label: "Exempelförfrågan"
         }
+    }
 };

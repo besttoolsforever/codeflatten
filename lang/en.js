@@ -1,222 +1,222 @@
 window.translations = window.translations || {};
 window.translations.en = {
-        shared: {
-            nav: { home: "Home", support: "Support", legal: "Legal", step5: "Step 5" },
-            footer: {
-                description: "Precision-crafted software for real-world use.",
-                social: { github: "GitHub", linkedin: "LinkedIn" },
-                privacy: "Privacy Policy",
-                terms: "Terms of Service",
-                copyright_prefix: "©",
-                copyright_suffix: "BestToolsForever."
-            }
+    shared: {
+        nav: { home: "Home", support: "Support", legal: "Legal", step5: "Step 5" },
+        footer: {
+            description: "Precision-crafted software for real-world use.",
+            social: { github: "GitHub", linkedin: "LinkedIn" },
+            privacy: "Privacy Policy",
+            terms: "Terms of Service",
+            copyright_prefix: "©",
+            copyright_suffix: "BestToolsForever."
+        }
+    },
+    home: {
+        title: "BestToolsForever | Precision Utility Software",
+        hero: {
+            label: "Precision Software",
+            title: "Accelerate your Vibe Coding workflow.",
+            subtitle: "The ultimate local-first utility for modern builders. Transforming complex codebases into structured, AI-ready context in seconds.",
+            cta: "Get CodeFlatten PRO"
         },
-        home: {
-            title: "BestToolsForever | Precision Utility Software",
-            hero: {
-                label: "Precision Software",
-                title: "Accelerate your Vibe Coding workflow.",
-                subtitle: "The ultimate local-first utility for modern builders. Transforming complex codebases into structured, AI-ready context in seconds.",
-                cta: "Get BundleWeave PRO"
-            },
-            studio: {
-                label: "INDIE SOFTWARE STUDIO",
-                title: "Crafting Digital <br/> <span class=\"text-secondary\">Permanence.</span>",
-                subtitle: "An independent software studio led by Luiz E. L. Junior. We build tools that prioritize utility, precision, and the editorial feel of high-end software.",
-                lead_dev: "Lead Developer",
-                btn_windows: "Windows v1.0",
-                btn_store: "Install via Microsoft Store",
-                flagship: "Flagship Product",
-                flagship_desc: "The definitive Windows utility for developers. Efficiently organize, weave, and export complex projects for AI context ingestion."
-            },
-            vibe: {
-                title: "Built for Vibe Coding",
-                desc: "Don't waste time copy-pasting. BundleWeave PRO prepares your entire environment for LLMs, ensuring perfect structural context and token efficiency.",
-                feature1: "Context-Aware Bundling",
-                feature2: "Token Optimization",
-                feature3: "Instant AI Prompting",
-                llm_ready_title: "LLM-Ready Context",
-                llm_ready_desc: "Bundle your code for Claude, ChatGPT, or Gemini in one click."
-            },
-            security: {
-                title: "Privacy by Design",
-                desc: "100% Local-First. Your proprietary code never leaves your machine unless you send it. No cloud processing, no data logging.",
-                badge: "Native Windows Performance"
-            },
-            integration: {
-                title: "Seamless OS Integration",
-                desc: "BundleWeave PRO integrates directly into the Windows Shell. Right-click any folder or file selection to generate your bundle instantly.",
-                feature1: "Context Menu Ready",
-                feature2: "Background Processing",
-                feature3: "Selection Bundling"
-            },
-            redactor: {
-                title: "Intelligent Redaction",
-                desc: "Security isn't a suggestion, it's a feature. Protect API keys, credentials, and proprietary logic with our rules-based Content Redactor before sharing with AI.",
-                badge: "AI-Safe Exports"
-            },
-            profiles: {
-                title: "Automation at Scale",
-                desc: "Save your favorite configurations as Profiles. Use Directory-Based Overrides to automatically apply the right rules to specific projects.",
-                feature1: "Custom Configuration",
-                feature2: "Directory Overrides",
-                feature3: "Meta-Headers"
-            },
-            features: {
-                title: "Core Capabilities",
-                bundleweave: {
-                    name: "BundleWeave PRO",
-                    desc: "The professional-grade utility for project documentation, AI context preparation, and large-scale text transformation. Optimized for efficiency on Windows."
-                },
-                workflow: {
-                    title: "Engineered for Efficiency",
-                    step1: { title: "Define Structure", desc: "Build folder trees and headers manually or use automated presets." },
-                    step2: { title: "Secure Content", desc: "Apply rules-based redaction to protect sensitive data before export." },
-                    step3: { title: "Export & Build", desc: "Generate AI-ready bundles via GUI or the Windows Explorer context menu." }
-                },
-                learn_more: "Learn More"
-            },
-            comparison: {
-                title: "Free vs. Premium",
-                free: "2 Profiles, 1 Redaction Rule, 1 Directory Override",
-                premium: "Unlimited Profiles, Advanced Redaction, Priority Overrides, Store-Synced Licenses",
-                cta: "Get BundleWeave PRO"
-            },
+        studio: {
+            label: "INDIE SOFTWARE STUDIO",
+            title: "Crafting Digital <br/> <span class=\"text-secondary\">Permanence.</span>",
+            subtitle: "An independent software studio led by Luiz E. L. Junior. We build tools that prioritize utility, precision, and the editorial feel of high-end software.",
+            lead_dev: "Lead Developer",
+            btn_windows: "Windows v1.0",
+            btn_store: "Install via Microsoft Store",
+            flagship: "Flagship Product",
+            flagship_desc: "The definitive Windows utility for developers. Efficiently organize, weave, and export complex projects for AI context ingestion."
         },
-        step5: {
-            title: "Step 5 — Exclusions & Safety | BundleWeave PRO",
-            hero: {
-                badge: "Official Wizard Guide",
-                title: "Step 5 — Exclusions & Safety",
-                subtitle: "Learn how to build reliable filters, reduce bundle noise, and avoid oversized or dangerous exports without losing project control.",
-                cta1: "See practical rules",
-                cta2: "Understand Safety Scan"
+        vibe: {
+            title: "Built for Vibe Coding",
+            desc: "Don't waste time copy-pasting. CodeFlatten PRO prepares your entire environment for LLMs, ensuring perfect structural context and token efficiency.",
+            feature1: "Context-Aware Bundling",
+            feature2: "Token Optimization",
+            feature3: "Instant AI Prompting",
+            llm_ready_title: "LLM-Ready Context",
+            llm_ready_desc: "Bundle your code for Claude, ChatGPT, or Gemini in one click."
+        },
+        security: {
+            title: "Privacy by Design",
+            desc: "100% Local-First. Your proprietary code never leaves your machine unless you send it. No cloud processing, no data logging.",
+            badge: "Native Windows Performance"
+        },
+        integration: {
+            title: "Seamless OS Integration",
+            desc: "CodeFlatten PRO integrates directly into the Windows Shell. Right-click any folder or file selection to generate your bundle instantly.",
+            feature1: "Context Menu Ready",
+            feature2: "Background Processing",
+            feature3: "Selection Bundling"
+        },
+        redactor: {
+            title: "Intelligent Redaction",
+            desc: "Security isn't a suggestion, it's a feature. Protect API keys, credentials, and proprietary logic with our rules-based Content Redactor before sharing with AI.",
+            badge: "AI-Safe Exports"
+        },
+        profiles: {
+            title: "Automation at Scale",
+            desc: "Save your favorite configurations as Profiles. Use Directory-Based Overrides to automatically apply the right rules to specific projects.",
+            feature1: "Custom Configuration",
+            feature2: "Directory Overrides",
+            feature3: "Meta-Headers"
+        },
+        features: {
+            title: "Core Capabilities",
+            codeflatten: {
+                name: "CodeFlatten PRO",
+                desc: "The professional-grade utility for project documentation, AI context preparation, and large-scale text transformation. Optimized for efficiency on Windows."
             },
-            quick: {
-                title: "Quick summary",
-                item1: "Each skip-list line is tested against the item name and also against the full path string.",
-                item2: "If a folder matches a rule, that entire branch stops being scanned.",
-                item3: "Skipped items can show up as placeholders in the tree or remain completely hidden.",
-                item4: "Safety Scan limits depth, file count, and total size. Path Guard blocks roots and critical folders."
+            workflow: {
+                title: "Engineered for Efficiency",
+                step1: { title: "Define Structure", desc: "Build folder trees and headers manually or use automated presets." },
+                step2: { title: "Secure Content", desc: "Apply rules-based redaction to protect sensitive data before export." },
+                step3: { title: "Export & Build", desc: "Generate AI-ready bundles via GUI or the Windows Explorer context menu." }
             },
-            engine: {
-                card1: { title: "1. What can match", body: "The engine uses fnmatch-style patterns. A rule can match the file or folder name, or the full path string." },
-                card2: { title: "2. What happens next", body: "If a rule hits a folder, BundleWeave PRO stops scanning that node. Everything inside it is implicitly ignored." },
-                card3: { title: "3. What enters the bundle", body: "Eligible text files enter the bundle. Binary and unsupported formats can still appear as reference entries if that option is enabled." }
-            },
-            rules: {
-                title: "Practical rules for daily use: Broad fnmatch support.",
-                subtitle: "Use exact names for surgical exclusions. Use wildcards for file types, recurring patterns, or broader filters.",
-                jump: "See visual example",
-                exact: { title: "Direct exclusion by name", body: "When you want to remove a specific folder or file from the bundle, prefer the exact node name.", when: "Use this when your intention is to block an entire folder wherever it appears in the tree, without depending on slashes or full paths." },
-                wild: { title: "Wildcards for extensions and file families", body: "When the target is a recurring pattern, use simple wildcards. They are ideal for tests, locks, images, build artifacts, and recurring secrets.", ex1: "Ignore all log files.", ex2: "Ignore multiple test-file variants.", ex3: "Avoid embedding binary images into the bundle.", ex4: "Help block keys and sensitive files." },
-                broad: { title: "Broad and flexible patterns", body: "Patterns such as *cache* or **cache** behave like broad substring filters. They are useful when you want to catch multiple variations, but they can exclude more content than expected.", tip: "Use this style when your goal is reach, not precision. To exclude one specific folder, keep preferring the exact name." },
-                thumb1: "Need to block one specific folder? Use an <strong>exact name</strong>.",
-                thumb2: "Need to block a family of files? Use <strong>extension wildcards</strong>.",
-                thumb3: "Need to catch any occurrence of a term? Use a <strong>broad pattern</strong> carefully."
-            },
-            demo: {
-                title: "Visual example",
-                subtitle: "Below is a generic project before filtering and the rules applied in Step 5.",
-                reading: "Engine interpretation",
-                reading_body: "The <span class=\"code-chip\">ui</span> folder is removed as a whole branch; <span class=\"code-chip\">logo.png</span> and <span class=\"code-chip\">app.test.ts</span> are filtered by pattern; <span class=\"code-chip\">.env</span> is removed by exact name.",
-                before: "Before",
-                after: "After",
-                note: "If ignored visibility is set to “Hide completely”, the placeholders above disappear from the tree."
-            },
-            safety: {
-                title: "Safety Scan and Path Guard",
-                subtitle: "Step 5 is not only about excluding noise. It also protects against exports that are accidentally too large, too deep, or too dangerous.",
-                h3_files: "Max Files",
-                h3_size: "Max Size (MB)",
-                h3_depth: "Max Dir Depth",
-                h3_guard: "Path Guard",
-                files: "Stops the operation when the number of eligible text files exceeds the configured limit.",
-                size: "Prevents gigantic bundles when the accumulated content size goes beyond the configured ceiling.",
-                depth: "Helps prevent overly deep trees, loops, or accidentally huge structures.",
-                guard: "Blocks disk roots and critical directories by default, such as <span class=\"code-chip\">C:\\</span> and <span class=\"code-chip\">C:\\Windows</span>.",
-                trigger: { title: "When a limit is triggered", body: "The export is safely aborted. Instead of generating an incomplete or overly costly bundle, the system writes a small file explaining the reason." }
-            },
-            ai: {
-                badge: "Optional recommendation",
-                title: "Optional AI assistance to modularize the project",
-                body: "For large or heterogeneous projects, you can use a repository tree snapshot with an LLM of your choice to generate a first draft of Step 5 rules. This helps with modularization and noise reduction, but it does not replace sanitizing the final content.",
-                note: "This workflow is assisted and reviewable. The goal is not to replace technical judgment, but to accelerate the creation of an initial skip list that can then be refined directly in BundleWeave PRO. Credentials, secrets, and sensitive content inside included files must be handled separately with the Content Redactor.",
-                guard: { title: "Important: filtering is not redaction", body: "Step 5 helps decide what does or does not enter the bundle. Sanitizing the final text belongs to Step 6, through the Content Redactor. Use both together when you need modularization, noise reduction, and review of sensitive content." },
-                when: { label: "When it is worth using", 1: "Monorepos, hybrid stacks, or codebases with many auxiliary directories.", 2: "When you want to modularize dumps by purpose: architecture, runtime, UI, integrations, or documentation.", 3: "When manual filtering would be repetitive, slow, or too broad." },
-                flow: { title: "Suggested workflow", 1: "Generate a tree snapshot and define the dump objective.", 2: "Ask the LLM only for an initial skip list that preserves the core and reduces noise.", 3: "Review the rules, adapt them to the project, and only then apply them in Step 5." },
-                prompt: { label: "Example request", body: "Analyze the repository snapshot in the user's language and generate only an optimized skip list in fnmatch pattern, ready for use, excluding noise without damaging the architecture: use exact names to remove specific folders or files, wildcards for recurring file families, and broad patterns with caution; consider that each rule can match both the item name and the full path, and that if a folder matches, the entire branch should be ignored. Remove tests, non-essential docs, binary assets, caches, logs, builds, locks, temporary artifacts, secrets, and redundancies, but preserve the functional core, modules, runtime, providers, adapters, execution flow, and everything that supports structural understanding of the system.\n\nWhen in doubt, preserve relevant code and exclude only noise.\n\nPrioritize patterns such as:\n*test*\n*tests*\n*docs*\n*example*\n*examples*\n*bench*\n*benchmark*\n*fixture*\n*fixtures*\n*mock*\n*mocks*\n*__pycache__*\n*node_modules*\n*.log\n*.lock\n*.tmp\n*.cache\ndist*\nbuild*\ntarget*\ncoverage*", note: "Use the answer as a starting point. The ideal result is reviewable, compact, and aligned with the specific dump objective — never as a substitute for human review or the Content Redactor." }
-            },
-            ack: {
-                title: "Acknowledgements & Third-Party",
-                body: "BundleWeave PRO features a GitHub Linguist-style statistical output, inspired by the open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> project by GitHub. The underlying engine also leverages the capabilities of Python, Tcl/Tk, and Pillow."
-            },
-            check: {
-                title: "Quick checklist before exporting",
-                item1: "Use exact names for surgical exclusions.",
-                item2: "Use wildcards for extensions, tests, locks, and recurring artifacts.",
-                item3: "Keep Safety Scan enabled in most cases.",
-                item4: "Keep Path Guard enabled to avoid roots and critical folders.",
-                item5: "Enable binary references when you want structural context without embedding the content itself.",
-                item6: "Review the final output before sharing it with third parties or with an AI."
-            },
-            support: {
-                label: "Need help?",
-                title: "Technical support",
-                body: "If something is unclear, send a short report with screenshots and the observed behavior. That speeds diagnosis up a lot."
-            },
-            labels: {
-                recommended: "Recommended",
-                why: "When to use it",
-                rule_of_thumb: "Rule of thumb",
-                reading: "Engine reading",
-                before: "Before",
-                after: "After",
-                when_worth: "When it is worth using",
-                prompt_label: "Example request"
-            }
+            learn_more: "Learn More"
+        },
+        comparison: {
+            title: "Free vs. Premium",
+            free: "2 Profiles, 1 Redaction Rule, 1 Directory Override",
+            premium: "Unlimited Profiles, Advanced Redaction, Priority Overrides, Store-Synced Licenses",
+            cta: "Get CodeFlatten PRO"
+        },
+    },
+    step5: {
+        title: "Step 5 — Exclusions & Safety | CodeFlatten PRO",
+        hero: {
+            badge: "Official Wizard Guide",
+            title: "Step 5 — Exclusions & Safety",
+            subtitle: "Learn how to build reliable filters, reduce bundle noise, and avoid oversized or dangerous exports without losing project control.",
+            cta1: "See practical rules",
+            cta2: "Understand Safety Scan"
+        },
+        quick: {
+            title: "Quick summary",
+            item1: "Each skip-list line is tested against the item name and also against the full path string.",
+            item2: "If a folder matches a rule, that entire branch stops being scanned.",
+            item3: "Skipped items can show up as placeholders in the tree or remain completely hidden.",
+            item4: "Safety Scan limits depth, file count, and total size. Path Guard blocks roots and critical folders."
+        },
+        engine: {
+            card1: { title: "1. What can match", body: "The engine uses fnmatch-style patterns. A rule can match the file or folder name, or the full path string." },
+            card2: { title: "2. What happens next", body: "If a rule hits a folder, CodeFlatten PRO stops scanning that node. Everything inside it is implicitly ignored." },
+            card3: { title: "3. What enters the bundle", body: "Eligible text files enter the bundle. Binary and unsupported formats can still appear as reference entries if that option is enabled." }
+        },
+        rules: {
+            title: "Practical rules for daily use: Broad fnmatch support.",
+            subtitle: "Use exact names for surgical exclusions. Use wildcards for file types, recurring patterns, or broader filters.",
+            jump: "See visual example",
+            exact: { title: "Direct exclusion by name", body: "When you want to remove a specific folder or file from the bundle, prefer the exact node name.", when: "Use this when your intention is to block an entire folder wherever it appears in the tree, without depending on slashes or full paths." },
+            wild: { title: "Wildcards for extensions and file families", body: "When the target is a recurring pattern, use simple wildcards. They are ideal for tests, locks, images, build artifacts, and recurring secrets.", ex1: "Ignore all log files.", ex2: "Ignore multiple test-file variants.", ex3: "Avoid embedding binary images into the bundle.", ex4: "Help block keys and sensitive files." },
+            broad: { title: "Broad and flexible patterns", body: "Patterns such as *cache* or **cache** behave like broad substring filters. They are useful when you want to catch multiple variations, but they can exclude more content than expected.", tip: "Use this style when your goal is reach, not precision. To exclude one specific folder, keep preferring the exact name." },
+            thumb1: "Need to block one specific folder? Use an <strong>exact name</strong>.",
+            thumb2: "Need to block a family of files? Use <strong>extension wildcards</strong>.",
+            thumb3: "Need to catch any occurrence of a term? Use a <strong>broad pattern</strong> carefully."
+        },
+        demo: {
+            title: "Visual example",
+            subtitle: "Below is a generic project before filtering and the rules applied in Step 5.",
+            reading: "Engine interpretation",
+            reading_body: "The <span class=\"code-chip\">ui</span> folder is removed as a whole branch; <span class=\"code-chip\">logo.png</span> and <span class=\"code-chip\">app.test.ts</span> are filtered by pattern; <span class=\"code-chip\">.env</span> is removed by exact name.",
+            before: "Before",
+            after: "After",
+            note: "If ignored visibility is set to “Hide completely”, the placeholders above disappear from the tree."
+        },
+        safety: {
+            title: "Safety Scan and Path Guard",
+            subtitle: "Step 5 is not only about excluding noise. It also protects against exports that are accidentally too large, too deep, or too dangerous.",
+            h3_files: "Max Files",
+            h3_size: "Max Size (MB)",
+            h3_depth: "Max Dir Depth",
+            h3_guard: "Path Guard",
+            files: "Stops the operation when the number of eligible text files exceeds the configured limit.",
+            size: "Prevents gigantic bundles when the accumulated content size goes beyond the configured ceiling.",
+            depth: "Helps prevent overly deep trees, loops, or accidentally huge structures.",
+            guard: "Blocks disk roots and critical directories by default, such as <span class=\"code-chip\">C:\\</span> and <span class=\"code-chip\">C:\\Windows</span>.",
+            trigger: { title: "When a limit is triggered", body: "The export is safely aborted. Instead of generating an incomplete or overly costly bundle, the system writes a small file explaining the reason." }
+        },
+        ai: {
+            badge: "Optional recommendation",
+            title: "Optional AI assistance to modularize the project",
+            body: "For large or heterogeneous projects, you can use a repository tree snapshot with an LLM of your choice to generate a first draft of Step 5 rules. This helps with modularization and noise reduction, but it does not replace sanitizing the final content.",
+            note: "This workflow is assisted and reviewable. The goal is not to replace technical judgment, but to accelerate the creation of an initial skip list that can then be refined directly in CodeFlatten PRO. Credentials, secrets, and sensitive content inside included files must be handled separately with the Content Redactor.",
+            guard: { title: "Important: filtering is not redaction", body: "Step 5 helps decide what does or does not enter the bundle. Sanitizing the final text belongs to Step 6, through the Content Redactor. Use both together when you need modularization, noise reduction, and review of sensitive content." },
+            when: { label: "When it is worth using", 1: "Monorepos, hybrid stacks, or codebases with many auxiliary directories.", 2: "When you want to modularize dumps by purpose: architecture, runtime, UI, integrations, or documentation.", 3: "When manual filtering would be repetitive, slow, or too broad." },
+            flow: { title: "Suggested workflow", 1: "Generate a tree snapshot and define the dump objective.", 2: "Ask the LLM only for an initial skip list that preserves the core and reduces noise.", 3: "Review the rules, adapt them to the project, and only then apply them in Step 5." },
+            prompt: { label: "Example request", body: "Analyze the repository snapshot in the user's language and generate only an optimized skip list in fnmatch pattern, ready for use, excluding noise without damaging the architecture: use exact names to remove specific folders or files, wildcards for recurring file families, and broad patterns with caution; consider that each rule can match both the item name and the full path, and that if a folder matches, the entire branch should be ignored. Remove tests, non-essential docs, binary assets, caches, logs, builds, locks, temporary artifacts, secrets, and redundancies, but preserve the functional core, modules, runtime, providers, adapters, execution flow, and everything that supports structural understanding of the system.\n\nWhen in doubt, preserve relevant code and exclude only noise.\n\nPrioritize patterns such as:\n*test*\n*tests*\n*docs*\n*example*\n*examples*\n*bench*\n*benchmark*\n*fixture*\n*fixtures*\n*mock*\n*mocks*\n*__pycache__*\n*node_modules*\n*.log\n*.lock\n*.tmp\n*.cache\ndist*\nbuild*\ntarget*\ncoverage*", note: "Use the answer as a starting point. The ideal result is reviewable, compact, and aligned with the specific dump objective — never as a substitute for human review or the Content Redactor." }
+        },
+        ack: {
+            title: "Acknowledgements & Third-Party",
+            body: "CodeFlatten PRO features a GitHub Linguist-style statistical output, inspired by the open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> project by GitHub. The underlying engine also leverages the capabilities of Python, Tcl/Tk, and Pillow."
+        },
+        check: {
+            title: "Quick checklist before exporting",
+            item1: "Use exact names for surgical exclusions.",
+            item2: "Use wildcards for extensions, tests, locks, and recurring artifacts.",
+            item3: "Keep Safety Scan enabled in most cases.",
+            item4: "Keep Path Guard enabled to avoid roots and critical folders.",
+            item5: "Enable binary references when you want structural context without embedding the content itself.",
+            item6: "Review the final output before sharing it with third parties or with an AI."
         },
         support: {
-            title: "Support - BundleWeave PRO | BestToolsForever",
-            hero: {
-                label: "Technical Support",
-                title: "BundleWeave PRO Help Center.",
-                subtitle: "Dedicated assistance for our high-performance utility suite. Get back to building with precision.",
-                back_to_home: "Back to Home"
+            label: "Need help?",
+            title: "Technical support",
+            body: "If something is unclear, send a short report with screenshots and the observed behavior. That speeds diagnosis up a lot."
+        },
+        labels: {
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it is worth using",
+            prompt_label: "Example request"
+        }
+    },
+    support: {
+        title: "Support - CodeFlatten PRO | BestToolsForever",
+        hero: {
+            label: "Technical Support",
+            title: "CodeFlatten PRO Help Center.",
+            subtitle: "Dedicated assistance for our high-performance utility suite. Get back to building with precision.",
+            back_to_home: "Back to Home"
+        },
+        faq: {
+            title: "Knowledge Base & Troubleshooting",
+            item1: {
+                q: "Dealing with unexpected app behavior or UI glitches?",
+                a: "A clean re-installation of the Microsoft Store package usually resolves local cache parity and update synchronization issues."
             },
-            faq: {
-                title: "Knowledge Base & Troubleshooting",
-                item1: {
-                    q: "Dealing with unexpected app behavior or UI glitches?",
-                    a: "A clean re-installation of the Microsoft Store package usually resolves local cache parity and update synchronization issues."
-                },
-                item2: {
-                    q: "What are the benefits of the Premium Unlock?",
-                    a: "The Premium version removes limitations on the number of profiles, allows advanced multi-rule content redaction, and enables directory-based profile overrides."
-                },
-                item3: {
-                    q: "How are licenses managed?",
-                    a: "All licensing is securely managed via the Microsoft Store. Your purchase is linked to your account and automatically synced across your compatible Windows devices."
-                }
+            item2: {
+                q: "What are the benefits of the Premium Unlock?",
+                a: "The Premium version removes limitations on the number of profiles, allows advanced multi-rule content redaction, and enables directory-based profile overrides."
             },
-            report: {
-                title: "Report an Issue",
-                description: "Our engineering team investigates every report. To expedite your request:",
-                item1: "Please include a screenshot of the error.",
-                item2: "Provide your Windows build.",
-                item3: "Give a detailed description of the problem.",
-                contact_label: "Contact Channel"
+            item3: {
+                q: "How are licenses managed?",
+                a: "All licensing is securely managed via the Microsoft Store. Your purchase is linked to your account and automatically synced across your compatible Windows devices."
             }
         },
-        legal: {
-            title: "Legal Information | BestToolsForever",
-            hero: {
-                title: "Legal & Privacy",
-                subtitle: "Our terms, agreements, and commitment to your data privacy."
-            },
-            eula: {
-                title: "End User License Agreement (EULA)",
-                content: `
+        report: {
+            title: "Report an Issue",
+            description: "Our engineering team investigates every report. To expedite your request:",
+            item1: "Please include a screenshot of the error.",
+            item2: "Provide your Windows build.",
+            item3: "Give a detailed description of the problem.",
+            contact_label: "Contact Channel"
+        }
+    },
+    legal: {
+        title: "Legal Information | BestToolsForever",
+        hero: {
+            title: "Legal & Privacy",
+            subtitle: "Our terms, agreements, and commitment to your data privacy."
+        },
+        eula: {
+            title: "End User License Agreement (EULA)",
+            content: `
 BUNDLEWEAVE PRO
 END USER LICENSE AGREEMENT (EULA)
 Version 1.1  
@@ -231,7 +231,7 @@ THIS AGREEMENT APPLIES TO THE BASE APPLICATION, ANY INCLUDED COMPONENTS, ANY UPD
 This Agreement is entered into between you ("User," "you," or "your") and Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our").
 
 2. SOFTWARE DESCRIPTION
-BundleWeave PRO is a Windows software application designed to help users organize, filter, transform, review, and export project and text-based materials into structured output for documentation, review, and AI-related workflows.
+CodeFlatten PRO is a Windows software application designed to help users organize, filter, transform, review, and export project and text-based materials into structured output for documentation, review, and AI-related workflows.
 
 The Software is designed to operate primarily on the local device. It may process files, folders, paths, rules, preferences, prompts, and other inputs selected or configured by the User, and it may generate outputs, manifests, diagnostics, reports, logs, and related artifacts based on those inputs and configurations.
 
@@ -438,16 +438,16 @@ The Developer may also identify current support, legal, or privacy contact chann
 By installing, accessing, or using the Software, you acknowledge that you have read, understood, and agreed to this Agreement.
 
 `
-            },
-            privacy: {
-                title: "Privacy Policy",
-                content: `
+        },
+        privacy: {
+            title: "Privacy Policy",
+            content: `
 BUNDLEWEAVE PRO
 PRIVACY POLICY
 Version 1.0  
 Last Updated: March 21, 2026
 
-This Privacy Policy explains how Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our"), handles personal data in connection with BundleWeave PRO (the "App").
+This Privacy Policy explains how Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our"), handles personal data in connection with CodeFlatten PRO (the "App").
 
 This Policy is intended to apply to the Microsoft Store version of the App and any other distribution of the App unless a distribution-specific notice or supplemental privacy notice states otherwise.
 
@@ -470,7 +470,7 @@ This Policy does not govern:
 - data that has been irreversibly anonymized so that it no longer relates to an identified or identifiable person.
 
 3. HOW THE APP GENERALLY WORKS
-BundleWeave PRO is designed to operate primarily on your local device. In ordinary use, the App may access and process files, folders, file names, folder names, paths, user-created settings, profiles, prompts, rules, logs, manifests, reports, and generated output on the device in order to provide its features.
+CodeFlatten PRO is designed to operate primarily on your local device. In ordinary use, the App may access and process files, folders, file names, folder names, paths, user-created settings, profiles, prompts, rules, logs, manifests, reports, and generated output on the device in order to provide its features.
 
 Not all data that the App touches is sent to us. In many cases, information is processed locally and remains under your control unless:
 - the App needs to interact with Microsoft platform or Store services;
@@ -657,13 +657,13 @@ Email: besttoolsforever@outlook.com
 If you contact us about privacy, please include enough information for us to understand your relationship to the App, the issue you are raising, and the country or state whose law you believe applies.
 
 `
-            },
-            ack: {
-                title: "Acknowledgements & Third-Party Notices",
-                content: `BundleWeave PRO
+        },
+        ack: {
+            title: "Acknowledgements & Third-Party Notices",
+            content: `CodeFlatten PRO
 Acknowledgements & Third-Party Notices
 
-BundleWeave PRO may include or redistribute third-party software components.
+CodeFlatten PRO may include or redistribute third-party software components.
 Those components remain subject to their own copyright, license terms,
 and notice requirements. This file identifies the third-party components
 that were confirmed as relevant to the current distributed product package
@@ -766,7 +766,7 @@ GitHub Linguist (github-linguist/linguist)
    - This entry is included as an acknowledgement/reference entry.
    - It should not be read as a claim that the github-linguist gem, its
      vendor tree, or its Ruby/native dependencies were confirmed as bundled
-     into the shipped BundleWeave PRO package from the reviewed snapshot.
+     into the shipped CodeFlatten PRO package from the reviewed snapshot.
 
    License:
    - MIT License.
@@ -796,20 +796,20 @@ customer-facing third-party notice entries for the current product package:
   Examples include makeappx.exe, signtool.exe, appcert.exe, MSBuild,
   Visual Studio toolchain components, and related build scripts. These were
   treated as build or validation tooling, not as customer-facing product
-  components redistributed as part of BundleWeave PRO.
+  components redistributed as part of CodeFlatten PRO.
 
 - Microsoft Store / Partner Center platform services
   Reviewed as external distribution, entitlement, transaction, and
   diagnostics platform services, not as redistributed software components
   inside the product package.
 
-- Product logos, icons, and Store artwork under BundleWeave /
+- Product logos, icons, and Store artwork under CodeFlatten /
   BestToolsForever branding
   Reviewed as first-party assets, not third-party software notices.
 
 - Legacy local-license artifacts preserved for history/audit only
   These were explicitly identified in the repository as legacy-only and not
-  part of the Microsoft Store licensing model for the current BundleWeave
+  part of the Microsoft Store licensing model for the current CodeFlatten
   PRO product.
 
 ======================================================================
@@ -841,7 +841,7 @@ BOTTOM LINE
 ======================================================================
 
 Based on the reviewed repository dump and package evidence, the narrow,
-production-oriented third-party notice set for BundleWeave PRO is:
+production-oriented third-party notice set for CodeFlatten PRO is:
 - Python
 - Tcl/Tk
 - Pillow
@@ -853,6 +853,6 @@ GitHub Linguist because the reviewed product snapshot explicitly references
 This file is intentionally limited to components that were confirmed as
 relevant to the current distributed product package without guessing at
 unproven license provenance.`
-            }
         }
-    };
+    }
+};

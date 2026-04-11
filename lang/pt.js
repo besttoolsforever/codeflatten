@@ -1,222 +1,222 @@
 window.translations = window.translations || {};
 window.translations.pt = {
-        shared: {
-            nav: { home: "Início", support: "Suporte", legal: "Legal", step5: "Passo 5" },
-            footer: {
-                description: "Software de precisão para uso no mundo real.",
-                social: { github: "GitHub", linkedin: "LinkedIn" },
-                privacy: "Política de Privacidade",
-                terms: "Termos de Serviço",
-                copyright_prefix: "©",
-                copyright_suffix: "BestToolsForever."
+    shared: {
+        nav: { home: "Início", support: "Suporte", legal: "Legal", step5: "Passo 5" },
+        footer: {
+            description: "Software de precisão para uso no mundo real.",
+            social: { github: "GitHub", linkedin: "LinkedIn" },
+            privacy: "Política de Privacidade",
+            terms: "Termos de Serviço",
+            copyright_prefix: "©",
+            copyright_suffix: "BestToolsForever."
+        }
+    },
+    home: {
+        title: "BestToolsForever | Software Utilitário de Precisão",
+        hero: {
+            label: "Software de Precisão",
+            title: "Acelere seu fluxo de Vibe Coding.",
+            subtitle: "A ferramenta definitiva local-first para construtores modernos. Transformando bases de código complexas em contexto estruturado para IA em segundos.",
+            cta: "Obter CodeFlatten PRO"
+        },
+        studio: {
+            label: "ESTÚDIO DE SOFTWARE INDIE",
+            title: "Criando Permanência <br/> <span class=\"text-secondary\">Digital.</span>",
+            subtitle: "Um estúdio de software independente liderado por Luiz E. L. Junior. Criamos ferramentas que priorizam a utilidade, a precisão e a sensação editorial de softwares de alto padrão.",
+            lead_dev: "Desenvolvedor Líder",
+            btn_windows: "Windows v1.0",
+            btn_store: "Instalar via Microsoft Store",
+            flagship: "Produto Principal",
+            flagship_desc: "A ferramenta utilitária definitiva do Windows para desenvolvedores. Organize, entrelace e exporte projetos complexos de forma eficiente para ingestão de contexto por IA."
+        },
+        vibe: {
+            title: "Feito para o Vibe Coding",
+            desc: "Não perca tempo copiando e colando. O CodeFlatten PRO prepara todo o seu ambiente para LLMs, garantindo contexto estrutural perfeito e eficiência de tokens.",
+            feature1: "Bundling com Consciência de Contexto",
+            feature2: "Otimização de Tokens",
+            feature3: "Prompting Instantâneo para IA",
+            llm_ready_title: "Contexto Pronto para LLM",
+            llm_ready_desc: "Agregue seu código para Claude, ChatGPT ou Gemini em um clique."
+        },
+        security: {
+            title: "Privacidade por Design",
+            desc: "100% Local-First. Seu código proprietário nunca sai da sua máquina a menos que você o envie. Sem processamento em nuvem, sem registro de dados.",
+            badge: "Performance Nativa do Windows"
+        },
+        integration: {
+            title: "Integração Perfeita com o Windows",
+            desc: "O CodeFlatten PRO se integra diretamente ao Shell do Windows. Clique com o botão direito em qualquer pasta ou seleção de arquivos para gerar seu bundle instantaneamente.",
+            feature1: "Menu de Contexto Integrado",
+            feature2: "Processamento em Segundo Plano",
+            feature3: "Bundling de Seleção"
+        },
+        redactor: {
+            title: "Redator Inteligente",
+            desc: "A segurança não é uma sugestão, é uma funcionalidade. Proteja chaves de API, credenciais e lógica proprietária com nosso Redator de Conteúdo baseado em regras antes de compartilhar com a IA.",
+            badge: "Exportações Seguras para IA"
+        },
+        profiles: {
+            title: "Automação em Escala",
+            desc: "Salve suas configurações favoritas como Perfis. Use Overrides Baseados em Diretório para aplicar automaticamente as regras certas para projetos específicos.",
+            feature1: "Sincronize Perfis via Nuvem",
+            feature2: "Overrides de Diretório",
+            feature3: "Meta-Cabeçalhos Personalizados"
+        },
+        features: {
+            title: "Capacidades Centrais",
+            codeflatten: {
+                name: "CodeFlatten PRO",
+                desc: "A ferramenta de nível profissional para documentação de projetos, preparação de contexto para IA e transformação de texto em larga escala. Otimizado para Windows."
+            },
+            workflow: {
+                title: "Projetado para Eficiência",
+                step1: { title: "Defina a Estrutura", desc: "Construa árvores de pastas e cabeçalhos manualmente ou use presets automáticos." },
+                step2: { title: "Proteja o Conteúdo", desc: "Aplique regras de redação para proteger dados sensíveis antes da exportação." },
+                step3: { title: "Exporte e Construa", desc: "Gere bundles prontos para IA via interface ou menu de contexto do Windows." }
+            },
+            learn_more: "Saiba Mais"
+        },
+        comparison: {
+            title: "Grátis vs. Premium",
+            free: "2 Perfis, 1 Regra de Redação, 1 Override de Diretório",
+            premium: "Perfis Ilimitados, Redação Avançada, Overrides Prioritários, Licença Sincronizada via Store",
+            cta: "Obter CodeFlatten PRO"
+        },
+    },
+    step5: {
+        title: "Passo 5 — Exclusões e Segurança | CodeFlatten PRO",
+        hero: {
+            badge: "Guia Oficial do Wizard",
+            title: "Passo 5 — Exclusões e Segurança",
+            subtitle: "Aprenda a montar filtros confiáveis, reduzir ruído no bundle e evitar exportações grandes ou perigosas sem sacrificar o controle do projeto.",
+            cta1: "Ver regras práticas",
+            cta2: "Entender o Safety Scan"
+        },
+        quick: {
+            title: "Resumo rápido",
+            item1: "Cada linha da skip list é testada contra o nome do item e também contra o caminho completo.",
+            item2: "Se uma pasta casar com a regra, aquele ramo inteiro deixa de ser lido.",
+            item3: "Itens pulados podem aparecer como placeholder na árvore ou ficar totalmente ocultos.",
+            item4: "Safety Scan limita profundidade, quantidade de arquivos e tamanho total. Path Guard bloqueia roots e pastas críticas."
+        },
+        engine: {
+            card1: { title: "1. O que casa com a regra", body: "O motor usa padrões no estilo fnmatch. Uma regra pode casar com o nome isolado do arquivo ou da pasta, ou com o caminho completo." },
+            card2: { title: "2. O que acontece depois", body: "Se uma regra atingir uma pasta, o CodeFlatten PRO interrompe a leitura daquele nó. Tudo que estiver dentro dela é implicitamente ignorado." },
+            card3: { title: "3. O que entra no bundle", body: "Arquivos de texto elegíveis entram no bundle. Binários e formatos não suportados podem aparecer só como referência, se essa opção estiver ativada." }
+        },
+        rules: {
+            title: "Regras práticas para usar no dia a dia: Amplo suporte ao padrão fnmatch.",
+            subtitle: "Use nomes exatos para exclusões cirúrgicas. Use wildcards para tipos de arquivo, padrões recorrentes ou filtros amplos.",
+            jump: "Ver exemplo visual",
+            exact: { title: "Exclusão direta por nome", body: "Quando você quer tirar uma pasta ou arquivo específico do bundle, prefira o nome exato do nó.", when: "Quando a sua intenção é bloquear uma pasta inteira em qualquer ponto da árvore, sem depender de barras ou caminhos completos." },
+            wild: { title: "Wildcards para extensões e famílias de arquivo", body: "Quando o alvo é um padrão repetido, use wildcards simples. Eles são ideais para testes, locks, imagens, artefatos de build e segredos recorrentes.", ex1: "Ignora todos os arquivos de log.", ex2: "Ignora múltiplas variantes de arquivos de teste.", ex3: "Evita anexar imagens binárias ao bundle.", ex4: "Ajuda a bloquear chaves e arquivos sensíveis." },
+            broad: { title: "Padrões amplos e flexíveis", body: "Padrões como *cache* ou **cache** funcionam como filtros amplos por substring. Eles são úteis quando você quer pegar múltiplas variações, mas podem excluir mais conteúdo do que o esperado.", tip: "Use esse estilo quando sua meta é abrangência, não precisão. Para excluir uma pasta específica, continue preferindo o nome exato." },
+            thumb1: "Quer bloquear uma pasta específica? Use <strong>nome exato</strong>.",
+            thumb2: "Quer bloquear uma família de arquivos? Use <strong>wildcards por extensão</strong>.",
+            thumb3: "Quer pegar qualquer ocorrência de um termo? Use <strong>padrão amplo</strong> com cautela."
+        },
+        demo: {
+            title: "Exemplo visual",
+            subtitle: "Abaixo, um projeto genérico antes do filtro e as regras aplicadas no Passo 5.",
+            reading: "Leitura do motor",
+            reading_body: "A pasta <span class=\"code-chip\">ui</span> é removida como ramo inteiro; <span class=\"code-chip\">logo.png</span> e <span class=\"code-chip\">app.test.ts</span> são filtrados por padrão; <span class=\"code-chip\">.env</span> sai por nome exato.",
+            before: "Antes",
+            after: "Depois",
+            note: "Se a visibilidade de ignorados estiver em “Ocultar completamente”, os placeholders acima desaparecem da árvore."
+        },
+        safety: {
+            title: "Safety Scan e Path Guard",
+            subtitle: "O Passo 5 não serve apenas para excluir ruído. Ele também protege contra exportações acidentais muito grandes, profundas ou perigosas.",
+            h3_files: "Limite de Arquivos",
+            h3_size: "Limite de Tamanho (MB)",
+            h3_depth: "Profundidade de Pastas",
+            h3_guard: "Path Guard",
+            files: "Interrompe a operação quando a contagem de arquivos de texto elegíveis ultrapassa o limite configurado.",
+            size: "Evita bundles gigantescos quando o tamanho acumulado do conteúdo ultrapassa o teto definido.",
+            depth: "Ajuda a impedir árvores excessivamente profundas, loops ou estruturas acidentalmente enormes.",
+            guard: "Bloqueia por padrão roots de disco e diretórios críticos, como <span class=\"code-chip\">C:\\</span> e <span class=\"code-chip\">C:\\Windows</span>.",
+            trigger: { title: "Quando um limite dispara", body: "A exportação é abortada de forma segura. Em vez de gerar um bundle incompleto ou custoso demais, o sistema grava um pequeno arquivo explicando o motivo da interrupção." }
+        },
+        ai: {
+            badge: "Recomendação opcional",
+            title: "Assistência opcional com IA para modularizar o projeto",
+            body: "Em projetos grandes ou heterogêneos, você pode usar um snapshot da árvore do repositório com uma LLM de sua preferência para gerar uma primeira proposta de regras do Passo 5. Esse uso ajuda na modularização e na redução de ruído, mas não substitui a etapa de sanitização do conteúdo final.",
+            note: "Esse fluxo é assistido e revisável. O objetivo não é substituir seu critério técnico, e sim acelerar a criação de uma skip list inicial que depois pode ser refinada diretamente no CodeFlatten PRO. Credenciais, segredos e conteúdo sensível dentro de arquivos incluídos devem ser tratados separadamente no Content Redactor.",
+            guard: { title: "Importante: filtro não é redaction", body: "O Passo 5 ajuda a decidir o que entra ou não entra no bundle. A sanitização do texto final pertence ao Passo 6, com o Content Redactor. Use os dois em conjunto quando precisar modularização, redução de ruído e revisão de conteúdo sensível." },
+            when: { label: "Quando vale a pena", 1: "Monorepos, stacks híbridas ou bases com muitos diretórios auxiliares.", 2: "Quando você quer modularizar dumps por objetivo: arquitetura, runtime, UI, integrações ou documentação.", 3: "Quando o filtro manual ficaria repetitivo, demorado ou amplo demais." },
+            flow: { title: "Fluxo sugerido", 1: "Gere um snapshot da árvore e defina o objetivo do dump.", 2: "Peça à LLM apenas uma skip list inicial para preservar o núcleo e reduzir ruído.", 3: "Revise as regras, adapte ao projeto e só então aplique no Passo 5." },
+            prompt: { label: "Exemplo de pedido", body: "Analise o snapshot do repositório no idioma do usuário e gere apenas uma skip list otimizada em padrão fnmatch, pronta para uso, excluindo ruído sem ferir a arquitetura: use nomes exatos para remover pastas ou arquivos específicos, wildcards para famílias recorrentes de arquivos e padrões amplos com cautela; considere que cada regra pode casar tanto com o nome do item quanto com o caminho completo, e que, se uma pasta casar, todo o ramo deve ser ignorado. Remova testes, docs não essenciais, assets binários, caches, logs, builds, locks, artefatos temporários, segredos e redundâncias, mas preserve lógica central, módulos funcionais, runtime, providers, adapters, fluxo de execução e tudo que sustente entendimento estrutural do sistema.\nNa dúvida, preserve código relevante e exclua apenas ruído.\n\nPriorize padrões como:\n*test*\n*tests*\n*docs*\n*example*\n*examples*\n*bench*\n*benchmark*\n*fixture*\n*fixtures*\n*mock*\n*mocks*\n*__pycache__*\n*node_modules*\n*.log\n*.lock\n*.tmp\n*.cache\ndist*\nbuild*\ntarget*\ncoverage*", note: "Use a resposta como ponto de partida. O resultado ideal é revisável, enxuto e alinhado ao objetivo específico do dump — nunca como substituto da revisão humana ou do Content Redactor." }
+        },
+        ack: {
+            title: "Agradecimentos e Terceiros",
+            body: "O CodeFlatten PRO apresenta uma saída estatística no estilo GitHub Linguist, inspirada no projeto de código aberto <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> do GitHub. O motor subjacente também utiliza os recursos de Python, Tcl/Tk e Pillow."
+        },
+        check: {
+            title: "Checklist rápido antes de gerar",
+            item1: "Use nomes exatos para exclusões cirúrgicas.",
+            item2: "Use wildcards para extensões, testes, locks e artefatos recorrentes.",
+            item3: "Deixe o Safety Scan ligado na maior parte dos casos.",
+            item4: "Deixe o Path Guard ligado para evitar roots e pastas críticas.",
+            item5: "Ative a referência de binários quando quiser contexto estrutural sem embutir o conteúdo.",
+            item6: "Revise o resultado final antes de compartilhar com terceiros ou com uma IA."
+        },
+        support_cta: {
+            label: "Precisa de ajuda?",
+            title: "Suporte técnico",
+            body: "Se algo não estiver claro, envie um relato curto com prints e o comportamento observado. Isso acelera muito o diagnóstico."
+        },
+        labels: {
+            recommended: "Recomendado",
+            why: "Quando usar",
+            rule_of_thumb: "Regra de bolso",
+            reading: "Leitura do motor",
+            before: "Antes",
+            after: "Depois",
+            when_worth: "Quando vale a pena",
+            prompt_label: "Exemplo de pedido"
+        }
+    },
+    support: {
+        title: "Suporte - CodeFlatten PRO | BestToolsForever",
+        hero: {
+            label: "Suporte Técnico",
+            title: "Centro de Ajuda CodeFlatten PRO.",
+            subtitle: "Assistência dedicada para nossa suíte de utilitários de alta performance. Volte a construir com precisão.",
+            back_to_home: "Voltar para Início"
+        },
+        faq: {
+            title: "Base de Conhecimento e Suporte",
+            item1: {
+                q: "Comportamento inesperado ou erros na interface?",
+                a: "Uma desinstalação e nova instalação limpa através da Microsoft Store geralmente resolve problemas de cache local e sincronização de atualizações."
+            },
+            item2: {
+                q: "Quais são os benefícios do Premium Unlock?",
+                a: "A versão Premium remove as limitações do número de perfis, permite regras de redação avançadas múltiplas e habilita overrides de configuração baseados no diretório."
+            },
+            item3: {
+                q: "Como as licenças são gerenciadas?",
+                a: "Todo o licenciamento é gerenciado com segurança pela Microsoft Store. Sua compra está vinculada à sua conta e é sincronizada automaticamente entre seus dispositivos Windows."
             }
         },
-        home: {
-            title: "BestToolsForever | Software Utilitário de Precisão",
-            hero: {
-                label: "Software de Precisão",
-                title: "Acelere seu fluxo de Vibe Coding.",
-                subtitle: "A ferramenta definitiva local-first para construtores modernos. Transformando bases de código complexas em contexto estruturado para IA em segundos.",
-                cta: "Obter BundleWeave PRO"
-            },
-            studio: {
-                label: "ESTÚDIO DE SOFTWARE INDIE",
-                title: "Criando Permanência <br/> <span class=\"text-secondary\">Digital.</span>",
-                subtitle: "Um estúdio de software independente liderado por Luiz E. L. Junior. Criamos ferramentas que priorizam a utilidade, a precisão e a sensação editorial de softwares de alto padrão.",
-                lead_dev: "Desenvolvedor Líder",
-                btn_windows: "Windows v1.0",
-                btn_store: "Instalar via Microsoft Store",
-                flagship: "Produto Principal",
-                flagship_desc: "A ferramenta utilitária definitiva do Windows para desenvolvedores. Organize, entrelace e exporte projetos complexos de forma eficiente para ingestão de contexto por IA."
-            },
-            vibe: {
-                title: "Feito para o Vibe Coding",
-                desc: "Não perca tempo copiando e colando. O BundleWeave PRO prepara todo o seu ambiente para LLMs, garantindo contexto estrutural perfeito e eficiência de tokens.",
-                feature1: "Bundling com Consciência de Contexto",
-                feature2: "Otimização de Tokens",
-                feature3: "Prompting Instantâneo para IA",
-                llm_ready_title: "Contexto Pronto para LLM",
-                llm_ready_desc: "Agregue seu código para Claude, ChatGPT ou Gemini em um clique."
-            },
-            security: {
-                title: "Privacidade por Design",
-                desc: "100% Local-First. Seu código proprietário nunca sai da sua máquina a menos que você o envie. Sem processamento em nuvem, sem registro de dados.",
-                badge: "Performance Nativa do Windows"
-            },
-            integration: {
-                title: "Integração Perfeita com o Windows",
-                desc: "O BundleWeave PRO se integra diretamente ao Shell do Windows. Clique com o botão direito em qualquer pasta ou seleção de arquivos para gerar seu bundle instantaneamente.",
-                feature1: "Menu de Contexto Integrado",
-                feature2: "Processamento em Segundo Plano",
-                feature3: "Bundling de Seleção"
-            },
-            redactor: {
-                title: "Redator Inteligente",
-                desc: "A segurança não é uma sugestão, é uma funcionalidade. Proteja chaves de API, credenciais e lógica proprietária com nosso Redator de Conteúdo baseado em regras antes de compartilhar com a IA.",
-                badge: "Exportações Seguras para IA"
-            },
-            profiles: {
-                title: "Automação em Escala",
-                desc: "Salve suas configurações favoritas como Perfis. Use Overrides Baseados em Diretório para aplicar automaticamente as regras certas para projetos específicos.",
-                feature1: "Sincronize Perfis via Nuvem",
-                feature2: "Overrides de Diretório",
-                feature3: "Meta-Cabeçalhos Personalizados"
-            },
-            features: {
-                title: "Capacidades Centrais",
-                bundleweave: {
-                    name: "BundleWeave PRO",
-                    desc: "A ferramenta de nível profissional para documentação de projetos, preparação de contexto para IA e transformação de texto em larga escala. Otimizado para Windows."
-                },
-                workflow: {
-                    title: "Projetado para Eficiência",
-                    step1: { title: "Defina a Estrutura", desc: "Construa árvores de pastas e cabeçalhos manualmente ou use presets automáticos." },
-                    step2: { title: "Proteja o Conteúdo", desc: "Aplique regras de redação para proteger dados sensíveis antes da exportação." },
-                    step3: { title: "Exporte e Construa", desc: "Gere bundles prontos para IA via interface ou menu de contexto do Windows." }
-                },
-                learn_more: "Saiba Mais"
-            },
-            comparison: {
-                title: "Grátis vs. Premium",
-                free: "2 Perfis, 1 Regra de Redação, 1 Override de Diretório",
-                premium: "Perfis Ilimitados, Redação Avançada, Overrides Prioritários, Licença Sincronizada via Store",
-                cta: "Obter BundleWeave PRO"
-            },
+        report: {
+            title: "Relatar um Problema",
+            description: "Nossa equipe de engenharia investiga cada relato. Para agilizar sua solicitação:",
+            item1: "Por favor, inclua uma captura de tela do erro.",
+            item2: "Forneça sua build do Windows.",
+            item3: "Dê uma descrição detalhada do problema.",
+            contact_label: "Canal de Contato"
+        }
+    },
+    legal: {
+        title: "Informações Legais | BestToolsForever",
+        hero: {
+            title: "Legal & Privacidade",
+            subtitle: "Nossos termos, acordos e compromisso com a privacidade dos seus dados."
         },
-        step5: {
-            title: "Passo 5 — Exclusões e Segurança | BundleWeave PRO",
-            hero: {
-                badge: "Guia Oficial do Wizard",
-                title: "Passo 5 — Exclusões e Segurança",
-                subtitle: "Aprenda a montar filtros confiáveis, reduzir ruído no bundle e evitar exportações grandes ou perigosas sem sacrificar o controle do projeto.",
-                cta1: "Ver regras práticas",
-                cta2: "Entender o Safety Scan"
-            },
-            quick: {
-                title: "Resumo rápido",
-                item1: "Cada linha da skip list é testada contra o nome do item e também contra o caminho completo.",
-                item2: "Se uma pasta casar com a regra, aquele ramo inteiro deixa de ser lido.",
-                item3: "Itens pulados podem aparecer como placeholder na árvore ou ficar totalmente ocultos.",
-                item4: "Safety Scan limita profundidade, quantidade de arquivos e tamanho total. Path Guard bloqueia roots e pastas críticas."
-            },
-            engine: {
-                card1: { title: "1. O que casa com a regra", body: "O motor usa padrões no estilo fnmatch. Uma regra pode casar com o nome isolado do arquivo ou da pasta, ou com o caminho completo." },
-                card2: { title: "2. O que acontece depois", body: "Se uma regra atingir uma pasta, o BundleWeave PRO interrompe a leitura daquele nó. Tudo que estiver dentro dela é implicitamente ignorado." },
-                card3: { title: "3. O que entra no bundle", body: "Arquivos de texto elegíveis entram no bundle. Binários e formatos não suportados podem aparecer só como referência, se essa opção estiver ativada." }
-            },
-            rules: {
-                title: "Regras práticas para usar no dia a dia: Amplo suporte ao padrão fnmatch.",
-                subtitle: "Use nomes exatos para exclusões cirúrgicas. Use wildcards para tipos de arquivo, padrões recorrentes ou filtros amplos.",
-                jump: "Ver exemplo visual",
-                exact: { title: "Exclusão direta por nome", body: "Quando você quer tirar uma pasta ou arquivo específico do bundle, prefira o nome exato do nó.", when: "Quando a sua intenção é bloquear uma pasta inteira em qualquer ponto da árvore, sem depender de barras ou caminhos completos." },
-                wild: { title: "Wildcards para extensões e famílias de arquivo", body: "Quando o alvo é um padrão repetido, use wildcards simples. Eles são ideais para testes, locks, imagens, artefatos de build e segredos recorrentes.", ex1: "Ignora todos os arquivos de log.", ex2: "Ignora múltiplas variantes de arquivos de teste.", ex3: "Evita anexar imagens binárias ao bundle.", ex4: "Ajuda a bloquear chaves e arquivos sensíveis." },
-                broad: { title: "Padrões amplos e flexíveis", body: "Padrões como *cache* ou **cache** funcionam como filtros amplos por substring. Eles são úteis quando você quer pegar múltiplas variações, mas podem excluir mais conteúdo do que o esperado.", tip: "Use esse estilo quando sua meta é abrangência, não precisão. Para excluir uma pasta específica, continue preferindo o nome exato." },
-                thumb1: "Quer bloquear uma pasta específica? Use <strong>nome exato</strong>.",
-                thumb2: "Quer bloquear uma família de arquivos? Use <strong>wildcards por extensão</strong>.",
-                thumb3: "Quer pegar qualquer ocorrência de um termo? Use <strong>padrão amplo</strong> com cautela."
-            },
-            demo: {
-                title: "Exemplo visual",
-                subtitle: "Abaixo, um projeto genérico antes do filtro e as regras aplicadas no Passo 5.",
-                reading: "Leitura do motor",
-                reading_body: "A pasta <span class=\"code-chip\">ui</span> é removida como ramo inteiro; <span class=\"code-chip\">logo.png</span> e <span class=\"code-chip\">app.test.ts</span> são filtrados por padrão; <span class=\"code-chip\">.env</span> sai por nome exato.",
-                before: "Antes",
-                after: "Depois",
-                note: "Se a visibilidade de ignorados estiver em “Ocultar completamente”, os placeholders acima desaparecem da árvore."
-            },
-            safety: {
-                title: "Safety Scan e Path Guard",
-                subtitle: "O Passo 5 não serve apenas para excluir ruído. Ele também protege contra exportações acidentais muito grandes, profundas ou perigosas.",
-                h3_files: "Limite de Arquivos",
-                h3_size: "Limite de Tamanho (MB)",
-                h3_depth: "Profundidade de Pastas",
-                h3_guard: "Path Guard",
-                files: "Interrompe a operação quando a contagem de arquivos de texto elegíveis ultrapassa o limite configurado.",
-                size: "Evita bundles gigantescos quando o tamanho acumulado do conteúdo ultrapassa o teto definido.",
-                depth: "Ajuda a impedir árvores excessivamente profundas, loops ou estruturas acidentalmente enormes.",
-                guard: "Bloqueia por padrão roots de disco e diretórios críticos, como <span class=\"code-chip\">C:\\</span> e <span class=\"code-chip\">C:\\Windows</span>.",
-                trigger: { title: "Quando um limite dispara", body: "A exportação é abortada de forma segura. Em vez de gerar um bundle incompleto ou custoso demais, o sistema grava um pequeno arquivo explicando o motivo da interrupção." }
-            },
-            ai: {
-                badge: "Recomendação opcional",
-                title: "Assistência opcional com IA para modularizar o projeto",
-                body: "Em projetos grandes ou heterogêneos, você pode usar um snapshot da árvore do repositório com uma LLM de sua preferência para gerar uma primeira proposta de regras do Passo 5. Esse uso ajuda na modularização e na redução de ruído, mas não substitui a etapa de sanitização do conteúdo final.",
-                note: "Esse fluxo é assistido e revisável. O objetivo não é substituir seu critério técnico, e sim acelerar a criação de uma skip list inicial que depois pode ser refinada diretamente no BundleWeave PRO. Credenciais, segredos e conteúdo sensível dentro de arquivos incluídos devem ser tratados separadamente no Content Redactor.",
-                guard: { title: "Importante: filtro não é redaction", body: "O Passo 5 ajuda a decidir o que entra ou não entra no bundle. A sanitização do texto final pertence ao Passo 6, com o Content Redactor. Use os dois em conjunto quando precisar modularização, redução de ruído e revisão de conteúdo sensível." },
-                when: { label: "Quando vale a pena", 1: "Monorepos, stacks híbridas ou bases com muitos diretórios auxiliares.", 2: "Quando você quer modularizar dumps por objetivo: arquitetura, runtime, UI, integrações ou documentação.", 3: "Quando o filtro manual ficaria repetitivo, demorado ou amplo demais." },
-                flow: { title: "Fluxo sugerido", 1: "Gere um snapshot da árvore e defina o objetivo do dump.", 2: "Peça à LLM apenas uma skip list inicial para preservar o núcleo e reduzir ruído.", 3: "Revise as regras, adapte ao projeto e só então aplique no Passo 5." },
-                prompt: { label: "Exemplo de pedido", body: "Analise o snapshot do repositório no idioma do usuário e gere apenas uma skip list otimizada em padrão fnmatch, pronta para uso, excluindo ruído sem ferir a arquitetura: use nomes exatos para remover pastas ou arquivos específicos, wildcards para famílias recorrentes de arquivos e padrões amplos com cautela; considere que cada regra pode casar tanto com o nome do item quanto com o caminho completo, e que, se uma pasta casar, todo o ramo deve ser ignorado. Remova testes, docs não essenciais, assets binários, caches, logs, builds, locks, artefatos temporários, segredos e redundâncias, mas preserve lógica central, módulos funcionais, runtime, providers, adapters, fluxo de execução e tudo que sustente entendimento estrutural do sistema.\nNa dúvida, preserve código relevante e exclua apenas ruído.\n\nPriorize padrões como:\n*test*\n*tests*\n*docs*\n*example*\n*examples*\n*bench*\n*benchmark*\n*fixture*\n*fixtures*\n*mock*\n*mocks*\n*__pycache__*\n*node_modules*\n*.log\n*.lock\n*.tmp\n*.cache\ndist*\nbuild*\ntarget*\ncoverage*", note: "Use a resposta como ponto de partida. O resultado ideal é revisável, enxuto e alinhado ao objetivo específico do dump — nunca como substituto da revisão humana ou do Content Redactor." }
-            },
-            ack: {
-                title: "Agradecimentos e Terceiros",
-                body: "O BundleWeave PRO apresenta uma saída estatística no estilo GitHub Linguist, inspirada no projeto de código aberto <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> do GitHub. O motor subjacente também utiliza os recursos de Python, Tcl/Tk e Pillow."
-            },
-            check: {
-                title: "Checklist rápido antes de gerar",
-                item1: "Use nomes exatos para exclusões cirúrgicas.",
-                item2: "Use wildcards para extensões, testes, locks e artefatos recorrentes.",
-                item3: "Deixe o Safety Scan ligado na maior parte dos casos.",
-                item4: "Deixe o Path Guard ligado para evitar roots e pastas críticas.",
-                item5: "Ative a referência de binários quando quiser contexto estrutural sem embutir o conteúdo.",
-                item6: "Revise o resultado final antes de compartilhar com terceiros ou com uma IA."
-            },
-            support_cta: {
-                label: "Precisa de ajuda?",
-                title: "Suporte técnico",
-                body: "Se algo não estiver claro, envie um relato curto com prints e o comportamento observado. Isso acelera muito o diagnóstico."
-            },
-            labels: {
-                recommended: "Recomendado",
-                why: "Quando usar",
-                rule_of_thumb: "Regra de bolso",
-                reading: "Leitura do motor",
-                before: "Antes",
-                after: "Depois",
-                when_worth: "Quando vale a pena",
-                prompt_label: "Exemplo de pedido"
-            }
-        },
-        support: {
-            title: "Suporte - BundleWeave PRO | BestToolsForever",
-            hero: {
-                label: "Suporte Técnico",
-                title: "Centro de Ajuda BundleWeave PRO.",
-                subtitle: "Assistência dedicada para nossa suíte de utilitários de alta performance. Volte a construir com precisão.",
-                back_to_home: "Voltar para Início"
-            },
-            faq: {
-                title: "Base de Conhecimento e Suporte",
-                item1: {
-                    q: "Comportamento inesperado ou erros na interface?",
-                    a: "Uma desinstalação e nova instalação limpa através da Microsoft Store geralmente resolve problemas de cache local e sincronização de atualizações."
-                },
-                item2: {
-                    q: "Quais são os benefícios do Premium Unlock?",
-                    a: "A versão Premium remove as limitações do número de perfis, permite regras de redação avançadas múltiplas e habilita overrides de configuração baseados no diretório."
-                },
-                item3: {
-                    q: "Como as licenças são gerenciadas?",
-                    a: "Todo o licenciamento é gerenciado com segurança pela Microsoft Store. Sua compra está vinculada à sua conta e é sincronizada automaticamente entre seus dispositivos Windows."
-                }
-            },
-            report: {
-                title: "Relatar um Problema",
-                description: "Nossa equipe de engenharia investiga cada relato. Para agilizar sua solicitação:",
-                item1: "Por favor, inclua uma captura de tela do erro.",
-                item2: "Forneça sua build do Windows.",
-                item3: "Dê uma descrição detalhada do problema.",
-                contact_label: "Canal de Contato"
-            }
-        },
-        legal: {
-            title: "Informações Legais | BestToolsForever",
-            hero: {
-                title: "Legal & Privacidade",
-                subtitle: "Nossos termos, acordos e compromisso com a privacidade dos seus dados."
-            },
-            eula: {
-                title: "Contrato de Licença de Usuário Final (EULA)",
-                content: `(Nota: Este documento legal está disponível apenas no idioma inglês.)
+        eula: {
+            title: "Contrato de Licença de Usuário Final (EULA)",
+            content: `(Nota: Este documento legal está disponível apenas no idioma inglês.)
 
 BUNDLEWEAVE PRO
 END USER LICENSE AGREEMENT (EULA)
@@ -232,7 +232,7 @@ THIS AGREEMENT APPLIES TO THE BASE APPLICATION, ANY INCLUDED COMPONENTS, ANY UPD
 This Agreement is entered into between you ("User," "you," or "your") and Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our").
 
 2. SOFTWARE DESCRIPTION
-BundleWeave PRO is a Windows software application designed to help users organize, filter, transform, review, and export project and text-based materials into structured output for documentation, review, and AI-related workflows.
+CodeFlatten PRO is a Windows software application designed to help users organize, filter, transform, review, and export project and text-based materials into structured output for documentation, review, and AI-related workflows.
 
 The Software is designed to operate primarily on the local device. It may process files, folders, paths, rules, preferences, prompts, and other inputs selected or configured by the User, and it may generate outputs, manifests, diagnostics, reports, logs, and related artifacts based on those inputs and configurations.
 
@@ -439,17 +439,17 @@ The Developer may also identify current support, legal, or privacy contact chann
 By installing, accessing, or using the Software, you acknowledge that you have read, understood, and agreed to this Agreement.
 
 `
-            },
-            privacy: {
-                title: "Política de Privacidade",
-                content: `(Nota: Este documento legal está disponível apenas no idioma inglês.)
+        },
+        privacy: {
+            title: "Política de Privacidade",
+            content: `(Nota: Este documento legal está disponível apenas no idioma inglês.)
 
 BUNDLEWEAVE PRO
 PRIVACY POLICY
 Version 1.0  
 Last Updated: March 21, 2026
 
-This Privacy Policy explains how Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our"), handles personal data in connection with BundleWeave PRO (the "App").
+This Privacy Policy explains how Luiz E. L. Junior, doing business as BestToolsForever ("Developer," "we," "us," or "our"), handles personal data in connection with CodeFlatten PRO (the "App").
 
 This Policy is intended to apply to the Microsoft Store version of the App and any other distribution of the App unless a distribution-specific notice or supplemental privacy notice states otherwise.
 
@@ -472,7 +472,7 @@ This Policy does not govern:
 - data that has been irreversibly anonymized so that it no longer relates to an identified or identifiable person.
 
 3. HOW THE APP GENERALLY WORKS
-BundleWeave PRO is designed to operate primarily on your local device. In ordinary use, the App may access and process files, folders, file names, folder names, paths, user-created settings, profiles, prompts, rules, logs, manifests, reports, and generated output on the device in order to provide its features.
+CodeFlatten PRO is designed to operate primarily on your local device. In ordinary use, the App may access and process files, folders, file names, folder names, paths, user-created settings, profiles, prompts, rules, logs, manifests, reports, and generated output on the device in order to provide its features.
 
 Not all data that the App touches is sent to us. In many cases, information is processed locally and remains under your control unless:
 - the App needs to interact with Microsoft platform or Store services;
@@ -659,13 +659,13 @@ Email: besttoolsforever@outlook.com
 If you contact us about privacy, please include enough information for us to understand your relationship to the App, the issue you are raising, and the country or state whose law you believe applies.
 
 `
-            },
-            ack: {
-                title: "Agradecimentos e Terceiros",
-                content: `BundleWeave PRO
+        },
+        ack: {
+            title: "Agradecimentos e Terceiros",
+            content: `CodeFlatten PRO
 Agradecimentos e Avisos de Terceiros
 
-O BundleWeave PRO pode incluir ou redistribuir componentes de software de terceiros.
+O CodeFlatten PRO pode incluir ou redistribuir componentes de software de terceiros.
 Esses componentes continuam sujeitos a seus próprios direitos autorais, termos de licença,
 e requisitos de aviso. Este arquivo identifica os componentes de terceiros
 que foram confirmados como relevantes para o pacote atual do produto distribuído
@@ -768,7 +768,7 @@ GitHub Linguist (github-linguist/linguist)
    - Esta entrada é incluída como uma entrada de agradecimento/referência.
    - Não deve ser lida como uma alegação de que a gem github-linguist, sua
      árvore vendor, ou suas dependências Ruby/nativas foram confirmadas como empacotadas
-     no pacote BundleWeave PRO enviado a partir do snapshot analisado.
+     no pacote CodeFlatten PRO enviado a partir do snapshot analisado.
 
    Licença:
    - Licença MIT.
@@ -797,21 +797,21 @@ confirmadas de aviso de terceiros voltadas ao cliente para o pacote atual do pro
   Exemplos incluem makeappx.exe, signtool.exe, appcert.exe, MSBuild,
   componentes do conjunto de ferramentas do Visual Studio e scripts de build relacionados. Estes foram
   tratados como ferramentas de build ou validação, não como componentes do produto 
-  voltados ao cliente redistribuídos como parte do BundleWeave PRO.
+  voltados ao cliente redistribuídos como parte do CodeFlatten PRO.
 
 - Plataforma Microsoft Store / Partner Center
   Analisadas como serviços externos de distribuição, direitos, transações e
   serviços de diagnóstico de plataforma, não como componentes de software redistribuídos
   dentro do pacote do produto.
 
-- Logotipos de produtos, ícones e arte da Store sob branding BundleWeave /
+- Logotipos de produtos, ícones e arte da Store sob branding CodeFlatten /
   BestToolsForever
   Analisados como ativos de primeira parte, não avisos de software de terceiros.
 
 - Artefatos de licença local legados preservados apenas para histórico/auditoria
   Esses foram identificados explicitamente no repositório como legados e não
   fazem parte do modelo de licenciamento da Microsoft Store para o produto
-  BundleWeave PRO atual.
+  CodeFlatten PRO atual.
 
 ======================================================================
 RECOMENDAÇÃO DE CONFIRMAÇÃO MANUAL
@@ -839,7 +839,7 @@ RESUMO FINAL
 ======================================================================
 
 Com base no dump do repositório revisado e evidências do pacote, o grupo estreito e 
-orientado à produção de avisos de terceiros para o BundleWeave PRO é:
+orientado à produção de avisos de terceiros para o CodeFlatten PRO é:
 - Python
 - Tcl/Tk
 - Pillow
@@ -849,6 +849,6 @@ GitHub Linguist em razão de aparecer publicamente no passo-a-passo.
 
 Vale declarar explicitamente os limites desse documento que visa ser transparente 
 nos moldes da cópia atual sem fazer inferências adicionais.`
-            }
         }
-    };
+    }
+};

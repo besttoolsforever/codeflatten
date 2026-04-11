@@ -34,11 +34,11 @@ window.translations.cs = {
             label: "Přesný software",
             title: "Zrychlete svůj pracovní postup Vibe Coding.",
             subtitle: "Dokonalý lokální nástroj pro moderní tvůrce. Během sekund přeměňte složité kódové báze na strukturovaný kontext připravený pro AI.",
-            cta: "Získat BundleWeave PRO"
+            cta: "Získat CodeFlatten PRO"
         },
         vibe: {
             title: "Stvořeno pro Vibe Coding",
-            desc: "Neztrácejte čas kopírováním a vkládáním. BundleWeave PRO připraví celé vaše prostředí pro LLM a zajistí dokonalý strukturální kontext a efektivitu tokenů.",
+            desc: "Neztrácejte čas kopírováním a vkládáním. CodeFlatten PRO připraví celé vaše prostředí pro LLM a zajistí dokonalý strukturální kontext a efektivitu tokenů.",
             feature1: "Sdružování s vědomím kontextu",
             feature2: "Optimalizace tokenů",
             feature3: "Okamžité AI promptování",
@@ -52,8 +52,8 @@ window.translations.cs = {
         },
         features: {
             title: "Vybraná řešení",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Dokonalý nástroj pro projektovou dokumentaci, přípravu kontextu pro AI a rozsáhlou transformaci textu. Optimalizováno pro Windows."
             },
             learn_more: "Dozvědět se více"
@@ -68,7 +68,7 @@ window.translations.cs = {
         },
         integration: {
             title: "Bezproblémová integrace s OS",
-            desc: "BundleWeave PRO se integruje přímo do Windows Shellu. Klikněte pravým tlačítkem na jakoukoli složku nebo výběr souborů a okamžitě vygenerujte svůj balíček.",
+            desc: "CodeFlatten PRO se integruje přímo do Windows Shellu. Klikněte pravým tlačítkem na jakoukoli složku nebo výběr souborů a okamžitě vygenerujte svůj balíček.",
             feature1: "Připraveno pro kontextovou nabídku",
             feature2: "Proces na pozadí"
         },
@@ -76,7 +76,7 @@ window.translations.cs = {
             title: "Zdarma vs. Premium",
             free: "2 profily, 1 pravidlo redakce, 1 přepsání adresáře",
             premium: "Neomezené profily, pokročilá redakce, prioritní přepsání, licence synchronizované s Store",
-            cta: "Získat BundleWeave PRO"
+            cta: "Získat CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.cs = {
         ack: { title: "Poděkování a upozornění třetích stran" }
     },
     support: {
-        title: "Podpora - BundleWeave PRO | BestToolsForever",
+        title: "Podpora - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Technická podpora",
-            title: "Centrum nápovědy BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Centrum nápovědy CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Specializovaná pomoc pro naši sadu vysoce výkonných nástrojů. Vraťte se k přesnému budování.",
             back_to_home: "Zpět na domovskou stránku"
         },
@@ -122,7 +122,7 @@ window.translations.cs = {
         }
     },
     step5: {
-        title: "Krok 5 — Výjimky a bezpečnost | BundleWeave PRO",
+        title: "Krok 5 — Výjimky a bezpečnost | CodeFlatten PRO",
         hero: {
             badge: "Oficiální průvodce",
             title: "Krok 5 — Výjimky a bezpečnost",
@@ -139,7 +139,7 @@ window.translations.cs = {
         },
         engine: {
             card1: { title: "1. Co odpovídá pravidlu", body: "Engine používá vzory ve stylu fnmatch. Pravidlo může odpovídat izolovanému názvu souboru nebo složky nebo úplné cestě." },
-            card2: { title: "2. Co se děje potom", body: "Pokud pravidlo zasáhne složku, BundleWeave PRO přeruší čtení daného uzlu. Vše uvnitř je implicitně ignorováno." },
+            card2: { title: "2. Co se děje potom", body: "Pokud pravidlo zasáhne složku, CodeFlatten PRO přeruší čtení daného uzlu. Vše uvnitř je implicitně ignorováno." },
             card3: { title: "3. Co se dostane do balíčku", body: "Kvalifikované textové soubory se dostanou do balíčku. Binární soubory a nepodporované formáty se mohou zobrazit pouze jako odkaz, pokud je tato volba zapnuta." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.cs = {
             badge: "Volitelné doporučení",
             title: "Volitelná podpora AI pro modularizaci projektu",
             body: "U velkých nebo heterogenních projektů můžete použít snímek stromu úložiště s vámi vybraným LLM pro generování prvního návrhu pravidel pro krok 5.",
-            note: "Tento tok je asistovaný a revidovatelný. Cílem není nahradit váš technický úsudek, ale urychlit vytvoření počátečního seznamu k přeskočení, který lze následně doladit přímo v BundleWeave PRO.",
+            note: "Tento tok je asistovaný a revidovatelný. Cílem není nahradit váš technický úsudek, ale urychlit vytvoření počátečního seznamu k přeskočení, který lze následně doladit přímo v CodeFlatten PRO.",
             when: {
                 1: "Monorepa, hybridní stacky nebo báze s mnoha pomocnými adresáři.",
                 2: "Pro modularizaci dumpů podle cíle: architektura, runtime, UI, integrace nebo dokumentace.",
@@ -204,7 +204,7 @@ window.translations.cs = {
         },
         ack: {
             title: "Poděkování a třetí strany",
-            body: "BundleWeave PRO nabízí statistický výstup ve stylu GitHub Linguist, inspirovaný open-source projektem <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> od GitHubu. Základní engine využívá také schopnosti Pythonu, Tcl/Tk a Pillow."
+            body: "CodeFlatten PRO nabízí statistický výstup ve stylu GitHub Linguist, inspirovaný open-source projektem <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> od GitHubu. Základní engine využívá také schopnosti Pythonu, Tcl/Tk a Pillow."
         },
         check: {
             title: "Rychlý kontrolní seznam před generováním",
@@ -220,8 +220,8 @@ window.translations.cs = {
             title: "Technická podpora",
             body: "Pokud je něco nejasné, pošlete krátké hlášení se snímky obrazovky a pozorovaným chováním. To výrazně urychluje diagnostiku."
         },
-            labels: {
-                prompt_label: "Příklad požadavku"
-            }
+        labels: {
+            prompt_label: "Příklad požadavku"
         }
+    }
 };

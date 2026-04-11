@@ -34,11 +34,11 @@ window.translations.it = {
             label: "Software di Precisione",
             title: "Accelera il tuo workflow di Vibe Coding.",
             subtitle: "L'utilità locale definitiva per i builder moderni. Trasforma basi di codice complesse in contesti strutturati e pronti per l'IA in pochi secondi.",
-            cta: "Ottieni BundleWeave PRO"
+            cta: "Ottieni CodeFlatten PRO"
         },
         vibe: {
             title: "Costruito per il Vibe Coding",
-            desc: "Non perdere tempo con il copia-incolla. BundleWeave PRO prepara tutto il tuo ambiente per i LLM, garantendo un perfetto contesto strutturale ed efficienza dei token.",
+            desc: "Non perdere tempo con il copia-incolla. CodeFlatten PRO prepara tutto il tuo ambiente per i LLM, garantendo un perfetto contesto strutturale ed efficienza dei token.",
             feature1: "Bundling sensibile al contesto",
             feature2: "Ottimizzazione dei token",
             feature3: "Prompting IA istantaneo",
@@ -52,8 +52,8 @@ window.translations.it = {
         },
         features: {
             title: "Soluzioni in evidenza",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Lo strumento definitivo per la documentazione di progetto, la preparazione del contesto IA e la trasformazione di testo su larga scala. Ottimizzato per Windows."
             },
             learn_more: "Scopri di più"
@@ -68,7 +68,7 @@ window.translations.it = {
         },
         integration: {
             title: "Integrazione OS Senza Cuciture",
-            desc: "BundleWeave PRO si integra direttamente nella shell di Windows. Fai clic con il tasto destro su qualsiasi cartella o selezione di file per generare istantaneamente il tuo bundle.",
+            desc: "CodeFlatten PRO si integra direttamente nella shell di Windows. Fai clic con il tasto destro su qualsiasi cartella o selezione di file per generare istantaneamente il tuo bundle.",
             feature1: "Pronto per il menu contestuale",
             feature2: "Processo in background"
         },
@@ -76,7 +76,7 @@ window.translations.it = {
             title: "Gratis vs. Premium",
             free: "2 Profili, 1 Regola di Redazione, 1 Override di Directory",
             premium: "Profili illimitati, redazione avanzata, override prioritari, licenze sincronizzate con il Store",
-            cta: "Ottieni BundleWeave PRO"
+            cta: "Ottieni CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.it = {
         ack: { title: "Ringraziamenti e Avvisi di Terze Parti" }
     },
     support: {
-        title: "Supporto - BundleWeave PRO | BestToolsForever",
+        title: "Supporto - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Supporto Tecnico",
-            title: "Centro Assistenza BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Centro Assistenza CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Assistenza dedicata per la nostra suite di utilità ad alte prestazioni. Torna a costruire con precisione.",
             back_to_home: "Torna alla Home"
         },
@@ -122,7 +122,7 @@ window.translations.it = {
         }
     },
     step5: {
-        title: "Passaggio 5 — Esclusioni e Sicurezza | BundleWeave PRO",
+        title: "Passaggio 5 — Esclusioni e Sicurezza | CodeFlatten PRO",
         hero: {
             badge: "Guida Ufficiale della Procedura",
             title: "Passaggio 5 — Esclusioni e Sicurezza",
@@ -139,7 +139,7 @@ window.translations.it = {
         },
         engine: {
             card1: { title: "1. Cosa corrisponde alla regola", body: "Il motore utilizza pattern in stile fnmatch. Una regola può corrispondere al nome del file o della cartella isolato, o al percorso completo." },
-            card2: { title: "2. Cosa succede dopo", body: "Se una regola colpisce una cartella, BundleWeave PRO interrompe la lettura di quel nodo. Tutto ciò che si trova all'interno viene implicitamente ignorato." },
+            card2: { title: "2. Cosa succede dopo", body: "Se una regola colpisce una cartella, CodeFlatten PRO interrompe la lettura di quel nodo. Tutto ciò che si trova all'interno viene implicitamente ignorato." },
             card3: { title: "3. Cosa entra nel bundle", body: "I file di testo idonei entrano nel bundle. I file binari e i formati non supportati possono apparire solo come riferimento se l'opzione è attivata." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.it = {
             badge: "Raccomandazione opzionale",
             title: "Assistenza IA opzionale per modularizzare il progetto",
             body: "In progetti grandi o eterogenei, puoi usare uno snapshot dell'albero del repository con un LLM a tua scelta per generare una prima proposta di regole per il Passaggio 5.",
-            note: "Questo flusso è assistito e revisionabile. L'obiettivo non è sostituire il tuo giudizio tecnico, ma accelerare la creazione di una skip list iniziale che può essere poi perfezionata direttamente in BundleWeave PRO. Credenziali, segreti e contenuti sensibili all'interno dei file inclusi devono essere trattati separatamente nel Content Redactor.",
+            note: "Questo flusso è assistito e revisionabile. L'obiettivo non è sostituire il tuo giudizio tecnico, ma accelerare la creazione di una skip list iniziale che può essere poi perfezionata direttamente in CodeFlatten PRO. Credenziali, segreti e contenuti sensibili all'interno dei file inclusi devono essere trattati separatamente nel Content Redactor.",
             when: {
                 1: "Monorepo, stack ibridi o basi con molte directory ausiliarie.",
                 2: "Per modularizzare i dump per obiettivo: architettura, runtime, UI, integrazioni o documentazione.",
@@ -204,7 +204,7 @@ window.translations.it = {
         },
         ack: {
             title: "Ringraziamenti e Terze Parti",
-            body: "BundleWeave PRO offre un output statistico in stile GitHub Linguist, ispirato al progetto open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> di GitHub. Il motore sottostante sfrutta anche le capacità di Python, Tcl/Tk e Pillow."
+            body: "CodeFlatten PRO offre un output statistico in stile GitHub Linguist, ispirato al progetto open-source <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> di GitHub. Il motore sottostante sfrutta anche le capacità di Python, Tcl/Tk e Pillow."
         },
         check: {
             title: "Quick Checklist prima della generazione",
@@ -220,8 +220,8 @@ window.translations.it = {
             title: "Supporto Tecnico",
             body: "Se qualcosa non è chiaro, invia un breve report con screenshot e il comportamento osservato. Questo velocizza molto la diagnosi."
         },
-            labels: {
-                prompt_label: "Esempio di richiesta"
-            }
+        labels: {
+            prompt_label: "Esempio di richiesta"
         }
+    }
 };

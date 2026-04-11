@@ -34,11 +34,11 @@ window.translations.he = {
             label: "תוכנת דיוק",
             title: "האיצו את תהליך העבודה של Vibe Coding שלכם.",
             subtitle: "כלי העזר המקומי האולטימטיבי לבונים מודרניים. הפיכת בסיסי קוד מורכבים להקשר מובנה ומוכן ל-AI תוך שניות.",
-            cta: "קבלו את BundleWeave PRO"
+            cta: "קבלו את CodeFlatten PRO"
         },
         vibe: {
             title: "נבנה עבור Vibe Coding",
-            desc: "אל תבזבזו זמן על העתק-הדבק. BundleWeave PRO מכין את כל הסביבה שלכם עבור LLMs, ומבטיח הקשר מבני מושלם ויעילות טוקנים.",
+            desc: "אל תבזבזו זמן על העתק-הדבק. CodeFlatten PRO מכין את כל הסביבה שלכם עבור LLMs, ומבטיח הקשר מבני מושלם ויעילות טוקנים.",
             feature1: "אריזה מודעת להקשר",
             feature2: "אופטימיזציה של טוקנים",
             feature3: "הנחיית AI מיידית",
@@ -52,8 +52,8 @@ window.translations.he = {
         },
         features: {
             title: "פתרונות נבחרים",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "הכלי האולטימטיבי לתיעוד פרויקטים, הכנת הקשר AI והמרת טקסט בקנה מידה גדול. מותאם לחלונות."
             },
             learn_more: "למידע נוסף"
@@ -68,7 +68,7 @@ window.translations.he = {
         },
         integration: {
             title: "שילוב חלק במערכת ההפעלה",
-            desc: "BundleWeave PRO משתלב ישירות ב-Windows Shell. לחצו לחיצה ימנית על כל תיקייה או בחירת קבצים כדי להפיק את המארז שלכם באופן מיידי.",
+            desc: "CodeFlatten PRO משתלב ישירות ב-Windows Shell. לחצו לחיצה ימנית על כל תיקייה או בחירת קבצים כדי להפיק את המארז שלכם באופן מיידי.",
             feature1: "תפריט הקשר מוכן",
             feature2: "תהליך רקע"
         },
@@ -76,7 +76,7 @@ window.translations.he = {
             title: "חינמי לעומת פרימיום",
             free: "2 פרופילים, חוק עריכה אחד, דריסת ספרייה אחת",
             premium: "פרופילים ללא הגבלה, עריכה מתקדמת, דריסות בעדיפות, רישיונות מסונכרנים לחנות",
-            cta: "קבלו את BundleWeave PRO"
+            cta: "קבלו את CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.he = {
         ack: { title: "הצהרות רכיבים וצד שלישי" }
     },
     support: {
-        title: "תמיכה - BundleWeave PRO | BestToolsForever",
+        title: "תמיכה - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "תמיכה טכנית",
-            title: "מרכז העזרה של BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "מרכז העזרה של CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "סיוע ייעודי לחבילת כלי העזר בביצועים גבוהים שלנו. חזרו לבנות בדיוק.",
             back_to_home: "חזרה לדף הבית"
         },
@@ -122,7 +122,7 @@ window.translations.he = {
         }
     },
     step5: {
-        title: "שלב 5 — חריגות ואבטחה | BundleWeave PRO",
+        title: "שלב 5 — חריגות ואבטחה | CodeFlatten PRO",
         hero: {
             badge: "מדריך רשמי של העוזר",
             title: "שלב 5 — חריגות ואבטחה",
@@ -139,7 +139,7 @@ window.translations.he = {
         },
         engine: {
             card1: { title: "1. מה מתאים לחוק", body: "המנוע משתמש בתבניות בסגנון fnmatch. חוק יכול להתאים לשם הקובץ או התיקייה לבד, או לנתיב המלא." },
-            card2: { title: "2. מה קורה אחר כך", body: "אם חוק פוגע בתיקייה, BundleWeave PRO מפסיק את קריאת הצומת הזה. כל מה שבפנים זוכה להתעלמות משתמעת." },
+            card2: { title: "2. מה קורה אחר כך", body: "אם חוק פוגע בתיקייה, CodeFlatten PRO מפסיק את קריאת הצומת הזה. כל מה שבפנים זוכה להתעלמות משתמעת." },
             card3: { title: "3. מה נכנס למארז", body: "קבצי טקסט כשירים נכנסים למארז. קבצים בינאריים ופורמטים שאינם נתמכים יכולים להופיע כקישור בלבד אם אפשרות זו הופעלה." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.he = {
             badge: "המלצה אופציונלית",
             title: "סיוע AI אופציונלי למודולריזציה של הפרויקט",
             body: "בפרויקטים גדולים או הטרוגניים, תוכלו להשתמש בצילום מצב של עץ המאגר עם LLM שתבחרו כדי להפיק הצעה ראשונה לחוקי שלב 5.",
-            note: "תהליך זה הוא מסייע ונתון לבדיקה. המטרה היא לא להחליף את שיקול הדעת הטכני שלכם, אלא להאיץ את יצירת רשימת הדילוג הראשונית שניתן לאחר מכן לחדד ישירות ב-BundleWeave PRO. אישורי כניסה, סודות ותוכן רגיש בקבצים שנכללו חייבים להיות מטופלים בנפרד ב-Content Redactor.",
+            note: "תהליך זה הוא מסייע ונתון לבדיקה. המטרה היא לא להחליף את שיקול הדעת הטכני שלכם, אלא להאיץ את יצירת רשימת הדילוג הראשונית שניתן לאחר מכן לחדד ישירות ב-CodeFlatten PRO. אישורי כניסה, סודות ותוכן רגיש בקבצים שנכללו חייבים להיות מטופלים בנפרד ב-Content Redactor.",
             guard: {
                 title: "חשוב: סינון אינו עריכה",
                 body: "שלב 5 עוזר להחליט מה נכנס או לא נכנס למארז. ניקוי הטקסט הסופי שייך לשלב 6 עם ה-Content Redactor. השתמשו בשניהם יחד. בדקו תמיד שוב סיסמאות ומידע רגיש אחר."
@@ -199,7 +199,7 @@ window.translations.he = {
         },
         ack: {
             title: "תודות וצד שלישי",
-            body: "BundleWeave PRO מציע פלט סטטיסטי בסגנון GitHub Linguist, בהשראת פרויקט הקוד הפתוח <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> של GitHub. המנוע הבסיסי גם מנצל את היכולות של Python, Tcl/Tk ו-Pillow."
+            body: "CodeFlatten PRO מציע פלט סטטיסטי בסגנון GitHub Linguist, בהשראת פרויקט הקוד הפתוח <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> של GitHub. המנוע הבסיסי גם מנצל את היכולות של Python, Tcl/Tk ו-Pillow."
         },
         check: {
             title: "רשימת בדיקה מהירה לפני הפקה",
@@ -215,8 +215,8 @@ window.translations.he = {
             title: "תמיכה טכנית",
             body: "אם משהו לא ברור, שלחו דיווח קצר עם צילומי מסך והתנהגות שנצפתה. זה מאיץ מאוד את תהליך האבחון."
         },
-            labels: {
-                prompt_label: "דוגמה לבקשה"
-            }
+        labels: {
+            prompt_label: "דוגמה לבקשה"
         }
+    }
 };

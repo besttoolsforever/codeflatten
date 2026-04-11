@@ -34,11 +34,11 @@ window.translations.tr = {
             label: "Hassas Yazılım",
             title: "Vibe Coding iş akışınızı hızlandırın.",
             subtitle: "Modern oluşturucular için nihai yerel yardımcı yazılım. Karmaşık kod tabanlarını saniyeler içinde yapılandırılmış, yapay zekaya hazır bağlama dönüştürün.",
-            cta: "BundleWeave PRO'yu Alın"
+            cta: "CodeFlatten PRO'yu Alın"
         },
         vibe: {
             title: "Vibe Coding için Üretildi",
-            desc: "Kopyalayıp yapıştırmakla zaman kaybetmeyin. BundleWeave PRO, tüm ortamınızı LLM'ler için hazırlayarak mükemmel yapısal bağlam ve belirteç verimliliği sağlar.",
+            desc: "Kopyalayıp yapıştırmakla zaman kaybetmeyin. CodeFlatten PRO, tüm ortamınızı LLM'ler için hazırlayarak mükemmel yapısal bağlam ve belirteç verimliliği sağlar.",
             feature1: "Bağlam Bilinçli Demetleme",
             feature2: "Belirteç Optimizasyonu",
             feature3: "Anında Yapay Zeka Komut İstemi",
@@ -52,8 +52,8 @@ window.translations.tr = {
         },
         features: {
             title: "Öne Çıkan Çözümler",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Proje dokümantasyonu, yapay zeka bağlam hazırlığı ve büyük ölçekli metin dönüşümü için nihai araç. Windows için optimize edilmiştir."
             },
             learn_more: "Daha fazla bilgi edinin"
@@ -68,7 +68,7 @@ window.translations.tr = {
         },
         integration: {
             title: "Sorunsuz İşletim Sistemi Entegrasyonu",
-            desc: "BundleWeave PRO doğrudan Windows Kabuğu (Shell) ile entegre olur. Demetinizi anında oluşturmak için herhangi bir klasöre veya dosya seçimine sağ tıklamanız yeterlidir.",
+            desc: "CodeFlatten PRO doğrudan Windows Kabuğu (Shell) ile entegre olur. Demetinizi anında oluşturmak için herhangi bir klasöre veya dosya seçimine sağ tıklamanız yeterlidir.",
             feature1: "Bağlam Menüsü Hazır",
             feature2: "Arka Plan İşlemi"
         },
@@ -76,7 +76,7 @@ window.translations.tr = {
             title: "Ücretsiz vs. Premium",
             free: "2 Profil, 1 Sansür Kuralı, 1 Dizin Geçersiz Kılma",
             premium: "Sınırsız profil, gelişmiş sansür, öncelikli geçersiz kılmalar, Mağaza ile senkronize lisanslar",
-            cta: "BundleWeave PRO'yu Alın"
+            cta: "CodeFlatten PRO'yu Alın"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.tr = {
         ack: { title: "Teşekkürler ve Üçüncü Taraf Bildirimleri" }
     },
     support: {
-        title: "Destek - BundleWeave PRO | BestToolsForever",
+        title: "Destek - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Teknik Destek",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> Yardım Merkezi.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> Yardım Merkezi.",
             subtitle: "Yüksek performanslı yardımcı yazılım paketimiz için özel yardım. Hassasiyetle oluşturmaya geri dönün.",
             back_to_home: "Ana Sayfaya Dön"
         },
@@ -122,7 +122,7 @@ window.translations.tr = {
         }
     },
     step5: {
-        title: "Adım 5 — İstisnalar ve Güvenlik | BundleWeave PRO",
+        title: "Adım 5 — İstisnalar ve Güvenlik | CodeFlatten PRO",
         hero: {
             badge: "Resmi Sihirbaz Kılavuzu",
             title: "Adım 5 — İstisnalar ve Güvenlik",
@@ -139,7 +139,7 @@ window.translations.tr = {
         },
         engine: {
             card1: { title: "1. Kurala Uyanlar", body: "Motor fnmatch stili desenler kullanır. Bir kural, izole edilmiş dosya veya klasör adına veya tam yola uyabilir." },
-            card2: { title: "2. Sonrasında Ne Olur", body: "Bir kural bir klasöre çarptığında, BundleWeave PRO o düğümün okunmasını keser. İçindeki her şey dolaylı olarak yoksayılır." },
+            card2: { title: "2. Sonrasında Ne Olur", body: "Bir kural bir klasöre çarptığında, CodeFlatten PRO o düğümün okunmasını keser. İçindeki her şey dolaylı olarak yoksayılır." },
             card3: { title: "3. Demete Girenler", body: "Uygun metin dosyaları demete girer. İkili dosyalar (binaries) ve desteklenmeyen formatlar yalnızca seçeneği açıksa referans olarak görünebilir." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.tr = {
             badge: "İsteğe Bağlı Öneri",
             title: "Projeyi modülerleştirmek için isteğe bağlı yapay zeka desteği",
             body: "Büyük veya heterojen projelerde, Adım 5 kuralları için ilk öneriyi oluşturmak amacıyla istediğiniz bir LLM ile depo ağacının anlık görüntüsünü kullanabilirsiniz.",
-            note: "Bu akış desteklenir ve incelenebilir. Amaç teknik yargınızın yerini almak değil, daha sonra doğrudan BundleWeave PRO'da ince ayar yapılabilecek bir başlangıç atlama listesinin oluşturulmasını hızlandırmaktır.",
+            note: "Bu akış desteklenir ve incelenebilir. Amaç teknik yargınızın yerini almak değil, daha sonra doğrudan CodeFlatten PRO'da ince ayar yapılabilecek bir başlangıç atlama listesinin oluşturulmasını hızlandırmaktır.",
             when: {
                 1: "Monorepo'lar, hibrit yığınlar veya birçok yardımcı dizine sahip kod tabanları.",
                 2: "Dökümleri hedefe göre modülerleştirmek istediğinizde: mimari, çalışma zamanı, kullanıcı arayüzü, entegrasyonlar veya dokümantasyon.",
@@ -204,7 +204,7 @@ window.translations.tr = {
         },
         ack: {
             title: "Teşekkürler & Üçüncü Taraflar",
-            body: "BundleWeave PRO, GitHub'ın açık kaynaklı projesi <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>'den esinlenen GitHub Linguist stili istatistiksel çıktı sunar. Alttaki motor ayrıca Python, Tcl/Tk ve Pillow yeteneklerinden yararlanır."
+            body: "CodeFlatten PRO, GitHub'ın açık kaynaklı projesi <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>'den esinlenen GitHub Linguist stili istatistiksel çıktı sunar. Alttaki motor ayrıca Python, Tcl/Tk ve Pillow yeteneklerinden yararlanır."
         },
         check: {
             title: "Oluşturmadan Önce Hızlı Kontrol Listesi",
@@ -220,8 +220,8 @@ window.translations.tr = {
             title: "Teknik Destek",
             body: "Net olmayan bir şey varsa, ekran görüntüleri ve gözlemlenen davranışla birlikte kısa bir rapor gönderin. Bu, teşhisi büyük ölçüde hızlandırır."
         },
-            labels: {
-                prompt_label: "Örnek istek"
-            }
+        labels: {
+            prompt_label: "Örnek istek"
         }
+    }
 };

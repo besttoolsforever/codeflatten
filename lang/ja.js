@@ -34,11 +34,11 @@ window.translations.ja = {
             label: "高精度ソフトウェア",
             title: "Vibe Codingワークフローを加速する。",
             subtitle: "現代のビルダーのための究極のローカル・ユーティリティ。複雑なコードベースを数秒で構造化されたAI対応のコンテキストに変換します。",
-            cta: "BundleWeave PROを入手"
+            cta: "CodeFlatten PROを入手"
         },
         vibe: {
             title: "Vibe Codingのために構築",
-            desc: "コピペで時間を無駄にしないでください。BundleWeave PROは環境全体をLLM用に準備し、完璧な構造的コンテキストとトークン効率を保証します。",
+            desc: "コピペで時間を無駄にしないでください。CodeFlatten PROは環境全体をLLM用に準備し、完璧な構造的コンテキストとトークン効率を保証します。",
             feature1: "コンテキストを意識したバンドル",
             feature2: "トークンの最適化",
             feature3: "即時のAIプロンプト作成",
@@ -52,8 +52,8 @@ window.translations.ja = {
         },
         features: {
             title: "注目のソリューション",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "プロジェクト・ドキュメント、AIコンテキスト準備、大規模なテキスト変換のための究極のツール。Windows用に最適化されています。"
             },
             learn_more: "詳細はこちら"
@@ -68,7 +68,7 @@ window.translations.ja = {
         },
         integration: {
             title: "シームレスなOS統合",
-            desc: "BundleWeave PROはWindowsシェルに直接統合されます。任意のフォルダーやファイル選択を右クリックするだけで、即座にバンドルを生成できます。",
+            desc: "CodeFlatten PROはWindowsシェルに直接統合されます。任意のフォルダーやファイル選択を右クリックするだけで、即座にバンドルを生成できます。",
             feature1: "コンテキストメニュー対応",
             feature2: "バックグラウンド処理"
         },
@@ -76,7 +76,7 @@ window.translations.ja = {
             title: "無料版 vs. Premium",
             free: "2プロファイル、1編集ルール、1ディレクトリ・オーバーライド",
             premium: "無制限のプロファイル、高度な編集、優先オーバーライド、ストア同期ライセンス",
-            cta: "BundleWeave PROを入手"
+            cta: "CodeFlatten PROを入手"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.ja = {
         ack: { title: "謝辞およびサードパーティ通知" }
     },
     support: {
-        title: "サポート - BundleWeave PRO | BestToolsForever",
+        title: "サポート - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "テクニカルサポート",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> ヘルプセンター",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> ヘルプセンター",
             subtitle: "当社の高性能ユーティリティ・スイートのための専用アシスタンス。精度を持って構築に戻りましょう。",
             back_to_home: "ホームに戻る"
         },
@@ -122,7 +122,7 @@ window.translations.ja = {
         }
     },
     step5: {
-        title: "ステップ 5 — 除外とセキュリティ | BundleWeave PRO",
+        title: "ステップ 5 — 除外とセキュリティ | CodeFlatten PRO",
         hero: {
             badge: "公式ウィザードガイド",
             title: "ステップ 5 — 除外とセキュリティ",
@@ -139,7 +139,7 @@ window.translations.ja = {
         },
         engine: {
             card1: { title: "1. ルールに一致するもの", body: "エンジンはfnmatch形式のパターンを使用します。ルールは、ファイルやフォルダーの単独の名前、またはフルパスに一致させることができます。" },
-            card2: { title: "2. その後の動作", body: "ルールがフォルダーにヒットすると、BundleWeave PROはそのノードの読み取りを中断します。その中のすべては暗黙的に無視されます。" },
+            card2: { title: "2. その後の動作", body: "ルールがフォルダーにヒットすると、CodeFlatten PROはそのノードの読み取りを中断します。その中のすべては暗黙的に無視されます。" },
             card3: { title: "3. バンドルに含まれるもの", body: "対象となるテキストファイルがバンドルに含まれます。バイナリや未対応の形式は、オプションが有効な場合のみ参照として表示されます。" }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.ja = {
             badge: "オプションの推奨事項",
             title: "プロジェクトをモジュール化するためのオプションのAI支援",
             body: "大規模または不均一なプロジェクトでは、LLMを使用してリポジトリツリーのスナップショットからステップ5のルールの最初の提案を生成できます。",
-            note: "このフローは支援され、レビュー可能です。目的は技術的な判断に代わることではなく、BundleWeave PROでさらに微調整できる初期のスキップ・リストの作成を加速することです。含まれるファイル内の資格情報、機密情報、および機密コンテンツは、Content Redactorで個別に処理する必要があります。",
+            note: "このフローは支援され、レビュー可能です。目的は技術的な判断に代わることではなく、CodeFlatten PROでさらに微調整できる初期のスキップ・リストの作成を加速することです。含まれるファイル内の資格情報、機密情報、および機密コンテンツは、Content Redactorで個別に処理する必要があります。",
             when: {
                 1: "モノレポ、ハイブリッドスタック、または多くの補助ディレクトリを持つベース。",
                 2: "目的（アーキテクチャ、ランタイム、UI、統合、ドキュメントなど）ごとにダンプをモジュール化したい場合。",
@@ -204,7 +204,7 @@ window.translations.ja = {
         },
         ack: {
             title: "謝辞とサードパーティ",
-            body: "BundleWeave PROは、GitHubのオープンソースプロジェクト <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> から着想を得た、GitHub Linguistスタイルの統計出力を提供します。基礎となるエンジンは、Python、Tcl/Tk、およびPillowの機能も活用しています。"
+            body: "CodeFlatten PROは、GitHubのオープンソースプロジェクト <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> から着想を得た、GitHub Linguistスタイルの統計出力を提供します。基礎となるエンジンは、Python、Tcl/Tk、およびPillowの機能も活用しています。"
         },
         check: {
             title: "生成前のクイックチェックリスト",
@@ -220,8 +220,8 @@ window.translations.ja = {
             title: "テクニカルサポート",
             body: "不明な点がある場合は、スクリーンショットと観察された動作を添えて短いレポートを送信してください。これにより診断が非常に速くなります。"
         },
-            labels: {
-                prompt_label: "リクエストの例"
-            }
+        labels: {
+            prompt_label: "リクエストの例"
         }
+    }
 };

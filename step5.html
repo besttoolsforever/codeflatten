@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html class="light" lang="pt-BR">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title data-i18n="step5.title">Passo 5 — Exclusões e Segurança | BundleWeave PRO</title>
-    <meta name="description" content="Guia oficial do Passo 5 do BundleWeave PRO: filtros, exclusões, Safety Scan e Path Guard."/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="step5.title">Passo 5 — Exclusões e Segurança | CodeFlatten PRO</title>
+    <meta name="description"
+        content="Guia oficial do Passo 5 do CodeFlatten PRO: filtros, exclusões, Safety Scan e Path Guard." />
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
     <script src="translations.js"></script>
     <script>
         tailwind.config = {
@@ -36,14 +41,30 @@
         }
     </script>
     <style>
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3, h4 { font-family: 'Manrope', sans-serif; }
-        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
         .hero-gradient {
             background: radial-gradient(circle at 100% 0%, #dde2f2 0%, transparent 48%),
-                        radial-gradient(circle at 0% 100%, #eef0f3 0%, transparent 46%);
+                radial-gradient(circle at 0% 100%, #eef0f3 0%, transparent 46%);
         }
+
         .code-chip {
             display: inline-block;
             padding: .2rem .55rem;
@@ -52,46 +73,56 @@
             color: #070d17;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
             font-size: .92rem;
-            border: 1px solid rgba(198,198,204,.35);
+            border: 1px solid rgba(198, 198, 204, .35);
         }
+
         .code-block {
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
             white-space: pre-wrap;
             word-break: break-word;
         }
+
         .mini-grid {
             background-image:
-              linear-gradient(to right, rgba(7,13,23,.04) 1px, transparent 1px),
-              linear-gradient(to bottom, rgba(7,13,23,.04) 1px, transparent 1px);
+                linear-gradient(to right, rgba(7, 13, 23, .04) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(7, 13, 23, .04) 1px, transparent 1px);
             background-size: 22px 22px;
         }
+
         .glass {
-            background: rgba(255,255,255,.78);
+            background: rgba(255, 255, 255, .78);
             backdrop-filter: blur(16px);
         }
     </style>
 </head>
+
 <body class="bg-surface text-on-surface">
     <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-[0px_12px_32px_rgba(7,13,23,0.06)]">
         <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto font-['Manrope'] tracking-tight">
             <div class="flex items-center gap-8">
                 <a href="index.html">
-                    <img alt="BestToolsForever Logo" class="h-8 w-auto" src="assets/images/logo_bw.svg"/>
+                    <img alt="BestToolsForever Logo" class="h-8 w-auto" src="assets/images/logo_cf.svg" />
                 </a>
                 <div class="hidden md:flex gap-6 items-center">
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="index.html" data-i18n="shared.nav.home">Home</a>
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="support.html" data-i18n="shared.nav.support">Support</a>
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="legal.html" data-i18n="shared.nav.legal">Legal</a>
-                    <a class="text-[#0360ab] border-b-2 border-[#0360ab] pb-1" href="step5.html" data-i18n="shared.nav.step5">Step 5</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="index.html"
+                        data-i18n="shared.nav.home">Home</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="support.html"
+                        data-i18n="shared.nav.support">Support</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="legal.html"
+                        data-i18n="shared.nav.legal">Legal</a>
+                    <a class="text-[#0360ab] border-b-2 border-[#0360ab] pb-1" href="step5.html"
+                        data-i18n="shared.nav.step5">Step 5</a>
                 </div>
             </div>
             <div class="flex items-center gap-4 relative">
-                <button id="lang-selector" class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-sm font-medium border border-outline-variant/20">
+                <button id="lang-selector"
+                    class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-sm font-medium border border-outline-variant/20">
                     <span class="material-symbols-outlined text-[20px]">language</span>
                     <span id="current-lang">PT-BR</span>
                     <span class="material-symbols-outlined text-[16px]">expand_more</span>
                 </button>
-                <div id="lang-dropdown" class="absolute top-full right-0 mt-3 w-64 md:w-52 max-h-[70vh] md:max-h-[420px] overflow-y-auto bg-white rounded-2xl shadow-[0px_24px_64px_-12px_rgba(7,13,23,0.18)] border border-outline-variant/10 hidden flex-col py-2 z-[100]">
+                <div id="lang-dropdown"
+                    class="absolute top-full right-0 mt-3 w-64 md:w-52 max-h-[70vh] md:max-h-[420px] overflow-y-auto bg-white rounded-2xl shadow-[0px_24px_64px_-12px_rgba(7,13,23,0.18)] border border-outline-variant/10 hidden flex-col py-2 z-[100]">
                 </div>
             </div>
         </div>
@@ -101,20 +132,27 @@
         <section class="px-8 pt-10 pb-14 max-w-7xl mx-auto">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
                 <div class="lg:col-span-7">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-fixed-dim/20 text-on-tertiary-fixed-variant text-xs font-bold mb-6 tracking-wider uppercase" data-i18n="step5.hero.badge">Guia oficial do wizard</div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-fixed-dim/20 text-on-tertiary-fixed-variant text-xs font-bold mb-6 tracking-wider uppercase"
+                        data-i18n="step5.hero.badge">Guia oficial do wizard</div>
                     <div class="flex items-center gap-5 mb-6">
-                        <img alt="BundleWeave PRO Logo" class="w-16 h-16 rounded-xl shadow-lg" src="assets/images/logo_BundleWeave.svg"/>
+                        <img alt="CodeFlatten PRO Logo" class="w-16 h-16 rounded-xl shadow-lg"
+                            src="assets/images/logo_CodeFlatten.svg" />
                         <div>
-                            <h1 class="text-5xl md:text-7xl font-extrabold text-primary tracking-tighter leading-tight" data-i18n="step5.hero.title">Passo 5 — Exclusões e Segurança</h1>
+                            <h1 class="text-5xl md:text-7xl font-extrabold text-primary tracking-tighter leading-tight"
+                                data-i18n="step5.hero.title">Passo 5 — Exclusões e Segurança</h1>
                         </div>
                     </div>
-                    <p class="text-xl text-on-surface-variant leading-relaxed max-w-3xl" data-i18n="step5.hero.subtitle">Aprenda a montar filtros confiáveis, reduzir ruído no bundle e evitar exportações grandes ou perigosas sem sacrificar o controle do projeto.</p>
+                    <p class="text-xl text-on-surface-variant leading-relaxed max-w-3xl"
+                        data-i18n="step5.hero.subtitle">Aprenda a montar filtros confiáveis, reduzir ruído no bundle e
+                        evitar exportações grandes ou perigosas sem sacrificar o controle do projeto.</p>
                     <div class="mt-8 flex flex-col sm:flex-row gap-4">
-                        <a href="#regras" class="bg-primary text-white px-7 py-4 rounded-xl font-bold hover:scale-[1.02] transition-transform shadow-lg inline-flex items-center justify-center gap-2">
+                        <a href="#regras"
+                            class="bg-primary text-white px-7 py-4 rounded-xl font-bold hover:scale-[1.02] transition-transform shadow-lg inline-flex items-center justify-center gap-2">
                             <span class="material-symbols-outlined text-[20px]">rule</span>
                             <span data-i18n="step5.hero.cta1">Ver regras práticas</span>
                         </a>
-                        <a href="#safety" class="bg-white text-primary px-7 py-4 rounded-xl font-bold hover:bg-surface-container-high transition-colors shadow-sm border border-outline-variant/10 inline-flex items-center justify-center gap-2">
+                        <a href="#safety"
+                            class="bg-white text-primary px-7 py-4 rounded-xl font-bold hover:bg-surface-container-high transition-colors shadow-sm border border-outline-variant/10 inline-flex items-center justify-center gap-2">
                             <span class="material-symbols-outlined text-[20px]">shield</span>
                             <span data-i18n="step5.hero.cta2">Entender o Safety Scan</span>
                         </a>
@@ -122,24 +160,30 @@
                 </div>
 
                 <div class="lg:col-span-5">
-                    <div class="glass rounded-[1.75rem] p-8 border border-outline-variant/10 shadow-[0px_12px_32px_rgba(7,13,23,0.05)] mini-grid">
-                        <h2 class="text-2xl font-extrabold text-primary mb-5" data-i18n="step5.quick.title">Resumo rápido</h2>
+                    <div
+                        class="glass rounded-[1.75rem] p-8 border border-outline-variant/10 shadow-[0px_12px_32px_rgba(7,13,23,0.05)] mini-grid">
+                        <h2 class="text-2xl font-extrabold text-primary mb-5" data-i18n="step5.quick.title">Resumo
+                            rápido</h2>
                         <div class="space-y-4 text-sm text-on-surface-variant leading-relaxed">
                             <div class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-secondary mt-0.5">match_case</span>
-                                <p data-i18n="step5.quick.item1">Cada linha da skip list é testada contra o nome do item e também contra o caminho completo.</p>
+                                <p data-i18n="step5.quick.item1">Cada linha da skip list é testada contra o nome do item
+                                    e também contra o caminho completo.</p>
                             </div>
                             <div class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-secondary mt-0.5">account_tree</span>
-                                <p data-i18n="step5.quick.item2">Se uma pasta casar com a regra, aquele ramo inteiro deixa de ser lido.</p>
+                                <p data-i18n="step5.quick.item2">Se uma pasta casar com a regra, aquele ramo inteiro
+                                    deixa de ser lido.</p>
                             </div>
                             <div class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-secondary mt-0.5">visibility_off</span>
-                                <p data-i18n="step5.quick.item3">Itens pulados podem aparecer como placeholder na árvore ou ficar totalmente ocultos.</p>
+                                <p data-i18n="step5.quick.item3">Itens pulados podem aparecer como placeholder na árvore
+                                    ou ficar totalmente ocultos.</p>
                             </div>
                             <div class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-secondary mt-0.5">warning</span>
-                                <p data-i18n="step5.quick.item4">Safety Scan limita profundidade, quantidade de arquivos e tamanho total. Path Guard bloqueia roots e pastas críticas.</p>
+                                <p data-i18n="step5.quick.item4">Safety Scan limita profundidade, quantidade de arquivos
+                                    e tamanho total. Path Guard bloqueia roots e pastas críticas.</p>
                             </div>
                         </div>
                     </div>
@@ -149,26 +193,41 @@
 
         <section class="px-8 pb-8 max-w-7xl mx-auto" id="funciona">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
-                    <div class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
+                <div
+                    class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
+                    <div
+                        class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
                         <span class="material-symbols-outlined">find_in_page</span>
                     </div>
-                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card1.title">1. O que casa com a regra</h3>
-                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card1.body">O motor usa padrões no estilo fnmatch. Uma regra pode casar com o nome isolado do arquivo ou da pasta, ou com o caminho completo.</p>
+                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card1.title">1. O que casa
+                        com a regra</h3>
+                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card1.body">O motor usa
+                        padrões no estilo fnmatch. Uma regra pode casar com o nome isolado do arquivo ou da pasta, ou
+                        com o caminho completo.</p>
                 </div>
-                <div class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
-                    <div class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
+                <div
+                    class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
+                    <div
+                        class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
                         <span class="material-symbols-outlined">folder_off</span>
                     </div>
-                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card2.title">2. O que acontece depois</h3>
-                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card2.body">Se uma regra atingir uma pasta, o BundleWeave PRO interrompe a leitura daquele nó. Tudo que estiver dentro dela é implicitamente ignorado.</p>
+                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card2.title">2. O que
+                        acontece depois</h3>
+                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card2.body">Se uma regra
+                        atingir uma pasta, o CodeFlatten PRO interrompe a leitura daquele nó. Tudo que estiver dentro
+                        dela é implicitamente ignorado.</p>
                 </div>
-                <div class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
-                    <div class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
+                <div
+                    class="bg-white p-8 rounded-[1.5rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
+                    <div
+                        class="w-12 h-12 bg-secondary/5 text-secondary rounded-2xl flex items-center justify-center mb-6">
                         <span class="material-symbols-outlined">database</span>
                     </div>
-                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card3.title">3. O que entra no bundle</h3>
-                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card3.body">Arquivos de texto elegíveis entram no bundle. Binários e formatos não suportados podem aparecer só como referência, se essa opção estiver ativada.</p>
+                    <h3 class="text-xl font-bold text-primary mb-3" data-i18n="step5.engine.card3.title">3. O que entra
+                        no bundle</h3>
+                    <p class="text-on-surface-variant leading-relaxed" data-i18n="step5.engine.card3.body">Arquivos de
+                        texto elegíveis entram no bundle. Binários e formatos não suportados podem aparecer só como
+                        referência, se essa opção estiver ativada.</p>
                 </div>
             </div>
         </section>
@@ -176,22 +235,30 @@
         <section class="px-8 py-16 max-w-7xl mx-auto" id="regras">
             <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-10">
                 <div>
-                    <h2 class="text-4xl font-extrabold text-primary tracking-tight mb-3" data-i18n="step5.rules.title">Regras práticas para usar no dia a dia: Amplo suporte ao padrão fnmatch.</h2>
-                    <p class="text-on-surface-variant text-lg max-w-3xl" data-i18n="step5.rules.subtitle">Use nomes exatos para exclusões cirúrgicas. Use wildcards para tipos de arquivo, padrões recorrentes ou filtros amplos.</p>
+                    <h2 class="text-4xl font-extrabold text-primary tracking-tight mb-3" data-i18n="step5.rules.title">
+                        Regras práticas para usar no dia a dia: Amplo suporte ao padrão fnmatch.</h2>
+                    <p class="text-on-surface-variant text-lg max-w-3xl" data-i18n="step5.rules.subtitle">Use nomes
+                        exatos para exclusões cirúrgicas. Use wildcards para tipos de arquivo, padrões recorrentes ou
+                        filtros amplos.</p>
                 </div>
-                <a href="#grafico" class="text-secondary font-semibold hover:underline decoration-2 underline-offset-4 inline-flex items-center gap-2">
+                <a href="#grafico"
+                    class="text-secondary font-semibold hover:underline decoration-2 underline-offset-4 inline-flex items-center gap-2">
                     <span class="material-symbols-outlined">arrow_downward</span>
                     <span data-i18n="step5.rules.jump">Ver exemplo visual</span>
                 </a>
             </div>
 
             <div class="grid grid-cols-1 xl:grid-cols-2 gap-6">
-                <article class="bg-white p-8 rounded-[1.75rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
-                    <h3 class="text-2xl font-bold text-primary mb-5" data-i18n="step5.rules.exact.title">Exclusão direta por nome</h3>
-                    <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.rules.exact.body">Quando você quer tirar uma pasta ou arquivo específico do bundle, prefira o nome exato do nó.</p>
+                <article
+                    class="bg-white p-8 rounded-[1.75rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
+                    <h3 class="text-2xl font-bold text-primary mb-5" data-i18n="step5.rules.exact.title">Exclusão direta
+                        por nome</h3>
+                    <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.rules.exact.body">Quando
+                        você quer tirar uma pasta ou arquivo específico do bundle, prefira o nome exato do nó.</p>
                     <div class="space-y-4">
                         <div>
-                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2" data-i18n="step5.labels.recommended">Recomendado</p>
+                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2"
+                                data-i18n="step5.labels.recommended">Recomendado</p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="code-chip">ui</span>
                                 <span class="code-chip">node_modules</span>
@@ -199,62 +266,90 @@
                             </div>
                         </div>
                         <div>
-                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2" data-i18n="step5.labels.why">Quando usar</p>
-                            <p class="text-on-surface-variant" data-i18n="step5.rules.exact.when">Quando a sua intenção é bloquear uma pasta inteira em qualquer ponto da árvore, sem depender de barras ou caminhos completos.</p>
+                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2"
+                                data-i18n="step5.labels.why">Quando usar</p>
+                            <p class="text-on-surface-variant" data-i18n="step5.rules.exact.when">Quando a sua intenção
+                                é bloquear uma pasta inteira em qualquer ponto da árvore, sem depender de barras ou
+                                caminhos completos.</p>
                         </div>
                     </div>
                 </article>
 
-                <article class="bg-white p-8 rounded-[1.75rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
-                    <h3 class="text-2xl font-bold text-primary mb-5" data-i18n="step5.rules.wild.title">Wildcards para extensões e famílias de arquivo</h3>
-                    <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.rules.wild.body">Quando o alvo é um padrão repetido, use wildcards simples. Eles são ideais para testes, locks, imagens, artefatos de build e segredos recorrentes.</p>
+                <article
+                    class="bg-white p-8 rounded-[1.75rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)]">
+                    <h3 class="text-2xl font-bold text-primary mb-5" data-i18n="step5.rules.wild.title">Wildcards para
+                        extensões e famílias de arquivo</h3>
+                    <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.rules.wild.body">Quando o
+                        alvo é um padrão repetido, use wildcards simples. Eles são ideais para testes, locks, imagens,
+                        artefatos de build e segredos recorrentes.</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
                         <div class="p-4 rounded-xl bg-surface-container-low">
                             <div class="code-chip">*.log</div>
-                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex1">Ignora todos os arquivos de log.</p>
+                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex1">Ignora todos os
+                                arquivos de log.</p>
                         </div>
                         <div class="p-4 rounded-xl bg-surface-container-low">
                             <div class="code-chip">*.test.*</div>
-                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex2">Ignora múltiplas variantes de arquivos de teste.</p>
+                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex2">Ignora múltiplas
+                                variantes de arquivos de teste.</p>
                         </div>
                         <div class="p-4 rounded-xl bg-surface-container-low">
                             <div class="code-chip">*.png</div>
-                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex3">Evita anexar imagens binárias ao bundle.</p>
+                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex3">Evita anexar
+                                imagens binárias ao bundle.</p>
                         </div>
                         <div class="p-4 rounded-xl bg-surface-container-low">
                             <div class="code-chip">*.key</div>
-                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex4">Ajuda a bloquear chaves e arquivos sensíveis.</p>
+                            <p class="mt-3 text-on-surface-variant" data-i18n="step5.rules.wild.ex4">Ajuda a bloquear
+                                chaves e arquivos sensíveis.</p>
                         </div>
                     </div>
                 </article>
 
-                <article class="bg-primary text-white p-8 rounded-[1.75rem] shadow-xl xl:col-span-2 overflow-hidden relative">
-                    <div class="absolute top-0 right-0 w-80 h-80 bg-secondary/20 blur-3xl rounded-full pointer-events-none"></div>
+                <article
+                    class="bg-primary text-white p-8 rounded-[1.75rem] shadow-xl xl:col-span-2 overflow-hidden relative">
+                    <div
+                        class="absolute top-0 right-0 w-80 h-80 bg-secondary/20 blur-3xl rounded-full pointer-events-none">
+                    </div>
                     <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                         <div class="lg:col-span-12">
-                            <h3 class="text-2xl font-bold mb-5" data-i18n="step5.rules.broad.title">Padrões amplos e flexíveis</h3>
-                            <p class="text-gray-200 leading-relaxed mb-5" data-i18n="step5.rules.broad.body">Padrões como <code class="bg-white/10 px-2 py-1 rounded-md">*cache*</code> ou <code class="bg-white/10 px-2 py-1 rounded-md">**cache**</code> funcionam como filtros amplos por substring. Eles são úteis quando você quer pegar múltiplas variações, mas podem excluir mais conteúdo do que o esperado.</p>
+                            <h3 class="text-2xl font-bold mb-5" data-i18n="step5.rules.broad.title">Padrões amplos e
+                                flexíveis</h3>
+                            <p class="text-gray-200 leading-relaxed mb-5" data-i18n="step5.rules.broad.body">Padrões
+                                como <code class="bg-white/10 px-2 py-1 rounded-md">*cache*</code> ou <code
+                                    class="bg-white/10 px-2 py-1 rounded-md">**cache**</code> funcionam como filtros
+                                amplos por substring. Eles são úteis quando você quer pegar múltiplas variações, mas
+                                podem excluir mais conteúdo do que o esperado.</p>
                             <div class="flex flex-wrap gap-2 mb-6">
                                 <span class="bg-white/10 px-3 py-2 rounded-lg text-sm font-medium">*cache*</span>
                                 <span class="bg-white/10 px-3 py-2 rounded-lg text-sm font-medium">**cache**</span>
                                 <span class="bg-white/10 px-3 py-2 rounded-lg text-sm font-medium">*secret*</span>
                             </div>
-                            <p class="text-gray-300 text-sm leading-relaxed mb-8" data-i18n="step5.rules.broad.tip">Use esse estilo quando sua meta é abrangência, não precisão. Para excluir uma pasta específica, continue preferindo o nome exato.</p>
-                            
+                            <p class="text-gray-300 text-sm leading-relaxed mb-8" data-i18n="step5.rules.broad.tip">Use
+                                esse estilo quando sua meta é abrangência, não precisão. Para excluir uma pasta
+                                específica, continue preferindo o nome exato.</p>
+
                             <div class="bg-white/10 rounded-2xl p-6 border border-white/10">
-                                <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4" data-i18n="step5.labels.rule_of_thumb">Regra de bolso</p>
+                                <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4"
+                                    data-i18n="step5.labels.rule_of_thumb">Regra de bolso</p>
                                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
                                     <div class="flex items-start gap-3">
-                                        <span class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
-                                        <p data-i18n="step5.rules.thumb1">Quer bloquear uma pasta específica? Use <strong>nome exato</strong>.</p>
+                                        <span
+                                            class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
+                                        <p data-i18n="step5.rules.thumb1">Quer bloquear uma pasta específica? Use
+                                            <strong>nome exato</strong>.</p>
                                     </div>
                                     <div class="flex items-start gap-3">
-                                        <span class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
-                                        <p data-i18n="step5.rules.thumb2">Quer bloquear uma família de arquivos? Use <strong>wildcards por extensão</strong>.</p>
+                                        <span
+                                            class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
+                                        <p data-i18n="step5.rules.thumb2">Quer bloquear uma família de arquivos? Use
+                                            <strong>wildcards por extensão</strong>.</p>
                                     </div>
                                     <div class="flex items-start gap-3">
-                                        <span class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
-                                        <p data-i18n="step5.rules.thumb3">Quer pegar qualquer ocorrência de um termo? Use <strong>padrão amplo</strong> com cautela.</p>
+                                        <span
+                                            class="material-symbols-outlined text-tertiary-fixed-dim">radio_button_checked</span>
+                                        <p data-i18n="step5.rules.thumb3">Quer pegar qualquer ocorrência de um termo?
+                                            Use <strong>padrão amplo</strong> com cautela.</p>
                                     </div>
                                 </div>
                             </div>
@@ -265,11 +360,15 @@
         </section>
 
         <section class="px-8 py-8 max-w-7xl mx-auto" id="grafico">
-            <div class="bg-white rounded-[2rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)] overflow-hidden">
+            <div
+                class="bg-white rounded-[2rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)] overflow-hidden">
                 <div class="grid grid-cols-1 xl:grid-cols-12">
-                    <div class="xl:col-span-4 p-8 bg-surface-container-low border-b xl:border-b-0 xl:border-r border-outline-variant/10">
-                        <h2 class="text-3xl font-extrabold text-primary mb-4" data-i18n="step5.demo.title">Exemplo visual</h2>
-                        <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.demo.subtitle">Abaixo, um projeto genérico antes do filtro e as regras aplicadas no Passo 5.</p>
+                    <div
+                        class="xl:col-span-4 p-8 bg-surface-container-low border-b xl:border-b-0 xl:border-r border-outline-variant/10">
+                        <h2 class="text-3xl font-extrabold text-primary mb-4" data-i18n="step5.demo.title">Exemplo
+                            visual</h2>
+                        <p class="text-on-surface-variant leading-relaxed mb-6" data-i18n="step5.demo.subtitle">Abaixo,
+                            um projeto genérico antes do filtro e as regras aplicadas no Passo 5.</p>
                         <div class="space-y-3">
                             <div class="p-4 bg-white rounded-xl border border-outline-variant/10">
                                 <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2">Rules</p>
@@ -281,16 +380,22 @@
                                 </div>
                             </div>
                             <div class="p-4 bg-white rounded-xl border border-outline-variant/10">
-                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2" data-i18n="step5.demo.reading">Leitura do motor</p>
-                                <p class="text-sm text-on-surface-variant" data-i18n="step5.demo.reading_body">A pasta <span class="code-chip">ui</span> é removida como ramo inteiro; <span class="code-chip">logo.png</span> e <span class="code-chip">app.test.ts</span> são filtrados por padrão; <span class="code-chip">.env</span> sai por nome exato.</p>
+                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-2"
+                                    data-i18n="step5.demo.reading">Leitura do motor</p>
+                                <p class="text-sm text-on-surface-variant" data-i18n="step5.demo.reading_body">A pasta
+                                    <span class="code-chip">ui</span> é removida como ramo inteiro; <span
+                                        class="code-chip">logo.png</span> e <span class="code-chip">app.test.ts</span>
+                                    são filtrados por padrão; <span class="code-chip">.env</span> sai por nome exato.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="xl:col-span-8 p-8">
                         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                             <div class="rounded-2xl bg-primary text-white p-6 overflow-auto">
-                                <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4" data-i18n="step5.labels.before">Antes</p>
-<pre class="code-block text-sm leading-7">demo-project/
+                                <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4"
+                                    data-i18n="step5.labels.before">Antes</p>
+                                <pre class="code-block text-sm leading-7">demo-project/
 ├── src/
 │   ├── main.py
 │   ├── ui/
@@ -304,9 +409,11 @@
 │   └── manual.md
 └── .env</pre>
                             </div>
-                            <div class="rounded-2xl bg-surface-container-low p-6 border border-outline-variant/10 overflow-auto">
-                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-4" data-i18n="step5.labels.after">Depois</p>
-<pre class="code-block text-sm leading-7 text-primary">demo-project/
+                            <div
+                                class="rounded-2xl bg-surface-container-low p-6 border border-outline-variant/10 overflow-auto">
+                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-4"
+                                    data-i18n="step5.labels.after">Depois</p>
+                                <pre class="code-block text-sm leading-7 text-primary">demo-project/
 ├── src/
 │   ├── main.py
 │   └── helpers.py
@@ -315,7 +422,9 @@
 ├── docs/
 │   └── manual.md
 └── .env <span class="text-secondary">[Skipped]</span></pre>
-                                <p class="mt-4 text-sm text-on-surface-variant" data-i18n="step5.demo.note">Se a visibilidade de ignorados estiver em “Ocultar completamente”, os placeholders acima desaparecem da árvore.</p>
+                                <p class="mt-4 text-sm text-on-surface-variant" data-i18n="step5.demo.note">Se a
+                                    visibilidade de ignorados estiver em “Ocultar completamente”, os placeholders acima
+                                    desaparecem da árvore.</p>
                             </div>
                         </div>
                     </div>
@@ -326,35 +435,49 @@
         <section class="px-8 py-16 max-w-7xl mx-auto" id="safety">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <div class="lg:col-span-7">
-                    <h2 class="text-4xl font-extrabold text-primary tracking-tight mb-4" data-i18n="step5.safety.title">Safety Scan e Path Guard</h2>
-                    <p class="text-on-surface-variant text-lg leading-relaxed mb-8" data-i18n="step5.safety.subtitle">O Passo 5 não serve apenas para excluir ruído. Ele também protege contra exportações acidentais muito grandes, profundas ou perigosas.</p>
+                    <h2 class="text-4xl font-extrabold text-primary tracking-tight mb-4" data-i18n="step5.safety.title">
+                        Safety Scan e Path Guard</h2>
+                    <p class="text-on-surface-variant text-lg leading-relaxed mb-8" data-i18n="step5.safety.subtitle">O
+                        Passo 5 não serve apenas para excluir ruído. Ele também protege contra exportações acidentais
+                        muito grandes, profundas ou perigosas.</p>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div class="bg-white p-6 rounded-2xl border border-outline-variant/10">
                             <h3 class="font-bold text-primary mb-2" data-i18n="step5.safety.h3_files">Max Files</h3>
-                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.files">Interrompe a operação quando a contagem de arquivos de texto elegíveis ultrapassa o limite configurado.</p>
+                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.files">Interrompe a
+                                operação quando a contagem de arquivos de texto elegíveis ultrapassa o limite
+                                configurado.</p>
                         </div>
                         <div class="bg-white p-6 rounded-2xl border border-outline-variant/10">
                             <h3 class="font-bold text-primary mb-2" data-i18n="step5.safety.h3_size">Max Size (MB)</h3>
-                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.size">Evita bundles gigantescos quando o tamanho acumulado do conteúdo ultrapassa o teto definido.</p>
+                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.size">Evita bundles
+                                gigantescos quando o tamanho acumulado do conteúdo ultrapassa o teto definido.</p>
                         </div>
                         <div class="bg-white p-6 rounded-2xl border border-outline-variant/10">
                             <h3 class="font-bold text-primary mb-2" data-i18n="step5.safety.h3_depth">Max Dir Depth</h3>
-                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.depth">Ajuda a impedir árvores excessivamente profundas, loops ou estruturas acidentalmente enormes.</p>
+                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.depth">Ajuda a impedir
+                                árvores excessivamente profundas, loops ou estruturas acidentalmente enormes.</p>
                         </div>
                         <div class="bg-white p-6 rounded-2xl border border-outline-variant/10">
                             <h3 class="font-bold text-primary mb-2" data-i18n="step5.safety.h3_guard">Path Guard</h3>
-                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.guard">Bloqueia por padrão roots de disco e diretórios críticos, como <span class="code-chip">C:\</span> e <span class="code-chip">C:\Windows</span>.</p>
+                            <p class="text-on-surface-variant text-sm" data-i18n="step5.safety.guard">Bloqueia por
+                                padrão roots de disco e diretórios críticos, como <span class="code-chip">C:\</span> e
+                                <span class="code-chip">C:\Windows</span>.</p>
                         </div>
                     </div>
                 </div>
                 <div class="lg:col-span-5">
                     <div class="bg-primary text-white rounded-[2rem] p-8 shadow-xl overflow-hidden relative">
-                        <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
+                        <div class="absolute inset-0 opacity-10 pointer-events-none"
+                            style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;">
+                        </div>
                         <div class="relative z-10">
-                            <h3 class="text-2xl font-bold mb-5" data-i18n="step5.safety.trigger.title">Quando um limite dispara</h3>
-                            <p class="text-gray-300 mb-5 leading-relaxed" data-i18n="step5.safety.trigger.body">A exportação é abortada de forma segura. Em vez de gerar um bundle incompleto ou custoso demais, o sistema grava um pequeno arquivo explicando o motivo da interrupção.</p>
+                            <h3 class="text-2xl font-bold mb-5" data-i18n="step5.safety.trigger.title">Quando um limite
+                                dispara</h3>
+                            <p class="text-gray-300 mb-5 leading-relaxed" data-i18n="step5.safety.trigger.body">A
+                                exportação é abortada de forma segura. Em vez de gerar um bundle incompleto ou custoso
+                                demais, o sistema grava um pequeno arquivo explicando o motivo da interrupção.</p>
                             <div class="bg-white/10 rounded-2xl p-5 border border-white/10">
-<pre class="code-block text-sm leading-6"># 🛑 SAFETY LIMITS TRIGGERED
+                                <pre class="code-block text-sm leading-6"># 🛑 SAFETY LIMITS TRIGGERED
 
 Reason: ...
 
@@ -368,33 +491,65 @@ The operation was aborted to prevent accidental system overload, massive token b
 
 
         <section class="px-8 py-10 max-w-7xl mx-auto" id="ai-assist">
-            <div class="bg-gradient-to-br from-primary to-[#0d1830] text-white rounded-[2rem] p-8 md:p-10 shadow-xl overflow-hidden relative">
-                <div class="absolute -top-10 -right-10 w-72 h-72 bg-secondary/20 blur-3xl rounded-full pointer-events-none"></div>
+            <div
+                class="bg-gradient-to-br from-primary to-[#0d1830] text-white rounded-[2rem] p-8 md:p-10 shadow-xl overflow-hidden relative">
+                <div
+                    class="absolute -top-10 -right-10 w-72 h-72 bg-secondary/20 blur-3xl rounded-full pointer-events-none">
+                </div>
                 <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <div class="lg:col-span-7">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-bold tracking-wider uppercase mb-5" data-i18n="step5.ai.badge">Recomendação opcional</div>
-                        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-4" data-i18n="step5.ai.title">Assistência opcional com IA para modularizar o projeto</h2>
-                        <p class="text-gray-200 text-lg leading-relaxed mb-5" data-i18n="step5.ai.body">Em projetos grandes ou heterogêneos, você pode usar um snapshot da árvore do repositório com uma LLM de sua preferência para gerar uma primeira proposta de regras do Passo 5. Esse uso ajuda na modularização e na redução de ruído, mas não substitui a etapa de sanitização do conteúdo final.</p>
-                        <p class="text-gray-300 leading-relaxed" data-i18n="step5.ai.note">Esse fluxo é assistido e revisável. O objetivo não é substituir seu critério técnico, e sim acelerar a criação de uma skip list inicial que depois pode ser refinada diretamente no BundleWeave PRO. Credenciais, segredos e conteúdo sensível dentro de arquivos incluídos devem ser tratados separadamente no Content Redactor.</p>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-xs font-bold tracking-wider uppercase mb-5"
+                            data-i18n="step5.ai.badge">Recomendação opcional</div>
+                        <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight mb-4" data-i18n="step5.ai.title">
+                            Assistência opcional com IA para modularizar o projeto</h2>
+                        <p class="text-gray-200 text-lg leading-relaxed mb-5" data-i18n="step5.ai.body">Em projetos
+                            grandes ou heterogêneos, você pode usar um snapshot da árvore do repositório com uma LLM de
+                            sua preferência para gerar uma primeira proposta de regras do Passo 5. Esse uso ajuda na
+                            modularização e na redução de ruído, mas não substitui a etapa de sanitização do conteúdo
+                            final.</p>
+                        <p class="text-gray-300 leading-relaxed" data-i18n="step5.ai.note">Esse fluxo é assistido e
+                            revisável. O objetivo não é substituir seu critério técnico, e sim acelerar a criação de uma
+                            skip list inicial que depois pode ser refinada diretamente no CodeFlatten PRO. Credenciais,
+                            segredos e conteúdo sensível dentro de arquivos incluídos devem ser tratados separadamente
+                            no Content Redactor.</p>
                     </div>
                     <div class="lg:col-span-5">
                         <div class="bg-white/10 rounded-2xl border border-white/10 p-6">
-                            <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4" data-i18n="step5.labels.when_worth">Quando vale a pena</p>
+                            <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-4"
+                                data-i18n="step5.labels.when_worth">Quando vale a pena</p>
                             <div class="space-y-3 text-sm text-gray-100 leading-relaxed">
-                                <div class="flex items-start gap-3"><span class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span><p data-i18n="step5.ai.when.1">Monorepos, stacks híbridas ou bases com muitos diretórios auxiliares.</p></div>
-                                <div class="flex items-start gap-3"><span class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span><p data-i18n="step5.ai.when.2">Quando você quer modularizar dumps por objetivo: arquitetura, runtime, UI, integrações ou documentação.</p></div>
-                                <div class="flex items-start gap-3"><span class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span><p data-i18n="step5.ai.when.3">Quando o filtro manual ficaria repetitivo, demorado ou amplo demais.</p></div>
+                                <div class="flex items-start gap-3"><span
+                                        class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span>
+                                    <p data-i18n="step5.ai.when.1">Monorepos, stacks híbridas ou bases com muitos
+                                        diretórios auxiliares.</p>
+                                </div>
+                                <div class="flex items-start gap-3"><span
+                                        class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span>
+                                    <p data-i18n="step5.ai.when.2">Quando você quer modularizar dumps por objetivo:
+                                        arquitetura, runtime, UI, integrações ou documentação.</p>
+                                </div>
+                                <div class="flex items-start gap-3"><span
+                                        class="material-symbols-outlined text-tertiary-fixed-dim">auto_awesome</span>
+                                    <p data-i18n="step5.ai.when.3">Quando o filtro manual ficaria repetitivo, demorado
+                                        ou amplo demais.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="relative z-10 mt-6 bg-tertiary-fixed-dim/15 rounded-2xl border border-tertiary-fixed-dim/30 p-6">
+                <div
+                    class="relative z-10 mt-6 bg-tertiary-fixed-dim/15 rounded-2xl border border-tertiary-fixed-dim/30 p-6">
                     <div class="flex items-start gap-4">
                         <span class="material-symbols-outlined text-tertiary-fixed-dim text-[28px]">info</span>
                         <div>
-                            <h3 class="text-xl font-bold mb-2" data-i18n="step5.ai.guard.title">Importante: filtro não é redaction</h3>
-                            <p class="text-gray-200 leading-relaxed" data-i18n="step5.ai.guard.body">O Passo 5 ajuda a decidir o que entra ou não entra no bundle. A sanitização do texto final pertence ao Passo 6, com o Content Redactor. Use os dois em conjunto quando precisar modularização, redução de ruído e revisão de conteúdo sensível SEMPRE revise novamente senhas, segredos e outras informações sensíveis antes de usar o arquivo gerado.</p>
+                            <h3 class="text-xl font-bold mb-2" data-i18n="step5.ai.guard.title">Importante: filtro não é
+                                redaction</h3>
+                            <p class="text-gray-200 leading-relaxed" data-i18n="step5.ai.guard.body">O Passo 5 ajuda a
+                                decidir o que entra ou não entra no bundle. A sanitização do texto final pertence ao
+                                Passo 6, com o Content Redactor. Use os dois em conjunto quando precisar modularização,
+                                redução de ruído e revisão de conteúdo sensível SEMPRE revise novamente senhas, segredos
+                                e outras informações sensíveis antes de usar o arquivo gerado.</p>
                         </div>
                     </div>
                 </div>
@@ -407,25 +562,33 @@ The operation was aborted to prevent accidental system overload, massive token b
                                 <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
                                     <div class="bg-white/10 rounded-xl p-4">
                                         <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-2">1</p>
-                                        <p data-i18n="step5.ai.flow.1">Gere um snapshot da árvore e defina o objetivo do dump.</p>
+                                        <p data-i18n="step5.ai.flow.1">Gere um snapshot da árvore e defina o objetivo do
+                                            dump.</p>
                                     </div>
                                     <div class="bg-white/10 rounded-xl p-4">
                                         <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-2">2</p>
-                                        <p data-i18n="step5.ai.flow.2">Peça à LLM apenas uma skip list inicial para preservar o núcleo e reduzir ruído.</p>
+                                        <p data-i18n="step5.ai.flow.2">Peça à LLM apenas uma skip list inicial para
+                                            preservar o núcleo e reduzir ruído.</p>
                                     </div>
                                     <div class="bg-white/10 rounded-xl p-4">
                                         <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-2">3</p>
-                                        <p data-i18n="step5.ai.flow.3">Revise as regras, adapte ao projeto e só então aplique no Passo 5.</p>
+                                        <p data-i18n="step5.ai.flow.3">Revise as regras, adapte ao projeto e só então
+                                            aplique no Passo 5.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="bg-white rounded-2xl border border-outline-variant/10 p-6 text-primary h-full">
-                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-3" data-i18n="step5.ai.prompt.label">Exemplo de pedido</p>
+                                <p class="text-xs uppercase tracking-widest text-gray-400 font-bold mb-3"
+                                    data-i18n="step5.ai.prompt.label">Exemplo de pedido</p>
                                 <div class="rounded-xl bg-surface-container-low border border-outline-variant/10 p-4">
                                     <pre class="code-block text-sm leading-6" data-i18n="step5.ai.prompt.body">Analise o snapshot da árvore do repositório no idioma do usuário e gere apenas uma skip list otimizada em padrão fnmatch, pronta para uso, excluindo ruído sem ferir a arquitetura: use nomes exatos para remover pastas ou arquivos específicos, wildcards para famílias recorrentes de arquivos e padrões amplos com cautela; considere que cada regra pode casar tanto com o nome do item quanto com o caminho completo, e que, se uma pasta casar, todo o ramo deve ser ignorado. Remova testes, docs não essenciais, assets binários, caches, logs, builds, locks, artefatos temporários, segredos e redundâncias, mas preserve lógica central, módulos funcionais, runtime, providers, adapters, fluxo de execução e tudo que sustente entendimento estrutural do sistema.
 Na dúvida, preserve código relevante e exclua apenas ruído.</pre>
                                 </div>
-                                <p class="mt-4 text-sm text-on-surface-variant leading-relaxed" data-i18n="step5.ai.prompt.note">x Você é responsável por revisar o arquivo final. ProtectPath e Content Redactor reduzem riscos, mas NÃO garantem a remoção completa de conteúdo sensível. SEMPRE revise novamente senhas, segredos e outras informações sensíveis.</p>
+                                <p class="mt-4 text-sm text-on-surface-variant leading-relaxed"
+                                    data-i18n="step5.ai.prompt.note">x Você é responsável por revisar o arquivo final.
+                                    ProtectPath e Content Redactor reduzem riscos, mas NÃO garantem a remoção completa
+                                    de conteúdo sensível. SEMPRE revise novamente senhas, segredos e outras informações
+                                    sensíveis.</p>
                             </div>
                         </div>
                     </div>
@@ -436,8 +599,13 @@ Na dúvida, preserve código relevante e exclua apenas ruído.</pre>
         <section class="max-w-7xl mx-auto px-8 pb-8">
             <div class="bg-primary text-white rounded-2xl p-6 shadow-sm flex flex-col md:flex-row gap-6 items-center">
                 <div class="flex-grow">
-                    <h3 class="font-bold text-sm uppercase tracking-widest text-secondary mb-2" data-i18n="step5.ack.title">Acknowledgements & Third-Party</h3>
-                    <p class="text-sm leading-relaxed text-gray-200" data-i18n="step5.ack.body">BundleWeave PRO features a GitHub Linguist-style statistical output, inspired by the open-source <a href="https://github.com/github-linguist/linguist" target="_blank" class="font-bold text-white hover:underline transition-colors">Linguist</a> project by GitHub. The underlying engine also leverages the capabilities of Python, Tcl/Tk, and Pillow.</p>
+                    <h3 class="font-bold text-sm uppercase tracking-widest text-secondary mb-2"
+                        data-i18n="step5.ack.title">Acknowledgements & Third-Party</h3>
+                    <p class="text-sm leading-relaxed text-gray-200" data-i18n="step5.ack.body">CodeFlatten PRO features
+                        a GitHub Linguist-style statistical output, inspired by the open-source <a
+                            href="https://github.com/github-linguist/linguist" target="_blank"
+                            class="font-bold text-white hover:underline transition-colors">Linguist</a> project by
+                        GitHub. The underlying engine also leverages the capabilities of Python, Tcl/Tk, and Pillow.</p>
                 </div>
                 <div class="hidden md:flex items-center justify-center bg-white/10 w-16 h-16 rounded-full shrink-0">
                     <span class="material-symbols-outlined text-3xl">policy</span>
@@ -446,25 +614,54 @@ Na dúvida, preserve código relevante e exclua apenas ruído.</pre>
         </section>
 
         <section class="px-8 pb-20 max-w-7xl mx-auto">
-            <div class="bg-white rounded-[2rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)] p-8 md:p-10">
+            <div
+                class="bg-white rounded-[2rem] border border-outline-variant/10 shadow-[0px_4px_16px_rgba(7,13,23,0.03)] p-8 md:p-10">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <div class="lg:col-span-8">
-                        <h2 class="text-3xl font-extrabold text-primary mb-5" data-i18n="step5.check.title">Checklist rápido antes de gerar</h2>
+                        <h2 class="text-3xl font-extrabold text-primary mb-5" data-i18n="step5.check.title">Checklist
+                            rápido antes de gerar</h2>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item1">Use nomes exatos para exclusões cirúrgicas.</p></div>
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item2">Use wildcards para extensões, testes, locks e artefatos recorrentes.</p></div>
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item3">Deixe o Safety Scan ligado na maior parte dos casos.</p></div>
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item4">Deixe o Path Guard ligado para evitar roots e pastas críticas.</p></div>
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item5">Ative a referência de binários quando quiser contexto estrutural sem embutir o conteúdo.</p></div>
-                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span class="material-symbols-outlined text-secondary">check_circle</span><p data-i18n="step5.check.item6">Revise o resultado final antes de compartilhar com terceiros ou com uma IA.</p></div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item1">Use nomes exatos para exclusões cirúrgicas.</p>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item2">Use wildcards para extensões, testes, locks e artefatos
+                                    recorrentes.</p>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item3">Deixe o Safety Scan ligado na maior parte dos casos.
+                                </p>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item4">Deixe o Path Guard ligado para evitar roots e pastas
+                                    críticas.</p>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item5">Ative a referência de binários quando quiser contexto
+                                    estrutural sem embutir o conteúdo.</p>
+                            </div>
+                            <div class="flex items-start gap-3 p-4 bg-surface-container-low rounded-xl"><span
+                                    class="material-symbols-outlined text-secondary">check_circle</span>
+                                <p data-i18n="step5.check.item6">Revise o resultado final antes de compartilhar com
+                                    terceiros ou com uma IA.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="lg:col-span-4">
                         <div class="bg-primary text-white rounded-2xl p-7 shadow-lg">
-                            <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-3" data-i18n="step5.support.label">Precisa de ajuda?</p>
+                            <p class="text-xs uppercase tracking-widest text-gray-300 font-bold mb-3"
+                                data-i18n="step5.support.label">Precisa de ajuda?</p>
                             <h3 class="text-2xl font-bold mb-4" data-i18n="step5.support.title">Suporte técnico</h3>
-                            <p class="text-gray-300 leading-relaxed mb-6" data-i18n="step5.support.body">Se algo não estiver claro, envie um relato curto com prints e o comportamento observado. Isso acelera muito o diagnóstico.</p>
-                            <a class="block w-full bg-white text-primary text-center py-4 rounded-xl font-bold hover:bg-tertiary-fixed-dim transition-colors" href="mailto:besttoolsforever@outlook.com">besttoolsforever@outlook.com</a>
+                            <p class="text-gray-300 leading-relaxed mb-6" data-i18n="step5.support.body">Se algo não
+                                estiver claro, envie um relato curto com prints e o comportamento observado. Isso
+                                acelera muito o diagnóstico.</p>
+                            <a class="block w-full bg-white text-primary text-center py-4 rounded-xl font-bold hover:bg-tertiary-fixed-dim transition-colors"
+                                href="mailto:besttoolsforever@outlook.com">besttoolsforever@outlook.com</a>
                         </div>
                     </div>
                 </div>
@@ -476,18 +673,26 @@ Na dúvida, preserve código relevante e exclua apenas ruído.</pre>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto pt-12">
             <div class="space-y-6">
                 <a href="https://besttoolsforever.github.io/support/" class="block">
-                    <img alt="BestToolsForever Logo" class="w-48 md:w-64 h-auto object-contain" src="assets/images/logo_BestToolsForever_Name.svg"/>
+                    <img alt="BestToolsForever Logo" class="w-48 md:w-64 h-auto object-contain"
+                        src="assets/images/logo_BestToolsForever_Name.svg" />
                 </a>
-                <p class="text-on-surface-variant text-sm leading-relaxed max-w-xs" data-i18n="shared.footer.description">Software utilitário premium, projetado para uso real.</p>
+                <p class="text-on-surface-variant text-sm leading-relaxed max-w-xs"
+                    data-i18n="shared.footer.description">Software utilitário premium, projetado para uso real.</p>
             </div>
             <div class="flex flex-col gap-3 text-sm">
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="https://github.com/besttoolsforever" target="_blank" rel="noreferrer">GitHub</a>
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="https://www.linkedin.com/in/luiz-eduardo-9941232bb/" target="_blank" rel="noreferrer">LinkedIn</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors"
+                    href="https://github.com/besttoolsforever" target="_blank" rel="noreferrer">GitHub</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors"
+                    href="https://www.linkedin.com/in/luiz-eduardo-9941232bb/" target="_blank"
+                    rel="noreferrer">LinkedIn</a>
             </div>
             <div class="flex flex-col gap-3 text-sm">
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#privacy" data-i18n="shared.footer.privacy">Política de Privacidade</a>
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#eula" data-i18n="shared.footer.terms">Termos de Serviço</a>
-                <p class="mt-4 text-on-surface-variant/50 text-[11px] uppercase tracking-tighter">© <span id="copyright-year">2026</span> BestToolsForever.</p>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#privacy"
+                    data-i18n="shared.footer.privacy">Política de Privacidade</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#eula"
+                    data-i18n="shared.footer.terms">Termos de Serviço</a>
+                <p class="mt-4 text-on-surface-variant/50 text-[11px] uppercase tracking-tighter">© <span
+                        id="copyright-year">2026</span> BestToolsForever.</p>
             </div>
         </div>
     </footer>
@@ -506,4 +711,5 @@ Na dúvida, preserve código relevante e exclua apenas ruído.</pre>
         // Init (handled by translations.js)
     </script>
 </body>
+
 </html>

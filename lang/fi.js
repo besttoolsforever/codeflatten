@@ -34,11 +34,11 @@ window.translations.fi = {
             label: "Tarkkuusohjelmisto",
             title: "Kiihdytä Vibe Coding -työnkulkuasi.",
             subtitle: "Lopullinen paikallinen apuohjelma nykyaikaisille rakentajille. Muunna monimutkaiset koodipohjat sekunneissa jäsennellyksi, tekoälyvalmiiksi kontekstiksi.",
-            cta: "Hanki BundleWeave PRO"
+            cta: "Hanki CodeFlatten PRO"
         },
         vibe: {
             title: "Rakennettu Vibe Codingia varten",
-            desc: "Älä tuhlaa aikaa kopioimiseen ja liittämiseen. BundleWeave PRO valmistelee koko ympäristösi LLM-malleille varmistaen täydellisen rakenteellisen kontekstin ja polettitehokkuuden.",
+            desc: "Älä tuhlaa aikaa kopioimiseen ja liittämiseen. CodeFlatten PRO valmistelee koko ympäristösi LLM-malleille varmistaen täydellisen rakenteellisen kontekstin ja polettitehokkuuden.",
             feature1: "Kontekstitietoinen niputtaminen",
             feature2: "Polettien optimointi",
             feature3: "Välitön tekoälykehotus",
@@ -52,8 +52,8 @@ window.translations.fi = {
         },
         features: {
             title: "Esitellyt ratkaisut",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Lopullinen työkalu projektidokumentaatioon, tekoälykontekstin valmisteluun ja laajamittaiseen tekstin muuntamiseen. Optimoitu Windowsille."
             },
             learn_more: "Lue lisää"
@@ -68,7 +68,7 @@ window.translations.fi = {
         },
         integration: {
             title: "Saumaton käyttöjärjestelmäintegraatio",
-            desc: "BundleWeave PRO integroituu suoraan Windows Shelliin. Napsauta hiiren kakkospainikkeella mitä tahansa kansiota tai tiedostovalintaa luodaksesi nippusi välittömästi.",
+            desc: "CodeFlatten PRO integroituu suoraan Windows Shelliin. Napsauta hiiren kakkospainikkeella mitä tahansa kansiota tai tiedostovalintaa luodaksesi nippusi välittömästi.",
             feature1: "Kontekstivalikko-valmis",
             feature2: "Taustaprosessi"
         },
@@ -76,7 +76,7 @@ window.translations.fi = {
             title: "Ilmainen vs. Premium",
             free: "2 profiilia, 1 muokkaussääntö, 1 hakemiston ohitus",
             premium: "Rajoittamattomat profiilit, edistynyt muokkaus, ensisijaiset ohitukset, Store-synkronoidut lisenssit",
-            cta: "Hanki BundleWeave PRO"
+            cta: "Hanki CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.fi = {
         ack: { title: "Kiitokset ja kolmansien osapuolten ilmoitukset" }
     },
     support: {
-        title: "Tuki - BundleWeave PRO | BestToolsForever",
+        title: "Tuki - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Tekninen tuki",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> -tukikeskus.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> -tukikeskus.",
             subtitle: "Omistettu apu tehokkaalle apuohjelmistollemme. Palaa rakentamaan tarkkuudella.",
             back_to_home: "Takaisin kotiin"
         },
@@ -122,7 +122,7 @@ window.translations.fi = {
         }
     },
     step5: {
-        title: "Vaihe 5 — Poikkeukset ja turvallisuus | BundleWeave PRO",
+        title: "Vaihe 5 — Poikkeukset ja turvallisuus | CodeFlatten PRO",
         hero: {
             badge: "Virallinen avustajaopas",
             title: "Vaihe 5 — Poikkeukset ja turvallisuus",
@@ -139,7 +139,7 @@ window.translations.fi = {
         },
         engine: {
             card1: { title: "1. Mikä vastaa sääntöä", body: "Moottori käyttää fnmatch-tyylisiä malleja. Sääntö voi vastata tiedoston tai kansion nimeä sellaisenaan tai koko polkua." },
-            card2: { title: "2. Mitä tapahtuu sen jälkeen", body: "Jos sääntö osuu kansioon, BundleWeave PRO keskeyttää kyseisen solmun lukemisen. Kaikki sisällä oleva ohitetaan implisiittisesti." },
+            card2: { title: "2. Mitä tapahtuu sen jälkeen", body: "Jos sääntö osuu kansioon, CodeFlatten PRO keskeyttää kyseisen solmun lukemisen. Kaikki sisällä oleva ohitetaan implisiittisesti." },
             card3: { title: "3. Mitä nippuun sisältyy", body: "Tukikelpoiset tekstitiedostot sisältyvät nippuun. Binaari- ja tukemattomat muodot voivat näkyä vain viitteenä, jos tämä asetus on käytössä." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.fi = {
             badge: "Valinnainen suositus",
             title: "Valinnainen tekoälyavustaja projektin modulaarisointiin",
             body: "Suurissa tai epähomogeenisissä projekteissa voit käyttää snapshot-kuvaa arkistopuusta valitsemasi LLM-mallin kanssa luodaksesi ensimmäisen ehdotuksen vaiheen 5 säännöiksi. Tämä auttaa modulaarisoinnissa ja kohinan vähentämisessä, mutta ei korvaa lopullista sisällön puhdistusvaihetta.",
-            note: "Tämä työnkulku on avustettu ja tarkistettavissa. Tavoitteena ei ole korvata teknistä harkintaasi vaan nopeuttaa alkuperäisen ohituslistan luomista, jota voidaan sitten tarkentaa suoraan BundleWeave PRO:ssa. Mukana olevien tiedostojen kirjautumistiedot, salaisuudet ja arkaluonteinen sisältö on käsiteltävä erikseen Content Redactorissa.",
+            note: "Tämä työnkulku on avustettu ja tarkistettavissa. Tavoitteena ei ole korvata teknistä harkintaasi vaan nopeuttaa alkuperäisen ohituslistan luomista, jota voidaan sitten tarkentaa suoraan CodeFlatten PRO:ssa. Mukana olevien tiedostojen kirjautumistiedot, salaisuudet ja arkaluonteinen sisältö on käsiteltävä erikseen Content Redactorissa.",
             guard: {
                 title: "Tärkeää: suodatus ei ole tekstinmuokkausta",
                 body: "Vaihe 5 auttaa päättämään, mikä nippuun sisältyy ja mikä ei. Lopullinen tekstin puhdistus kuuluu vaiheeseen 6 Content Redactorin avulla. Käytä molempia yhdessä. MUISTA tarkistaa salasanat ja salaisuudet aina uudelleen."
@@ -199,7 +199,7 @@ window.translations.fi = {
         },
         ack: {
             title: "Kiitokset ja kolmannet osapuolet",
-            body: "BundleWeave PRO tarjoaa GitHub Linguist -tyylisen tilastollisen tulosteen, joka on saanut inspiraationsa GitHubin avoimen lähdekoodin <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>-projektista. Perusmoottori hyödyntää myös Pythonia, Tcl/Tk:ta ja Pillowia."
+            body: "CodeFlatten PRO tarjoaa GitHub Linguist -tyylisen tilastollisen tulosteen, joka on saanut inspiraationsa GitHubin avoimen lähdekoodin <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>-projektista. Perusmoottori hyödyntää myös Pythonia, Tcl/Tk:ta ja Pillowia."
         },
         check: {
             title: "Pikatarkistuslista ennen luomista",
@@ -215,8 +215,8 @@ window.translations.fi = {
             title: "Tekninen tuki",
             body: "Jos jokin on epäselvää, lähetä lyhyt raportti näyttökuvien ja havaitun käyttäytymisen kera. Tämä nopeuttaa diagnosointia huomattavasti."
         },
-            labels: {
-                prompt_label: "Esimerkkipyyntö"
-            }
+        labels: {
+            prompt_label: "Esimerkkipyyntö"
         }
+    }
 };

@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html class="light" lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title data-i18n="support.title">Support - BundleWeave PRO | BestToolsForever</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title data-i18n="support.title">Support - CodeFlatten PRO | BestToolsForever</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -35,33 +39,50 @@
         }
     </script>
     <style>
-        body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3 { font-family: 'Manrope', sans-serif; }
-        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
     </style>
 </head>
+
 <body class="bg-[#f8f9fa] text-on-surface">
     <!-- TopNavBar -->
     <nav class="fixed top-0 w-full z-50 bg-white/80 backdrop-blur-xl shadow-[0px_12px_32px_rgba(7,13,23,0.06)]">
         <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto font-['Manrope'] tracking-tight">
             <div class="flex items-center gap-8">
                 <a href="index.html">
-                    <img alt="BestToolsForever Logo" class="h-8 w-auto" src="assets/images/logo_bw.svg"/>
+                    <img alt="BestToolsForever Logo" class="h-8 w-auto" src="assets/images/logo_cf.svg" />
                 </a>
                 <div class="hidden md:flex gap-6 items-center">
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="index.html" data-i18n="shared.nav.home">Home</a>
-                    <a class="text-[#0360ab] border-b-2 border-[#0360ab] pb-1" href="support.html" data-i18n="shared.nav.support">Support</a>
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="legal.html" data-i18n="shared.nav.legal">Legal</a>
-                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="step5.html" data-i18n="shared.nav.step5">Step 5</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="index.html"
+                        data-i18n="shared.nav.home">Home</a>
+                    <a class="text-[#0360ab] border-b-2 border-[#0360ab] pb-1" href="support.html"
+                        data-i18n="shared.nav.support">Support</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="legal.html"
+                        data-i18n="shared.nav.legal">Legal</a>
+                    <a class="text-[#070d17]/70 hover:text-[#0360ab] transition-colors duration-300" href="step5.html"
+                        data-i18n="shared.nav.step5">Step 5</a>
                 </div>
             </div>
             <div class="flex items-center gap-4 relative">
-                <button id="lang-selector" class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-sm font-medium border border-outline-variant/20">
+                <button id="lang-selector"
+                    class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container-high transition-colors text-sm font-medium border border-outline-variant/20">
                     <span class="material-symbols-outlined text-[20px]">language</span>
                     <span id="current-lang">EN-US</span>
                     <span class="material-symbols-outlined text-[16px]">expand_more</span>
                 </button>
-                <div id="lang-dropdown" class="absolute top-full right-0 mt-3 w-64 md:w-52 max-h-[70vh] md:max-h-[420px] overflow-y-auto bg-white rounded-2xl shadow-[0px_24px_64px_-12px_rgba(7,13,23,0.18)] border border-outline-variant/10 hidden flex-col py-2 z-[100]">
+                <div id="lang-dropdown"
+                    class="absolute top-full right-0 mt-3 w-64 md:w-52 max-h-[70vh] md:max-h-[420px] overflow-y-auto bg-white rounded-2xl shadow-[0px_24px_64px_-12px_rgba(7,13,23,0.18)] border border-outline-variant/10 hidden flex-col py-2 z-[100]">
                 </div>
             </div>
         </div>
@@ -71,15 +92,22 @@
         <header class="mb-20">
             <div class="flex flex-col md:flex-row justify-between items-end gap-8">
                 <div class="max-w-2xl">
-                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-fixed-dim/20 text-on-tertiary-fixed-variant text-xs font-bold mb-6 tracking-wider uppercase" data-i18n="support.hero.label">Technical Support</div>
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-tertiary-fixed-dim/20 text-on-tertiary-fixed-variant text-xs font-bold mb-6 tracking-wider uppercase"
+                        data-i18n="support.hero.label">Technical Support</div>
                     <div class="flex items-center gap-6 mb-6">
-                        <img alt="BundleWeave PRO Logo" class="w-16 h-16 rounded-xl shadow-lg" src="assets/images/logo_BundleWeave.svg"/>
-                        <h1 class="text-5xl md:text-7xl font-extrabold text-primary tracking-tighter leading-tight" data-i18n="support.hero.title">BundleWeave <span class="text-secondary">PRO</span> Help Center.</h1>
+                        <img alt="CodeFlatten PRO Logo" class="w-16 h-16 rounded-xl shadow-lg"
+                            src="assets/images/logo_CodeFlatten.svg" />
+                        <h1 class="text-5xl md:text-7xl font-extrabold text-primary tracking-tighter leading-tight"
+                            data-i18n="support.hero.title">CodeFlatten <span class="text-secondary">PRO</span> Help
+                            Center.</h1>
                     </div>
-                    <p class="text-xl text-on-surface-variant leading-relaxed" data-i18n="support.hero.subtitle">Dedicated assistance for our high-performance utility suite. Get back to building with precision.</p>
+                    <p class="text-xl text-on-surface-variant leading-relaxed" data-i18n="support.hero.subtitle">
+                        Dedicated assistance for our high-performance utility suite. Get back to building with
+                        precision.</p>
                 </div>
                 <div class="pb-2">
-                    <a class="flex items-center gap-2 text-secondary font-semibold hover:underline decoration-2 underline-offset-4" href="index.html">
+                    <a class="flex items-center gap-2 text-secondary font-semibold hover:underline decoration-2 underline-offset-4"
+                        href="index.html">
                         <span class="material-symbols-outlined">arrow_back</span>
                         <span data-i18n="support.hero.back_to_home">Back to Home</span>
                     </a>
@@ -90,19 +118,32 @@
         <div class="grid grid-cols-1 md:grid-cols-12 gap-12">
             <div class="md:col-span-7 space-y-12">
                 <section>
-                    <h2 class="text-3xl font-bold mb-8 text-primary" data-i18n="support.faq.title">Knowledge Base & Troubleshooting</h2>
+                    <h2 class="text-3xl font-bold mb-8 text-primary" data-i18n="support.faq.title">Knowledge Base &
+                        Troubleshooting</h2>
                     <div class="space-y-4">
-                        <div class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
-                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item1.q">Dealing with unexpected app behavior or UI glitches?</h3>
-                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item1.a">A clean re-installation of the Microsoft Store package usually resolves local cache parity and update synchronization issues.</p>
+                        <div
+                            class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
+                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item1.q">Dealing with
+                                unexpected app behavior or UI glitches?</h3>
+                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item1.a">A clean
+                                re-installation of the Microsoft Store package usually resolves local cache parity and
+                                update synchronization issues.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
-                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item2.q">What are the benefits of the Premium Unlock?</h3>
-                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item2.a">The Premium version removes limitations on the number of profiles, allows advanced multi-rule content redaction, and enables directory-based profile overrides.</p>
+                        <div
+                            class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
+                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item2.q">What are the
+                                benefits of the Premium Unlock?</h3>
+                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item2.a">The
+                                Premium version removes limitations on the number of profiles, allows advanced
+                                multi-rule content redaction, and enables directory-based profile overrides.</p>
                         </div>
-                        <div class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
-                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item3.q">How are licenses managed?</h3>
-                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item3.a">All licensing is securely managed via the Microsoft Store. Your purchase is linked to your account and automatically synced across your compatible Windows devices.</p>
+                        <div
+                            class="bg-white p-8 rounded-xl shadow-[0px_4px_16px_rgba(7,13,23,0.03)] border border-outline-variant/10">
+                            <h3 class="text-lg font-bold text-primary mb-3" data-i18n="support.faq.item3.q">How are
+                                licenses managed?</h3>
+                            <p class="text-on-surface-variant leading-relaxed" data-i18n="support.faq.item3.a">All
+                                licensing is securely managed via the Microsoft Store. Your purchase is linked to your
+                                account and automatically synced across your compatible Windows devices.</p>
                         </div>
                     </div>
                 </section>
@@ -111,26 +152,35 @@
             <div class="md:col-span-5">
                 <div class="sticky top-32">
                     <div class="bg-primary text-on-primary p-10 rounded-xl shadow-xl relative overflow-hidden">
-                        <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;"></div>
-                        <h2 class="text-2xl font-bold mb-6 relative z-10 text-white" data-i18n="support.report.title">Report an Issue</h2>
-                        <p class="text-gray-300 mb-8 relative z-10 font-medium" data-i18n="support.report.description">Our engineering team investigates every report. To expedite your request:</p>
+                        <div class="absolute inset-0 opacity-10 pointer-events-none"
+                            style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 24px 24px;">
+                        </div>
+                        <h2 class="text-2xl font-bold mb-6 relative z-10 text-white" data-i18n="support.report.title">
+                            Report an Issue</h2>
+                        <p class="text-gray-300 mb-8 relative z-10 font-medium" data-i18n="support.report.description">
+                            Our engineering team investigates every report. To expedite your request:</p>
                         <ul class="space-y-4 mb-10 relative z-10 text-gray-200">
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-tertiary-fixed-dim">check_circle</span>
-                                <span class="text-sm" data-i18n="support.report.item1">Please include a screenshot of the error.</span>
+                                <span class="text-sm" data-i18n="support.report.item1">Please include a screenshot of
+                                    the error.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-tertiary-fixed-dim">check_circle</span>
-                                <span class="text-sm" data-i18n="support.report.item2">Provide your Windows build.</span>
+                                <span class="text-sm" data-i18n="support.report.item2">Provide your Windows
+                                    build.</span>
                             </li>
                             <li class="flex items-start gap-3">
                                 <span class="material-symbols-outlined text-tertiary-fixed-dim">check_circle</span>
-                                <span class="text-sm" data-i18n="support.report.item3">Give a detailed description of the problem.</span>
+                                <span class="text-sm" data-i18n="support.report.item3">Give a detailed description of
+                                    the problem.</span>
                             </li>
                         </ul>
                         <div class="space-y-4 relative z-10">
-                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold" data-i18n="support.report.contact_label">Contact Channel</p>
-                            <a class="block w-full bg-white text-primary text-center py-4 rounded-lg font-bold hover:bg-tertiary-fixed-dim transition-colors" href="mailto:besttoolsforever@outlook.com">besttoolsforever@outlook.com</a>
+                            <p class="text-xs uppercase tracking-widest text-gray-400 font-bold"
+                                data-i18n="support.report.contact_label">Contact Channel</p>
+                            <a class="block w-full bg-white text-primary text-center py-4 rounded-lg font-bold hover:bg-tertiary-fixed-dim transition-colors"
+                                href="mailto:besttoolsforever@outlook.com">besttoolsforever@outlook.com</a>
                         </div>
                     </div>
                 </div>
@@ -142,17 +192,26 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto pt-12">
             <div class="space-y-6">
                 <a href="https://besttoolsforever.github.io/support/" class="block">
-                    <img alt="BestToolsForever Logo" class="w-48 md:w-64 h-auto object-contain" src="assets/images/logo_BestToolsForever_Name.svg"/>
+                    <img alt="BestToolsForever Logo" class="w-48 md:w-64 h-auto object-contain"
+                        src="assets/images/logo_BestToolsForever_Name.svg" />
                 </a>
-                <p class="text-on-surface-variant text-sm leading-relaxed max-w-xs" data-i18n="shared.footer.description">Engineering premium utility software for the next generation of builders.</p>
+                <p class="text-on-surface-variant text-sm leading-relaxed max-w-xs"
+                    data-i18n="shared.footer.description">Engineering premium utility software for the next generation
+                    of builders.</p>
             </div>
             <div class="flex flex-col gap-3 text-sm">
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="https://github.com/besttoolsforever" target="_blank" data-i18n="shared.footer.social.github">GitHub</a>
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="https://www.linkedin.com/in/luiz-eduardo-9941232bb/" target="_blank" data-i18n="shared.footer.social.linkedin">LinkedIn</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors"
+                    href="https://github.com/besttoolsforever" target="_blank"
+                    data-i18n="shared.footer.social.github">GitHub</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors"
+                    href="https://www.linkedin.com/in/luiz-eduardo-9941232bb/" target="_blank"
+                    data-i18n="shared.footer.social.linkedin">LinkedIn</a>
             </div>
             <div class="flex flex-col gap-3 text-sm">
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#privacy" data-i18n="shared.footer.privacy">Privacy Policy</a>
-                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#eula" data-i18n="shared.footer.terms">Terms of Service</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#privacy"
+                    data-i18n="shared.footer.privacy">Privacy Policy</a>
+                <a class="text-on-surface-variant hover:text-secondary transition-colors" href="legal.html#eula"
+                    data-i18n="shared.footer.terms">Terms of Service</a>
                 <p class="mt-4 text-on-surface-variant/50 text-[11px] uppercase tracking-tighter">
                     <span data-i18n="shared.footer.copyright_prefix">©</span>
                     <span id="copyright-year">2026</span>
@@ -176,4 +235,5 @@
         // Init (handled by translations.js)
     </script>
 </body>
+
 </html>

@@ -34,11 +34,11 @@ window.translations.de = {
             label: "Präzisionssoftware",
             title: "Beschleunigen Sie Ihren Vibe-Coding-Workflow.",
             subtitle: "Das ultimative lokale Utility für moderne Builder. Verwandeln Sie komplexe Codebasen in Sekunden in strukturierten, KI-fähigen Kontext.",
-            cta: "Holen Sie sich BundleWeave PRO"
+            cta: "Holen Sie sich CodeFlatten PRO"
         },
         vibe: {
             title: "Gebaut für Vibe Coding",
-            desc: "Verschwenden Sie keine Zeit mit Copy-and-Paste. BundleWeave PRO bereitet Ihre gesamte Umgebung für LLMs vor und sorgt für perfekten strukturellen Kontext und Token-Effizienz.",
+            desc: "Verschwenden Sie keine Zeit mit Copy-and-Paste. CodeFlatten PRO bereitet Ihre gesamte Umgebung für LLMs vor und sorgt für perfekten strukturellen Kontext und Token-Effizienz.",
             feature1: "Kontextbewusstes Bundling",
             feature2: "Token-Optimierung",
             feature3: "Sofortiges KI-Prompting",
@@ -52,8 +52,8 @@ window.translations.de = {
         },
         features: {
             title: "Ausgewählte Lösungen",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Das ultimative Tool für die Projektdokumentation, KI-Kontextvorbereitung und groß angelegte Texttransformation. Optimiert für Windows."
             },
             learn_more: "Mehr erfahren"
@@ -68,7 +68,7 @@ window.translations.de = {
         },
         integration: {
             title: "Nahtlose OS-Integration",
-            desc: "BundleWeave PRO lässt sich direkt in die Windows-Shell integrieren. Klicken Sie mit der rechten Maustaste auf einen Ordner oder eine Dateiauswahl, um Ihr Bundle sofort zu erstellen.",
+            desc: "CodeFlatten PRO lässt sich direkt in die Windows-Shell integrieren. Klicken Sie mit der rechten Maustaste auf einen Ordner oder eine Dateiauswahl, um Ihr Bundle sofort zu erstellen.",
             feature1: "Kontextmenü bereit",
             feature2: "Hintergrundprozess"
         },
@@ -76,7 +76,7 @@ window.translations.de = {
             title: "Kostenlos vs. Premium",
             free: "2 Profile, 1 Schwärzungsregel, 1 Directory Override",
             premium: "Unbegrenzte Profile, erweiterte Schwärzung, prioritäre Overrides, per Store synchronisierte Lizenzen",
-            cta: "Holen Sie sich BundleWeave PRO"
+            cta: "Holen Sie sich CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.de = {
         ack: { title: "Danksagungen & Hinweise von Drittanbietern" }
     },
     support: {
-        title: "Support - BundleWeave PRO | BestToolsForever",
+        title: "Support - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Technischer Support",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> Hilfe-Center.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> Hilfe-Center.",
             subtitle: "Engagierte Unterstützung für unsere Hochleistungs-Utilitäts-Suite. Bauen Sie wieder mit Präzision.",
             back_to_home: "Zurück zur Startseite"
         },
@@ -122,7 +122,7 @@ window.translations.de = {
         }
     },
     step5: {
-        title: "Schritt 5 — Ausschlüsse und Sicherheit | BundleWeave PRO",
+        title: "Schritt 5 — Ausschlüsse und Sicherheit | CodeFlatten PRO",
         hero: {
             badge: "Offizieller Wizard-Leitfaden",
             title: "Schritt 5 — Ausschlüsse und Sicherheit",
@@ -139,7 +139,7 @@ window.translations.de = {
         },
         engine: {
             card1: { title: "1. Was zur Regel passt", body: "Die Engine verwendet Muster im fnmatch-Stil. Eine Regel kann auf den isolierten Datei- oder Ordnernamen oder auf den vollständigen Pfad zutreffen." },
-            card2: { title: "2. Was danach passiert", body: "Wenn eine Regel einen Ordner trifft, unterbricht BundleWeave PRO das Lesen dieses Knotens. Alles darin wird implizit ignoriert." },
+            card2: { title: "2. Was danach passiert", body: "Wenn eine Regel einen Ordner trifft, unterbricht CodeFlatten PRO das Lesen dieses Knotens. Alles darin wird implizit ignoriert." },
             card3: { title: "3. Was ins Bundle kommt", body: "Berechtigte Textdateien kommen ins Bundle. Binärdateien und nicht unterstützte Formate können nur als Referenz erscheinen, wenn diese Option aktiviert ist." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.de = {
             badge: "Optionale Empfehlung",
             title: "Optionale KI-Unterstützung zur Modularisierung des Projekts",
             body: "Bei großen oder heterogenen Projekten können Sie einen Snapshot des Repository-Baums mit einem LLM Ihrer Wahl verwenden, um einen ersten Vorschlag für Regeln in Schritt 5 zu generieren.",
-            note: "Dieser Workflow ist unterstützt und überprüfbar. Das Ziel ist nicht, Ihr technisches Urteil zu ersetzen, sondern die Erstellung einer initialen Skip-List zu beschleunigen, die dann direkt in BundleWeave PRO verfeinert werden kann. Anmeldedaten, Secrets und sensible Inhalte in enthaltenen Dateien müssen separat im Content Redactor behandelt werden.",
+            note: "Dieser Workflow ist unterstützt und überprüfbar. Das Ziel ist nicht, Ihr technisches Urteil zu ersetzen, sondern die Erstellung einer initialen Skip-List zu beschleunigen, die dann direkt in CodeFlatten PRO verfeinert werden kann. Anmeldedaten, Secrets und sensible Inhalte in enthaltenen Dateien müssen separat im Content Redactor behandelt werden.",
             when: {
                 1: "Monorepos, hybride Stacks oder Codebasen mit vielen Hilfsverzeichnissen.",
                 2: "Wenn Sie Dumps nach Ziel modularisieren möchten: Architektur, Runtime, UI, Integrationen oder Dokumentation.",
@@ -204,7 +204,7 @@ window.translations.de = {
         },
         ack: {
             title: "Danksagungen & Drittanbieter",
-            body: "BundleWeave PRO bietet eine statistische Ausgabe im GitHub Linguist-Stil, inspiriert vom Open-Source-Projekt <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> von GitHub. Die zugrunde liegende Engine nutzt zudem die Funktionen von Python, Tcl/Tk und Pillow."
+            body: "CodeFlatten PRO bietet eine statistische Ausgabe im GitHub Linguist-Stil, inspiriert vom Open-Source-Projekt <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> von GitHub. Die zugrunde liegende Engine nutzt zudem die Funktionen von Python, Tcl/Tk und Pillow."
         },
         check: {
             title: "Kurzcheck vor der Generierung",
@@ -220,8 +220,8 @@ window.translations.de = {
             title: "Technischer Support",
             body: "Wenn etwas unklar ist, senden Sie einen kurzen Bericht mit Screenshots und dem beobachteten Verhalten. Dies beschleunigt die Diagnose erheblich."
         },
-            labels: {
-                prompt_label: "Beispielanfrage"
-            }
+        labels: {
+            prompt_label: "Beispielanfrage"
         }
+    }
 };

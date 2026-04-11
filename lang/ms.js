@@ -34,11 +34,11 @@ window.translations.ms = {
             label: "Perisian Ketepatan",
             title: "Pecutkan aliran kerja Vibe Coding anda.",
             subtitle: "Utiliti tempatan terbaik untuk pembina moden. Tukarkan pangkalan kod kompleks menjadi konteks terstruktur dan sedia AI dalam beberapa saat.",
-            cta: "Dapatkan BundleWeave PRO"
+            cta: "Dapatkan CodeFlatten PRO"
         },
         vibe: {
             title: "Dibina untuk Vibe Coding",
-            desc: "Jangan buang masa dengan salin-tampal. BundleWeave PRO menyediakan seluruh persekitaran anda untuk LLM, memastikan konteks struktur yang sempurna dan kecekapan token.",
+            desc: "Jangan buang masa dengan salin-tampal. CodeFlatten PRO menyediakan seluruh persekitaran anda untuk LLM, memastikan konteks struktur yang sempurna dan kecekapan token.",
             feature1: "Pembungkusan Sedar Konteks",
             feature2: "Pengoptimuman Token",
             feature3: "Prompting AI Segera",
@@ -52,8 +52,8 @@ window.translations.ms = {
         },
         features: {
             title: "Penyelesaian Terpilih",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "Alat terbaik untuk dokumentasi projek, penyediaan konteks AI dan transformasi teks skala besar. Dioptimumkan untuk Windows."
             },
             learn_more: "Ketahui Lebih Lanjut"
@@ -68,7 +68,7 @@ window.translations.ms = {
         },
         integration: {
             title: "Integrasi OS yang Lancar",
-            desc: "BundleWeave PRO bersepadu terus ke dalam Windows Shell. Klik kanan pada mana-mana folder atau pilihan fail untuk menjana bundel anda dengan serta-merta.",
+            desc: "CodeFlatten PRO bersepadu terus ke dalam Windows Shell. Klik kanan pada mana-mana folder atau pilihan fail untuk menjana bundel anda dengan serta-merta.",
             feature1: "Sedia Menu Konteks",
             feature2: "Proses Latar Belakang"
         },
@@ -76,7 +76,7 @@ window.translations.ms = {
             title: "Percuma vs Premium",
             free: "2 Profil, 1 Peraturan Penyuntingan, 1 Tindanan Direktori",
             premium: "Profil Tanpa Had, Penyuntingan Lanjutan, Tindanan Keutamaan, Lesen Penyinkronan Store",
-            cta: "Dapatkan BundleWeave PRO"
+            cta: "Dapatkan CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.ms = {
         ack: { title: "Penghargaan & Notis Pihak Ketiga" }
     },
     support: {
-        title: "Sokongan - BundleWeave PRO | BestToolsForever",
+        title: "Sokongan - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Sokongan Teknikal",
-            title: "Pusat Bantuan BundleWeave <span class=\"text-secondary\">PRO</span>.",
+            title: "Pusat Bantuan CodeFlatten <span class=\"text-secondary\">PRO</span>.",
             subtitle: "Bantuan khusus untuk suite utiliti prestasi tinggi kami. Kembali membina dengan ketepatan.",
             back_to_home: "Kembali ke Laman Utama"
         },
@@ -122,7 +122,7 @@ window.translations.ms = {
         }
     },
     step5: {
-        title: "Langkah 5 — Pengecualian dan Keselamatan | BundleWeave PRO",
+        title: "Langkah 5 — Pengecualian dan Keselamatan | CodeFlatten PRO",
         hero: {
             badge: "Panduan pembantu rasmi",
             title: "Langkah 5 — Pengecualian dan Keselamatan",
@@ -139,7 +139,7 @@ window.translations.ms = {
         },
         engine: {
             card1: { title: "1. Apa yang sepadan dengan peraturan", body: "Enjin menggunakan corak gaya fnmatch. Peraturan boleh sepadan dengan nama fail atau folder yang berdiri sendiri, atau jalan penuh." },
-            card2: { title: "2. Apa yang berlaku selepas itu", body: "Jika peraturan mengenai folder, BundleWeave PRO menghentikan pembacaan nod tersebut. Segala-galanya di dalam diabaikan secara tersirat." },
+            card2: { title: "2. Apa yang berlaku selepas itu", body: "Jika peraturan mengenai folder, CodeFlatten PRO menghentikan pembacaan nod tersebut. Segala-galanya di dalam diabaikan secara tersirat." },
             card3: { title: "3. Apa yang masuk ke dalam bundel", body: "Fail teks yang layak masuk ke dalam bundel. Fail binari dan format tidak disokong hanya boleh muncul sebagai rujukan jika pilihan itu diaktifkan." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.ms = {
             badge: "Syor pilihan",
             title: "Bantuan AI pilihan untuk pemodularan projek",
             body: "Dalam projek besar atau heterogen, anda boleh menggunakan snapshot pokok repositori dengan LLM pilihan anda untuk menjana cadangan pertama untuk peraturan Langkah 5.",
-            note: "Aliran ini dibantu dan boleh disemak. Tujuannya bukan untuk menggantikan pertimbangan teknikal anda, tetapi untuk mempercepatkan penciptaan senarai langkau awal, yang kemudiannya boleh diperhalusi terus dalam BundleWeave PRO. Kandungan sensitif dalam fail yang disertakan harus dikendalikan secara berasingan dalam Content Redactor.",
+            note: "Aliran ini dibantu dan boleh disemak. Tujuannya bukan untuk menggantikan pertimbangan teknikal anda, tetapi untuk mempercepatkan penciptaan senarai langkau awal, yang kemudiannya boleh diperhalusi terus dalam CodeFlatten PRO. Kandungan sensitif dalam fail yang disertakan harus dikendalikan secara berasingan dalam Content Redactor.",
             guard: {
                 title: "Penting: penapisan bukan penyuntingan",
                 body: "Langkah 5 membantu memutuskan apa yang masuk ke dalam atau tidak ke dalam bundel. Pembersihan teks akhir ada dalam Langkah 6 dengan Content Redactor. Gunakan kedua-duanya bersama bila anda perlu melakukan pemodularan, pengurangan hingar dan semakan kandungan sensitif. SENTIASA semak semula kata laluan, rahsia dan maklumat sensitif lain sebelum menggunakan fail yang dijana."
@@ -199,7 +199,7 @@ window.translations.ms = {
         },
         ack: {
             title: "Penghargaan & Pihak Ketiga",
-            body: "BundleWeave PRO menawarkan output statistik gaya GitHub Linguist, diilhamkan oleh projek sumber terbuka <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> daripada GitHub. Enjin asas juga memanfaatkan keupayaan Python, Tcl/Tk dan Pillow."
+            body: "CodeFlatten PRO menawarkan output statistik gaya GitHub Linguist, diilhamkan oleh projek sumber terbuka <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> daripada GitHub. Enjin asas juga memanfaatkan keupayaan Python, Tcl/Tk dan Pillow."
         },
         check: {
             title: "Senarai semak pantas sebelum menjana",
@@ -215,8 +215,8 @@ window.translations.ms = {
             title: "Sokongan Teknikal",
             body: "Jika ada yang tidak jelas, hantar laporan ringkas dengan tangkapan skrin dan tingkah laku yang diperhatikan. Ini menyegerakan proses diagnosis."
         },
-            labels: {
-                prompt_label: "Contoh permintaan"
-            }
+        labels: {
+            prompt_label: "Contoh permintaan"
         }
+    }
 };

@@ -34,11 +34,11 @@ window.translations.nl = {
             label: "Precisiesoftware",
             title: "Versnel je Vibe Coding-workflow.",
             subtitle: "De ultieme lokale utility voor moderne bouwers. Transformeer complexe codebases in seconden naar gestructureerde, AI-ready context.",
-            cta: "Verkrijg BundleWeave PRO"
+            cta: "Verkrijg CodeFlatten PRO"
         },
         vibe: {
             title: "Gebouwd voor Vibe Coding",
-            desc: "Verspil geen tijd aan kopiëren en plakken. BundleWeave PRO bereidt je volledige omgeving voor op LLM's, wat zorgt voor een perfecte structurele context en token-efficiëntie.",
+            desc: "Verspil geen tijd aan kopiëren en plakken. CodeFlatten PRO bereidt je volledige omgeving voor op LLM's, wat zorgt voor een perfecte structurele context en token-efficiëntie.",
             feature1: "Contextbewust bundelen",
             feature2: "Token-optimalisatie",
             feature3: "Directe AI-prompting",
@@ -52,8 +52,8 @@ window.translations.nl = {
         },
         features: {
             title: "Uitgelichte oplossingen",
-            bundleweave: {
-                name: "BundleWeave PRO",
+            codeflatten: {
+                name: "CodeFlatten PRO",
                 desc: "De ultieme tool voor projectdocumentatie, AI-contextvoorbereiding en grootschalige teksttransformatie. Geoptimaliseerd voor Windows."
             },
             learn_more: "Meer informatie"
@@ -68,7 +68,7 @@ window.translations.nl = {
         },
         integration: {
             title: "Naadloze OS-integratie",
-            desc: "BundleWeave PRO integreert rechtstreeks in de Windows Shell. Klik met de rechtermuisknop op een map of selectie van bestanden om direct je bundel te genereren.",
+            desc: "CodeFlatten PRO integreert rechtstreeks in de Windows Shell. Klik met de rechtermuisknop op een map of selectie van bestanden om direct je bundel te genereren.",
             feature1: "Klaar voor het contextmenu",
             feature2: "Achtergrondproces"
         },
@@ -76,7 +76,7 @@ window.translations.nl = {
             title: "Gratis vs. Premium",
             free: "2 Profielen, 1 Redactieregel, 1 Directory Override",
             premium: "Onbeperkte profielen, geavanceerde redactie, prioritaire overrides, Store-gesynchroniseerde licenties",
-            cta: "Verkrijg BundleWeave PRO"
+            cta: "Verkrijg CodeFlatten PRO"
         }
     },
     legal: {
@@ -90,10 +90,10 @@ window.translations.nl = {
         ack: { title: "Dankbetuigingen & kennisgevingen van derden" }
     },
     support: {
-        title: "Ondersteuning - BundleWeave PRO | BestToolsForever",
+        title: "Ondersteuning - CodeFlatten PRO | BestToolsForever",
         hero: {
             label: "Technische ondersteuning",
-            title: "BundleWeave <span class=\"text-secondary\">PRO</span> Helpcentrum.",
+            title: "CodeFlatten <span class=\"text-secondary\">PRO</span> Helpcentrum.",
             subtitle: "Toegewijde assistentie voor onze krachtige utility-suite. Ga weer aan de slag met precisie.",
             back_to_home: "Terug naar Home"
         },
@@ -122,7 +122,7 @@ window.translations.nl = {
         }
     },
     step5: {
-        title: "Stap 5 — Uitsluitingen en veiligheid | BundleWeave PRO",
+        title: "Stap 5 — Uitsluitingen en veiligheid | CodeFlatten PRO",
         hero: {
             badge: "Officiële gids",
             title: "Stap 5 — Uitsluitingen en veiligheid",
@@ -139,7 +139,7 @@ window.translations.nl = {
         },
         engine: {
             card1: { title: "1. Wat overeenkomt met de regel", body: "De engine gebruikt patronen in fnmatch-stijl. Een regel kan overeenkomen met de individuele bestands- of mapnaam, of met het volledige pad." },
-            card2: { title: "2. Wat daarna gebeurt", body: "Als een regel een map raakt, onderbreekt BundleWeave PRO het lezen van dat knooppunt. Alles daarbinnen wordt impliciet genegeerd." },
+            card2: { title: "2. Wat daarna gebeurt", body: "Als een regel een map raakt, onderbreekt CodeFlatten PRO het lezen van dat knooppunt. Alles daarbinnen wordt impliciet genegeerd." },
             card3: { title: "3. Wat in de bundel komt", body: "In aanmerking komende tekstbestanden komen in de bundel. Binaire bestanden en niet-ondersteunde formaten kunnen alleen als referentie verschijnen als deze optie is ingeschakeld." }
         },
         rules: {
@@ -180,7 +180,7 @@ window.translations.nl = {
             badge: "Optionele aanbeveling",
             title: "Optionele AI-ondersteuning om het project te modulariseren",
             body: "Bij grote of heterogene projecten kun je een snapshot van de repository-boom gebruiken met een LLM naar keuze om een eerste voorstel voor regels voor Stap 5 te genereren.",
-            note: "Deze workflow wordt ondersteund en kan worden herzien. Het doel is niet om je technische oordeel te vervangen, maar om het maken van een initiële skip list te versnellen die vervolgens direct in BundleWeave PRO kan worden verfijnd.",
+            note: "Deze workflow wordt ondersteund en kan worden herzien. Het doel is niet om je technische oordeel te vervangen, maar om het maken van een initiële skip list te versnellen die vervolgens direct in CodeFlatten PRO kan worden verfijnd.",
             when: {
                 1: "Monorepo's, hybride stacks of bases met veel hulpmappen.",
                 2: "Om dumps te modulariseren per doel: architectuur, runtime, UI, integraties of documentatie.",
@@ -204,7 +204,7 @@ window.translations.nl = {
         },
         ack: {
             title: "Dankbetuigingen & derden",
-            body: "BundleWeave PRO biedt een statistische output in GitHub Linguist-stijl, geïnspireerd op het open-source project <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> van GitHub. De onderliggende engine maakt ook gebruik van de mogelijkheden van Python, Tcl/Tk en Pillow."
+            body: "CodeFlatten PRO biedt een statistische output in GitHub Linguist-stijl, geïnspireerd op het open-source project <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> van GitHub. De onderliggende engine maakt ook gebruik van de mogelijkheden van Python, Tcl/Tk en Pillow."
         },
         check: {
             title: "Snelchecklist voor generatie",
@@ -220,8 +220,8 @@ window.translations.nl = {
             title: "Technische ondersteuning",
             body: "Als er iets onduidelijk is, stuur dan een kort verslag met screenshots en het waargenomen gedrag. Dit versnelt de diagnose aanzienlijk."
         },
-            labels: {
-                prompt_label: "Voorbeeldaanvraag"
-            }
+        labels: {
+            prompt_label: "Voorbeeldaanvraag"
         }
+    }
 };
