@@ -85,9 +85,15 @@ window.translations.da = {
             title: "Jura & Privatliv",
             subtitle: "Vores vilkår, aftaler og engagement i dit dataprivatliv."
         },
-        eula: { title: "Slutanvenderaftale (EULA)" },
-        privacy: { title: "Privatlivspolitik" },
-        ack: { title: "Erkendelser & tredjepartsmeddelelser" }
+        eula: {
+            title: "Slutanvenderaftale (EULA)"
+        },
+        privacy: {
+            title: "Privatlivspolitik"
+        },
+        ack: {
+            title: "Erkendelser & tredjepartsmeddelelser"
+        }
     },
     support: {
         title: "Support - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.da = {
             item4: "Safety Scan begrænser dybde, antal filer og total størrelse. Path Guard blokerer rødder og kritiske mapper."
         },
         engine: {
-            card1: { title: "1. Hvad matcher reglen", body: "Motoren bruger fnmatch-stil mønstre. En regel kan matche fil- eller mappenavnet alene, eller den fulde sti." },
-            card2: { title: "2. Hvad der sker bagefter", body: "Hvis en regel rammer en mappe, afbryder CodeFlatten PRO læsningen af den node. Alt indeni ignoreres implicit." },
-            card3: { title: "3. Hvad der kommer i bundlen", body: "Berettigede tekstfiler kommer i bundlen. Binære og ikke-understøttede formater kan kun vises som reference, hvis den indstilling er aktiveret." }
+            card1: {
+                title: "1. Hvad matcher reglen",
+                body: "Motoren bruger fnmatch-stil mønstre. En regel kan matche fil- eller mappenavnet alene, eller den fulde sti."
+            },
+            card2: {
+                title: "2. Hvad der sker bagefter",
+                body: "Hvis en regel rammer en mappe, afbryder CodeFlatten PRO læsningen af den node. Alt indeni ignoreres implicit."
+            },
+            card3: {
+                title: "3. Hvad der kommer i bundlen",
+                body: "Berettigede tekstfiler kommer i bundlen. Binære og ikke-understøttede formater kan kun vises som reference, hvis den indstilling er aktiveret."
+            }
         },
         rules: {
             title: "Praktiske regler til hverdag: bred støtte til fnmatch-standarden.",
             subtitle: "Brug præcise navne til kirurgiske undtagelser. Brug wildcards til filtyper, gentagne mønstre eller brede filtre.",
             jump: "Se visuelt eksempel",
-            exact: { title: "Direkte undtagelse efter navn", body: "Når du vil fjerne en bestemt mappe eller fil, skal du foretrække nodens præcise navn.", when: "Når din hensigt er at blokere en hel mappe på ethvert punkt i træet, uden at afhænge af skråstreger eller fulde stier." },
-            wild: { title: "wildcards til udvidelser og filfamilier", body: "Når målet er et gentaget mønster, skal du bruge enkle wildcards. Ideelt til test, låsefiler, billeder, build-artefakter og gentagne hemmeligheder.", ex1: "Ignorerer alle logfiler.", ex2: "Ignorerer flere varianter af testfiler.", ex3: "Undgår at vedhæfte binære billeder til bundlen.", ex4: "Hjælper med at blokere nøgler og følsomme filer." },
-            broad: { title: "Brede og fleksible mønstre", body: "Mønstre som *cache* eller **cache** fungerer som brede filtre efter delstreng. De er nyttige, når du vil fange mange varianter, men de kan udelukke mere indhold end forventet.", tip: "Brug denne stil, når dit mål er rækkevidde, ikke præcision." },
+            exact: {
+                title: "Direkte undtagelse efter navn",
+                body: "Når du vil fjerne en bestemt mappe eller fil, skal du foretrække nodens præcise navn.",
+                when: "Når din hensigt er at blokere en hel mappe på ethvert punkt i træet, uden at afhænge af skråstreger eller fulde stier."
+            },
+            wild: {
+                title: "wildcards til udvidelser og filfamilier",
+                body: "Når målet er et gentaget mønster, skal du bruge enkle wildcards. Ideelt til test, låsefiler, billeder, build-artefakter og gentagne hemmeligheder.",
+                ex1: "Ignorerer alle logfiler.",
+                ex2: "Ignorerer flere varianter af testfiler.",
+                ex3: "Undgår at vedhæfte binære billeder til bundlen.",
+                ex4: "Hjælper med at blokere nøgler og følsomme filer."
+            },
+            broad: {
+                title: "Brede og fleksible mønstre",
+                body: "Mønstre som *cache* eller **cache** fungerer som brede filtre efter delstreng. De er nyttige, når du vil fange mange varianter, men de kan udelukke mere indhold end forventet.",
+                tip: "Brug denne stil, når dit mål er rækkevidde, ikke præcision."
+            },
             thumb1: "Vil du blokere en bestemt mappe? Brug <strong>præcist navn</strong>.",
             thumb2: "Vil du blokere en filfamilie? Brug <strong>wildcards efter udvidelse</strong>.",
             thumb3: "Vil du fange enhver forekomst af et udtryk? Brug et <strong>bredt mønster</strong> med forsigtighed."
@@ -158,7 +188,9 @@ window.translations.da = {
             subtitle: "Nedenfor er et generisk projekt før filtre og reglerne anvendt i Trin 5.",
             reading: "Motorlæsning",
             reading_body: "Mappen <span class=\"code-chip\">ui</span> fjernes som hele grenen; <span class=\"code-chip\">logo.png</span> og <span class=\"code-chip\">app.test.ts</span> filtreres efter mønster; <span class=\"code-chip\">.env</span> slettes efter præcist navn.",
-            note: "Hvis synligheden af ignoreret er sat til 'Skjul helt', forsvinder pladsholderne ovenfor fra træet."
+            note: "Hvis synligheden af ignoreret er sat til 'Skjul helt', forsvinder pladsholderne ovenfor fra træet.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan og Path Guard",
@@ -186,15 +218,21 @@ window.translations.da = {
                 body: "Trin 5 hjælper med at beslutte, hvad der kommer ind i eller ikke kommer ind i bundlen. Den endelige tekstrensning hører til Trin 6 med Content Redactor. Brug begge sammen. Gennemse ALTID adgangskoder og hemmeligheder igen."
             },
             flow: {
-                title: "Foreslået flow",
                 1: "Generer snapshot og definer dump-mål.",
                 2: "Bed LLM om start skip-liste.",
-                3: "Gennemgå regler, tilpas og anvend i Trin 5."
+                3: "Gennemgå regler, tilpas og anvend i Trin 5.",
+                title: "Foreslået flow"
             },
             prompt: {
                 label: "Eksempel på anmodning",
                 body: "Du genererer en skip list til Trin 5 af CodeFlatten PRO.\nAnalyser lagret (repository) og returner kun en optimeret fnmatch skip list, klar til direkte brug.\n\nMål:\nProducer den mindst mulige skip list med høj dækning, der udelukker støj uden at beskadige den strukturelle forståelse af systemet.\n\nOptimeringspolitik:\n- Foretræk kompakte regler med højt udbytte, der sikkert fjerner hele støjende grene.\n- Gå efter repository-specifikke mønstre frem for generelle udelukkelser.\n- Brug nøjagtige navne til isoleret støj.\n- Brug jokertegn til tilbagevendende filfamilier.\n- Brug kun brede sti/navnemønstre, når de tydeligt er målrettet mod ikke-kerneindhold.\n- Da regler matcher både elementnavne og fulde stier, og matchning af en mappe dropper hele dens undertræ, foretrækukes mappeniveau-undertrykkelse, når en hel gren helt klart er uvæsentlig.\n- Når to regler er overflødige, behold den mere kompakte.\n\nHvad skal fjernes:\n- test, prober, smoke checks, valideringshjælpere, midlertidige artefakter\n- dokumenter og overdragelsesmateriale, der ikke er nødvendigt for arkitekturen\n- binære aktiver, ikoner, kompilerede objekter, caches, logs, låse\n- build/dist/release mapper\n\nBeslutningsregel:\nI tvivlstilfælde skal relevant kode bevares og kun åbenlys støj udelukkes.\n\nOutputstrategi:\n- Flet begge stilarter sammen, og udskriv KUN de endelige fnmatch-mønstre, en pr. Linje, uden kommentarer.",
                 note: "Brug svaret som et udgangspunkt. Det ideelle resultat kan gennemgås, er kompakt og tilpasset det specifikke dumpformål – aldrig som en erstatning for menneskelig gennemgang eller Content Redactor."
+            },
+            when: {
+                1: "Monorepos, hybrid stacks or codebases with many utility directories.",
+                2: "When you want to modularize exports by purpose: architecture, runtime, interfaces, integrations, or docs.",
+                3: "When manual filtering becomes repetitive, slow, or too broad.",
+                label: "When it's worth it"
             }
         },
         ack: {
@@ -202,13 +240,13 @@ window.translations.da = {
             body: "CodeFlatten PRO tilbyder statistisk output i GitHub Linguist-stil, inspireret af GitHubs open source-projekt <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a>. Den underliggende motor udnytter også evnerne i Python, Tcl/Tk og Pillow."
         },
         check: {
+            6: "Gennemse slutresultatet før deling.",
             title: "Hurtig tjekliste før generering",
             item1: "Brug præcise navne til direkte undtagelser.",
             item2: "Brug wildcards for udvidelser, test og låsefiler.",
             item3: "Lad Safety Scan være tændt.",
             item4: "Lad Path Guard være tændt.",
-            item5: "Aktiver binær reference for strukturel sammenhæng uden indlejring.",
-            6: "Gennemse slutresultatet før deling."
+            item5: "Aktiver binær reference for strukturel sammenhæng uden indlejring."
         },
         support: {
             label: "Brug for hjælp?",
@@ -216,7 +254,14 @@ window.translations.da = {
             body: "Hvis noget er uklart, send en kort rapport med skærmbilleder."
         },
         labels: {
-            prompt_label: "Eksempel på anmodning"
+            prompt_label: "Eksempel på anmodning",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

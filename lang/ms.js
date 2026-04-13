@@ -158,44 +158,32 @@ window.translations.ms = {
             subtitle: "Di bawah ialah projek umum sebelum penapisan dan peraturan yang digunakan dalam Langkah 5.",
             reading: "Pembacaan enjin",
             reading_body: "Folder <span class=\"code-chip\">ui</span> dialih keluar sebagai seluruh cabang; <span class=\"code-chip\">logo.png</span> dan <span class=\"code-chip\">app.test.ts</span> ditapis mengikut corak; <span class=\"code-chip\">.env</span> dipadamkan mengikut nama tepat.",
+            before: "Sebelum",
+            after: "Selepas",
             note: "Jika keterlihatan item yang diabaikan ditetapkan kepada 'Sembunyi sepenuhnya', pembekal tempat di atas akan hilang dari pokok."
         },
         safety: {
             title: "Safety Scan dan Path Guard",
             subtitle: "Langkah 5 bukan sahaja berfungsi untuk mengecualikan hingar. Ia juga melindungi daripada eksport yang tidak sengaja terlalu besar, dalam atau berbahaya.",
             h3_files: "Maks Fail",
-            files: "Menghentikan operasi apabila kiraan fail teks yang layak melebihi had yang dikonfigurasikan.",
             h3_size: "Maks Saiz (MB)",
-            size: "Mengelakkan bundel gergasi apabila saiz terkumpul kandungan melebihi siling yang ditetapkan.",
             h3_depth: "Kedalaman Direktori Maks",
-            depth: "Membantu mencegah pokok yang terlalu dalam, gelung atau struktur besar yang tidak disengajakan.",
             h3_guard: "Path Guard",
-            guard: "Menyekat root cakera dan direktori kritikal seperti C:\\ dan C:\\Windows secara lalai.",
-            trigger: {
-                title: "Apabila had dicetuskan",
-                body: "Eksport dibatalkan dengan selamat. Alih-alih menjana bundel yang tidak lengkap atau terlalu mahal, sistem menulis fail kecil yang menjelaskan sebab penghentian."
-            }
+            files: "Menghentikan operasi apabila kiraan fail teks yang layak melebihi had yang dikonfigurasikan.",
+            size: "Mengelakkan bundel gergasi apabila saiz terkumpul kandungan melebihi siling yang ditetapkan.",
+            depth: "Membantu mencegah pokok yang terlalu dalam, gelung atau struktur besar yang tidak disengajakan.",
+            guard: "Menyekat root cakera dan direktori kritikal secara lalai, seperti <span class=\"code-chip\">C:\\</span> dan <span class=\"code-chip\">C:\\Windows</span>.",
+            trigger: { title: "Apabila had dicetuskan", body: "Eksport dibatalkan dengan selamat. Alih-alih menjana bundel yang tidak lengkap atau terlalu mahal, sistem menulis fail kecil yang menjelaskan sebab penghentian." }
         },
         ai: {
             badge: "Syor pilihan",
-            title: "Bantuan AI pilihan untuk pemodularan projek",
-            body: "Dalam projek besar atau heterogen, anda boleh menggunakan snapshot pokok repositori dengan LLM pilihan anda untuk menjana cadangan pertama untuk peraturan Langkah 5.",
-            note: "Aliran ini dibantu dan boleh disemak. Tujuannya bukan untuk menggantikan pertimbangan teknikal anda, tetapi untuk mempercepatkan penciptaan senarai langkau awal, yang kemudiannya boleh diperhalusi terus dalam CodeFlatten PRO. Kandungan sensitif dalam fail yang disertakan harus dikendalikan secara berasingan dalam Content Redactor.",
-            guard: {
-                title: "Penting: penapisan bukan penyuntingan",
-                body: "Langkah 5 membantu memutuskan apa yang masuk ke dalam atau tidak ke dalam bundel. Pembersihan teks akhir ada dalam Langkah 6 dengan Content Redactor. Gunakan kedua-duanya bersama bila anda perlu melakukan pemodularan, pengurangan hingar dan semakan kandungan sensitif. SENTIASA semak semula kata laluan, rahsia dan maklumat sensitif lain sebelum menggunakan fail yang dijana."
-            },
-            flow: {
-                title: "Aliran yang dicadangkan",
-                1: "Janakan snapshot pokok dan tentukan tujuan dump.",
-                2: "Minta LLM hanya senarai langkau awal untuk mengekalkan teras dan mengurangkan hingar.",
-                3: "Semak peraturan, sesuaikan dengan projek dan baru kemudian gunakan dalam Langkah 5."
-            },
-            prompt: {
-                label: "Contoh permintaan",
-                body: "Anda sedang menjana skip list untuk Langkah 5 CodeFlatten PRO.\nAnalisis repositori dan keluarkan hanya skip list fnmatch yang dioptimumkan, sedia untuk digunakan secara langsung.\n\nKeluaran HANYA fnmatch.",
-                note: "Gunakan jawapan sebagai titik permulaan. Hasil yang ideal boleh disemak, padat dan sejajar dengan matlamat dump yang khusus — tidak pernah sebagai pengganti semakan manusia atau Content Redactor."
-            }
+            title: "Bantuan AI pilihan memodularkan projek",
+            body: "Untuk projek besar atau heterogen, anda boleh menggunakan snapshot pokok repositori dengan LLM pilihan anda untuk menjana draf pertama bagi peraturan Langkah 5. Ini membantu pemodularan dan pengurangan hingar, tetapi ia tidak menggantikan pembersihan kandungan akhir.",
+            note: "Aliran ini dibantu dan boleh disemak. Tujuannya bukan untuk menggantikan pertimbangan teknikal anda, tetapi untuk mempercepatkan penciptaan senarai langkau awal yang kemudiannya boleh diperhalusi terus dalam CodeFlatten PRO. Kredensial, rahsia, dan kandungan sensitif dalam fail yang disertakan harus dikendalikan secara berasingan dengan Content Redactor.",
+            guard: { title: "Penting: penapisan bukan penyuntingan", body: "Langkah 5 membantu memutuskan apa yang masuk ke dalam atau tidak ke dalam bundel. Pembersihan teks akhir bergantung pada Langkah 6 melalui Content Redactor. Gunakan kedua-duanya bersama apabila anda perlu melakukan pemodularan, pengurangan hingar, dan semakan kandungan sensitif." },
+            when: { label: "Bila ia bernilai untuk digunakan", 1: "Monorepo, tindanan hibrid (hybrid stacks), atau pangkalan kod dengan banyak direktori sampingan.", 2: "Apabila anda ingin memodularkan eksport mengikut tujuan: seni bina, runtime, UI, integrasi, atau dokumentasi.", 3: "Apabila penapisan manual menjadi kerja berulang, lambat, atau terlalu meluas." },
+            flow: { title: "Aliran yang dicadangkan", 1: "Janakan snapshot pokok dan tentukan matlamat dump.", 2: "Minta LLM hanya untuk senarai langkau awal yang mengekalkan teras dan mengurangkan hingar.", 3: "Semak peraturan, sesuaikan dengan projek, dan baru kemudian gunakannya dalam Langkah 5." },
+            prompt: { label: "Contoh permintaan", body: "Anda sedang menjana senarai langkau (skip list) untuk Langkah 5 CodeFlatten PRO.\nAnalisis repositori dan keluarkan hanya skip list fnmatch yang dioptimumkan, sedia untuk digunakan secara langsung.\n\nMatlamat:\nHasilkan skip list terkecil dengan liputan tinggi yang mungkin, mengecualikan hingar tanpa merosakkan pemahaman struktur sistem.\n\nDasar pengoptimuman:\n- Utamakan peraturan padat dan berkecekapan tinggi yang membuang keseluruhan cabang bising apabila selamat.\n- Lebih gemar corak khusus repositori berbanding pengecualian tangkap-semua yang umum.\n- Gunakan nama tepat untuk hingar yang terasing.\n- Gunakan wildcards untuk keluarga fail yang berulang.\n- Gunakan corak laluan/nama luas hanya apabila ia jelas menyasarkan kandungan bukan teras.\n- Memandangkan peraturan memadankan kedua-dua nama item dan laluan penuh, dan memadankan folder akan menggugurkan keseluruhan sub-pokoknya, utamakan penindasan peringkat folder apabila keseluruhan cabang jelas tidak penting.\n- Apabila dua peraturan adalah berlebihan, kekalkan yang lebih padat jika ia mengekalkan kuasa pengecualian praktikal yang sama.\n- Walau bagaimanapun, jangan terlalu memampatkannya jika ia akan meningkatkan risiko mengecualikan kod yang relevan.\n\nApa yang perlu dibuang:\n- tests, probes, smoke checks, validation helpers, temporary artifacts\n- docs dan bahan serahan yang tidak diperlukan untuk seni bina\n- binary assets, icons, packaging outputs, compiled objects, caches, logs, locks\n- folder build/dist/release dan artifak yang dijana\n- secrets, certificates, runtime evidence, sisa fail penyerahan store, muatan penyetempatan yang berlebihan apabila padat dengan data dan tidak diperlukan untuk memahami aliran pelaksanaan\n\nApa yang perlu dikekalkan:\n- functional core\n- modules, runtime, providers, adapters\n- orchestration, entrypoints, execution flow\n- kod yang menerangkan cara sistem berfungsi\n- kod integrasi platform atau sistem pembungkusan (packaging) apabila ia merupakan sebahagian daripada tingkah laku produk atau seni bina\n\nPeraturan keputusan:\nApabila ragu-ragu, kekalkan kod yang relevan dan kecualikan hanya hingar yang jelas.\n\nPeraturan khas:\nJika pokok menanda item atau keluarga dengan tag seperti \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\", atau yang setara, sertakan rules langkau yang sepadan dalam senarai akhir setiap kali selamat.\n\nStrategi keluaran:\n- Gabungkan kedua-dua gaya: peraturan peringkat cabang yang padat didahulukan, kemudian ikuti renek minimum bagi corak artifak yang berulang.\n- Utamakan penyatuan yang dirasakan bertepatan seperti gabungan praktikal antara skip list peka-repositori dan senarai pembersihan generik yang ringkas.\n- Nyahduplikasi secara agresif.\n- Keluarkan HANYA corak fnmatch akhir, satu per baris, tanpa ulasan.", note: "Gunakan jawapan sebagai titik permulaan. Hasil yang ideal boleh disemak, padat, dan sejajar dengan matlamat dump yang khusus — tidak pernah bertindak sebagai pengganti untuk semakan manusia atau Content Redactor." }
         },
         ack: {
             title: "Penghargaan & Pihak Ketiga",
@@ -216,6 +204,13 @@ window.translations.ms = {
             body: "Jika ada yang tidak jelas, hantar laporan ringkas dengan tangkapan skrin dan tingkah laku yang diperhatikan. Ini menyegerakan proses diagnosis."
         },
         labels: {
+            recommended: "Disyorkan",
+            why: "Bila perlu digunakan",
+            rule_of_thumb: "Petua praktikal",
+            reading: "Pembacaan enjin",
+            before: "Sebelum",
+            after: "Selepas",
+            when_worth: "Bila ia bernilai untuk digunakan",
             prompt_label: "Contoh permintaan"
         }
     }

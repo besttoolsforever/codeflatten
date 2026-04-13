@@ -85,9 +85,15 @@ window.translations.fi = {
             title: "Laki ja yksityisyys",
             subtitle: "Ehtomme, sopimuksemme ja sitoutumisemme tietosuojaasi."
         },
-        eula: { title: "Loppukäyttäjän lisenssisopimus (EULA)" },
-        privacy: { title: "Tietosuojaseloste" },
-        ack: { title: "Kiitokset ja kolmansien osapuolten ilmoitukset" }
+        eula: {
+            title: "Loppukäyttäjän lisenssisopimus (EULA)"
+        },
+        privacy: {
+            title: "Tietosuojaseloste"
+        },
+        ack: {
+            title: "Kiitokset ja kolmansien osapuolten ilmoitukset"
+        }
     },
     support: {
         title: "Tuki - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.fi = {
             item4: "Safety Scan rajoittaa syvyyttä, tiedostojen määrää ja kokonaiskokoa. Path Guard estää juuret ja kriittiset kansiot."
         },
         engine: {
-            card1: { title: "1. Mikä vastaa sääntöä", body: "Moottori käyttää fnmatch-tyylisiä malleja. Sääntö voi vastata tiedoston tai kansion nimeä sellaisenaan tai koko polkua." },
-            card2: { title: "2. Mitä tapahtuu sen jälkeen", body: "Jos sääntö osuu kansioon, CodeFlatten PRO keskeyttää kyseisen solmun lukemisen. Kaikki sisällä oleva ohitetaan implisiittisesti." },
-            card3: { title: "3. Mitä nippuun sisältyy", body: "Tukikelpoiset tekstitiedostot sisältyvät nippuun. Binaari- ja tukemattomat muodot voivat näkyä vain viitteenä, jos tämä asetus on käytössä." }
+            card1: {
+                title: "1. Mikä vastaa sääntöä",
+                body: "Moottori käyttää fnmatch-tyylisiä malleja. Sääntö voi vastata tiedoston tai kansion nimeä sellaisenaan tai koko polkua."
+            },
+            card2: {
+                title: "2. Mitä tapahtuu sen jälkeen",
+                body: "Jos sääntö osuu kansioon, CodeFlatten PRO keskeyttää kyseisen solmun lukemisen. Kaikki sisällä oleva ohitetaan implisiittisesti."
+            },
+            card3: {
+                title: "3. Mitä nippuun sisältyy",
+                body: "Tukikelpoiset tekstitiedostot sisältyvät nippuun. Binaari- ja tukemattomat muodot voivat näkyä vain viitteenä, jos tämä asetus on käytössä."
+            }
         },
         rules: {
             title: "Käytännön sääntöjä arkikäyttöön: laaja tuki fnmatch-standardille.",
             subtitle: "Käytä tarkkoja nimiä tarkkoihin poikkeuksiin. Käytä wildcards-merkkejä tiedostotyypeille, toistuville malleille tai laajille suodattimille.",
             jump: "Katso visuaalinen esimerkki",
-            exact: { title: "Suora poikkeus nimen perusteella", body: "Kun haluat poistaa tietyn kansion tai tiedoston, käytä solmun tarkkaa nimeä.", when: "Kun tavoitteenasi on estää koko kansio mistä tahansa puun kohdasta välittämättä vinoviivoista tai koko poluista." },
-            wild: { title: "wildcards päätteille ja tiedostoperheille", body: "Kun kohde on toistuva malli, käytä yksinkertaisia wildcards-merkkejä. Ihanteellinen testeille, lukitustiedostoille, kuville, koontiversioille ja toistuville salaisuuksille.", ex1: "Ohittaa kaikki lokitiedostot.", ex2: "Ohittaa useita versioita testitiedostoista.", ex3: "Välttää binaarikuvien liittämistä nippuun.", ex4: "Auttaa estämään avaimia ja arkaluonteisia tiedostoja." },
-            broad: { title: "Laajat ja joustavat mallit", body: "Mallit, kuten *cache* tai **cache**, toimivat laajina alimerkkijonosuodattimina. Ne ovat hyödyllisiä, kun haluat napata useita muunnelmia, mutta ne saattavat sulkea pois enemmän sisältöä kuin odotettiin.", tip: "Käytä tätä tyyliä, kun tavoitteenasi on kattavuus, ei tarkkuus. Jos haluat sulkea pois tietyn kansion, suosi edelleen tarkkaa nimeä." },
+            exact: {
+                title: "Suora poikkeus nimen perusteella",
+                body: "Kun haluat poistaa tietyn kansion tai tiedoston, käytä solmun tarkkaa nimeä.",
+                when: "Kun tavoitteenasi on estää koko kansio mistä tahansa puun kohdasta välittämättä vinoviivoista tai koko poluista."
+            },
+            wild: {
+                title: "wildcards päätteille ja tiedostoperheille",
+                body: "Kun kohde on toistuva malli, käytä yksinkertaisia wildcards-merkkejä. Ihanteellinen testeille, lukitustiedostoille, kuville, koontiversioille ja toistuville salaisuuksille.",
+                ex1: "Ohittaa kaikki lokitiedostot.",
+                ex2: "Ohittaa useita versioita testitiedostoista.",
+                ex3: "Välttää binaarikuvien liittämistä nippuun.",
+                ex4: "Auttaa estämään avaimia ja arkaluonteisia tiedostoja."
+            },
+            broad: {
+                title: "Laajat ja joustavat mallit",
+                body: "Mallit, kuten *cache* tai **cache**, toimivat laajina alimerkkijonosuodattimina. Ne ovat hyödyllisiä, kun haluat napata useita muunnelmia, mutta ne saattavat sulkea pois enemmän sisältöä kuin odotettiin.",
+                tip: "Käytä tätä tyyliä, kun tavoitteenasi on kattavuus, ei tarkkuus. Jos haluat sulkea pois tietyn kansion, suosi edelleen tarkkaa nimeä."
+            },
             thumb1: "Haluatko estää tietyn kansion? Käytä <strong>tarkkaa nimeä</strong>.",
             thumb2: "Haluatko estää tiedostoperheen? Käytä <strong>wildcards-merkkejä päätteen mukaan</strong>.",
             thumb3: "Haluatko napata termin kaikki esiintymät? Käytä <strong>laajaa mallia</strong> varoen."
@@ -158,7 +188,9 @@ window.translations.fi = {
             subtitle: "Alla on yleinen projekti ennen suodatusta ja vaiheessa 5 sovelletut säännöt.",
             reading: "Moottorin lukeminen",
             reading_body: "Kansio <span class=\"code-chip\">ui</span> poistetaan kokonaisena haarana; <span class=\"code-chip\">logo.png</span> ja <span class=\"code-chip\">app.test.ts</span> suodatetaan mallin mukaan; <span class=\"code-chip\">.env</span> poistetaan tarkan nimen perusteella.",
-            note: "Jos huomiotta jätettyjen näkyvyys on asetettu arvoon 'Piilota kokonaan', yllä olevat paikkamerkit häviävät puusta."
+            note: "Jos huomiotta jätettyjen näkyvyys on asetettu arvoon 'Piilota kokonaan', yllä olevat paikkamerkit häviävät puusta.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan ja Path Guard",
@@ -186,15 +218,21 @@ window.translations.fi = {
                 body: "Vaihe 5 auttaa päättämään, mikä nippuun sisältyy ja mikä ei. Lopullinen tekstin puhdistus kuuluu vaiheeseen 6 Content Redactorin avulla. Käytä molempia yhdessä. MUISTA tarkistaa salasanat ja salaisuudet aina uudelleen."
             },
             flow: {
-                title: "Suositeltu työnkulku",
                 1: "Luo snapshot puusta ja määrittele vientitavoite.",
                 2: "Pyydä LLM-mallilta vain alkuperäinen ohituslista ytimen säilyttämiseksi ja kohinan vähentämiseksi.",
-                3: "Tarkista säännöt, mukauta ne projektiin ja ota ne vasta sitten käyttöön vaiheessa 5."
+                3: "Tarkista säännöt, mukauta ne projektiin ja ota ne vasta sitten käyttöön vaiheessa 5.",
+                title: "Suositeltu työnkulku"
             },
             prompt: {
                 label: "Esimerkkipyyntö",
-                body: "Luot skip list -luetteloa CodeFlatten PRO:n vaiheeseen 5.\nAnalysoi arkisto ja tulosta vain optimoitu fnmatch-skip list, joka on valmis suoraan käyttöön.\n\nTavoite:\nTuota pienin mahdollinen, mutta kattava skip list, joka jättää turhan melun pois vahingoittamatta järjestelmän rakenteellista ymmärrystä.\n\nPoistettavat asiat:\n- testit, väliaikaiset tiedostot\n- tarpeettomat dokumentit, binaarit, lokit, välimuistit.\n\nTulosstrategia:\nTulosta VAIN lopulliset fnmatch -kuviot, yksi riviä kohden, ilman selityksiä.",
+                body: "Luot skip list -luetteloa CodeFlatten PRO:n vaiheeseen 5.\nAnalysoi arkisto ja tulosta vain optimoitu fnmatch-skip list, joka on valmis suoraan käyttöön.\n\nTavoite:\nTuota pienin mahdollinen, mutta laajan kattavuuden omaava skip list, joka jättää turhan melun pois vahingoittamatta järjestelmän rakenteellista ymmärrystä.\n\nOptimointikäytäntö:\n- Suosi kompakteja, tehokkaita sääntöjä, jotka poistavat kokonaisia meluisia haaroja turvallisesti.\n- Suosi arkistokohtaisia kuvioita yleisten catch-all-poissulkemisten sijaan.\n- Käytä tarkkoja nimiä eristetyille meluille.\n- Käytä yleismerkkejä (wildcards) toistuville tiedostoperheille.\n- Käytä laajoja polku-/nimikuvioita vain, kun ne selvästi kohdistuvat ei-ydinsisältöön.\n- Koska säännöt vastaavat sekä kohteiden nimiä että täysiä polkuja, ja kansion vastaavuus pudottaa koko sen alipuun, suosi kansiotason tukahduttamista, kun koko haara on selvästi tarpeeton.\n- Kun kaksi sääntöä ovat päällekkäisiä, säilytä kompaktimpi, jos se säilyttää saman käytännön poissulkemisvoiman.\n- Älä kuitenkaan pakkaa liikaa, jos se lisäisi vaaraa sulkea pois asiaankuuluvaa koodia.\n\nMitä poistaa:\n- testit, koettimet, smoke checks, vahvistusapuohjelmat, tilapäiset esineet\n- asiakirjat ja luovutusmateriaalit, joita ei tarvita arkkitehtuuriin\n- binääriomaisuudet, kuvakkeet, pakkaustulosteet, käännetyt objektit, välimuistit (caches), lokit (logs), lukot (locks)\n- build/dist/release-kansiot ja luodut artefaktit\n- salaisuudet, varmenteet, ajonaikaiset todisteet, kaupan lähettämisen jäännökset, tarpeettomat lokalisointikuormat, kun ne ovat dataraskaita eikä niitä tarvita suoritusvirran ymmärtämiseen\n\nMitä säilyttää:\n- toiminnallinen ydin\n- moduulit, ajonaika (runtime), palveluntarjoajat, sovittimet\n- orkestrointi, tulopisteet (entrypoints), suoritusvirta\n- koodi, joka selittää, miten järjestelmä toimii\n- pakkaus- tai alustan integrointikoodi, kun se on osa tuotteen käyttäytymistä tai arkkitehtuuria\n\nPäätössääntö:\nEpäselvissä tapauksissa säilytä asiaankuuluva koodi ja sulje pois vain ilmeinen melu.\n\nErityissääntö:\nJos puu merkitsee kohteen tai perheen tunnisteilla, kuten \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" tai vastaavilla, sisällytä vastaava ohitussääntö lopulliseen luetteloon aina, kun se on turvallista.\n\nTulostusstrategia:\n- Yhdistä molemmat tyylit: ensin kompaktit haaratason säännöt, sitten minimaalinen häntä toistuvia artefaktikuvioita.\n- Suosi liittoa, joka tuntuu käytännölliseltä yhdistelmältä arkistotietoista ohitusluetteloa ja kevyttä yleistä puhdistusluetteloa.\n- Poista kaksoiskappaleet aggressiivisesti.\n- Tulosta vain lopulliset fnmatch-kuviot, yksi per rivi, ilman kommentteja.",
                 note: "Käytä vastausta lähtökohtana. Ihanteellinen tulos on tarkasteltavissa, kompakti ja linjassa tietyn vientitavoitteen (dump) kanssa — ei koskaan korvikkeena ihmisen tekemälle tarkistukselle tai Content Redactorille."
+            },
+            when: {
+                1: "Monorepos, hybrid stacks or codebases with many utility directories.",
+                2: "When you want to modularize exports by purpose: architecture, runtime, interfaces, integrations, or docs.",
+                3: "When manual filtering becomes repetitive, slow, or too broad.",
+                label: "When it's worth it"
             }
         },
         ack: {
@@ -216,7 +254,14 @@ window.translations.fi = {
             body: "Jos jokin on epäselvää, lähetä lyhyt raportti näyttökuvien ja havaitun käyttäytymisen kera. Tämä nopeuttaa diagnosointia huomattavasti."
         },
         labels: {
-            prompt_label: "Esimerkkipyyntö"
+            prompt_label: "Esimerkkipyyntö",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

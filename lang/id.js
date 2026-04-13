@@ -85,9 +85,15 @@ window.translations.id = {
             title: "Legal & Privasi",
             subtitle: "Ketentuan, perjanjian, dan komitmen kami terhadap privasi data Anda."
         },
-        eula: { title: "Perjanjian Lisensi Pengguna Akhir (EULA)" },
-        privacy: { title: "Kebijakan Privasi" },
-        ack: { title: "Penghargaan & Pemberitahuan Pihak Ketiga" }
+        eula: {
+            title: "Perjanjian Lisensi Pengguna Akhir (EULA)"
+        },
+        privacy: {
+            title: "Kebijakan Privasi"
+        },
+        ack: {
+            title: "Penghargaan & Pemberitahuan Pihak Ketiga"
+        }
     },
     support: {
         title: "Dukungan - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.id = {
             item4: "Safety Scan membatasi kedalaman, jumlah file, dan ukuran total. Path Guard memblokir root dan folder kritis."
         },
         engine: {
-            card1: { title: "1. Apa yang cocok dengan aturan", body: "Mesin menggunakan pola gaya fnmatch. Aturan dapat cocok dengan nama file atau folder yang berdiri sendiri, atau dengan jalur lengkap." },
-            card2: { title: "2. Apa yang terjadi setelahnya", body: "Jika aturan mengenai folder, CodeFlatten PRO menghentikan pembacaan node tersebut. Segala sesuatu di dalamnya diabaikan secara implisit." },
-            card3: { title: "3. Apa yang masuk ke dalam bundel", body: "File teks yang memenuhi syarat masuk ke dalam bundel. Binary dan format yang tidak didukung hanya dapat muncul sebagai referensi jika opsi tersebut diaktifkan." }
+            card1: {
+                title: "1. Apa yang cocok dengan aturan",
+                body: "Mesin menggunakan pola gaya fnmatch. Aturan dapat cocok dengan nama file atau folder yang berdiri sendiri, atau dengan jalur lengkap."
+            },
+            card2: {
+                title: "2. Apa yang terjadi setelahnya",
+                body: "Jika aturan mengenai folder, CodeFlatten PRO menghentikan pembacaan node tersebut. Segala sesuatu di dalamnya diabaikan secara implisit."
+            },
+            card3: {
+                title: "3. Apa yang masuk ke dalam bundel",
+                body: "File teks yang memenuhi syarat masuk ke dalam bundel. Binary dan format yang tidak didukung hanya dapat muncul sebagai referensi jika opsi tersebut diaktifkan."
+            }
         },
         rules: {
             title: "Aturan praktis untuk sehari-hari: dukungan luas untuk standar fnmatch.",
             subtitle: "Gunakan nama persis untuk pengecualian bedah. Gunakan wildcards untuk jenis file, pola berulang, atau filter luas.",
             jump: "Lihat contoh visual",
-            exact: { title: "Pengecualian langsung berdasarkan nama", body: "Bila Anda ingin menghapus folder atau file tertentu, utamakan nama persis dari node tersebut.", when: "Bila niat Anda adalah memblokir seluruh folder di titik mana pun dalam pohon, tanpa bergantung pada garis miring atau jalur lengkap." },
-            wild: { title: "wildcards untuk ekstensi dan keluarga file", body: "Bila targetnya adalah pola yang berulang, gunakan wildcards sederhana. Ideal untuk pengujian, file kunci, gambar, artefak build, dan rahasia berulang.", ex1: "Mengabaikan semua file log.", ex2: "Mengabaikan beberapa variasi file pengujian.", ex3: "Menghindari melampirkan gambar binner ke bundel.", ex4: "Membantu memblokir kunci dan file sensitif." },
-            broad: { title: "Pola luas dan fleksibel", body: "Pola seperti *cache* atau **cache** berfungsi sebagai filter luas berdasarkan substring. Berguna bila Anda ingin menangkap banyak variasi, tetapi mungkin mengecualikan lebih banyak konten dari yang diharapkan.", tip: "Gunakan gaya ini bila tujuan Anda adalah cakupan, bukan presisi. Untuk mengecualikan folder tertentu, terus utamakan nama persis." },
+            exact: {
+                title: "Pengecualian langsung berdasarkan nama",
+                body: "Bila Anda ingin menghapus folder atau file tertentu, utamakan nama persis dari node tersebut.",
+                when: "Bila niat Anda adalah memblokir seluruh folder di titik mana pun dalam pohon, tanpa bergantung pada garis miring atau jalur lengkap."
+            },
+            wild: {
+                title: "wildcards untuk ekstensi dan keluarga file",
+                body: "Bila targetnya adalah pola yang berulang, gunakan wildcards sederhana. Ideal untuk pengujian, file kunci, gambar, artefak build, dan rahasia berulang.",
+                ex1: "Mengabaikan semua file log.",
+                ex2: "Mengabaikan beberapa variasi file pengujian.",
+                ex3: "Menghindari melampirkan gambar binner ke bundel.",
+                ex4: "Membantu memblokir kunci dan file sensitif."
+            },
+            broad: {
+                title: "Pola luas dan fleksibel",
+                body: "Pola seperti *cache* atau **cache** berfungsi sebagai filter luas berdasarkan substring. Berguna bila Anda ingin menangkap banyak variasi, tetapi mungkin mengecualikan lebih banyak konten dari yang diharapkan.",
+                tip: "Gunakan gaya ini bila tujuan Anda adalah cakupan, bukan presisi. Untuk mengecualikan folder tertentu, terus utamakan nama persis."
+            },
             thumb1: "Ingin memblokir folder tertentu? Gunakan <strong>nama persis</strong>.",
             thumb2: "Ingin memblokir keluarga file? Gunakan <strong>wildcards berdasarkan ekstensi</strong>.",
             thumb3: "Ingin menangkap kemunculan istilah apa pun? Gunakan <strong>pola luas</strong> dengan hati-hati."
@@ -158,7 +188,9 @@ window.translations.id = {
             subtitle: "Di bawah ini adalah proyek umum sebelum filter dan aturan yang diterapkan di Langkah 5.",
             reading: "Pembacaan mesin",
             reading_body: "Folder <span class=\"code-chip\">ui</span> dihapus sebagai seluruh cabang; <span class=\"code-chip\">logo.png</span> dan <span class=\"code-chip\">app.test.ts</span> difilter berdasarkan pola; <span class=\"code-chip\">.env</span> dihapus berdasarkan nama persis.",
-            note: "Jika visibilitas item yang diabaikan diatur ke 'Sembunyikan sepenuhnya', placeholder di atas akan hilang dari pohon."
+            note: "Jika visibilitas item yang diabaikan diatur ke 'Sembunyikan sepenuhnya', placeholder di atas akan hilang dari pohon.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan dan Path Guard",
@@ -186,15 +218,21 @@ window.translations.id = {
                 body: "Langkah 5 membantu memutuskan apa yang masuk ke dalam atau tidak ke dalam bundel. Pembersihan teks akhir ada di Langkah 6 dengan Content Redactor. Gunakan keduanya bersama-sama ketika Anda perlu melakukan modularisasi, pengurangan noise, dan peninjauan konten sensitif. SELALU tinjau kembali kata sandi, rahasia, dan informasi sensitif lainnya sebelum menggunakan file yang dihasilkan."
             },
             flow: {
-                title: "Alur yang disarankan",
                 1: "Hasilkan snapshot pohon dan tentukan tujuan dump.",
                 2: "Minta LLM hanya daftar lewati awal untuk mempertahankan inti dan mengurangi noise.",
-                3: "Tinjau aturan, sesuaikan dengan proyek dan baru kemudian terapkan di Langkah 5."
+                3: "Tinjau aturan, sesuaikan dengan proyek dan baru kemudian terapkan di Langkah 5.",
+                title: "Alur yang disarankan"
             },
             prompt: {
                 label: "Contoh permintaan",
-                body: "Anda sedang membuat skip list untuk Langkah 5 dari CodeFlatten PRO.\nAnalisis repositori dan keluarkan hanya skip list fnmatch yang dioptimalkan, siap untuk digunakan langsung.\n\nTujuan:\nHasilkan skip list terkecil dengan cakupan tinggi, mengecualikan kebisingan tanpa merusak pemahaman struktural sistem.\n\nKebijakan optimasi:\n- Lebih suka aturan ringkas bervolume tinggi yang menghapus seluruh cabang bising secara aman.\n- Utamakan pola khusus repositori daripada pengecualian tangkapan umum.\n- Gunakan nama yang tepat untuk kebisingan yang terisolasi.\n- Gunakan wildcard untuk keluarga file berulang.\n- Gunakan pola jalur/nama yang luas hanya ketika jelas menargetkan konten non-inti.\n- Karena aturan cocok dengan nama item dan jalur penuh, dan mencocokkan folder menjatuhkan seluruh sub-pohonnya, utamakan penekanan tingkat folder ketika seluruh cabang jelas tidak penting.\n- Saat dua aturan berlebihan, simpan yang lebih ringkas jika tetap mempertahankan daya pengecualian praktis yang sama.\n- Namun, jangan terlalu memadatkan jika itu akan meningkatkan risiko mengecualikan kode yang relevan.\n\nApa yang harus dihapus:\n- pengujian, probe, smoke check, pembantu validasi, artefak sementara\n- dokumen dan materi serah terima yang tidak diperlukan untuk arsitektur\n- aset biner, ikon, keluaran pengemasan, objek yang dikompilasi, cache, log, kunci\n- folder build/dist/release dan artefak yang dihasilkan\n- rahasia, sertifikat, bukti runtime, sisa pengiriman toko, muatan pelokalan yang redundan jika berat data dan tidak diperlukan untuk memahami alur eksekusi\n\nApa yang harus dipertahankan:\n- inti fungsional\n- modul, runtime, penyedia, adaptor\n- orkestrasi, titik masuk, alur eksekusi\n- kode yang menjelaskan cara kerja sistem\n- kode pengemasan atau integrasi platform bila itu merupakan bagian dari perilaku atau arsitektur produk\n\nAturan keputusan:\nJika ragu, pertahankan kode yang relevan dan hanya kecualikan kebisingan yang jelas.\n\nAturan khusus:\nJika struktur pohon menandai item dengan tag "[Skipped by Step 5]", "[Skipped]", "[Binary/Unsupported]", sertakan aturan skip yang sesuai dalam daftar akhir jika aman.\n\nStrategi keluaran:\n- Gabungkan kedua gaya: pertama aturan tingkat cabang yang ringkas, lalu ekor minimum dari pola artefak berulang.\n- Lebih suka penggabungan kombinasi praktis dan cleanup umum.\n- Deduplikasi secara agresif.\n- Keluarkan HANYA pola fnmatch akhir, satu per baris, tanpa komentar.",
+                body: "Anda sedang membuat skip list untuk Langkah 5 dari CodeFlatten PRO.\nAnalisis repositori dan keluarkan hanya skip list fnmatch yang dioptimalkan, siap untuk digunakan langsung.\n\nTujuan:\nHasilkan skip list terkecil dengan cakupan tinggi, mengecualikan kebisingan tanpa merusak pemahaman struktural sistem.\n\nKebijakan optimasi:\n- Lebih suka aturan ringkas bervolume tinggi yang menghapus seluruh cabang bising secara aman.\n- Utamakan pola khusus repositori daripada pengecualian tangkapan umum.\n- Gunakan nama yang tepat untuk kebisingan yang terisolasi.\n- Gunakan wildcard untuk keluarga file berulang.\n- Gunakan pola jalur/nama yang luas hanya ketika jelas menargetkan konten non-inti.\n- Karena aturan cocok dengan nama item dan jalur penuh, dan mencocokkan folder menjatuhkan seluruh sub-pohonnya, utamakan penekanan tingkat folder ketika seluruh cabang jelas tidak penting.\n- Saat dua aturan berlebihan, simpan yang lebih ringkas jika tetap mempertahankan daya pengecualian praktis yang sama.\n- Namun, jangan terlalu memadatkan jika itu akan meningkatkan risiko mengecualikan kode yang relevan.\n\nApa yang harus dihapus:\n- pengujian, probe, smoke check, pembantu validasi, artefak sementara\n- dokumen dan materi serah terima yang tidak diperlukan untuk arsitektur\n- aset biner, ikon, keluaran pengemasan, objek yang dikompilasi, cache, log, kunci\n- folder build/dist/release dan artefak yang dihasilkan\n- rahasia, sertifikat, bukti runtime, sisa pengiriman toko, muatan pelokalan yang redundan jika berat data dan tidak diperlukan untuk memahami alur eksekusi\n\nApa yang harus dipertahankan:\n- inti fungsional\n- modul, runtime, penyedia, adaptor\n- orkestrasi, titik masuk, alur eksekusi\n- kode yang menjelaskan cara kerja sistem\n- kode pengemasan atau integrasi platform bila itu merupakan bagian dari perilaku atau arsitektur produk\n\nAturan keputusan:\nJika ragu, pertahankan kode yang relevan dan hanya kecualikan kebisingan yang jelas.\n\nAturan khusus:\nJika struktur pohon menandai item dengan tag \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\", sertakan aturan skip yang sesuai dalam daftar akhir jika aman.\n\nStrategi keluaran:\n- Gabungkan kedua gaya: pertama aturan tingkat cabang yang ringkas, lalu ekor minimum dari pola artefak berulang.\n- Lebih suka penggabungan kombinasi praktis dan cleanup umum.\n- Deduplikasi secara agresif.\n- Keluarkan HANYA pola fnmatch akhir, satu per baris, tanpa komentar.",
                 note: "Gunakan jawaban sebagai titik awal. Hasil yang ideal dapat ditinjau, ringkas, dan selaras dengan tujuan dump spesifik — tidak pernah sebagai pengganti tinjauan manusia atau Content Redactor."
+            },
+            when: {
+                1: "Monorepos, hybrid stacks or codebases with many utility directories.",
+                2: "When you want to modularize exports by purpose: architecture, runtime, interfaces, integrations, or docs.",
+                3: "When manual filtering becomes repetitive, slow, or too broad.",
+                label: "When it's worth it"
             }
         },
         ack: {
@@ -216,7 +254,14 @@ window.translations.id = {
             body: "Jika ada yang tidak jelas, kirim laporan singkat dengan tangkapan layar dan perilaku yang diamati. Ini mempercepat proses diagnosis."
         },
         labels: {
-            prompt_label: "Contoh permintaan"
+            prompt_label: "Contoh permintaan",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

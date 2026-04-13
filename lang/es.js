@@ -85,9 +85,15 @@ window.translations.es = {
             title: "Legal y Privacidad",
             subtitle: "Nuestros términos, acuerdos y compromiso con la privacidad de sus datos."
         },
-        eula: { title: "Acuerdo de licencia de usuario final (EULA)" },
-        privacy: { title: "Política de privacidad" },
-        ack: { title: "Agradecimientos y avisos de terceros" }
+        eula: {
+            title: "Acuerdo de licencia de usuario final (EULA)"
+        },
+        privacy: {
+            title: "Política de privacidad"
+        },
+        ack: {
+            title: "Agradecimientos y avisos de terceros"
+        }
     },
     support: {
         title: "Soporte - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.es = {
             item4: "Safety Scan limita la profundidad, el número de archivos y el tamaño total. Path Guard bloquea roots y carpetas críticas."
         },
         engine: {
-            card1: { title: "1. Qué coincide con la regla", body: "El motor utiliza patrones de estilo fnmatch. Una regla puede coincidir con el nombre de archivo o carpeta por separado, o con la ruta completa." },
-            card2: { title: "2. Qué sucede después", body: "Si una regla afecta a una carpeta, CodeFlatten PRO interrumpe la lectura de ese nodo. Todo lo que esté adentro se ignora de forma implícita." },
-            card3: { title: "3. Qué entra en el paquete", body: "Los archivos de texto elegibles entran en el paquete. Los formatos binarios y no compatibles solo pueden aparecer como referencia si esa opción está activada." }
+            card1: {
+                title: "1. Qué coincide con la regla",
+                body: "El motor utiliza patrones de estilo fnmatch. Una regla puede coincidir con el nombre de archivo o carpeta por separado, o con la ruta completa."
+            },
+            card2: {
+                title: "2. Qué sucede después",
+                body: "Si una regla afecta a una carpeta, CodeFlatten PRO interrumpe la lectura de ese nodo. Todo lo que esté adentro se ignora de forma implícita."
+            },
+            card3: {
+                title: "3. Qué entra en el paquete",
+                body: "Los archivos de texto elegibles entran en el paquete. Los formatos binarios y no compatibles solo pueden aparecer como referencia si esa opción está activada."
+            }
         },
         rules: {
             title: "Reglas prácticas para el día a día: soporte amplio para el estándar fnmatch.",
             subtitle: "Utilice nombres exactos para exclusiones precisas. Utilice wildcards para tipos de archivos, patrones recurrentes o filtros amplios.",
             jump: "Ver ejemplo visual",
-            exact: { title: "Exclusión directa por nombre", body: "Cuando desee eliminar una carpeta o archivo específico, priorice el nombre exacto del nodo.", when: "Cuando su intención es bloquear una carpeta completa en cualquier punto del árbol, sin depender de barras diagonales o rutas completas." },
-            wild: { title: "wildcards para extensiones y familias de archivos", body: "Cuando el objetivo es un patrón recurrente, use wildcards simples. Ideal para pruebas, archivos de bloqueo, imágenes, artefactos de compilación y secretos recurrentes.", ex1: "Ignora todos los archivos de registro.", ex2: "Ignora múltiples variantes de archivos de prueba.", ex3: "Evita adjuntar imágenes binarias al paquete.", ex4: "Ayuda a bloquear claves y archivos sensibles." },
-            broad: { title: "Patrones amplios y flexibles", body: "Patrones como *cache* o **cache** funcionan como filtros amplios por subcadena. Son útiles cuando desea capturar muchas variaciones, pero pueden excluir más contenido del esperado.", tip: "Use este estilo cuando el objetivo sea el alcance y no la precisión. Para excluir una carpeta específica, siga priorizando el nombre exacto." },
+            exact: {
+                title: "Exclusión directa por nombre",
+                body: "Cuando desee eliminar una carpeta o archivo específico, priorice el nombre exacto del nodo.",
+                when: "Cuando su intención es bloquear una carpeta completa en cualquier punto del árbol, sin depender de barras diagonales o rutas completas."
+            },
+            wild: {
+                title: "wildcards para extensiones y familias de archivos",
+                body: "Cuando el objetivo es un patrón recurrente, use wildcards simples. Ideal para pruebas, archivos de bloqueo, imágenes, artefactos de compilación y secretos recurrentes.",
+                ex1: "Ignora todos los archivos de registro.",
+                ex2: "Ignora múltiples variantes de archivos de prueba.",
+                ex3: "Evita adjuntar imágenes binarias al paquete.",
+                ex4: "Ayuda a bloquear claves y archivos sensibles."
+            },
+            broad: {
+                title: "Patrones amplios y flexibles",
+                body: "Patrones como *cache* o **cache** funcionan como filtros amplios por subcadena. Son útiles cuando desea capturar muchas variaciones, pero pueden excluir más contenido del esperado.",
+                tip: "Use este estilo cuando el objetivo sea el alcance y no la precisión. Para excluir una carpeta específica, siga priorizando el nombre exacto."
+            },
             thumb1: "¿Desea bloquear una carpeta específica? Use el <strong>nombre exacto</strong>.",
             thumb2: "¿Desea bloquear una familia de archivos? Use <strong>wildcards por extensión</strong>.",
             thumb3: "¿Desea capturar cada aparición de un término? Use un <strong>patrón amplio</strong> con precaución."
@@ -158,7 +188,9 @@ window.translations.es = {
             subtitle: "A continuación se muestra un proyecto genérico antes del filtrado y las reglas aplicadas en el Paso 5.",
             reading: "Lectura del motor",
             reading_body: "La carpeta <span class=\"code-chip\">ui</span> se elimina como una rama completa; <span class=\"code-chip\">logo.png</span> y <span class=\"code-chip\">app.test.ts</span> se filtran por patrón; <span class=\"code-chip\">.env</span> se elimina por nombre exacto.",
-            note: "Si la visibilidad de los elementos ignorados se establece en 'Ocultar totalmente', los marcadores de posición anteriores desaparecerán del árbol."
+            note: "Si la visibilidad de los elementos ignorados se establece en 'Ocultar totalmente', los marcadores de posición anteriores desaparecerán del árbol.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan y Path Guard",
@@ -191,10 +223,10 @@ window.translations.es = {
                 body: "El Paso 5 ayuda a decidir qué entra o no entra en el paquete. La limpieza final del texto pertenece al Paso 6 con el Redactor de Contenido. Use ambos juntos cuando necesite modularización, reducción de ruido y revisión de contenido sensible. SIEMPRE revise nuevamente las contraseñas, secretos y otra información sensible antes de usar el archivo generado."
             },
             flow: {
-                title: "Flujo sugerido",
                 1: "Genere un snapshot del árbol y defina el objetivo del dump.",
                 2: "Pida al LLM solo una lista de omisión inicial para preservar el núcleo y reducir el ruido.",
-                3: "Revise las reglas, adáptelas al proyecto y aplíquelas en el Paso 5."
+                3: "Revise las reglas, adáptelas al proyecto y aplíquelas en el Paso 5.",
+                title: "Flujo sugerido"
             },
             prompt: {
                 label: "Ejemplo de solicitud",
@@ -221,7 +253,14 @@ window.translations.es = {
             body: "Si algo no está claro, envíe un breve reporte con capturas de pantalla y el comportamiento observado. Esto acelera el proceso de diagnóstico."
         },
         labels: {
-            prompt_label: "Ejemplo de solicitud"
+            prompt_label: "Ejemplo de solicitud",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

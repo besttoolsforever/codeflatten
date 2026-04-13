@@ -85,9 +85,15 @@ window.translations.pl = {
             title: "Prawo i Prywatność",
             subtitle: "Nasze warunki, umowy i zobowiązanie do prywatności Twoich danych."
         },
-        eula: { title: "Umowa licencyjna użytkownika końcowego (EULA)" },
-        privacy: { title: "Polityka prywatności" },
-        ack: { title: "Podziękowania i powiadomienia stron trzecich" }
+        eula: {
+            title: "Umowa licencyjna użytkownika końcowego (EULA)"
+        },
+        privacy: {
+            title: "Polityka prywatności"
+        },
+        ack: {
+            title: "Podziękowania i powiadomienia stron trzecich"
+        }
     },
     support: {
         title: "Wsparcie - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.pl = {
             item4: "Safety Scan ogranicza głębokość, liczbę plików i całkowity rozmiar. Path Guard blokuje rooty i krytyczne foldery."
         },
         engine: {
-            card1: { title: "1. Co pasuje do reguły", body: "Silnik używa wzorców w stylu fnmatch. Reguła może pasować do samej nazwy pliku lub folderu albo do pełnej ścieżki." },
-            card2: { title: "2. Co dzieje się potem", body: "Jeśli reguła trafi w folder, CodeFlatten PRO przerywa odczyt tego węzła. Wszystko wewnątrz jest domyślnie ignorowane." },
-            card3: { title: "3. Co trafia do pakietu", body: "Kwalifikujące się pliki tekstowe trafiają do pakietu. Pliki binarne i nieobsługiwane formaty mogą pojawić się tylko jako odniesienie, jeśli ta opcja jest włączona." }
+            card1: {
+                title: "1. Co pasuje do reguły",
+                body: "Silnik używa wzorców w stylu fnmatch. Reguła może pasować do samej nazwy pliku lub folderu albo do pełnej ścieżki."
+            },
+            card2: {
+                title: "2. Co dzieje się potem",
+                body: "Jeśli reguła trafi w folder, CodeFlatten PRO przerywa odczyt tego węzła. Wszystko wewnątrz jest domyślnie ignorowane."
+            },
+            card3: {
+                title: "3. Co trafia do pakietu",
+                body: "Kwalifikujące się pliki tekstowe trafiają do pakietu. Pliki binarne i nieobsługiwane formaty mogą pojawić się tylko jako odniesienie, jeśli ta opcja jest włączona."
+            }
         },
         rules: {
             title: "Praktyczne reguły na co dzień: Szerokie wsparcie standardu fnmatch.",
             subtitle: "Używaj dokładnych nazw dla precyzyjnych wykluczeń. Używaj wildcards dla typów plików, powtarzających się wzorców lub szerokich filtrów.",
             jump: "Zobacz przykład wizualny",
-            exact: { title: "Bezpośrednie wykluczenie po nazwie", body: "Gdy chcesz usunąć konkretny folder lub plik, preferuj dokładną nazwę węzła.", when: "Gdy Twoją intencją jest zablokowanie całego folderu w dowolnym punkcie drzewa, bez polegania na ukośnikach lub pełnych ścieżkach." },
-            wild: { title: "wildcards dla rozszerzeń i rodzin plików", body: "Gdy celem jest powtarzający się wzorzec, użyj prostych symboli wieloznacznych. Idealne do testów, plików blokad, obrazów, artefaktów budowania i powtarzających się sekretów.", ex1: "Ignoruje wszystkie pliki logów.", ex2: "Ignoruje wiele wariantów plików testowych.", ex3: "Unika dołączania obrazów binarnych do pakietu.", ex4: "Pomaga blokować klucze i poufne pliki." },
-            broad: { title: "Szerokie i elastyczne wzorce", body: "Wzorce takie jak *cache* lub **cache** działają jako szerokie filtry podciągów. Są przydatne, gdy chcesz uchwycić wiele wariacji, ale mogą wykluczyć więcej treści niż oczekiwano.", tip: "Używaj tego stylu, gdy celem jest zasięg, a nie precyzja. Aby wykluczyć konkretny folder, nadal preferuj dokładną nazwę." },
+            exact: {
+                title: "Bezpośrednie wykluczenie po nazwie",
+                body: "Gdy chcesz usunąć konkretny folder lub plik, preferuj dokładną nazwę węzła.",
+                when: "Gdy Twoją intencją jest zablokowanie całego folderu w dowolnym punkcie drzewa, bez polegania na ukośnikach lub pełnych ścieżkach."
+            },
+            wild: {
+                title: "wildcards dla rozszerzeń i rodzin plików",
+                body: "Gdy celem jest powtarzający się wzorzec, użyj prostych symboli wieloznacznych. Idealne do testów, plików blokad, obrazów, artefaktów budowania i powtarzających się sekretów.",
+                ex1: "Ignoruje wszystkie pliki logów.",
+                ex2: "Ignoruje wiele wariantów plików testowych.",
+                ex3: "Unika dołączania obrazów binarnych do pakietu.",
+                ex4: "Pomaga blokować klucze i poufne pliki."
+            },
+            broad: {
+                title: "Szerokie i elastyczne wzorce",
+                body: "Wzorce takie jak *cache* lub **cache** działają jako szerokie filtry podciągów. Są przydatne, gdy chcesz uchwycić wiele wariacji, ale mogą wykluczyć więcej treści niż oczekiwano.",
+                tip: "Używaj tego stylu, gdy celem jest zasięg, a nie precyzja. Aby wykluczyć konkretny folder, nadal preferuj dokładną nazwę."
+            },
             thumb1: "Chcesz zablokować konkretny folder? Użyj <strong>dokładnej nazwy</strong>.",
             thumb2: "Chcesz zablokować rodzinę plików? Użyj <strong>wildcards wedle rozszerzenia</strong>.",
             thumb3: "Chcesz uchwycić każde wystąpienie terminu? Używaj <strong>szerokiego wzorca</strong> ostrożnie."
@@ -158,7 +188,9 @@ window.translations.pl = {
             subtitle: "Poniżej ogólny projekt przed filtrowaniem i reguły zastosowane w kroku 5.",
             reading: "Odczyt silnika",
             reading_body: "Folder <span class=\"code-chip\">ui</span> jest usuwany jako cała gałąź; <span class=\"code-chip\">logo.png</span> i <span class=\"code-chip\">app.test.ts</span> są filtrowane według wzorca; <span class=\"code-chip\">.env</span> jest usuwany według dokładnej nazwy.",
-            note: "Jeśli widoczność ignorowanych elementów jest ustawiona na 'Całkowicie ukryj', powyższe symbole zastępcze znikną z drzewa."
+            note: "Jeśli widoczność ignorowanych elementów jest ustawiona na 'Całkowicie ukryj', powyższe symbole zastępcze znikną z drzewa.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan i Path Guard",
@@ -191,14 +223,14 @@ window.translations.pl = {
                 body: "Krok 5 pomaga zdecydować, co wchodzi, a co nie wchodzi do pakietu. Czyszczenie ostatecznego tekstu należy do kroku 6 z Redaktorem Treści. Używaj obu razem, gdy potrzebujesz modularyzacji, redukcji szumu i przeglądu wrażliwych treści. ZAWSZE sprawdzaj ponownie hasła, sekrety i inne wrażliwe informacje przed użyciem wygenerowanego pliku."
             },
             flow: {
-                title: "Sugerowany przepływ",
                 1: "Wygeneruj migawkę drzewa i zdefiniuj cel zrzutu.",
                 2: "Poproś LLM tylko o początkową listę pomijania, aby zachować rdzeń i zredukować szum.",
-                3: "Przejrzyj reguły, dostosuj je do projektu i dopiero wtedy zastosuj w kroku 5."
+                3: "Przejrzyj reguły, dostosuj je do projektu i dopiero wtedy zastosuj w kroku 5.",
+                title: "Sugerowany przepływ"
             },
             prompt: {
                 label: "Przykładowe zapytanie",
-                body: "Generujesz skip list dla kroku 5 CodeFlatten PRO.\nPrzeanalizuj repozytorium i jako wynik wyprowadź wyłącznie zoptymalizowaną listę pomijania fnmatch, gotową do bezpośredniego użycia.\n\nCel:\nUtwórz możliwie najmniejszą listę pomijania o wysokim pokryciu, wykluczającą szum bez negatywnego wpływu na zrozumienie strukturalne systemu.\n\nPolityka optymalizacji:\n- Preferuj zwięzłe, wysoce efektywne reguły, które bezpiecznie usuwają całe zaszumione odgałęzienia.\n- Preferuj wzorce specyficzne dla repozytorium nad generyczne, rozległe wykluczenia.\n- Używaj dokładnych nazw dla pojedynczych elementów szumu.\n- Używaj symboli wieloznacznych (wildcards) dla powtarzających się rodzin plików.\n- Używaj ogólnych wzorców ścieżki i nazwy tylko wtedy, gdy wyraźnie celują w treści drugorzędne.\n- Ze względu na to, że reguły dopasowują się zarówno do nazw elementów, jak i do pełnych ścieżek, a dopasowanie lokalizacji odrzuca całe jej poddrzewo, zawsze preferuj pomijanie na poziomie katalogu, jeśli całe odgałęzienie nie jest niezbędne.\n- Jeżeli dwie reguły są nadmiarowe, zachowaj tę bardziej kompaktową, o ile zachowuje tę samą praktyczną siłę wykluczenia.\n- Unikaj jednak zbytnich uproszczeń, które mogłyby zwiększyć ryzyko pominięcia ważnego kodu.\n\nCo usunąć:\n- testy, próbniki, kontrole dymne, pomocniki walidacji, artefakty tymczasowe\n- dokumenty i materiały przekazania, które nie pomagają w zrozumieniu architektury\n- aktywa binarne, ikony, produkty kompilacji/pakowania, obiekty skompilowane, pamięci podręczne (caches), logi, zamki (locks)\n- katalogi build/dist/release i inne kompilowane pliki wynikowe\n- sekrety, certyfikaty, logi operacyjne, pozostałości po procesach wdrożeniowych, duże nadmiarowe moduły tłumaczeniowe, z wyjątkiem niezbędnych\n\nCo zachować:\n- rdzeń logiczny aplikacji\n- moduły, runtime, dostawcę, adaptery\n- orkiestrację, wejścia i mechanizmy routingu\n- kod, który obrazuje zasadę działania systemu\n- skrypty wdrożeniowe, jeśli same w sobie ukazują zasady zachowania architektury\n\nZasada decyzyjna:\nW razie wątpliwości preferuj pozostawienie materiałów kodu, wyłączaj tylko udokumentowany szum informacyjny.\n\nZasada specjalna:\nJeśli drzewo przypisuje pliki do elementów spójnych jak "[Skipped by Step 5]", "[Skipped]" i równoważnych, dopisz odpowiednią klasę i regułę do ostatecznej listy pominąć.\n\nStrategia przesyłu danych wyjściowych:\n- Łącz z obu perspektyw: najpierw ścisłe reguły klas podrzędnych, dalej luźny strumień uodporniający przed generycznymi resztkami.\n- Unikaj dublowania wyników silnym zoptymalizowaniem.\n- Finalna lista powinna być spójna, zwracana tylko i wyłącznie w standardzie poleceń fnmatch (jedno pod drugim, żadnych innych komentarzy i wstępów).",
+                body: "Generujesz skip list dla kroku 5 CodeFlatten PRO.\nPrzeanalizuj repozytorium i jako wynik wyprowadź wyłącznie zoptymalizowaną listę pomijania fnmatch, gotową do bezpośredniego użycia.\n\nCel:\nUtwórz możliwie najmniejszą listę pomijania o wysokim pokryciu, wykluczającą szum bez negatywnego wpływu na zrozumienie strukturalne systemu.\n\nPolityka optymalizacji:\n- Preferuj zwięzłe, wysoce efektywne reguły, które bezpiecznie usuwają całe zaszumione odgałęzienia.\n- Preferuj wzorce specyficzne dla repozytorium nad generyczne, rozległe wykluczenia.\n- Używaj dokładnych nazw dla pojedynczych elementów szumu.\n- Używaj symboli wieloznacznych (wildcards) dla powtarzających się rodzin plików.\n- Używaj ogólnych wzorców ścieżki i nazwy tylko wtedy, gdy wyraźnie celują w treści drugorzędne.\n- Ze względu na to, że reguły dopasowują się zarówno do nazw elementów, jak i do pełnych ścieżek, a dopasowanie lokalizacji odrzuca całe jej poddrzewo, zawsze preferuj pomijanie na poziomie katalogu, jeśli całe odgałęzienie nie jest niezbędne.\n- Jeżeli dwie reguły są nadmiarowe, zachowaj tę bardziej kompaktową, o ile zachowuje tę samą praktyczną siłę wykluczenia.\n- Unikaj jednak zbytnich uproszczeń, które mogłyby zwiększyć ryzyko pominięcia ważnego kodu.\n\nCo usunąć:\n- testy, próbniki, kontrole dymne, pomocniki walidacji, artefakty tymczasowe\n- dokumenty i materiały przekazania, które nie pomagają w zrozumieniu architektury\n- aktywa binarne, ikony, produkty kompilacji/pakowania, obiekty skompilowane, pamięci podręczne (caches), logi, zamki (locks)\n- katalogi build/dist/release i inne kompilowane pliki wynikowe\n- sekrety, certyfikaty, logi operacyjne, pozostałości po procesach wdrożeniowych, duże nadmiarowe moduły tłumaczeniowe, z wyjątkiem niezbędnych\n\nCo zachować:\n- rdzeń logiczny aplikacji\n- moduły, runtime, dostawcę, adaptery\n- orkiestrację, wejścia i mechanizmy routingu\n- kod, który obrazuje zasadę działania systemu\n- skrypty wdrożeniowe, jeśli same w sobie ukazują zasady zachowania architektury\n\nZasada decyzyjna:\nW razie wątpliwości preferuj pozostawienie materiałów kodu, wyłączaj tylko udokumentowany szum informacyjny.\n\nZasada specjalna:\nJeśli drzewo przypisuje pliki do elementów spójnych jak \"[Skipped by Step 5]\", \"[Skipped]\" i równoważnych, dopisz odpowiednią klasę i regułę do ostatecznej listy pominąć.\n\nStrategia przesyłu danych wyjściowych:\n- Łącz z obu perspektyw: najpierw ścisłe reguły klas podrzędnych, dalej luźny strumień uodporniający przed generycznymi resztkami.\n- Unikaj dublowania wyników silnym zoptymalizowaniem.\n- Finalna lista powinna być spójna, zwracana tylko i wyłącznie w standardzie poleceń fnmatch (jedno pod drugim, żadnych innych komentarzy i wstępów).",
                 note: "Użyj odpowiedzi jako punktu wyjścia. Idealny wynik jest możliwy do przejrzenia, zwięzły i dostosowany do konkretnego celu eksportu (dump) — nigdy jako substytut oceny człowieka lub funkcji Content Redactor."
             }
         },
@@ -221,7 +253,14 @@ window.translations.pl = {
             body: "Jeśli coś jest niejasne, wyślij krótki raport ze zrzutami ekranu i zaobserwowanym zachowaniem. To znacznie przyspiesza diagnozę."
         },
         labels: {
-            prompt_label: "Przykładowe zapytanie"
+            prompt_label: "Przykładowe zapytanie",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

@@ -85,9 +85,15 @@ window.translations.nl = {
             title: "Juridisch & Privacy",
             subtitle: "Onze voorwaarden, overeenkomsten en toewijding aan de privacy van uw gegevens."
         },
-        eula: { title: "Eindgebruikerslicentieovereenkomst (EULA)" },
-        privacy: { title: "Privacybeleid" },
-        ack: { title: "Dankbetuigingen & kennisgevingen van derden" }
+        eula: {
+            title: "Eindgebruikerslicentieovereenkomst (EULA)"
+        },
+        privacy: {
+            title: "Privacybeleid"
+        },
+        ack: {
+            title: "Dankbetuigingen & kennisgevingen van derden"
+        }
     },
     support: {
         title: "Ondersteuning - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.nl = {
             item4: "Safety Scan beperkt de diepte, het aantal bestanden en de totale grootte. Path Guard blokkeert roots en kritieke mappen."
         },
         engine: {
-            card1: { title: "1. Wat overeenkomt met de regel", body: "De engine gebruikt patronen in fnmatch-stijl. Een regel kan overeenkomen met de individuele bestands- of mapnaam, of met het volledige pad." },
-            card2: { title: "2. Wat daarna gebeurt", body: "Als een regel een map raakt, onderbreekt CodeFlatten PRO het lezen van dat knooppunt. Alles daarbinnen wordt impliciet genegeerd." },
-            card3: { title: "3. Wat in de bundel komt", body: "In aanmerking komende tekstbestanden komen in de bundel. Binaire bestanden en niet-ondersteunde formaten kunnen alleen als referentie verschijnen als deze optie is ingeschakeld." }
+            card1: {
+                title: "1. Wat overeenkomt met de regel",
+                body: "De engine gebruikt patronen in fnmatch-stijl. Een regel kan overeenkomen met de individuele bestands- of mapnaam, of met het volledige pad."
+            },
+            card2: {
+                title: "2. Wat daarna gebeurt",
+                body: "Als een regel een map raakt, onderbreekt CodeFlatten PRO het lezen van dat knooppunt. Alles daarbinnen wordt impliciet genegeerd."
+            },
+            card3: {
+                title: "3. Wat in de bundel komt",
+                body: "In aanmerking komende tekstbestanden komen in de bundel. Binaire bestanden en niet-ondersteunde formaten kunnen alleen als referentie verschijnen als deze optie is ingeschakeld."
+            }
         },
         rules: {
             title: "Praktische regels voor alledag: Brede ondersteuning van de fnmatch-standaard.",
             subtitle: "Gebruik exacte namen voor chirurgische uitsluitingen. Gebruik wildcards voor bestandstypen, herhalende patronen of brede filters.",
             jump: "Zie visueel voorbeeld",
-            exact: { title: "Directe uitsluiting op naam", body: "Wanneer je een specifieke map of bestand wilt verwijderen, geef dan de voorkeur aan de exacte naam van het knooppunt.", when: "Wanneer het je bedoeling is om een volledige map te blokkeren op een willekeurig punt in de boom, zonder afhankelijk te zijn van schuine strepen of volledige paden." },
-            wild: { title: "wildcards voor extensies en bestandsfamilies", body: "Wanneer het doel een herhalend patroon is, gebruik dan eenvoudige wildcards. Ideaal voor tests, lock-bestanden, afbeeldingen, build-artefacten en herhalende secrets.", ex1: "Negeert alle logbestanden.", ex2: "Negeert meerdere varianten van testbestanden.", ex3: "Vermijdt het toevoegen van binaire afbeeldingen aan de bundel.", ex4: "Helpt bij het blokkeren van sleutels en gevoelige bestanden." },
-            broad: { title: "Brede en flexibele patronen", body: "Patronen zoals *cache* of **cache** werken als brede filters op basis van substring. Ze zijn nuttig wanneer je veel variaties wilt vangen, maar ze kunnen meer inhoud uitsluiten dan verwacht.", tip: "Gebruik deze stijl wanneer het doel dekking is en niet precisie. Om een specifieke map uit te sluiten, blijf de exacte naam gebruiken." },
+            exact: {
+                title: "Directe uitsluiting op naam",
+                body: "Wanneer je een specifieke map of bestand wilt verwijderen, geef dan de voorkeur aan de exacte naam van het knooppunt.",
+                when: "Wanneer het je bedoeling is om een volledige map te blokkeren op een willekeurig punt in de boom, zonder afhankelijk te zijn van schuine strepen of volledige paden."
+            },
+            wild: {
+                title: "wildcards voor extensies en bestandsfamilies",
+                body: "Wanneer het doel een herhalend patroon is, gebruik dan eenvoudige wildcards. Ideaal voor tests, lock-bestanden, afbeeldingen, build-artefacten en herhalende secrets.",
+                ex1: "Negeert alle logbestanden.",
+                ex2: "Negeert meerdere varianten van testbestanden.",
+                ex3: "Vermijdt het toevoegen van binaire afbeeldingen aan de bundel.",
+                ex4: "Helpt bij het blokkeren van sleutels en gevoelige bestanden."
+            },
+            broad: {
+                title: "Brede en flexibele patronen",
+                body: "Patronen zoals *cache* of **cache** werken als brede filters op basis van substring. Ze zijn nuttig wanneer je veel variaties wilt vangen, maar ze kunnen meer inhoud uitsluiten dan verwacht.",
+                tip: "Gebruik deze stijl wanneer het doel dekking is en niet precisie. Om een specifieke map uit te sluiten, blijf de exacte naam gebruiken."
+            },
             thumb1: "Wilt u een specifieke map blokkeren? Gebruik de <strong>exacte naam</strong>.",
             thumb2: "Wilt u een bestandsfamilie blokkeren? Gebruik <strong>wildcards op extensie</strong>.",
             thumb3: "Wilt u elk exemplaar van een term vangen? Gebruik een <strong>breed patroon</strong> met voorzichtigheid."
@@ -158,7 +188,9 @@ window.translations.nl = {
             subtitle: "Hieronder een generiek project voor het filteren en de regels toegepast in Stap 5.",
             reading: "Engine-uitlezing",
             reading_body: "De map <span class=\"code-chip\">ui</span> wordt als volledige tak verwijderd; <span class=\"code-chip\">logo.png</span> en <span class=\"code-chip\">app.test.ts</span> worden gefilterd op patroon; <span class=\"code-chip\">.env</span> wordt verwijderd op exacte naam.",
-            note: "Als de zichtbaarheid van genegeerde items is ingesteld op 'Volledig verbergen', verdwijnen de bovenstaande tijdelijke aanduidingen uit de boomstructuur."
+            note: "Als de zichtbaarheid van genegeerde items is ingesteld op 'Volledig verbergen', verdwijnen de bovenstaande tijdelijke aanduidingen uit de boomstructuur.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan en Path Guard",
@@ -191,14 +223,14 @@ window.translations.nl = {
                 body: "Stap 5 helpt bij het beslissen wat wel of niet in de bundel komt. Het opschonen van de uiteindelijke tekst behoort bij Stap 6 met de Content Redactor. Gebruik beide samen wanneer je modularisatie, ruisreductie en beoordeling van gevoelige inhoud nodig hebt. Controleer ALTIJD opnieuw wachtwoorden, secrets en andere gevoelige informatie voordat je het gegenereerde bestand gebruikt."
             },
             flow: {
-                title: "Voorgestelde workflow",
                 1: "Genereer een snapshot van de boomstructuur en definieer het doel van de dump.",
                 2: "Vraag de LLM alleen om een initiële skip list om de kern te behouden en ruis te verminderen.",
-                3: "Beoordeel de regels, pas ze aan het project aan en pas ze vervolgens toe in Stap 5."
+                3: "Beoordeel de regels, pas ze aan het project aan en pas ze vervolgens toe in Stap 5.",
+                title: "Voorgestelde workflow"
             },
             prompt: {
                 label: "Voorbeeldaanvraag",
-                body: "Je genereert een skip list voor Stap 5 van CodeFlatten PRO.\nAnalyseer de repository en voer alleen een geoptimaliseerde fnmatch skip list uit, klaar voor direct gebruik.\n\nDoel:\nProduceer de kleinst mogelijke skip list met hoge dekking, waarbij ruis wordt uitgesloten zonder het structurele begrip van het systeem aan te tasten.\n\nOptimalisatiebeleid:\n- Geef de voorkeur aan compacte, efficiënte regels die veilig hele takken vol ruis verwijderen.\n- Geef de voorkeur aan repository-specifieke patronen in plaats van generieke algemene uitsluitingen.\n- Gebruik exacte namen voor geïsoleerde ruis.\n- Gebruik wildcards voor terugkerende bestandsfamilies.\n- Gebruik uitsluitend brede pad-/naampatronen wanneer deze duidelijk niet-essentiële inhoud als doelwit hebben.\n- Omdat regels overeenkomen met zowel itemnamen als volledige paden, en het matchen van een map de gehele deelboom verwijdert, verdient onderdrukking op mapniveau de voorkeur wanneer een hele tak duidelijk niet-essentieel is.\n- Wanneer twee regels dubbel zijn, bewaar dan de meest compacte als deze dezelfde praktische uitsluitingskracht behoudt.\n- Comprimeer echter niet te veel als dat het risico op uitsluiting van relevante code zou vergroten.\n\nWat te verwijderen:\n- tests, probes, smoke checks, validatiehelpers, tijdelijke artefacten\n- documentatie en overdrachtsmateriaal dat niet nodig is voor de architectuur\n- binaire middelen, pictogrammen, verpakkingsoutputs, gecompileerde objecten, caches, logs, locks\n- build/dist/release-mappen en gegenereerde artefacten\n- geheimen, certificaten, runtime-bewijs, winkelindiensresten, overtollige localisatie-payloads wanneer ze data-zwaar zijn en niet nodig om de uitvoeringsstroom te begrijpen\n\nWat te behouden:\n- functionele kern\n- modules, runtime, providers, adapters\n- orkestratie, instappunten, uitvoeringsstroom\n- code die uitlegt hoe het systeem werkt\n- verpakkings- of platformintegratiecode wanneer dit deel uitmaakt van productgedrag of architectuur\n\nBeslissingsregel:\nBewaar in geval van twijfel relevante code en sluit alleen duidelijke ruis uit.\n\nSpeciale regel:\nAls de boom een item of familie markeert met tags zoals "[Skipped by Step 5]", "[Skipped]", "[Binary/Unsupported]" of een equivalent, neem dan een overeenkomstige overslaan-regel op in de definitieve lijst indien veilig.\n\nOutputstrategie:\n- Voeg beide stijlen samen: eerst compacte regels op takniveau, gevolgd door een minimale opsomming van terugkerende artefactpatronen.\n- Geef de voorkeur aan een combinatie die voelt als de praktische combinatie van een repository-bewuste skip list en een slanke generieke cleanup-lijst.\n- Ontdubbel agressief.\n- Voer alleen de laatste fnmatch-patronen uit, één per regel, zonder commentaar.",
+                body: "Je genereert een skip list voor Stap 5 van CodeFlatten PRO.\nAnalyseer de repository en voer alleen een geoptimaliseerde fnmatch skip list uit, klaar voor direct gebruik.\n\nDoel:\nProduceer de kleinst mogelijke skip list met hoge dekking, waarbij ruis wordt uitgesloten zonder het structurele begrip van het systeem aan te tasten.\n\nOptimalisatiebeleid:\n- Geef de voorkeur aan compacte, efficiënte regels die veilig hele takken vol ruis verwijderen.\n- Geef de voorkeur aan repository-specifieke patronen in plaats van generieke algemene uitsluitingen.\n- Gebruik exacte namen voor geïsoleerde ruis.\n- Gebruik wildcards voor terugkerende bestandsfamilies.\n- Gebruik uitsluitend brede pad-/naampatronen wanneer deze duidelijk niet-essentiële inhoud als doelwit hebben.\n- Omdat regels overeenkomen met zowel itemnamen als volledige paden, en het matchen van een map de gehele deelboom verwijdert, verdient onderdrukking op mapniveau de voorkeur wanneer een hele tak duidelijk niet-essentieel is.\n- Wanneer twee regels dubbel zijn, bewaar dan de meest compacte als deze dezelfde praktische uitsluitingskracht behoudt.\n- Comprimeer echter niet te veel als dat het risico op uitsluiting van relevante code zou vergroten.\n\nWat te verwijderen:\n- tests, probes, smoke checks, validatiehelpers, tijdelijke artefacten\n- documentatie en overdrachtsmateriaal dat niet nodig is voor de architectuur\n- binaire middelen, pictogrammen, verpakkingsoutputs, gecompileerde objecten, caches, logs, locks\n- build/dist/release-mappen en gegenereerde artefacten\n- geheimen, certificaten, runtime-bewijs, winkelindiensresten, overtollige localisatie-payloads wanneer ze data-zwaar zijn en niet nodig om de uitvoeringsstroom te begrijpen\n\nWat te behouden:\n- functionele kern\n- modules, runtime, providers, adapters\n- orkestratie, instappunten, uitvoeringsstroom\n- code die uitlegt hoe het systeem werkt\n- verpakkings- of platformintegratiecode wanneer dit deel uitmaakt van productgedrag of architectuur\n\nBeslissingsregel:\nBewaar in geval van twijfel relevante code en sluit alleen duidelijke ruis uit.\n\nSpeciale regel:\nAls de boom een item of familie markeert met tags zoals \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" of een equivalent, neem dan een overeenkomstige overslaan-regel op in de definitieve lijst indien veilig.\n\nOutputstrategie:\n- Voeg beide stijlen samen: eerst compacte regels op takniveau, gevolgd door een minimale opsomming van terugkerende artefactpatronen.\n- Geef de voorkeur aan een combinatie die voelt als de praktische combinatie van een repository-bewuste skip list en een slanke generieke cleanup-lijst.\n- Ontdubbel agressief.\n- Voer alleen de laatste fnmatch-patronen uit, één per regel, zonder commentaar.",
                 note: "Gebruik het antwoord als startpunt. Het ideale resultaat is controleerbaar, compact en afgestemd op het specifieke dumpdoel — nooit als vervanging voor menselijke controle of de Content Redactor."
             }
         },
@@ -207,13 +239,13 @@ window.translations.nl = {
             body: "CodeFlatten PRO biedt een statistische output in GitHub Linguist-stijl, geïnspireerd op het open-source project <a href=\"https://github.com/github-linguist/linguist\" target=\"_blank\" class=\"font-bold text-white hover:underline transition-colors\">Linguist</a> van GitHub. De onderliggende engine maakt ook gebruik van de mogelijkheden van Python, Tcl/Tk en Pillow."
         },
         check: {
+            6: "Controleer het eindresultaat voordat je het deelt met derden of een AI.",
             title: "Snelchecklist voor generatie",
             item1: "Gebruik exacte namen voor chirurgische uitsluitingen.",
             item2: "Gebruik wildcards voor extensies, tests, locks en herhalende artefacten.",
             item3: "Laat Safety Scan in de meeste gevallen ingeschakeld.",
             item4: "Laat Path Guard ingeschakeld om roots en kritieke mappen te vermijden.",
-            item5: "Schakel binaire referentie in wanneer je structurele context wilt zonder de inhoud in te sluiten.",
-            6: "Controleer het eindresultaat voordat je het deelt met derden of een AI."
+            item5: "Schakel binaire referentie in wanneer je structurele context wilt zonder de inhoud in te sluiten."
         },
         support: {
             label: "Hulp nodig?",
@@ -221,7 +253,14 @@ window.translations.nl = {
             body: "Als er iets onduidelijk is, stuur dan een kort verslag met screenshots en het waargenomen gedrag. Dit versnelt de diagnose aanzienlijk."
         },
         labels: {
-            prompt_label: "Voorbeeldaanvraag"
+            prompt_label: "Voorbeeldaanvraag",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

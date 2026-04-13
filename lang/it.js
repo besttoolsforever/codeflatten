@@ -85,9 +85,15 @@ window.translations.it = {
             title: "Note Legali e Privacy",
             subtitle: "I nostri termini, accordi e l'impegno per la privacy dei tuoi dati."
         },
-        eula: { title: "Contratto di Licenza con l'Utente Finale (EULA)" },
-        privacy: { title: "Informativa sulla Privacy" },
-        ack: { title: "Ringraziamenti e Avvisi di Terze Parti" }
+        eula: {
+            title: "Contratto di Licenza con l'Utente Finale (EULA)"
+        },
+        privacy: {
+            title: "Informativa sulla Privacy"
+        },
+        ack: {
+            title: "Ringraziamenti e Avvisi di Terze Parti"
+        }
     },
     support: {
         title: "Supporto - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.it = {
             item4: "Safety Scan limita la profondità, il numero di file e la dimensione totale. Path Guard blocca i root e le cartelle critiche."
         },
         engine: {
-            card1: { title: "1. Cosa corrisponde alla regola", body: "Il motore utilizza pattern in stile fnmatch. Una regola può corrispondere al nome del file o della cartella isolato, o al percorso completo." },
-            card2: { title: "2. Cosa succede dopo", body: "Se una regola colpisce una cartella, CodeFlatten PRO interrompe la lettura di quel nodo. Tutto ciò che si trova all'interno viene implicitamente ignorato." },
-            card3: { title: "3. Cosa entra nel bundle", body: "I file di testo idonei entrano nel bundle. I file binari e i formati non supportati possono apparire solo come riferimento se l'opzione è attivata." }
+            card1: {
+                title: "1. Cosa corrisponde alla regola",
+                body: "Il motore utilizza pattern in stile fnmatch. Una regola può corrispondere al nome del file o della cartella isolato, o al percorso completo."
+            },
+            card2: {
+                title: "2. Cosa succede dopo",
+                body: "Se una regola colpisce una cartella, CodeFlatten PRO interrompe la lettura di quel nodo. Tutto ciò che si trova all'interno viene implicitamente ignorato."
+            },
+            card3: {
+                title: "3. Cosa entra nel bundle",
+                body: "I file di testo idonei entrano nel bundle. I file binari e i formati non supportati possono apparire solo come riferimento se l'opzione è attivata."
+            }
         },
         rules: {
             title: "Regole pratiche per il quotidiano: supporto esteso allo standard fnmatch.",
             subtitle: "Usa nomi esatti per esclusioni chirurgiche. Usa wildcards per tipi di file, pattern ricorrenti o filtri ampi.",
             jump: "Vedi esempio visuale",
-            exact: { title: "Esclusione diretta per nome", body: "Quando vuoi rimuovere una cartella o un file specifico, dai la preferenza al nome esatto del nodo.", when: "Quando la tua intenzione è bloccare un'intera cartella in qualsiasi punto dell'albero, senza dipendere da barre o percorsi completi." },
-            wild: { title: "wildcards per estensioni e famiglie di file", body: "Quando il target è un pattern ricorrente, usa wildcards semplici. Ideali per test, file di lock, immagini, artefatti di build e segreti ricorrenti.", ex1: "Ignora tutti i file di log.", ex2: "Ignora più varianti di file di test.", ex3: "Evita di allegare immagini binarie al bundle.", ex4: "Aiuta a bloccare chiavi e file sensibili." },
-            broad: { title: "Pattern ampi e flessibili", body: "Pattern come *cache* o **cache** funzionano come filtri ampi per sottostringa. Sono utili quando vuoi catturare molte variazioni, ma possono escludere più contenuti di quanto previsto.", tip: "Usa questo stile quando l'obiettivo è la copertura e non la precisione. Per escludere una cartella specifica, continua a preferire il nome esatto." },
+            exact: {
+                title: "Esclusione diretta per nome",
+                body: "Quando vuoi rimuovere una cartella o un file specifico, dai la preferenza al nome esatto del nodo.",
+                when: "Quando la tua intenzione è bloccare un'intera cartella in qualsiasi punto dell'albero, senza dipendere da barre o percorsi completi."
+            },
+            wild: {
+                title: "wildcards per estensioni e famiglie di file",
+                body: "Quando il target è un pattern ricorrente, usa wildcards semplici. Ideali per test, file di lock, immagini, artefatti di build e segreti ricorrenti.",
+                ex1: "Ignora tutti i file di log.",
+                ex2: "Ignora più varianti di file di test.",
+                ex3: "Evita di allegare immagini binarie al bundle.",
+                ex4: "Aiuta a bloccare chiavi e file sensibili."
+            },
+            broad: {
+                title: "Pattern ampi e flessibili",
+                body: "Pattern come *cache* o **cache** funzionano come filtri ampi per sottostringa. Sono utili quando vuoi catturare molte variazioni, ma possono escludere più contenuti di quanto previsto.",
+                tip: "Usa questo stile quando l'obiettivo è la copertura e non la precisione. Per escludere una cartella specifica, continua a preferire il nome esatto."
+            },
             thumb1: "Vuoi bloccare una cartella specifica? Usa il <strong>nome esatto</strong>.",
             thumb2: "Vuoi bloccare una famiglia di file? Usa i <strong>wildcards per estensione</strong>.",
             thumb3: "Vuoi catturare ogni occorrenza di un termine? Usa un <strong>pattern ampio</strong> con cautela."
@@ -158,7 +188,9 @@ window.translations.it = {
             subtitle: "Di seguito un progetto generico prima del filtraggio e le regole applicate al Passaggio 5.",
             reading: "Lettura del motore",
             reading_body: "La cartella <span class=\"code-chip\">ui</span> viene rimossa come intero ramo; <span class=\"code-chip\">logo.png</span> e <span class=\"code-chip\">app.test.ts</span> vengono filtrati per pattern; <span class=\"code-chip\">.env</span> viene rimosso per nome esatto.",
-            note: "Se la visibilità degli elementi ignorati è impostata su 'Nascondi totalmente', i segnaposto sopra scompaiono dall'albero."
+            note: "Se la visibilità degli elementi ignorati è impostata su 'Nascondi totalmente', i segnaposto sopra scompaiono dall'albero.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan e Path Guard",
@@ -191,14 +223,14 @@ window.translations.it = {
                 body: "Il Passaggio 5 aiuta a decidere cosa entra o meno nel bundle. La sanitizzazione del testo finale appartiene al Passaggio 6 con il Content Redactor. Usa entrambi insieme quando hai bisogno di modularizzazione, riduzione del rumore e revisione dei contenuti sensibili. Controlla SEMPRE di nuovo password, segreti e altre informazioni sensibili prima di usare il file generato."
             },
             flow: {
-                title: "Flusso suggerito",
                 1: "Genera uno snapshot dell'albero e definisci l'obiettivo del dump.",
                 2: "Chiedi al LLM solo una skip list iniziale per preservare il nucleo e ridurre il rumore.",
-                3: "Revisiona le regole, adattale al progetto e poi applicale al Passaggio 5."
+                3: "Revisiona le regole, adattale al progetto e poi applicale al Passaggio 5.",
+                title: "Flusso suggerito"
             },
             prompt: {
                 label: "Esempio di richiesta",
-                body: "Stai generando una skip list per il Passaggio 5 di CodeFlatten PRO.\nAnalizza il repository e restituisci solo una skip list fnmatch ottimizzata, pronta per l'uso diretto.\n\nObiettivo:\nProdurre la skip list più piccola possibile ad alta copertura, escludendo il rumore senza danneggiare la comprensione strutturale del sistema.\n\nPolitica di ottimizzazione:\n- Preferisci regole compatte e ad alto rendimento che rimuovono interi rami rumorosi in modo sicuro.\n- Favorisci pattern specifici del repository rispetto a esclusioni generiche.\n- Usa nomi esatti per il rumore isolato.\n- Usa wildcards per famiglie di file ricorrenti.\n- Usa pattern ampi di percorso/nome solo quando prendono chiaramente di mira contenuti non core.\n- Poiché le regole corrispondono sia ai nomi degli elementi che ai percorsi completi, e la corrispondenza con una cartella elimina l'intero suo sottoalbero, preferisci la soppressione a livello di cartella quando un intero ramo è chiaramente non essenziale.\n- Quando due regole sono ridondanti, mantieni la più compatta se preserva lo stesso potere di esclusione pratico.\n- Tuttavia, non comprimere eccessivamente se ciò aumenterebbe il rischio di escludere codice rilevante.\n\nCosa rimuovere:\n- test, probes, smoke checks, helper di convalida, artefatti temporanei\n- documenti e materiale di handoff non necessari per l'architettura\n- asset binari, icone, output di imballaggio, oggetti compilati, cache, log, lock\n- cartelle build/dist/release e artefatti generati\n- segreti, certificati, prove di runtime, resti di invio store, payload di localizzazione ridondanti quando sono ricchi di dati e non necessari per comprendere il flusso di esecuzione\n\nCosa preservare:\n- core funzionale\n- moduli, runtime, provider, adapter\n- orchestrazione, entrypoint, flusso di esecuzione\n- codice che spiega come funziona il sistema\n- codice di integrazione piattaforma o packaging quando è parte del comportamento o dell'architettura del prodotto\n\nRegola decisionale:\nIn caso di dubbio, preserva il codice rilevante ed escludi solo il rumore ovvio.\n\nRegola speciale:\nSe l'albero contrassegna un elemento o una famiglia con tag come "[Skipped by Step 5]", "[Skipped]", "[Binary/Unsupported]" o equivalenti, includi una regola di skip corrispondente nell'elenco finale ogni volta che è sicuro.\n\nStrategia di output:\n- Unisci entrambi gli stili: prima regole di livello ramo compatte, quindi una coda minima di modelli di artefatti ricorrenti.\n- Preferisci un'unione che sembri una combinazione pratica di una skip list consapevole del repository e di una lista di pulizia generica ed essenziale.\n- Deduplica aggressivamente.\n- Restituisci solo i pattern fnmatch finali, uno per riga, senza commenti.",
+                body: "Stai generando una skip list per il Passaggio 5 di CodeFlatten PRO.\nAnalizza il repository e restituisci solo una skip list fnmatch ottimizzata, pronta per l'uso diretto.\n\nObiettivo:\nProdurre la skip list più piccola possibile ad alta copertura, escludendo il rumore senza danneggiare la comprensione strutturale del sistema.\n\nPolitica di ottimizzazione:\n- Preferisci regole compatte e ad alto rendimento che rimuovono interi rami rumorosi in modo sicuro.\n- Favorisci pattern specifici del repository rispetto a esclusioni generiche.\n- Usa nomi esatti per il rumore isolato.\n- Usa wildcards per famiglie di file ricorrenti.\n- Usa pattern ampi di percorso/nome solo quando prendono chiaramente di mira contenuti non core.\n- Poiché le regole corrispondono sia ai nomi degli elementi che ai percorsi completi, e la corrispondenza con una cartella elimina l'intero suo sottoalbero, preferisci la soppressione a livello di cartella quando un intero ramo è chiaramente non essenziale.\n- Quando due regole sono ridondanti, mantieni la più compatta se preserva lo stesso potere di esclusione pratico.\n- Tuttavia, non comprimere eccessivamente se ciò aumenterebbe il rischio di escludere codice rilevante.\n\nCosa rimuovere:\n- test, probes, smoke checks, helper di convalida, artefatti temporanei\n- documenti e materiale di handoff non necessari per l'architettura\n- asset binari, icone, output di imballaggio, oggetti compilati, cache, log, lock\n- cartelle build/dist/release e artefatti generati\n- segreti, certificati, prove di runtime, resti di invio store, payload di localizzazione ridondanti quando sono ricchi di dati e non necessari per comprendere il flusso di esecuzione\n\nCosa preservare:\n- core funzionale\n- moduli, runtime, provider, adapter\n- orchestrazione, entrypoint, flusso di esecuzione\n- codice che spiega come funziona il sistema\n- codice di integrazione piattaforma o packaging quando è parte del comportamento o dell'architettura del prodotto\n\nRegola decisionale:\nIn caso di dubbio, preserva il codice rilevante ed escludi solo il rumore ovvio.\n\nRegola speciale:\nSe l'albero contrassegna un elemento o una famiglia con tag come \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" o equivalenti, includi una regola di skip corrispondente nell'elenco finale ogni volta che è sicuro.\n\nStrategia di output:\n- Unisci entrambi gli stili: prima regole di livello ramo compatte, quindi una coda minima di modelli di artefatti ricorrenti.\n- Preferisci un'unione che sembri una combinazione pratica di una skip list consapevole del repository e di una lista di pulizia generica ed essenziale.\n- Deduplica aggressivamente.\n- Restituisci solo i pattern fnmatch finali, uno per riga, senza commenti.",
                 note: "Usa la risposta come punto di partenza. Il risultato ideale è revisionabile, compatto e allineato allo specifico obiettivo dell'esportazione (dump) — mai come sostituto della revisione umana o del Content Redactor."
             }
         },
@@ -221,7 +253,14 @@ window.translations.it = {
             body: "Se qualcosa non è chiaro, invia un breve report con screenshot e il comportamento osservato. Questo velocizza molto la diagnosi."
         },
         labels: {
-            prompt_label: "Esempio di richiesta"
+            prompt_label: "Esempio di richiesta",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

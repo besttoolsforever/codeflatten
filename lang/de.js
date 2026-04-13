@@ -85,9 +85,15 @@ window.translations.de = {
             title: "Rechtliches & Datenschutz",
             subtitle: "Unsere Bedingungen, Vereinbarungen und unsere Verpflichtung zum Datenschutz Ihrer Daten."
         },
-        eula: { title: "Endbenutzer-Lizenzvertrag (EULA)" },
-        privacy: { title: "Datenschutzrichtlinie" },
-        ack: { title: "Danksagungen & Hinweise von Drittanbietern" }
+        eula: {
+            title: "Endbenutzer-Lizenzvertrag (EULA)"
+        },
+        privacy: {
+            title: "Datenschutzrichtlinie"
+        },
+        ack: {
+            title: "Danksagungen & Hinweise von Drittanbietern"
+        }
     },
     support: {
         title: "Support - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.de = {
             item4: "Der Safety Scan begrenzt die Tiefe, die Anzahl der Dateien und die Gesamtgröße. Path Guard blockiert Roots und kritische Ordner."
         },
         engine: {
-            card1: { title: "1. Was zur Regel passt", body: "Die Engine verwendet Muster im fnmatch-Stil. Eine Regel kann auf den isolierten Datei- oder Ordnernamen oder auf den vollständigen Pfad zutreffen." },
-            card2: { title: "2. Was danach passiert", body: "Wenn eine Regel einen Ordner trifft, unterbricht CodeFlatten PRO das Lesen dieses Knotens. Alles darin wird implizit ignoriert." },
-            card3: { title: "3. Was ins Bundle kommt", body: "Berechtigte Textdateien kommen ins Bundle. Binärdateien und nicht unterstützte Formate können nur als Referenz erscheinen, wenn diese Option aktiviert ist." }
+            card1: {
+                title: "1. Was zur Regel passt",
+                body: "Die Engine verwendet Muster im fnmatch-Stil. Eine Regel kann auf den isolierten Datei- oder Ordnernamen oder auf den vollständigen Pfad zutreffen."
+            },
+            card2: {
+                title: "2. Was danach passiert",
+                body: "Wenn eine Regel einen Ordner trifft, unterbricht CodeFlatten PRO das Lesen dieses Knotens. Alles darin wird implizit ignoriert."
+            },
+            card3: {
+                title: "3. Was ins Bundle kommt",
+                body: "Berechtigte Textdateien kommen ins Bundle. Binärdateien und nicht unterstützte Formate können nur als Referenz erscheinen, wenn diese Option aktiviert ist."
+            }
         },
         rules: {
             title: "Praktische Regeln für den Alltag: Umfassende Unterstützung des fnmatch-Standards.",
             subtitle: "Verwenden Sie exakte Namen für chirurgische Ausschlüsse. Verwenden Sie wildcards für Dateitypen, wiederkehrende Muster oder breite Filter.",
             jump: "Visuelles Beispiel ansehen",
-            exact: { title: "Direkter Ausschluss nach Name", body: "Wenn Sie einen bestimmten Ordner oder eine Datei entfernen möchten, bevorzugen Sie den exakten Namen des Knotens.", when: "Wenn Ihre Absicht ist, einen gesamten Ordner an einem beliebigen Punkt im Baum zu blockieren, ohne von Schrägstrichen oder vollständigen Pfaden abhängig zu sein." },
-            wild: { title: "Wildcards für Erweiterungen und Dateifamilien", body: "Wenn das Ziel ein wiederkehrendes Muster ist, verwenden Sie einfache wildcards. Diese sind ideal für Tests, Lock-Dateien, Bilder, Build-Artefakte und wiederkehrende Secrets.", ex1: "Ignoriert alle Log-Dateien.", ex2: "Ignoriert mehrere Varianten von Testdateien.", ex3: "Vermeidet das Anhängen von Binärbildern an das Bundle.", ex4: "Hilft beim Blockieren von Schlüsseln und sensiblen Dateien." },
-            broad: { title: "Breite und flexible Muster", body: "Muster wie *cache* oder **cache** funktionieren als breite Substring-Filter. Sie sind nützlich, wenn Sie mehrere Variationen erfassen möchten, können aber mehr Inhalt ausschließen als erwartet.", tip: "Verwenden Sie diesen Stil, wenn es um Abdeckung geht, nicht um Präzision. Um einen bestimmten Ordner auszuschließen, verwenden Sie weiterhin den exakten Namen." },
+            exact: {
+                title: "Direkter Ausschluss nach Name",
+                body: "Wenn Sie einen bestimmten Ordner oder eine Datei entfernen möchten, bevorzugen Sie den exakten Namen des Knotens.",
+                when: "Wenn Ihre Absicht ist, einen gesamten Ordner an einem beliebigen Punkt im Baum zu blockieren, ohne von Schrägstrichen oder vollständigen Pfaden abhängig zu sein."
+            },
+            wild: {
+                title: "Wildcards für Erweiterungen und Dateifamilien",
+                body: "Wenn das Ziel ein wiederkehrendes Muster ist, verwenden Sie einfache wildcards. Diese sind ideal für Tests, Lock-Dateien, Bilder, Build-Artefakte und wiederkehrende Secrets.",
+                ex1: "Ignoriert alle Log-Dateien.",
+                ex2: "Ignoriert mehrere Varianten von Testdateien.",
+                ex3: "Vermeidet das Anhängen von Binärbildern an das Bundle.",
+                ex4: "Hilft beim Blockieren von Schlüsseln und sensiblen Dateien."
+            },
+            broad: {
+                title: "Breite und flexible Muster",
+                body: "Muster wie *cache* oder **cache** funktionieren als breite Substring-Filter. Sie sind nützlich, wenn Sie mehrere Variationen erfassen möchten, können aber mehr Inhalt ausschließen als erwartet.",
+                tip: "Verwenden Sie diesen Stil, wenn es um Abdeckung geht, nicht um Präzision. Um einen bestimmten Ordner auszuschließen, verwenden Sie weiterhin den exakten Namen."
+            },
             thumb1: "Möchten Sie einen bestimmten Ordner blockieren? Verwenden Sie den <strong>exakten Namen</strong>.",
             thumb2: "Möchten Sie eine Dateifamilie blockieren? Verwenden Sie <strong>wildcards nach Erweiterung</strong>.",
             thumb3: "Möchten Sie jedes Vorkommen eines Begriffs erfassen? Verwenden Sie ein <strong>breites Muster</strong> mit Vorsicht."
@@ -158,7 +188,9 @@ window.translations.de = {
             subtitle: "Unten sehen Sie ein generisches Projekt vor dem Filter und die in Schritt 5 angewendeten Regeln.",
             reading: "Engine-Lesevorgang",
             reading_body: "Der Ordner <span class=\"code-chip\">ui</span> wird als ganzer Zweig entfernt; <span class=\"code-chip\">logo.png</span> und <span class=\"code-chip\">app.test.ts</span> werden per Muster gefiltert; <span class=\"code-chip\">.env</span> wird nach exaktem Namen entfernt.",
-            note: "Wenn die Sichtbarkeit von Ignoriertem auf „Vollständig ausblenden“ eingestellt ist, verschwinden die obigen Platzhalter aus dem Baum."
+            note: "Wenn die Sichtbarkeit von Ignoriertem auf „Vollständig ausblenden“ eingestellt ist, verschwinden die obigen Platzhalter aus dem Baum.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan und Path Guard",
@@ -191,10 +223,10 @@ window.translations.de = {
                 body: "Schritt 5 hilft bei der Entscheidung, was ins Bundle kommt und was nicht. Die Bereinigung des endgültigen Textes gehört zu Schritt 6 mit dem Content Redactor. Verwenden Sie beides zusammen, wenn Sie Modularisierung, Rauschreduzierung und die Überprüfung sensibler Inhalte benötigen. Überprüfen Sie IMMER erneut Passwörter, Secrets und andere sensible Informationen, bevor Sie die generierte Datei verwenden."
             },
             flow: {
-                title: "Vorgeschlagener Ablauf",
                 1: "Generieren Sie einen Snapshot des Baums und definieren Sie das Ziel des Dumps.",
                 2: "Bitten Sie das LLM nur um eine initiale Skip-List, um den Kern zu erhalten und das Rauschen zu reduzieren.",
-                3: "Überprüfen Sie die Regeln, passen Sie sie an das Projekt an und wenden Sie sie erst dann in Schritt 5 an."
+                3: "Überprüfen Sie die Regeln, passen Sie sie an das Projekt an und wenden Sie sie erst dann in Schritt 5 an.",
+                title: "Vorgeschlagener Ablauf"
             },
             prompt: {
                 label: "Beispielanfrage",
@@ -221,7 +253,14 @@ window.translations.de = {
             body: "Wenn etwas unklar ist, senden Sie einen kurzen Bericht mit Screenshots und dem beobachteten Verhalten. Dies beschleunigt die Diagnose erheblich."
         },
         labels: {
-            prompt_label: "Beispielanfrage"
+            prompt_label: "Beispielanfrage",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

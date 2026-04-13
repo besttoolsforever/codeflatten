@@ -85,9 +85,15 @@ window.translations.cs = {
             title: "Právo a soukromí",
             subtitle: "Naše podmínky, dohody a závazek k ochraně vašich dat."
         },
-        eula: { title: "Licenční smlouva s koncovým uživatelem (EULA)" },
-        privacy: { title: "Zásady ochrany osobních údajů" },
-        ack: { title: "Poděkování a upozornění třetích stran" }
+        eula: {
+            title: "Licenční smlouva s koncovým uživatelem (EULA)"
+        },
+        privacy: {
+            title: "Zásady ochrany osobních údajů"
+        },
+        ack: {
+            title: "Poděkování a upozornění třetích stran"
+        }
     },
     support: {
         title: "Podpora - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.cs = {
             item4: "Safety Scan omezuje hloubku, počet souborů a celkovou velikost. Path Guard blokuje kořeny disků a kritické složky."
         },
         engine: {
-            card1: { title: "1. Co odpovídá pravidlu", body: "Engine používá vzory ve stylu fnmatch. Pravidlo může odpovídat izolovanému názvu souboru nebo složky nebo úplné cestě." },
-            card2: { title: "2. Co se děje potom", body: "Pokud pravidlo zasáhne složku, CodeFlatten PRO přeruší čtení daného uzlu. Vše uvnitř je implicitně ignorováno." },
-            card3: { title: "3. Co se dostane do balíčku", body: "Kvalifikované textové soubory se dostanou do balíčku. Binární soubory a nepodporované formáty se mohou zobrazit pouze jako odkaz, pokud je tato volba zapnuta." }
+            card1: {
+                title: "1. Co odpovídá pravidlu",
+                body: "Engine používá vzory ve stylu fnmatch. Pravidlo může odpovídat izolovanému názvu souboru nebo složky nebo úplné cestě."
+            },
+            card2: {
+                title: "2. Co se děje potom",
+                body: "Pokud pravidlo zasáhne složku, CodeFlatten PRO přeruší čtení daného uzlu. Vše uvnitř je implicitně ignorováno."
+            },
+            card3: {
+                title: "3. Co se dostane do balíčku",
+                body: "Kvalifikované textové soubory se dostanou do balíčku. Binární soubory a nepodporované formáty se mohou zobrazit pouze jako odkaz, pokud je tato volba zapnuta."
+            }
         },
         rules: {
             title: "Praktická pravidla pro každý den: Široká podpora standardu fnmatch.",
             subtitle: "Používejte přesné názvy pro chirurgické výjimky. Používejte wildcards pro typy souborů, opakující se vzory nebo široké filtry.",
             jump: "Zobrazit vizuální příklad",
-            exact: { title: "Přímá výjimka podle názvu", body: "Pokud chcete odstranit konkrétní složku nebo soubor, dejte přednost přesnému názvu uzlu.", when: "Pokud je vaším záměrem zablokovat celou složku v jakémkoli bodě stromu, aniž byste záviseli na lomítkách nebo úplných cestách." },
-            wild: { title: "wildcards pro přípony a rodiny souborů", body: "Pokud je cílem opakující se vzor, použijte jednoduché wildcards. Ideální pro testy, zamykací soubory, obrázky, artefakty sestavení a opakující se tajemství.", ex1: "Ignoruje všechny soubory protokolu (log).", ex2: "Ignoruje více variant testovacích souborů.", ex3: "Zabrání připojení binárních obrázků k balíčku.", ex4: "Pomáhá blokovat klíče a citlivé soubory." },
-            broad: { title: "Široké a flexibilní vzory", body: "Vzory jako *cache* nebo **cache** fungují jako široké filtry podle podřetězce. Jsou užitečné, když chcete zachytit mnoho variací, ale mohou vyloučit více obsahu, než bylo zamýšleno.", tip: "Tento styl použijte, když je cílem rozsah a nikoli přesnost. Pro vyloučení konkrétní složky nadále upřednostňujte přesný název." },
+            exact: {
+                title: "Přímá výjimka podle názvu",
+                body: "Pokud chcete odstranit konkrétní složku nebo soubor, dejte přednost přesnému názvu uzlu.",
+                when: "Pokud je vaším záměrem zablokovat celou složku v jakémkoli bodě stromu, aniž byste záviseli na lomítkách nebo úplných cestách."
+            },
+            wild: {
+                title: "wildcards pro přípony a rodiny souborů",
+                body: "Pokud je cílem opakující se vzor, použijte jednoduché wildcards. Ideální pro testy, zamykací soubory, obrázky, artefakty sestavení a opakující se tajemství.",
+                ex1: "Ignoruje všechny soubory protokolu (log).",
+                ex2: "Ignoruje více variant testovacích souborů.",
+                ex3: "Zabrání připojení binárních obrázků k balíčku.",
+                ex4: "Pomáhá blokovat klíče a citlivé soubory."
+            },
+            broad: {
+                title: "Široké a flexibilní vzory",
+                body: "Vzory jako *cache* nebo **cache** fungují jako široké filtry podle podřetězce. Jsou užitečné, když chcete zachytit mnoho variací, ale mohou vyloučit více obsahu, než bylo zamýšleno.",
+                tip: "Tento styl použijte, když je cílem rozsah a nikoli přesnost. Pro vyloučení konkrétní složky nadále upřednostňujte přesný název."
+            },
             thumb1: "Chcete zablokovat konkrétní složku? Použijte <strong>přesný název</strong>.",
             thumb2: "Chcete zablokovat rodinu souborů? Použijte <strong>wildcards podle přípony</strong>.",
             thumb3: "Chcete zachytit každý výskyt termínu? Používejte <strong>široký vzor</strong> opatrně."
@@ -158,7 +188,9 @@ window.translations.cs = {
             subtitle: "Níže je ukázka obecného projektu před filtrováním a pravidla použitá v kroku 5.",
             reading: "Čtení enginem",
             reading_body: "Složka <span class=\"code-chip\">ui</span> je odstraněna jako celá větev; <span class=\"code-chip\">logo.png</span> a <span class=\"code-chip\">app.test.ts</span> jsou filtrovány podle vzoru; <span class=\"code-chip\">.env</span> je odstraněn podle přesného názvu.",
-            note: "Pokud je viditelnost ignorovaných položek nastavena na 'Zcela skrýt', výše uvedené zástupné symboly ze stromu zmizí."
+            note: "Pokud je viditelnost ignorovaných položek nastavena na 'Zcela skrýt', výše uvedené zástupné symboly ze stromu zmizí.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan a Path Guard",
@@ -191,10 +223,10 @@ window.translations.cs = {
                 body: "Krok 5 pomáhá rozhodnout, co do balíčku vstoupí a co ne. Vyčištění výsledného textu patří do kroku 6 s Redaktorem obsahu. Používejte oba společně, když potřebujete modularizaci, snížení šumu a revizi citlivého obsahu. Před použitím vygenerovaného souboru VŽDY znovu zkontrolujte hesla, tajemství a další citlivé informace."
             },
             flow: {
-                title: "Navrhovaný postup",
                 1: "Vygenerujte snímek stromu a definujte cíl dumpu.",
                 2: "Požádejte LLM pouze o počáteční seznam k přeskočení pro zachování jádra a snížení šumu.",
-                3: "Zkontrolujte pravidla, přizpůsobte je projektu a pak je aplikujte v kroku 5."
+                3: "Zkontrolujte pravidla, přizpůsobte je projektu a pak je aplikujte v kroku 5.",
+                title: "Navrhovaný postup"
             },
             prompt: {
                 label: "Příklad požadavku",
@@ -221,7 +253,14 @@ window.translations.cs = {
             body: "Pokud je něco nejasné, pošlete krátké hlášení se snímky obrazovky a pozorovaným chováním. To výrazně urychluje diagnostiku."
         },
         labels: {
-            prompt_label: "Příklad požadavku"
+            prompt_label: "Příklad požadavku",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

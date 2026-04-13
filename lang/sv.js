@@ -85,9 +85,15 @@ window.translations.sv = {
             title: "Juridik och integritet",
             subtitle: "Våra villkor, avtal och åtagande för din dataintegritet."
         },
-        eula: { title: "Licensavtal för slutanvändare (EULA)" },
-        privacy: { title: "Integritetspolicy" },
-        ack: { title: "Erkännanden och meddelanden från tredje part" }
+        eula: {
+            title: "Licensavtal för slutanvändare (EULA)"
+        },
+        privacy: {
+            title: "Integritetspolicy"
+        },
+        ack: {
+            title: "Erkännanden och meddelanden från tredje part"
+        }
     },
     support: {
         title: "Support - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.sv = {
             item4: "Safety Scan begränsar djup, antal filer och total storlek. Path Guard blockerar rötter och kritiska mappar."
         },
         engine: {
-            card1: { title: "1. Vad som matchar regeln", body: "Motorn använder mönster i fnmatch-stil. En regel kan matcha det isolerade fil- eller mappnamnet, eller hela sökvägen." },
-            card2: { title: "2. Vad som händer efteråt", body: "Om en regel träffar en mapp avbryter CodeFlatten PRO läsningen av den noden. Allt inuti ignoreras implicit." },
-            card3: { title: "3. Vad som kommer med i bunten", body: "Kvalificerade textfiler kommer med i bunten. Binärfiler och format som inte stöds kan visas endast som referens om alternativet är aktiverat." }
+            card1: {
+                title: "1. Vad som matchar regeln",
+                body: "Motorn använder mönster i fnmatch-stil. En regel kan matcha det isolerade fil- eller mappnamnet, eller hela sökvägen."
+            },
+            card2: {
+                title: "2. Vad som händer efteråt",
+                body: "Om en regel träffar en mapp avbryter CodeFlatten PRO läsningen av den noden. Allt inuti ignoreras implicit."
+            },
+            card3: {
+                title: "3. Vad som kommer med i bunten",
+                body: "Kvalificerade textfiler kommer med i bunten. Binärfiler och format som inte stöds kan visas endast som referens om alternativet är aktiverat."
+            }
         },
         rules: {
             title: "Praktiska regler för vardagen: brett stöd för fnmatch-standarden.",
             subtitle: "Använd exakta namn för kirurgiska exkluderingar. Använd wildcards för filtyper, återkommande mönster eller breda filter.",
             jump: "Se visuellt exempel",
-            exact: { title: "Direkt exkludering via namn", body: "När du vill ta bort en specifik mapp eller fil, prioritera nodens exakta namn.", when: "När din avsikt är att blockera en hel mapp var som helst i trädet, utan att vara beroende av snedstreck eller hela sökvägar." },
-            wild: { title: "wildcards för filtillägg och filfamiljer", body: "När målet är ett återkommande mönster, använd enkla wildcards. Idealiskt för tester, låsfiler, bilder, byggartefakter och återkommande hemligheter.", ex1: "Ignorerar alla loggfiler.", ex2: "Ignorerar flera varianter av testfiler.", ex3: "Undviker att bifoga binära bilder i bunten.", ex4: "Hjälper till att blockera nycklar och känsliga filer." },
-            broad: { title: "Breda och flexibila mönster", body: "Mönster som *cache* eller **cache** fungerar som breda filter baserat på understräng. De är användbara när du vill fånga många variationer, men de kan exkludera mer innehåll än förväntat.", tip: "Använd denna stil när målet är täckning snarare än precision. För att exkludera en specifik mapp, fortsätt prioritera det exakta namnet." },
+            exact: {
+                title: "Direkt exkludering via namn",
+                body: "När du vill ta bort en specifik mapp eller fil, prioritera nodens exakta namn.",
+                when: "När din avsikt är att blockera en hel mapp var som helst i trädet, utan att vara beroende av snedstreck eller hela sökvägar."
+            },
+            wild: {
+                title: "wildcards för filtillägg och filfamiljer",
+                body: "När målet är ett återkommande mönster, använd enkla wildcards. Idealiskt för tester, låsfiler, bilder, byggartefakter och återkommande hemligheter.",
+                ex1: "Ignorerar alla loggfiler.",
+                ex2: "Ignorerar flera varianter av testfiler.",
+                ex3: "Undviker att bifoga binära bilder i bunten.",
+                ex4: "Hjälper till att blockera nycklar och känsliga filer."
+            },
+            broad: {
+                title: "Breda och flexibila mönster",
+                body: "Mönster som *cache* eller **cache** fungerar som breda filter baserat på understräng. De är användbara när du vill fånga många variationer, men de kan exkludera mer innehåll än förväntat.",
+                tip: "Använd denna stil när målet är täckning snarare än precision. För att exkludera en specifik mapp, fortsätt prioritera det exakta namnet."
+            },
             thumb1: "Vill du blockera en specifik mapp? Använd <strong>exakt namn</strong>.",
             thumb2: "Vill du blockera en filfamilj? Använd <strong>wildcards på filtillägg</strong>.",
             thumb3: "Vill du fånga varje förekomst av en term? Använd ett <strong>brett mönster</strong> med försiktighet."
@@ -158,7 +188,9 @@ window.translations.sv = {
             subtitle: "Nedan ett generiskt projekt före filtrering och reglerna som tillämpas i steg 5.",
             reading: "Motoravläsning",
             reading_body: "Mappen <span class=\"code-chip\">ui</span> tas bort som en hel gren; <span class=\"code-chip\">logo.png</span> och <span class=\"code-chip\">app.test.ts</span> filtreras bort via mönster; <span class=\"code-chip\">.env</span> tas bort via exakt namn.",
-            note: "Om synligheten för ignorerade objekt är inställd på 'Dölj helt', försvinner ovanstående platshållare från trädet."
+            note: "Om synligheten för ignorerade objekt är inställd på 'Dölj helt', försvinner ovanstående platshållare från trädet.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan och Path Guard",
@@ -191,14 +223,14 @@ window.translations.sv = {
                 body: "Steg 5 hjälper till att avgöra vad som kommer med eller inte i bunten. Rengöring av den slutliga texten tillhör steg 6 med Content Redactor. Använd båda tillsammans när du behöver modularisering, brusreducering och granskning av känsligt innehåll. Kontrollera ALLTID lösenord, hemligheter och annan känslig information igen innan du använder den genererade filen."
             },
             flow: {
-                title: "Föreslaget flöde",
                 1: "Generera en snapshot av trädet och definiera målet med dumpen.",
                 2: "Be LLM:en om endast en initial hopp-lista för att bevara kärnan och minska brus.",
-                3: "Granska reglerna, anpassa dem till projektet och tillämpa dem sedan i steg 5."
+                3: "Granska reglerna, anpassa dem till projektet och tillämpa dem sedan i steg 5.",
+                title: "Föreslaget flöde"
             },
             prompt: {
                 label: "Exempelförfrågan",
-                body: "Du genererar en skip list för Steg 5 av CodeFlatten PRO.\nAnalysera förvaret (repository) och returnera bara en optimerad fnmatch skip list, redo för direkt användning.\n\nMål:\nProducera minsta möjliga skip list med hög täckning som exkluderar brus utan att skada den strukturella förståelsen av systemet.\n\nUtmatning: \nReturnera BARA fnmatch-mönstret.",
+                body: "Du genererar en skip list för Steg 5 av CodeFlatten PRO.\nAnalysera förvaret (repository) och returnera bara en optimerad fnmatch skip list, redo för direkt användning.\n\nMål:\nProducera den minsta möjliga skip-listan med hög täckning, som exkluderar brus utan att skada den strukturella förståelsen av systemet.\n\nOptimeringspolicy:\n- Föredra kompakta, högavkastande regler som säkert tar bort hela brusiga grenar.\n- Föredra förvarsspecifika mönster framför generiska catch-all-undantag.\n- Använd exakta namn för isolerat brus.\n- Använd jokertecken (wildcards) för återkommande filfamiljer.\n- Använd breda sökvägs-/namnmönster endast när de tydligt riktar sig mot icke-kärninnehåll.\n- Eftersom regler matchar både objektnamn och fullständiga sökvägar, och matchning av en mapp släpper hela dess underträd, föredrar du dämpning på mappnivå när en hel gren uppenbarligen är oviktig.\n- När två regler är överflödiga, behåll den mer kompakta om den bevarar samma praktiska uteslutningskraft.\n- Komprimera dock inte för mycket om det skulle öka risken för att utesluta relevant kod.\n\nVad som ska tas bort:\n- tester, prober, smoke checks, valideringshjälpare, tillfälliga artefakter\n- dokument och överlämningsmaterial som inte behövs för arkitekturen\n- binära tillgångar, ikoner, förpackningsutdata, kompilatorobjekt, cachar, loggar, lås (locks)\n- build/dist/release-mappar och genererade artefakter\n- hemligheter, certifikat, körtidsbevis, restprodukter från butiksinlämningar, överflödiga lokaliseringsnyttolaster när de är datatunga och inte krävs för att förstå exekveringsflödet\n\nVad du ska bevara:\n- funktionell kärna\n- moduler, körtid (runtime), leverantörer (providers), adaptrar\n- orkestrering, ingångspunkter (entrypoints), exekveringsflöde\n- kod som förklarar hur systemet fungerar\n- kod för paketering eller plattformsintegration när det är en del av produktbeteendet eller arkitekturen\n\nBeslutsregel:\nVid tvivel, bevara relevant kod och uteslut endast uppenbart brus.\n\nSpecialregel:\nOm trädet markerar ett objekt eller familj med taggar som \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" eller motsvarande, inkludera en motsvarande hoppa över-regel i den slutliga listan när det är säkert.\n\nUtmatningsstrategi:\n- Slå samman båda stilarna: först kompakta regler på grennivå, sedan en minimal svans av återkommande artefaktmönster.\n- Föredra en union som känns som en praktisk kombination av en förvarsmedveten skip-lista och en smidig generisk saneringslista.\n- Avduplicera aggressivt.\n- Mata ENDAST ut de slutliga fnmatch-mönstren, ett per rad, utan några kommentarer.",
                 note: "Använd svaret som en utgångspunkt. Det ideala resultatet är granskningsbart, kompakt och anpassat till det specifika dumpmålet — aldrig som en ersättning för mänsklig granskning eller Content Redactor."
             }
         },
@@ -221,7 +253,14 @@ window.translations.sv = {
             body: "Om något är oklart, skicka en kort rapport med skärmdumpar och det observerade beteendet. Detta påskyndar diagnosen avsevärt."
         },
         labels: {
-            prompt_label: "Exempelförfrågan"
+            prompt_label: "Exempelförfrågan",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

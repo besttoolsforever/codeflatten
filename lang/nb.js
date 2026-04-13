@@ -158,44 +158,32 @@ window.translations.nb = {
             subtitle: "Nedenfor er et generisk prosjekt før filtrering og reglene brukt i Steg 5.",
             reading: "Motorlesing",
             reading_body: "Mappen <span class=\"code-chip\">ui</span> fjernes som hele grenen; <span class=\"code-chip\">logo.png</span> og <span class=\"code-chip\">app.test.ts</span> filtreres etter mønster; <span class=\"code-chip\">.env</span> slettes etter nøyaktig navn.",
+            before: "Før",
+            after: "Etter",
             note: "Hvis synligheten for ignorerte elementer er satt til 'Skjul helt', vil plassholderne ovenfor forsvinne fra treet."
         },
         safety: {
             title: "Safety Scan og Path Guard",
             subtitle: "Steg 5 tjener ikke bare til å ekskludere støy. Det beskytter også mot utilsiktet for store, dype eller farlige eksporter.",
             h3_files: "Maks filer",
-            files: "Avbryter operasjonen når antall kvalifiserte tekstfiler overstiger den konfigurerte grensen.",
             h3_size: "Maks størrelse (MB)",
-            size: "Unngår gigantiske bundler når den kumulative størrelsen på innholdet overstiger det definerte taket.",
             h3_depth: "Maksimal katalogdybde",
-            depth: "Bidrar til å forhindre overdrevent dype trær, løkker eller utilsiktet enorme strukturer.",
             h3_guard: "Path Guard",
-            guard: "Blokkerer diskrøtter og kritiske mapper som C:\\ og C:\\Windows som standard.",
-            trigger: {
-                title: "Når en grense utløses",
-                body: "Eksport avbrytes trygt. I stedet for å generere en ufullstendig eller for dyr bundle, skriver systemet en liten fil som forklarer årsaken til stoppen."
-            }
+            files: "Avbryter operasjonen når antall kvalifiserte tekstfiler overstiger den konfigurerte grensen.",
+            size: "Unngår gigantiske bundler når den kumulative størrelsen på innholdet overstiger det definerte taket.",
+            depth: "Bidrar til å forhindre overdrevent dype trær, løkker eller utilsiktet enorme strukturer.",
+            guard: "Blokkerer diskrøtter og kritiske mapper som <span class=\"code-chip\">C:\\</span> og <span class=\"code-chip\">C:\\Windows</span> som standard.",
+            trigger: { title: "Når en grense utløses", body: "Eksport avbrytes trygt. I stedet for å generere en ufullstendig eller for dyr bundle, skriver systemet en liten fil som forklarer årsaken til stoppen." }
         },
         ai: {
             badge: "Valgfri anbefaling",
             title: "Valgfri AI-hjelp til prosjektmodularisering",
-            body: "I store eller heterogene prosjekter kan du bruke et øyeblikksbilde av repotreet med en LLM etter eget valg for å generere det første forslaget til Steg 5-regler.",
-            note: "Denne flyten er assistert og kan gjennomgås. Målet er ikke å erstatte ditt tekniske skjønn, men å akselerere opprettelsen av den innledende hopp-over-listen som deretter kan foredles direkte i CodeFlatten PRO. Påloggingsinformasjon, hemmeligheter og sensitivt innhold i de inkluderte filene må håndteres separat i Content Redactor.",
-            guard: {
-                title: "Viktig: filtrering er ikke redigering",
-                body: "Steg 5 hjelper deg med å bestemme hva som skal inn i eller ikke inn i bundlen. Den endelige tekstrensingen tilhører Steg 6 med Content Redactor. Bruk begge sammen. Gå ALLTID gjennom passord og hemmeligheter en gang til."
-            },
-            flow: {
-                title: "Foreslått flyt",
-                1: "Generer øyeblikksbilde og definer dump-mål.",
-                2: "Spør LLM om en start-hopp-over-liste for å bevare kjernen og redusere støy.",
-                3: "Gjennomgå reglene, tilpass dem til prosjektet og bruk dem deretter i Steg 5."
-            },
-            prompt: {
-                label: "Eksempelforespørsel",
-                body: "Du genererer en skip list for Trinn 5 i CodeFlatten PRO.\nAnalyser kodelageret og skriv kun ut en optimalisert fnmatch skip list klar for bruk.\n\nSkriv kun ut fnmatch mønster, og ingenting annet.",
-                note: "Bruk svaret som et utgangspunkt. Det ideelle resultatet kan gjennomgås, er kompakt, og i tråd med det spesifikke dump-målet — aldri som en erstatning for menneskelig gjennomgang eller Content Redactor."
-            }
+            body: "I store eller heterogene prosjekter kan du bruke et øyeblikksbilde av repotreet med en LLM etter eget valg for å generere det første utkastet til Steg 5-regler. Dette hjelper med modularisering og støyreduksjon, men erstatter ikke rensing av det endelige innholdet.",
+            note: "Denne flyten er assistert og kan gjennomgås. Målet er ikke å erstatte ditt tekniske skjønn, men å akselerere opprettelsen av den innledende hopp-over-listen som deretter kan foredles direkte i CodeFlatten PRO. Påloggingsinformasjon, hemmeligheter og sensitivt innhold i de inkluderte filene må håndteres separat med Content Redactor.",
+            guard: { title: "Viktig: filtrering er ikke redigering", body: "Steg 5 hjelper deg med å bestemme hva som skal inn i eller ikke inn i bundlen. Den endelige tekstrensingen tilhører Steg 6, via Content Redactor. Bruk begge sammen når du trenger modularisering, støyreduksjon og gjennomgang av sensitivt innhold." },
+            when: { label: "Når det er verdt å bruke", 1: "Monorepos, hybride stacker eller kodebaser med mange ekstra kataloger.", 2: "Når du vil modularisere eksporter etter formål: arkitektur, runtime, grensesnitt, integrasjoner eller dokumentasjon.", 3: "Når manuell filtrering blir repeterende, tregt eller for bredt." },
+            flow: { title: "Foreslått flyt", 1: "Generer øyeblikksbilde og definer eksporteringsmål.", 2: "Spør LLM kun om en start-hopp-over-liste for å bevare kjernen og redusere støy.", 3: "Gjennomgå reglene, tilpass dem til prosjektet, og bare da bruk dem i Steg 5." },
+            prompt: { label: "Eksempelforespørsel", body: "Du genererer en skip-liste for Trinn 5 i CodeFlatten PRO.\nAnalyser repositoriet og skriv ut kun en optimalisert fnmatch skip-liste, klar for direkte bruk.\n\nMål:\nProduser den minste skip-listen med høyest mulig dekning. Utelukk støy uten å skade den strukturelle forståelsen av systemet.\n\nOptimaliseringspolicy:\n- Foretrekk kompakte regler med høy avkastning som trygt fjerner hele støyende grener.\n- Foretrekk depotsifikke mønstre fremfor generelle samleutelukkelser.\n- Bruk nøyaktige navn for isolert støy.\n- Bruk jokertegn (wildcards) for gjentakende filfamilier.\n- Bruk brede sti-/navnemønstre kun når de tydelig retter seg mot ikke-kjerneinnhold.\n- Siden regler samsvarer med både elementnavn og fulle stier, og treff på en mappe ekskluderer hele undertreet, foretrekk utelukkelse på mappenivå når en hel gren tydeligvis er uvesentlig.\n- Når to regler er overflødige, behold den mer kompakte hvis den opprettholder samme praktiske eksklusjonskraft.\n- Imidlertid, ikke komprimer for mye hvis det vil øke risikoen for å ekskludere relevant kode.\n\nHva som skal fjernes:\n- tester, prober, smoke checks, valideringshjelpere, midlertidige artefakter\n- dokumenter og overleveringsmateriale som ikke er nødvendig for arkitekturen\n- binære ressurser, ikoner, pakkeutdata, kompilerte objekter, cacher, logger, låsefiler\n- build/dist/release-mapper og genererte artefakter\n- hemmeligheter, sertifikater, runtime-bevis, butikkinnsendingsrester, overflødige lokaliseringsnyttelaster når de er datatunge og ikke kreves for å forstå utførelsesflyten\n\nHva som skal bevares:\n- funksjonell kjerne\n- moduler, runtime, leverandører, adaptere\n- orkestrering, inngangspunkter, utførelsesflyt\n- kode som forklarer hvordan systemet fungerer\n- kode for pakking eller plattformintegrasjon når det er en del av produktadferd eller arkitektur\n\nBeslutningsregel:\nI tvilstilfeller, bevar relevant kode og ekskluder bare åpenbar støy.\n\nSpesiell regel:\nHvis treet markerer et element eller en familie med koder som \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" eller tilsvarende, inkluder en tilsvarende skip-regel i den endelige listen når det er trygt.\n\nUtgangsstrategi:\n- Slå sammen begge stilene: kompakte grener på mappenivå først, deretter en minimal hale av gjentakende artefaktmønstre.\n- Foretrekk en sammenslåing som føles som en praktisk kombinasjon av en depotbevisst skip-liste og en slank, generisk oppryddingsliste.\n- Dedup aggressivt.\n- Skriv ut KUN de endelige fnmatch-mønstrene, én per linje, uten kommentarer.", note: "Bruk svaret som et utgangspunkt. Det ideelle resultatet kan gjennomgås, er kompakt, og i tråd med det spesifikke dump-målet — aldri som en erstatning for menneskelig gjennomgang eller Content Redactor." }
         },
         ack: {
             title: "Anerkjennelser og tredjeparter",
@@ -216,6 +204,13 @@ window.translations.nb = {
             body: "Hvis noe er uklart, send en kort rapport med skjermbilder og observert oppførsel. Dette fremskynder diagnoseprosessen betraktelig."
         },
         labels: {
+            recommended: "Anbefalt",
+            why: "Når du skal bruke det",
+            rule_of_thumb: "Tommelfingerregel",
+            reading: "Motorlesing",
+            before: "Før",
+            after: "Etter",
+            when_worth: "Når det er verdt å bruke",
             prompt_label: "Eksempelforespørsel"
         }
     }

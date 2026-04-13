@@ -1,4 +1,4 @@
-window.translations['zh-CN'] = {
+window.translations.zh-CN = {
     shared: {
         nav: {
             home: "首页",
@@ -85,9 +85,15 @@ window.translations['zh-CN'] = {
             title: "法律与隐私",
             subtitle: "我们的条款、协议和对您数据隐私的承诺。"
         },
-        eula: { title: "最终用户许可协议 (EULA)" },
-        privacy: { title: "隐私政策" },
-        ack: { title: "致谢与第三方声明" }
+        eula: {
+            title: "最终用户许可协议 (EULA)"
+        },
+        privacy: {
+            title: "隐私政策"
+        },
+        ack: {
+            title: "致谢与第三方声明"
+        }
     },
     support: {
         title: "支持 - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations['zh-CN'] = {
             item4: "Safety Scan 限制深度、文件数量和总大小。Path Guard 阻止根目录和关键文件夹。"
         },
         engine: {
-            card1: { title: "1. 符合规则的内容", body: "引擎使用 fnmatch 风格的模式。规则可以匹配独立的文件/文件夹名称或完整路径。" },
-            card2: { title: "2. 之后的操作", body: "如果规则命中文件夹，CodeFlatten PRO 将中断该节点的读取。其内部的所有内容都将被隐式忽略。" },
-            card3: { title: "3. 进入捆绑包的内容", body: "符合条件的文本文件进入捆绑包。如果启用了该选项，二进制文件和不支持的格式可能仅作为参考出现。" }
+            card1: {
+                title: "1. 符合规则的内容",
+                body: "引擎使用 fnmatch 风格的模式。规则可以匹配独立的文件/文件夹名称或完整路径。"
+            },
+            card2: {
+                title: "2. 之后的操作",
+                body: "如果规则命中文件夹，CodeFlatten PRO 将中断该节点的读取。其内部的所有内容都将被隐式忽略。"
+            },
+            card3: {
+                title: "3. 进入捆绑包的内容",
+                body: "符合条件的文本文件进入捆绑包。如果启用了该选项，二进制文件和不支持的格式可能仅作为参考出现。"
+            }
         },
         rules: {
             title: "日常实用规则：广泛支持 fnmatch 标准。",
             subtitle: "使用精确名称进行精确排除。使用 wildcards 处理文件类型、重复模式或宽泛过滤器。",
             jump: "查看视觉示例",
-            exact: { title: "通过名称直接排除", body: "当您想要删除特定文件夹或文件时，请优先使用节点的精确名称。", when: "当您的意图是在树的任何位置阻止整个文件夹，而不依赖于斜杠或完整路径时。" },
-            wild: { title: "扩展名和文件系列的 wildcards", body: "当目标是重复模式时，使用简单的 wildcards。非常适合测试、锁文件、图像、构建产物和循环的机密信息。", ex1: "忽略所有日志文件。", ex2: "忽略测试文件的多种变体。", ex3: "避免将二进制图像附加到捆绑包中。", ex4: "帮助阻止密钥和敏感文件。" },
-            broad: { title: "宽泛且灵活的模式", body: "像 *cache* 或 **cache** 这样的模式作为子字符串的宽泛过滤器。当您想要捕获多种变体时非常有用，但可能会排除比预期更多的内容。", tip: "当您的目标是覆盖面而非精度时，请使用此样式。要排除特定文件夹，请继续优先使用精确名称。" },
+            exact: {
+                title: "通过名称直接排除",
+                body: "当您想要删除特定文件夹或文件时，请优先使用节点的精确名称。",
+                when: "当您的意图是在树的任何位置阻止整个文件夹，而不依赖于斜杠或完整路径时。"
+            },
+            wild: {
+                title: "扩展名和文件系列的 wildcards",
+                body: "当目标是重复模式时，使用简单的 wildcards。非常适合测试、锁文件、图像、构建产物和循环的机密信息。",
+                ex1: "忽略所有日志文件。",
+                ex2: "忽略测试文件的多种变体。",
+                ex3: "避免将二进制图像附加到捆绑包中。",
+                ex4: "帮助阻止密钥和敏感文件。"
+            },
+            broad: {
+                title: "宽泛且灵活的模式",
+                body: "像 *cache* 或 **cache** 这样的模式作为子字符串的宽泛过滤器。当您想要捕获多种变体时非常有用，但可能会排除比预期更多的内容。",
+                tip: "当您的目标是覆盖面而非精度时，请使用此样式。要排除特定文件夹，请继续优先使用精确名称。"
+            },
             thumb1: "想要阻止特定文件夹？使用 <strong>精确名称</strong>。",
             thumb2: "想要阻止文件系列？按扩展名使用 <strong>wildcards</strong>。",
             thumb3: "想要捕获任何出现的词条？谨慎使用 <strong>宽泛模式</strong>。"
@@ -158,7 +188,9 @@ window.translations['zh-CN'] = {
             subtitle: "以下是过滤前的通用项目及在步骤 5 中应用的规则。",
             reading: "引擎读取中",
             reading_body: "<span class=\"code-chip\">ui</span> 文件夹被视为整个分支移除；<span class=\"code-chip\">logo.png</span> 和 <span class=\"code-chip\">app.test.ts</span> 按模式过滤；<span class=\"code-chip\">.env</span> 按精确名称删除。",
-            note: "如果忽略项的可见性设为“完全隐藏”，上述占位符将从树中消失。"
+            note: "如果忽略项的可见性设为“完全隐藏”，上述占位符将从树中消失。",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan 和 Path Guard",
@@ -191,10 +223,10 @@ window.translations['zh-CN'] = {
                 body: "步骤 5 帮助决定什么进入或不进入捆绑包。最终文本的清理属于使用 Content Redactor 的步骤 6。当您需要进行模块化、噪点减少和敏感内容审查时，请结合使用两者。在使用生成的文件之前，务必再次检查密码、机密和其他敏感信息。"
             },
             flow: {
-                title: "建议流程",
                 1: "生成树快照并定义转储目标。",
                 2: "要求 LLM 仅提供初始跳过列表，以保留核心并减少噪点。",
-                3: "审查规则，使其适应项目，然后在步骤 5 中应用。"
+                3: "审查规则，使其适应项目，然后在步骤 5 中应用。",
+                title: "建议流程"
             },
             prompt: {
                 label: "示例请求",
@@ -221,7 +253,14 @@ window.translations['zh-CN'] = {
             body: "如果有任何不清楚的地方，请发送一份包含屏幕截图和观察到行为的简短报告。这能极大加快诊断速度。"
         },
         labels: {
-            prompt_label: "示例请求"
+            prompt_label: "示例请求",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

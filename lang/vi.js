@@ -85,9 +85,15 @@ window.translations.vi = {
             title: "Pháp lý & Quyền riêng tư",
             subtitle: "Các điều khoản, thỏa thuận và cam kết của chúng tôi đối với quyền riêng tư dữ liệu của bạn."
         },
-        eula: { title: "Thỏa thuận cấp phép người dùng cuối (EULA)" },
-        privacy: { title: "Chính sách bảo mật" },
-        ack: { title: "Lời cảm ơn & Thông báo của bên thứ ba" }
+        eula: {
+            title: "Thỏa thuận cấp phép người dùng cuối (EULA)"
+        },
+        privacy: {
+            title: "Chính sách bảo mật"
+        },
+        ack: {
+            title: "Lời cảm ơn & Thông báo của bên thứ ba"
+        }
     },
     support: {
         title: "Hỗ trợ - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.vi = {
             item4: "Safety Scan giới hạn độ sâu, số lượng tệp và tổng kích thước. Path Guard chặn các gốc và thư mục quan trọng."
         },
         engine: {
-            card1: { title: "1. Điều gì khớp với quy tắc", body: "Công cụ sử dụng các mẫu kiểu fnmatch. Một quy tắc có thể khớp với tên tệp hoặc thư mục riêng lẻ, hoặc với đường dẫn đầy đủ." },
-            card2: { title: "2. Điều gì xảy ra sau đó", body: "Nếu một quy tắc trúng vào một thư mục, CodeFlatten PRO sẽ ngắt việc đọc nút đó. Mọi thứ bên trong đều bị bỏ qua ngầm." },
-            card3: { title: "3. Điều gì đi vào gói", body: "Các tệp văn bản đủ điều kiện đi vào gói. Các tệp nhị phân và định dạng không được hỗ trợ chỉ có thể xuất hiện dưới dạng tham chiếu nếu tùy chọn đó được bật." }
+            card1: {
+                title: "1. Điều gì khớp với quy tắc",
+                body: "Công cụ sử dụng các mẫu kiểu fnmatch. Một quy tắc có thể khớp với tên tệp hoặc thư mục riêng lẻ, hoặc với đường dẫn đầy đủ."
+            },
+            card2: {
+                title: "2. Điều gì xảy ra sau đó",
+                body: "Nếu một quy tắc trúng vào một thư mục, CodeFlatten PRO sẽ ngắt việc đọc nút đó. Mọi thứ bên trong đều bị bỏ qua ngầm."
+            },
+            card3: {
+                title: "3. Điều gì đi vào gói",
+                body: "Các tệp văn bản đủ điều kiện đi vào gói. Các tệp nhị phân và định dạng không được hỗ trợ chỉ có thể xuất hiện dưới dạng tham chiếu nếu tùy chọn đó được bật."
+            }
         },
         rules: {
             title: "Quy tắc thực tế cho hàng ngày: hỗ trợ rộng rãi cho tiêu chuẩn fnmatch.",
             subtitle: "Sử dụng tên chính xác cho các ngoại lệ phẫu thuật. Sử dụng wildcards cho các loại tệp, mẫu lặp lại hoặc các bộ lọc rộng.",
             jump: "Xem ví dụ trực quan",
-            exact: { title: "Ngoại lệ trực tiếp theo tên", body: "Khi bạn muốn xóa một thư mục hoặc tệp cụ thể, hãy ưu tiên tên chính xác của nút.", when: "Khi ý định của bạn là chặn toàn bộ thư mục tại bất kỳ điểm nào của cây, mà không phụ thuộc vào dấu gạch chéo hoặc đường dẫn đầy đủ." },
-            wild: { title: "wildcards cho các phần mở rộng và họ tệp", body: "Khi mục tiêu là một mẫu lặp lại, hãy sử dụng các wildcards đơn giản. Lý tưởng cho các thử nghiệm, tệp khóa, hình ảnh, tạo tác bản dựng và bí mật lặp lại.", ex1: "Bỏ qua tất cả các tệp nhật ký.", ex2: "Bỏ qua nhiều biến thể của các tệp thử nghiệm.", ex3: "Tránh đính kèm hình ảnh nhị phân vào gói.", ex4: "Giúp chặn các khóa và tệp nhạy cảm." },
-            broad: { title: "Các mẫu rộng và linh hoạt", body: "Các mẫu seperti *cache* hoặc **cache** hoạt động như các bộ lọc rộng theo chuỗi con. Chúng hữu ích khi bạn muốn bắt nhiều biến thể, nhưng chúng có thể loại trừ nhiều nội dung hơn dự kiến.", tip: "Sử dụng kiểu này khi mục tiêu của bạn là phạm vi tiếp cận chứ không phải độ chính xác. Để loại trừ một thư mục cụ thể, hãy tiếp tục ưu tiên tên chính xác." },
+            exact: {
+                title: "Ngoại lệ trực tiếp theo tên",
+                body: "Khi bạn muốn xóa một thư mục hoặc tệp cụ thể, hãy ưu tiên tên chính xác của nút.",
+                when: "Khi ý định của bạn là chặn toàn bộ thư mục tại bất kỳ điểm nào của cây, mà không phụ thuộc vào dấu gạch chéo hoặc đường dẫn đầy đủ."
+            },
+            wild: {
+                title: "wildcards cho các phần mở rộng và họ tệp",
+                body: "Khi mục tiêu là một mẫu lặp lại, hãy sử dụng các wildcards đơn giản. Lý tưởng cho các thử nghiệm, tệp khóa, hình ảnh, tạo tác bản dựng và bí mật lặp lại.",
+                ex1: "Bỏ qua tất cả các tệp nhật ký.",
+                ex2: "Bỏ qua nhiều biến thể của các tệp thử nghiệm.",
+                ex3: "Tránh đính kèm hình ảnh nhị phân vào gói.",
+                ex4: "Giúp chặn các khóa và tệp nhạy cảm."
+            },
+            broad: {
+                title: "Các mẫu rộng và linh hoạt",
+                body: "Các mẫu seperti *cache* hoặc **cache** hoạt động như các bộ lọc rộng theo chuỗi con. Chúng hữu ích khi bạn muốn bắt nhiều biến thể, nhưng chúng có thể loại trừ nhiều nội dung hơn dự kiến.",
+                tip: "Sử dụng kiểu này khi mục tiêu của bạn là phạm vi tiếp cận chứ không phải độ chính xác. Để loại trừ một thư mục cụ thể, hãy tiếp tục ưu tiên tên chính xác."
+            },
             thumb1: "Muốn chặn một thư mục cụ thể? Sử dụng <strong>tên chính xác</strong>.",
             thumb2: "Muốn chặn một họ tệp? Sử dụng <strong>wildcards theo phần mở rộng</strong>.",
             thumb3: "Muốn bắt mọi trường hợp của một thuật ngữ? Sử dụng <strong>mẫu rộng</strong> một cách cẩn thận."
@@ -158,7 +188,9 @@ window.translations.vi = {
             subtitle: "Dưới đây là một dự án chung trước khi lọc và các quy tắc được áp dụng trong Bước 5.",
             reading: "Đọc của công cụ",
             reading_body: "Thư mục <span class=\"code-chip\">ui</span> bị xóa dưới dạng toàn bộ nhánh; <span class=\"code-chip\">logo.png</span> và <span class=\"code-chip\">app.test.ts</span> được lọc theo mẫu; <span class=\"code-chip\">.env</span> bị xóa theo tên chính xác.",
-            note: "Nếu khả năng hiển thị của các mục bị bỏ qua được đặt thành 'Ẩn hoàn toàn', các trình giữ chỗ ở trên sẽ biến mất khỏi cây."
+            note: "Nếu khả năng hiển thị của các mục bị bỏ qua được đặt thành 'Ẩn hoàn toàn', các trình giữ chỗ ở trên sẽ biến mất khỏi cây.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan và Path Guard",
@@ -186,15 +218,21 @@ window.translations.vi = {
                 body: "Bước 5 giúp quyết định cái gì đi vào hoặc không đi vào gói. Việc làm sạch văn bản cuối cùng thuộc về Bước 6 với Content Redactor. Sử dụng cả hai cùng nhau khi bạn cần thực hiện mô-đun hóa, giảm nhiễu và xem xét nội dung nhạy cảm. LUÔN LUÔN xem xét lại mật khẩu, bí mật và các thông tin nhạy cảm khác trước khi sử dụng tệp được tạo."
             },
             flow: {
-                title: "Luồng được đề xuất",
                 1: "Tạo ảnh chụp nhanh cây và xác định mục tiêu kết xuất.",
                 2: "Yêu cầu LLM chỉ cung cấp danh sách bỏ qua ban đầu để duy trì cốt lõi và giảm nhiễu.",
-                3: "Xem xét các quy tắc, thích ứng chúng với dự án và sau đó áp dụng trong Bước 5."
+                3: "Xem xét các quy tắc, thích ứng chúng với dự án và sau đó áp dụng trong Bước 5.",
+                title: "Luồng được đề xuất"
             },
             prompt: {
                 label: "Yêu cầu ví dụ",
-                body: "Bạn đang tạo một skip list cho Bước 5 của CodeFlatten PRO.\nHãy phân tích kho lưu trữ và chỉ xuất một skip list ở định dạng fnmatch đã được tối ưu hóa, sẵn sàng để sử dụng trực tiếp.\n\nMục tiêu:\nTạo ra một skip list nhỏ gọn nhưng đạt độ phủ cao nhất, loại bỏ các file rác mà không làm ảnh hưởng đến cấu trúc tổng thể hệ thống.\n\nĐường lối tối ưu:\n- Ưu tiên các rule ngắn gọn, triệt để loại bỏ nguyên một nhánh thư mục rác nếu chắc chắn an toàn.\n- Ưu tiên pattern cụ thể của kho lưu trữ hơn là những rule quy chụp chung chung.\n- Sử dụng tên chính xác cho file/thư mục rác độc lập.\n- Sử dụng wildcard cho các nhóm file lặp đi lặp lại.\n- Các pattern dựa trên đường dẫn chỉ nên dùng nếu chắc chắn không ảnh hưởng chức năng chính.\n- Merge rule một cách cẩn thận.\n\nCác loại sẽ bị xoá bỏ:\n- tests, probes, smoke checks, validation helpers, file rác tạm thời.\n- docs và file tài liệu thiết kế không thuộc cấu trúc runtime.\n- ảnh, video, dữ liệu tĩnh (binary assets), icon, log, cache file, lock files.\n- thư mục bản build/dist/release.\n- file có chứa bí mật, mã khóa, payload trùng lặp quá lớn...\n\nNhững gì cần được giữ nguyên:\n- Core chính của hệ thống\n- Modules, file hệ thống runtime\n- Điều hướng quy trình code\n\nQuy tắc Quyết định:\nChỉ trừ khử nếu bạn có 100% sự tự tin là đó không phải là file lõi. Nếu nghi ngờ, hãy giữ lại nó.\n\nĐầu ra kết quả:\nCHỈ trả về những cú pháp fnmatch thuần tuý, không xuất hiện các lời giải thích nào khác.",
+                body: "Bạn đang tạo một skip list cho Bước 5 của CodeFlatten PRO.\nHãy phân tích kho lưu trữ và chỉ xuất một skip list ở định dạng fnmatch đã được tối ưu hóa, sẵn sàng để sử dụng trực tiếp.\n\nMục tiêu:\nTạo ra một skip list nhỏ gọn nhưng đạt độ phủ cao nhất, loại trừ nhiễu mà không làm hỏng sự hiểu biết cấu trúc của hệ thống.\n\nChính sách tối ưu hóa:\n- Ưu tiên các quy tắc nhỏ gọn, năng suất cao giúp loại bỏ toàn bộ các nhánh ồn ào khi an toàn.\n- Ưu tiên các mẫu dành riêng cho kho lưu trữ hơn là các loại trừ chung chung.\n- Sử dụng tên chính xác cho nhiễu bị cô lập.\n- Sử dụng ký tự đại diện (wildcards) cho các họ tệp lặp lại.\n- Chỉ sử dụng các mẫu đường dẫn/tên rộng khi chúng nhắm mục tiêu rõ ràng vào nội dung không phải thành phần cốt lõi.\n- Bởi vì các quy tắc khớp với cả tên mục và đường dẫn đầy đủ, và việc khớp một thư mục sẽ loại bỏ toàn bộ cây con của nó, nên ưu tiên loại bỏ ở cấp độ thư mục khi toàn bộ một nhánh rõ ràng là không cần thiết.\n- Khi hai quy tắc dư thừa, hãy giữ quy tắc nhỏ gọn hơn nếu nó duy trì được sức mạnh loại trừ thực tế tương tự.\n- Tuy nhiên, không nén quá mức nếu điều đó sẽ làm tăng nguy cơ loại trừ mã có liên quan.\n\nNhững gì cần loại bỏ:\n- bài kiểm tra (tests), đầu dò (probes), kiểm tra khói (smoke checks), trình trợ giúp xác thực, đồ tạo tác tạm thời\n- tài liệu và tài liệu bàn giao không cần thiết cho kiến trúc\n- tài sản nhị phân, biểu tượng, đầu ra đóng gói, đối tượng đã biên dịch, bộ nhớ cache, nhật ký (logs), khóa (locks)\n- thư mục build/dist/release và đồ tạo tác được tạo\n- bí mật, chứng chỉ, bằng chứng thời gian chạy, tệp thừa đệ trình cửa hàng, tải trọng cục bộ hóa (localization) dư thừa khi chúng nặng về dữ liệu và không bắt buộc để hiểu luồng thực thi\n\nNhững gì cần bảo tồn:\n- cốt lõi chức năng\n- mô-đun, thời gian chạy (runtime), nhà cung cấp (providers), bộ điều hợp (adapters)\n- điều phối (orchestration), điểm vào (entrypoints), luồng thực thi\n- mã giải thích cách hệ thống hoạt động\n- mã đóng gói hoặc tích hợp nền tảng khi nó là một phần của hành vi hoặc kiến trúc sản phẩm\n\nQuy tắc quyết định:\nKhi nghi ngờ, hãy bảo tồn mã liên quan và chỉ loại trừ nhiễu rõ ràng.\n\nQuy tắc đặc biệt:\nNếu cây đánh dấu một mục hoặc họ bằng các thẻ như \"[Skipped by Step 5]\", \"[Skipped]\", \"[Binary/Unsupported]\" hoặc tương đương, hãy bao gồm quy tắc bỏ qua tương ứng trong danh sách cuối cùng bất cứ khi nào an toàn.\n\nChiến lược đầu ra:\n- Hợp nhất cả hai kiểu: các quy tắc cấp chi nhánh nhỏ gọn trước tiên, sau đó là phần đuôi tối thiểu của các mẫu tạo tác lặp lại.\n- Ưu tiên một sự kết hợp có cảm giác giống như sự kết hợp thực tế của một danh sách bỏ qua nhận thức được kho lưu trữ và một danh sách dọn dẹp chung tinh gọn.\n- Hủy bỏ trùng lặp một cách tích cực.\n- CHỈ xuất ra các mẫu fnmatch cuối cùng, một mẫu trên mỗi dòng, không có bình luận.",
                 note: "Sử dụng câu trả lời làm điểm khởi đầu. Kết quả lý tưởng có thể xem xét được, nhỏ gọn và phù hợp với mục tiêu trích xuất (dump) cụ thể — không bao giờ là sự thay thế cho việc đánh giá của con người hoặc Content Redactor."
+            },
+            when: {
+                1: "Monorepos, hybrid stacks or codebases with many utility directories.",
+                2: "When you want to modularize exports by purpose: architecture, runtime, interfaces, integrations, or docs.",
+                3: "When manual filtering becomes repetitive, slow, or too broad.",
+                label: "When it's worth it"
             }
         },
         ack: {
@@ -216,7 +254,14 @@ window.translations.vi = {
             body: "Nếu có điều gì không rõ ràng, hãy gửi một báo cáo ngắn kèm theo ảnh chụp màn hình và hành vi quan sát được. Điều này giúp quy trình chẩn đoán nhanh hơn nhiều."
         },
         labels: {
-            prompt_label: "Yêu cầu ví dụ"
+            prompt_label: "Yêu cầu ví dụ",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

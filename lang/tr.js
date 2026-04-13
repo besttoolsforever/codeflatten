@@ -85,9 +85,15 @@ window.translations.tr = {
             title: "Yasal ve Gizlilik",
             subtitle: "Şartlarımız, anlaşmalarımız ve verilerinizin gizliliğine olan taahhüdümüz."
         },
-        eula: { title: "Son Kullanıcı Lisans Sözleşmesi (EULA)" },
-        privacy: { title: "Gizlilik Politikası" },
-        ack: { title: "Teşekkürler ve Üçüncü Taraf Bildirimleri" }
+        eula: {
+            title: "Son Kullanıcı Lisans Sözleşmesi (EULA)"
+        },
+        privacy: {
+            title: "Gizlilik Politikası"
+        },
+        ack: {
+            title: "Teşekkürler ve Üçüncü Taraf Bildirimleri"
+        }
     },
     support: {
         title: "Destek - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.tr = {
             item4: "Safety Scan derinliği, dosya sayısını ve toplam boyutu sınırlar. Path Guard disk köklerini ve kritik klasörleri engeller."
         },
         engine: {
-            card1: { title: "1. Kurala Uyanlar", body: "Motor fnmatch stili desenler kullanır. Bir kural, izole edilmiş dosya veya klasör adına veya tam yola uyabilir." },
-            card2: { title: "2. Sonrasında Ne Olur", body: "Bir kural bir klasöre çarptığında, CodeFlatten PRO o düğümün okunmasını keser. İçindeki her şey dolaylı olarak yoksayılır." },
-            card3: { title: "3. Demete Girenler", body: "Uygun metin dosyaları demete girer. İkili dosyalar (binaries) ve desteklenmeyen formatlar yalnızca seçeneği açıksa referans olarak görünebilir." }
+            card1: {
+                title: "1. Kurala Uyanlar",
+                body: "Motor fnmatch stili desenler kullanır. Bir kural, izole edilmiş dosya veya klasör adına veya tam yola uyabilir."
+            },
+            card2: {
+                title: "2. Sonrasında Ne Olur",
+                body: "Bir kural bir klasöre çarptığında, CodeFlatten PRO o düğümün okunmasını keser. İçindeki her şey dolaylı olarak yoksayılır."
+            },
+            card3: {
+                title: "3. Demete Girenler",
+                body: "Uygun metin dosyaları demete girer. İkili dosyalar (binaries) ve desteklenmeyen formatlar yalnızca seçeneği açıksa referans olarak görünebilir."
+            }
         },
         rules: {
             title: "Günlük Kullanım İçin Pratik Kurallar: fnmatch standardına geniş destek.",
             subtitle: "Cerrahi istisnalar için tam adlar kullanın. Dosya türleri, tekrarlanan desenler veya geniş filtreler için wildcards kullanın.",
             jump: "Görsel örneği görün",
-            exact: { title: "Ada Göre Doğrudan İstisna", body: "Belirli bir klasörü veya dosyayı kaldırmak istediğinizde, düğümün tam adını tercih edin.", when: "Niyetiniz, eğik çizgilere veya tam yollara bağlı kalmadan ağacın herhangi bir noktasında tüm bir klasörü engellemek olduğunda." },
-            wild: { title: "Uzantılar ve Dosya Aileleri İçin wildcards", body: "Hedef tekrarlanan bir desen olduğunda basit wildcards kullanın. Testler, kilit dosyaları, resimler, derleme yapıtları ve tekrarlanan sırlar için idealdir.", ex1: "Tüm günlük dosyalarını yoksayar.", ex2: "Test dosyalarının birden fazla varyantını yoksayar.", ex3: "İkili resimlerin demete eklenmesini önler.", ex4: "Anahtarların ve hassas dosyaların engellenmesine yardımcı olur." },
-            broad: { title: "Geniş ve Esnek Desenler", body: "*cache* veya **cache** gibi desenler, alt dizeye göre geniş filtreler olarak işlev görür. Birçok varyasyonu yakalamak istediğinizde kullanışlıdır ancak beklenenden daha fazla içeriği hariç tutabilir.", tip: "Hedef hassasiyet değil kapsam olduğunda bu stili kullanın. Belirli bir klasörü hariç tutmak için tam adı tercih etmeye devam edin." },
+            exact: {
+                title: "Ada Göre Doğrudan İstisna",
+                body: "Belirli bir klasörü veya dosyayı kaldırmak istediğinizde, düğümün tam adını tercih edin.",
+                when: "Niyetiniz, eğik çizgilere veya tam yollara bağlı kalmadan ağacın herhangi bir noktasında tüm bir klasörü engellemek olduğunda."
+            },
+            wild: {
+                title: "Uzantılar ve Dosya Aileleri İçin wildcards",
+                body: "Hedef tekrarlanan bir desen olduğunda basit wildcards kullanın. Testler, kilit dosyaları, resimler, derleme yapıtları ve tekrarlanan sırlar için idealdir.",
+                ex1: "Tüm günlük dosyalarını yoksayar.",
+                ex2: "Test dosyalarının birden fazla varyantını yoksayar.",
+                ex3: "İkili resimlerin demete eklenmesini önler.",
+                ex4: "Anahtarların ve hassas dosyaların engellenmesine yardımcı olur."
+            },
+            broad: {
+                title: "Geniş ve Esnek Desenler",
+                body: "*cache* veya **cache** gibi desenler, alt dizeye göre geniş filtreler olarak işlev görür. Birçok varyasyonu yakalamak istediğinizde kullanışlıdır ancak beklenenden daha fazla içeriği hariç tutabilir.",
+                tip: "Hedef hassasiyet değil kapsam olduğunda bu stili kullanın. Belirli bir klasörü hariç tutmak için tam adı tercih etmeye devam edin."
+            },
             thumb1: "Belirli bir klasörü mü engellemek istiyorsunuz? <strong>Tam ad</strong> kullanın.",
             thumb2: "Bir dosya ailesini mi engellemek istiyorsunuz? <strong>Uzantıya göre wildcards</strong> kullanın.",
             thumb3: "Bir terimin her örneğini mi yakalamak istiyorsunuz? Dikkatlice bir <strong>geniş desen</strong> kullanın."
@@ -158,7 +188,9 @@ window.translations.tr = {
             subtitle: "Aşağıda, filtreden önceki genel bir proje ve Adım 5'te uygulanan kurallar yer almaktadır.",
             reading: "Motor Okuması",
             reading_body: "<span class=\"code-chip\">ui</span> klasörü tüm dal olarak kaldırılır; <span class=\"code-chip\">logo.png</span> ve <span class=\"code-chip\">app.test.ts</span> desene göre filtrelenir; <span class=\"code-chip\">.env</span> tam ada göre kaldırılır.",
-            note: "Yoksayılanların görünürlüğü 'Tamamen gizle' olarak ayarlanmışsa, yukarıdaki yer tutucular ağaçtan kaybolur."
+            note: "Yoksayılanların görünürlüğü 'Tamamen gizle' olarak ayarlanmışsa, yukarıdaki yer tutucular ağaçtan kaybolur.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan ve Path Guard",
@@ -191,10 +223,10 @@ window.translations.tr = {
                 body: "Adım 5, demete neyin girip girmeyeceğine karar vermeye yardımcı olur. Nihai metnin temizlenmesi, İçerik Sansürleyicisi ile Adım 6'ya aittir. Modülerleştirme, gürültü azaltma ve hassas içerik incelemesine ihtiyaç duyduğunuzda her ikisini birlikte kullanın. Oluşturulan dosyayı kullanmadan önce HER ZAMAN parolaları, sırları ve diğer hassas bilgileri tekrar kontrol edin."
             },
             flow: {
-                title: "Önerilen Akış",
                 1: "Ağacın anlık görüntüsünü oluşturun ve dökümün hedefini tanımlayın.",
                 2: "LLM'den çekirdeği korumak ve gürültüyü azaltmak için yalnızca bir başlangıç atlama listesi isteyin.",
-                3: "Kuralları inceleyin, projeye göre uyarlayın ve ardından Adım 5'te uygulayın."
+                3: "Kuralları inceleyin, projeye göre uyarlayın ve ardından Adım 5'te uygulayın.",
+                title: "Önerilen Akış"
             },
             prompt: {
                 label: "Örnek istek",
@@ -221,7 +253,14 @@ window.translations.tr = {
             body: "Net olmayan bir şey varsa, ekran görüntüleri ve gözlemlenen davranışla birlikte kısa bir rapor gönderin. Bu, teşhisi büyük ölçüde hızlandırır."
         },
         labels: {
-            prompt_label: "Örnek istek"
+            prompt_label: "Örnek istek",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };

@@ -85,9 +85,15 @@ window.translations.fr = {
             title: "Mentions légales et confidentialité",
             subtitle: "Nos conditions, accords et notre engagement envers la confidentialité de vos données."
         },
-        eula: { title: "Contrat de licence utilisateur final (CLUF)" },
-        privacy: { title: "Politique de confidentialité" },
-        ack: { title: "Remerciements et avis tiers" }
+        eula: {
+            title: "Contrat de licence utilisateur final (CLUF)"
+        },
+        privacy: {
+            title: "Politique de confidentialité"
+        },
+        ack: {
+            title: "Remerciements et avis tiers"
+        }
     },
     support: {
         title: "Support - CodeFlatten PRO | BestToolsForever",
@@ -138,17 +144,41 @@ window.translations.fr = {
             item4: "Le Safety Scan limite la profondeur, le nombre de fichiers et la taille totale. Path Guard bloque les racines et les dossiers critiques."
         },
         engine: {
-            card1: { title: "1. Ce qui correspond à une règle", body: "Le moteur utilise des motifs de style fnmatch. Une règle peut correspondre au nom de fichier ou de dossier isolé, ou au chemin complet." },
-            card2: { title: "2. Ce qui se passe après", body: "Si une règle touche un dossier, CodeFlatten PRO interrompt la lecture de ce nœud. Tout ce qui se trouve à l'intérieur est implicitement ignoré." },
-            card3: { title: "3. Ce qui va dans le bundle", body: "Les fichiers texte éligibles vont dans le bundle. Les fichiers binaires et les formats non supportés ne peuvent apparaître qu'en tant que référence si l'option est activée." }
+            card1: {
+                title: "1. Ce qui correspond à une règle",
+                body: "Le moteur utilise des motifs de style fnmatch. Une règle peut correspondre au nom de fichier ou de dossier isolé, ou au chemin complet."
+            },
+            card2: {
+                title: "2. Ce qui se passe après",
+                body: "Si une règle touche un dossier, CodeFlatten PRO interrompt la lecture de ce nœud. Tout ce qui se trouve à l'intérieur est implicitement ignoré."
+            },
+            card3: {
+                title: "3. Ce qui va dans le bundle",
+                body: "Les fichiers texte éligibles vont dans le bundle. Les fichiers binaires et les formats non supportés ne peuvent apparaître qu'en tant que référence si l'option est activée."
+            }
         },
         rules: {
             title: "Règles pratiques pour le quotidien : support étendu de la norme fnmatch.",
             subtitle: "Utilisez des noms exacts pour des exclusions chirurgicales. Utilisez des wildcards pour les types de fichiers, les motifs récurrents ou les filtres larges.",
             jump: "Voir un exemple visuel",
-            exact: { title: "Exclusion directe par nom", body: "Lorsque vous souhaitez supprimer un dossier ou un fichier spécifique, privilégiez le nom exact du nœud.", when: "Lorsque votre intention est de bloquer tout un dossier à n'importe quel point de l'arborescence, sans dépendre des barres obliques ou des chemins complets." },
-            wild: { title: "wildcards pour les extensions et familles de fichiers", body: "Lorsque la cible est un motif récurrent, utilisez des wildcards simples. Idéal pour les tests, fichiers de verrouillage, images, artefacts de build et secrets récurrents.", ex1: "Ignore tous les fichiers journaux.", ex2: "Ignore plusieurs variantes de fichiers de test.", ex3: "Évite de joindre des images binaires au bundle.", ex4: "Aide à bloquer les clés et les fichiers sensibles." },
-            broad: { title: "Motifs larges et flexibles", body: "Les motifs comme *cache* ou **cache** fonctionnent comme des filtres larges par sous-chaîne. Ils sont utiles pour capturer de nombreuses variations, mais peuvent exclure plus de contenu que prévu.", tip: "Utilisez ce style lorsque l'objectif est la portée et non la précision. Pour exclure un dossier spécifique, continuez à privilégier le nom exact." },
+            exact: {
+                title: "Exclusion directe par nom",
+                body: "Lorsque vous souhaitez supprimer un dossier ou un fichier spécifique, privilégiez le nom exact du nœud.",
+                when: "Lorsque votre intention est de bloquer tout un dossier à n'importe quel point de l'arborescence, sans dépendre des barres obliques ou des chemins complets."
+            },
+            wild: {
+                title: "wildcards pour les extensions et familles de fichiers",
+                body: "Lorsque la cible est un motif récurrent, utilisez des wildcards simples. Idéal pour les tests, fichiers de verrouillage, images, artefacts de build et secrets récurrents.",
+                ex1: "Ignore tous les fichiers journaux.",
+                ex2: "Ignore plusieurs variantes de fichiers de test.",
+                ex3: "Évite de joindre des images binaires au bundle.",
+                ex4: "Aide à bloquer les clés et les fichiers sensibles."
+            },
+            broad: {
+                title: "Motifs larges et flexibles",
+                body: "Les motifs comme *cache* ou **cache** fonctionnent comme des filtres larges par sous-chaîne. Ils sont utiles pour capturer de nombreuses variations, mais peuvent exclure plus de contenu que prévu.",
+                tip: "Utilisez ce style lorsque l'objectif est la portée et non la précision. Pour exclure un dossier spécifique, continuez à privilégier le nom exact."
+            },
             thumb1: "Vous voulez bloquer un dossier spécifique ? Utilisez le <strong>nom exact</strong>.",
             thumb2: "Vous voulez bloquer une famille de fichiers ? Utilisez des <strong>wildcards par extension</strong>.",
             thumb3: "Vous voulez capturer chaque occurrence d'un terme ? Utilisez un <strong>motif large</strong> avec précaution."
@@ -158,7 +188,9 @@ window.translations.fr = {
             subtitle: "Ci-dessous un projet générique avant filtrage et les règles appliquées à l'étape 5.",
             reading: "Lecture du moteur",
             reading_body: "Le dossier <span class=\"code-chip\">ui</span> est supprimé en tant que branche entière ; <span class=\"code-chip\">logo.png</span> et <span class=\"code-chip\">app.test.ts</span> sont filtrés par motif ; <span class=\"code-chip\">.env</span> est supprimé par nom exact.",
-            note: "Si la visibilité des éléments ignorés est réglée sur 'Masquer totalement', les espaces réservés ci-dessus disparaissent de l'arborescence."
+            note: "Si la visibilité des éléments ignorés est réglée sur 'Masquer totalement', les espaces réservés ci-dessus disparaissent de l'arborescence.",
+            before: "Before",
+            after: "After"
         },
         safety: {
             title: "Safety Scan et Path Guard",
@@ -191,10 +223,10 @@ window.translations.fr = {
                 body: "L'étape 5 aide à décider ce qui entre ou non dans le bundle. La sanitisation du texte final appartient à l'étape 6 avec Content Redactor. Utilisez les deux ensemble lorsque vous avez besoin de modularisation, de réduction du bruit et de révision de contenu sensible. Vérifiez TOUJOURS à nouveau les mots de passe, secrets et autres informations sensibles avant d'utiliser le fichier généré."
             },
             flow: {
-                title: "Flux suggéré",
                 1: "Générez un snapshot de l'arborescence et définissez l'objectif du dump.",
                 2: "Demandez au LLM uniquement une liste d'exclusion initiale pour préserver le cœur et réduire le bruit.",
-                3: "Révisez les règles, adaptez-les au projet et appliquez-les ensuite à l'étape 5."
+                3: "Révisez les règles, adaptez-les au projet et appliquez-les ensuite à l'étape 5.",
+                title: "Flux suggéré"
             },
             prompt: {
                 label: "Exemple de demande",
@@ -221,7 +253,14 @@ window.translations.fr = {
             body: "Si quelque chose n'est pas clair, envoyez un court rapport avec des captures d'écran et le comportement observé. Cela accélère le processus de diagnostic."
         },
         labels: {
-            prompt_label: "Exemple de demande"
+            prompt_label: "Exemple de demande",
+            recommended: "Recommended",
+            why: "When to use it",
+            rule_of_thumb: "Rule of thumb",
+            reading: "Engine reading",
+            before: "Before",
+            after: "After",
+            when_worth: "When it's worth it"
         }
     }
 };
