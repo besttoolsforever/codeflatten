@@ -27,7 +27,7 @@ window.translations.es = {
             lead_dev: "Desarrollador principal",
             flagship: "Producto estrella",
             flagship_desc: "La utilidad definitiva de Windows para desarrolladores. Organice, entreteja y exporte proyectos complejos de manera eficiente para la adquisición de contexto de IA.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Instalar a través de Microsoft Store"
         },
         hero: {

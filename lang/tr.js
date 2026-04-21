@@ -27,7 +27,7 @@ window.translations.tr = {
             lead_dev: "Baş Geliştirici",
             flagship: "Amiral Gemisi Ürünü",
             flagship_desc: "Geliştiriciler için nihai Windows yardımcı yazılımı. Karmaşık projeleri yapay zeka bağlam alımı için verimli bir şekilde düzenleyin, dokuyun ve dışa aktarın.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Microsoft Store aracılığıyla yükleyin"
         },
         hero: {

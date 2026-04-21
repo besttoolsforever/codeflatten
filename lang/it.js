@@ -27,7 +27,7 @@ window.translations.it = {
             lead_dev: "Sviluppatore Capo",
             flagship: "Prodotto di Punta",
             flagship_desc: "L'utilità Windows definitiva per gli sviluppatori. Organizza, intreccia ed esporta progetti complessi in modo efficiente per l'acquisizione di contesto AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Installa tramite Microsoft Store"
         },
         hero: {

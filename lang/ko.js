@@ -27,7 +27,7 @@ window.translations.ko = {
             lead_dev: "리드 개발자",
             flagship: "주력 제품",
             flagship_desc: "개발자를 위한 최고의 Windows 유틸리티. AI 컨텍스트 획득을 위해 복잡한 프로젝트를 효율적으로 구성하고 결합하여 내보냅니다.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Microsoft Store를 통해 설치"
         },
         hero: {

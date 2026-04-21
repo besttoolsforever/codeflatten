@@ -27,7 +27,7 @@ window.translations.ru = {
             lead_dev: "Ведущий разработчик",
             flagship: "Флагманский продукт",
             flagship_desc: "Ультимативная утилита Windows для разработчиков. Эффективно организуйте, сплетайте и экспортируйте сложные проекты для контекста ИИ.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Установить через Microsoft Store"
         },
         hero: {

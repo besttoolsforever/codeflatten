@@ -27,7 +27,7 @@ window.translations.ar = {
             lead_dev: "المطور الرئيسي",
             flagship: "المنتج الرائد",
             flagship_desc: "أداة Windows النهائية للمطورين. تنظيم ونسج وتصدير المشاريع المعقدة بكفاءة لاستيعاب سياق الذكاء الاصطناعي.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "تثبيت عبر متجر Microsoft"
         },
         hero: {

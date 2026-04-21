@@ -27,7 +27,7 @@ window.translations.he = {
             lead_dev: "מפתח ראשי",
             flagship: "מוצר דגל",
             flagship_desc: "כלי העזר האולטימטיבי של חלונות למפתחים. ארגון, שזירה וייצוא יעילים של פרויקטים מורכבים לצורך קליטת הקשר AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "התקנה דרך Microsoft Store"
         },
         hero: {

@@ -27,7 +27,7 @@ window.translations.el = {
             lead_dev: "Επικεφαλής Προγραμματιστής",
             flagship: "Κορυφαίο Προϊόν",
             flagship_desc: "Το απόλυτο βοήθημα Windows για προγραμματιστές. Οργανώστε, δέστε και εξάγετε σύνθετα έργα αποτελεσματικά για τη λήψη περιβάλλοντος AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Εγκατάσταση μέσω Microsoft Store"
         },
         hero: {

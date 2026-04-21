@@ -27,7 +27,7 @@ window.translations.ja = {
             lead_dev: "リード・デベロッパー",
             flagship: "フラッグシップ製品",
             flagship_desc: "開発者のための究極のWindowsユーティリティ。AIコンテキスト取り込みのために、複雑なプロジェクトを効率的に整理、織り込み、エクスポートします。",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Microsoft Store経由でインストール"
         },
         hero: {

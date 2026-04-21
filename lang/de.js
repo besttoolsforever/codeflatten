@@ -27,7 +27,7 @@ window.translations.de = {
             lead_dev: "Hauptentwickler",
             flagship: "Flaggschiff-Produkt",
             flagship_desc: "Das ultimative Windows-Utility für Entwickler. Organisieren, verweben und exportieren Sie komplexe Projekte effizient für die KI-Kontext-Aufnahme.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Über den Microsoft Store installieren"
         },
         hero: {

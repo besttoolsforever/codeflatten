@@ -27,7 +27,7 @@ window.translations.nl = {
             lead_dev: "Hoofdontwikkelaar",
             flagship: "Vlaggschip-product",
             flagship_desc: "De ultieme Windows-utility voor ontwikkelaars. Organiseer, verweef en exporteer complexe projecten efficiënt voor AI-contextacquisitie.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Installeren via de Microsoft Store"
         },
         hero: {

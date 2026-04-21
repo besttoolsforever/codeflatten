@@ -27,7 +27,7 @@ window.translations.fr = {
             lead_dev: "Développeur principal",
             flagship: "Produit phare",
             flagship_desc: "L'utilitaire Windows ultime pour les développeurs. Organisez, tissez et exportez des projets complexes efficacement pour l'acquisition de contexte AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Installer via Microsoft Store"
         },
         hero: {

@@ -31,7 +31,7 @@ window.translations.pt = {
             title: "Criando Permanência <br/> <span class=\"text-secondary\">Digital.</span>",
             subtitle: "Um estúdio de software independente liderado por Luiz E. L. Junior. Criamos ferramentas que priorizam a utilidade, a precisão e a sensação editorial de softwares de alto padrão.",
             lead_dev: "Desenvolvedor Líder",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Instalar via Microsoft Store",
             flagship: "Produto Principal",
             flagship_desc: "A ferramenta utilitária definitiva do Windows para desenvolvedores. Organize, entrelace e exporte projetos complexos de forma eficiente para ingestão de contexto por IA."

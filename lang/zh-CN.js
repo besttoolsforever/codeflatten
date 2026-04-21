@@ -27,7 +27,7 @@ window.translations.zh-CN = {
             lead_dev: "首席开发人员",
             flagship: "旗舰产品",
             flagship_desc: "为开发人员打造的终极 Windows 实用程序。高效组织、编织并导出复杂项目，以便进行 AI 上下文采集。",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "通过 Microsoft Store 安装"
         },
         hero: {

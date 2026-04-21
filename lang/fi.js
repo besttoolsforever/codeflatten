@@ -27,7 +27,7 @@ window.translations.fi = {
             lead_dev: "Pääkehittäjä",
             flagship: "Lippulaivatuote",
             flagship_desc: "Lopullinen Windows-apuohjelma kehittäjille. Järjestä, yhdistä ja vie monimutkaisia projekteja tehokkaasti tekoälyn kontekstin noutamista varten.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Asenna Microsoft Storen kautta"
         },
         hero: {

@@ -24,7 +24,7 @@ window.translations.en = {
             title: "Crafting Digital <br/> <span class=\"text-secondary\">Permanence.</span>",
             subtitle: "An independent software studio led by Luiz E. L. Junior. We build tools that prioritize utility, precision, and the editorial feel of high-end software.",
             lead_dev: "Lead Developer",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Install via Microsoft Store",
             flagship: "Flagship Product",
             flagship_desc: "The definitive Windows utility for developers. Efficiently organize, weave, and export complex projects for AI context ingestion."

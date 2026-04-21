@@ -27,7 +27,7 @@ window.translations.da = {
             lead_dev: "Hovedudvikler",
             flagship: "Flagskibsprodukt",
             flagship_desc: "Det ultimative Windows-værktøj til udviklere. Organiser, flet og eksportér komplekse projekter effektivt til AI-sammenhæng.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Installer via Microsoft Store"
         },
         hero: {

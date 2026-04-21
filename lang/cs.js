@@ -27,7 +27,7 @@ window.translations.cs = {
             lead_dev: "Hlavní vývojář",
             flagship: "Vlajkový produkt",
             flagship_desc: "Dokonalý nástroj pro Windows pro vývojáře. Efektivně organizujte, propojujte a exportujte složité projekty pro získání kontextu pro AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Instalovat přes Microsoft Store"
         },
         hero: {

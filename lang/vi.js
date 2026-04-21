@@ -27,7 +27,7 @@ window.translations.vi = {
             lead_dev: "Nhà phát triển chính",
             flagship: "Sản phẩm chủ lực",
             flagship_desc: "Tiện ích Windows tối thượng cho các nhà phát triển. Tổ chức, liên kết và xuất các dự án phức tạp một cách hiệu quả để thu thập ngữ cảnh AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Cài đặt qua Microsoft Store"
         },
         hero: {

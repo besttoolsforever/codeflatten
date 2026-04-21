@@ -27,7 +27,7 @@ window.translations.nb = {
             lead_dev: "Hovedutvikler",
             flagship: "Flaggskip-produkt",
             flagship_desc: "Det ultimate Windows-verktøyet for utviklere. Organiser, flett og eksporter komplekse prosjekter effektivt for AI-kontekstinnhenting.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Installer via Microsoft Store"
         },
         hero: {

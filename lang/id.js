@@ -27,7 +27,7 @@ window.translations.id = {
             lead_dev: "Pengembang Utama",
             flagship: "Produk Unggulan",
             flagship_desc: "Utilitas Windows terbaik untuk pengembang. Atur, jalin, dan ekspor proyek kompleks secara efisien untuk pengambilan konteks AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Instal melalui Microsoft Store"
         },
         hero: {

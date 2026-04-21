@@ -27,7 +27,7 @@ window.translations.ms = {
             lead_dev: "Pemaju Utama",
             flagship: "Produk Utama",
             flagship_desc: "Utiliti Windows terbaik untuk pemaju. Mengatur, menjalin dan mengeksport projek kompleks dengan cekap untuk pengambilan konteks AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Pasang melalui Microsoft Store"
         },
         hero: {

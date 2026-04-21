@@ -27,7 +27,7 @@ window.translations.th = {
             lead_dev: "นักพัฒนาหลัก",
             flagship: "ผลิตภัณฑ์เรือธง",
             flagship_desc: "ยูทิลิตี้ Windows ขั้นสุดยอดสำหรับนักพัฒนา จัดระเบียบ ถักทอ และส่งออกโปรเจกต์ที่ซับซ้อนอย่างมีประสิทธิภาพสำหรับการรวบรวมบริบท AI",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "ติดตั้งผ่าน Microsoft Store"
         },
         hero: {

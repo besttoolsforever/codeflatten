@@ -27,7 +27,7 @@ window.translations.pl = {
             lead_dev: "Główny programista",
             flagship: "Produkt flagowy",
             flagship_desc: "Ostateczne narzędzie Windows dla programistów. Wydajnie organizuj, splataj i eksportuj złożone projekty na potrzeby akwizycji kontekstu AI.",
-            btn_windows: "Windows v1.0",
+            btn_windows: "Windows v1.2",
             btn_store: "Zainstaluj przez Microsoft Store"
         },
         hero: {
